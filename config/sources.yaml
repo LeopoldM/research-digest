@@ -27,34 +27,79 @@ academic_sources:
 
 # Top journals to monitor (via OpenAlex)
 journals:
-  economics_top:
+  # Top 20 Generalist
+  generalist_top:
     - "American Economic Review"
     - "Quarterly Journal of Economics"
     - "Econometrica"
-    - "Review of Economic Studies"
     - "Journal of Political Economy"
-    
-  theory:
-    - "Journal of Economic Theory"
-    - "Theoretical Economics"
-    - "Games and Economic Behavior"
-    - "Economic Theory"
+    - "Review of Economic Studies"
+    - "Journal of Finance"
+    - "Journal of Financial Economics"
+    - "Review of Financial Studies"
+    - "Journal of Monetary Economics"
+    - "American Economic Journal: Applied Economics"
+    - "American Economic Journal: Economic Policy"
+    - "American Economic Journal: Microeconomics"
+    - "Review of Economics and Statistics"
+    - "Economic Journal"
+    - "Journal of the European Economic Association"
+    - "Management Science"
+    - "Journal of Economic Perspectives"
+    - "Journal of Economic Literature"
+    - "International Economic Review"
     - "RAND Journal of Economics"
     
-  io:
+  # Energy / Environment
+  energy_environmental:
+    - "Journal of Environmental Economics and Management"
+    - "Energy Economics"
+    - "The Energy Journal"
+    - "Environmental and Resource Economics"
+    - "Energy Policy"
+    - "Resource and Energy Economics"
+    - "Journal of the Association of Environmental and Resource Economists"
+    - "Climate Change Economics"
+    - "Utilities Policy"
+    - "The Electricity Journal"
+    
+  # Industrial Organization
+  industrial_organization:
+    - "RAND Journal of Economics"
     - "Journal of Industrial Economics"
     - "International Journal of Industrial Organization"
     - "Journal of Economics and Management Strategy"
+    - "Journal of Law and Economics"
+    - "Journal of Law, Economics, and Organization"
+    - "Review of Industrial Organization"
+    - "Journal of Regulatory Economics"
     
-  energy_environmental:
-    - "Energy Economics"
-    - "The Energy Journal"
-    - "Energy Policy"
-    - "Journal of Environmental Economics and Management"
-    - "Environmental and Resource Economics"
-    - "Resource and Energy Economics"
-    - "Utilities Policy"
-    - "The Electricity Journal"
+  # Microeconomic Theory
+  micro_theory:
+    - "Journal of Economic Theory"
+    - "Theoretical Economics"
+    - "Economic Theory"
+    - "Games and Economic Behavior"
+    - "Mathematics of Operations Research"
+    - "Journal of Mathematical Economics"
+    - "Social Choice and Welfare"
+    
+  # Market Design (publishes in theory + top generals)
+  market_design:
+    - "Games and Economic Behavior"
+    - "Journal of Economic Theory"
+    - "Theoretical Economics"
+    - "Operations Research"
+    
+  # Public Economics / Regulation
+  public_regulation:
+    - "Journal of Public Economics"
+    - "Journal of Public Economic Theory"
+    - "National Tax Journal"
+    - "Journal of Policy Analysis and Management"
+    - "Journal of Regulatory Economics"
+    - "American Economic Journal: Economic Policy"
+    - "Public Choice"
 
 regulatory_sources:
   eurlex:

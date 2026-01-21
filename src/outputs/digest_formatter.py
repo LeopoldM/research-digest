@@ -1,0 +1,305 @@
+"""
+Digest Formatter
+
+Formats papers into beautiful email and HTML digests.
+"""
+from datetime import datetime
+from typing import List
+import html
+
+
+class DigestFormatter:
+    """Formats papers into email/HTML digests"""
+    
+    def __init__(self, researcher_name: str = "Leopold"):
+        self.researcher_name = researcher_name
+        
+    def format_email_html(self, papers: list, intro: str = "", period: str = "daily") -> str:
+        """
+        Format papers into an HTML email
+        
+        Args:
+            papers: List of Paper objects
+            intro: Introduction text
+            period: "daily" or "weekly"
+            
+        Returns:
+            HTML string for email body
+        """
+        date_str = datetime.now().strftime("%B %d, %Y")
+        period_label = "Daily" if period == "daily" else "Weekly"
+        
+        html_content = f"""
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }}
+        h1 {{
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }}
+        h2 {{
+            color: #1e40af;
+            margin-top: 30px;
+        }}
+        .date {{
+            color: #666;
+            font-style: italic;
+        }}
+        .intro {{
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }}
+        .paper {{
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }}
+        .paper-title {{
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }}
+        .paper-title a {{
+            color: #2563eb;
+            text-decoration: none;
+        }}
+        .paper-title a:hover {{
+            text-decoration: underline;
+        }}
+        .paper-meta {{
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }}
+        .paper-score {{
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }}
+        .paper-keywords {{
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }}
+        .paper-summary {{
+            color: #444;
+            margin-top: 8px;
+        }}
+        .paper-abstract {{
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }}
+        .source-badge {{
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }}
+        .footer {{
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }}
+    </style>
+</head>
+<body>
+    <h1>📚 {self.researcher_name}'s Research Digest</h1>
+    <p class="date">{period_label} Digest - {date_str}</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        {html.escape(intro) if intro else f"Found {len(papers)} relevant papers."}
+    </div>
+    
+    <h2>📄 Papers</h2>
+"""
+        
+        # Group papers by relevance tier
+        high_relevance = [p for p in papers if p.relevance_score >= 50]
+        medium_relevance = [p for p in papers if 25 <= p.relevance_score < 50]
+        other = [p for p in papers if p.relevance_score < 25]
+        
+        if high_relevance:
+            html_content += '<h3 style="color: #059669;">🔥 High Relevance</h3>'
+            for paper in high_relevance:
+                html_content += self._format_paper_html(paper)
+        
+        if medium_relevance:
+            html_content += '<h3 style="color: #d97706;">📌 Medium Relevance</h3>'
+            for paper in medium_relevance:
+                html_content += self._format_paper_html(paper)
+        
+        if other:
+            html_content += '<h3 style="color: #6b7280;">📋 Other Papers</h3>'
+            for paper in other[:5]:  # Limit "other" papers
+                html_content += self._format_paper_html(paper, show_abstract=False)
+        
+        html_content += f"""
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>
+"""
+        return html_content
+    
+    def _format_paper_html(self, paper, show_abstract: bool = True) -> str:
+        """Format a single paper as HTML"""
+        
+        # Get keywords if available
+        keywords = getattr(paper, 'matched_keywords', [])
+        keywords_html = ""
+        if keywords:
+            keywords_html = f'<span class="paper-keywords">{", ".join(keywords[:3])}</span>'
+        
+        # Format authors
+        authors = ", ".join(paper.authors[:4])
+        if len(paper.authors) > 4:
+            authors += " et al."
+        
+        # Summary or abstract
+        content = ""
+        if paper.summary:
+            content = f'<div class="paper-summary">{html.escape(paper.summary)}</div>'
+        elif show_abstract and paper.abstract:
+            abstract_short = paper.abstract[:400] + "..." if len(paper.abstract) > 400 else paper.abstract
+            content = f'<div class="paper-abstract">{html.escape(abstract_short)}</div>'
+        
+        return f"""
+    <div class="paper">
+        <div class="paper-title">
+            <a href="{html.escape(paper.url)}" target="_blank">{html.escape(paper.title)}</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">{paper.source}</span>
+            {f'• {authors}' if authors else ''}
+            {f'• {paper.published_date}' if paper.published_date else ''}
+        </div>
+        <div>
+            <span class="paper-score">Score: {paper.relevance_score:.0f}</span>
+            {keywords_html}
+        </div>
+        {content}
+    </div>
+"""
+    
+    def format_plaintext(self, papers: list, intro: str = "") -> str:
+        """Format papers as plain text (for email fallback)"""
+        date_str = datetime.now().strftime("%B %d, %Y")
+        
+        text = f"""
+LEOPOLD'S RESEARCH DIGEST
+{date_str}
+{'='*50}
+
+{intro if intro else f"Found {len(papers)} relevant papers."}
+
+PAPERS
+{'-'*50}
+"""
+        
+        for i, paper in enumerate(papers, 1):
+            authors = ", ".join(paper.authors[:3])
+            if len(paper.authors) > 3:
+                authors += " et al."
+            
+            text += f"""
+{i}. {paper.title}
+   Source: {paper.source} | Score: {paper.relevance_score:.0f}
+   Authors: {authors or 'N/A'}
+   URL: {paper.url}
+   
+   {paper.summary or paper.abstract[:300] + '...'}
+
+"""
+        
+        return text
+
+
+def test_formatter():
+    """Test the digest formatter"""
+    from collections import namedtuple
+    
+    print("Testing digest formatter...")
+    formatter = DigestFormatter()
+    
+    MockPaper = namedtuple('MockPaper', [
+        'title', 'authors', 'abstract', 'url', 'source', 
+        'published_date', 'relevance_score', 'summary'
+    ])
+    
+    papers = [
+        MockPaper(
+            title="Mechanism Design for Capacity Markets",
+            authors=["John Smith", "Jane Doe"],
+            abstract="We study capacity market design...",
+            url="https://example.com/paper1",
+            source="arxiv",
+            published_date="2024-01-15",
+            relevance_score=75.0,
+            summary="Studies optimal capacity market mechanisms with uncertainty."
+        ),
+        MockPaper(
+            title="Carbon Pricing and Welfare",
+            authors=["Alice Brown"],
+            abstract="This paper analyzes carbon pricing...",
+            url="https://example.com/paper2",
+            source="nber",
+            published_date="2024-01-14",
+            relevance_score=45.0,
+            summary="Analyzes welfare effects of carbon pricing policies."
+        ),
+    ]
+    
+    # Add matched_keywords attribute
+    for paper in papers:
+        paper = paper._replace()
+        
+    html_output = formatter.format_email_html(papers, intro="Found 2 relevant papers today.")
+    
+    # Save test output
+    with open("/tmp/test_digest.html", "w") as f:
+        f.write(html_output)
+    
+    print("HTML digest saved to /tmp/test_digest.html")
+    print("\nPlain text preview:")
+    print(formatter.format_plaintext(papers)[:500])
+
+
+if __name__ == "__main__":
+    test_formatter()

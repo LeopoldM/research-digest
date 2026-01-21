@@ -1,0 +1,87 @@
+# Data Sources Configuration
+
+academic_sources:
+  arxiv:
+    enabled: true
+    base_url: "http://export.arxiv.org/api/query"
+    categories:
+      - "econ.TH"      # Economic Theory
+      - "econ.GN"      # General Economics
+      - "cs.GT"        # Computer Science - Game Theory
+      - "q-fin.EC"     # Quantitative Finance - Economics
+      - "q-fin.GN"     # Quantitative Finance - General
+    max_results: 100
+    
+  openalex:
+    enabled: true
+    base_url: "https://api.openalex.org"
+    email: "leopold.monjoie@aalto.fi"  # For polite pool (faster)
+    
+  nber:
+    enabled: true
+    rss_url: "https://www.nber.org/rss/new.xml"
+    
+  repec:
+    enabled: true
+    base_url: "https://ideas.repec.org"
+
+# Top journals to monitor (via OpenAlex)
+journals:
+  economics_top:
+    - "American Economic Review"
+    - "Quarterly Journal of Economics"
+    - "Econometrica"
+    - "Review of Economic Studies"
+    - "Journal of Political Economy"
+    
+  theory:
+    - "Journal of Economic Theory"
+    - "Theoretical Economics"
+    - "Games and Economic Behavior"
+    - "Economic Theory"
+    - "RAND Journal of Economics"
+    
+  io:
+    - "Journal of Industrial Economics"
+    - "International Journal of Industrial Organization"
+    - "Journal of Economics and Management Strategy"
+    
+  energy_environmental:
+    - "Energy Economics"
+    - "The Energy Journal"
+    - "Energy Policy"
+    - "Journal of Environmental Economics and Management"
+    - "Environmental and Resource Economics"
+    - "Resource and Energy Economics"
+    - "Utilities Policy"
+    - "The Electricity Journal"
+
+regulatory_sources:
+  eurlex:
+    enabled: true
+    base_url: "https://eur-lex.europa.eu"
+    topics:
+      - "energy"
+      - "electricity"
+      - "climate"
+      - "emissions"
+      
+  acer:
+    enabled: true
+    url: "https://www.acer.europa.eu"
+    
+  iea:
+    enabled: true
+    url: "https://www.iea.org/news"
+
+# Email settings
+email:
+  send_time: "06:00"  # Helsinki time (EET)
+  timezone: "Europe/Helsinki"
+  
+# Digest settings  
+digest:
+  max_papers_daily: 15
+  max_papers_weekly: 30
+  include_abstracts: true
+  include_relevance_score: true

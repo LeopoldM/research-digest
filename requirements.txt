@@ -1,0 +1,18 @@
+# Research Digest Requirements
+
+# Core
+requests>=2.28.0
+pyyaml>=6.0
+
+# API Clients
+anthropic>=0.18.0      # Claude API for summaries
+sendgrid>=6.9.0        # Email sending
+
+# Web Dashboard
+streamlit>=1.30.0
+
+# Data processing
+pandas>=2.0.0          # For data manipulation
+
+# Optional: for better XML parsing
+lxml>=4.9.0

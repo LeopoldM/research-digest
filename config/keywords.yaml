@@ -1,0 +1,87 @@
+# Research Keywords Configuration for Leopold Monjoie
+# Postdoctoral Fellow in Environmental Economics @ Aalto University
+
+# Primary research themes - high weight
+primary_keywords:
+  market_design:
+    - "mechanism design"
+    - "auction theory"
+    - "multi-unit auction"
+    - "capacity market"
+    - "capacity mechanism"
+    - "reservation market"
+    - "market clearing"
+    - "bidding behavior"
+    - "procurement auction"
+    
+  energy_economics:
+    - "electricity market"
+    - "power market"
+    - "wholesale electricity"
+    - "retail electricity"
+    - "peak load pricing"
+    - "real-time pricing"
+    - "capacity payment"
+    - "security of supply"
+    - "resource adequacy"
+    - "electricity pricing"
+    
+  environmental:
+    - "carbon pricing"
+    - "emissions trading"
+    - "carbon market"
+    - "renewable integration"
+    - "green transition"
+    - "climate policy"
+    - "environmental regulation"
+    - "decarbonization"
+
+# Secondary themes - medium weight  
+secondary_keywords:
+  microeconomics:
+    - "vertical integration"
+    - "price regulation"
+    - "welfare economics"
+    - "consumer choice"
+    - "self-selection"
+    - "screening"
+    - "adverse selection"
+    - "information asymmetry"
+    
+  investment:
+    - "real options"
+    - "investment under uncertainty"
+    - "capacity investment"
+    - "long-term contract"
+    - "investment incentive"
+    - "stranded assets"
+    
+  industrial_organization:
+    - "market power"
+    - "oligopoly"
+    - "vertical separation"
+    - "regulated monopoly"
+    - "network industry"
+
+# Tertiary - lower weight but still relevant
+tertiary_keywords:
+  methods:
+    - "game theory"
+    - "contract theory"
+    - "principal-agent"
+    - "optimal mechanism"
+    
+  policy:
+    - "energy policy"
+    - "EU energy"
+    - "electricity regulation"
+    - "market reform"
+
+# Exclude these (too broad or off-topic)
+exclude_keywords:
+  - "machine learning"
+  - "deep learning"
+  - "neural network"
+  - "cryptocurrency"
+  - "blockchain"
+  - "natural language processing"

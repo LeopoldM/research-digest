@@ -220,7 +220,7 @@ class ResearchDigest:
             "papers": [p.to_dict() for p in papers]
         }
         
-        with open(filepath, 'w') as f:
+        with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2)
         
         print(f"  Saved digest data to: {filepath}")
@@ -230,7 +230,7 @@ class ResearchDigest:
         filename = f"{period}_digest_{datetime.now().strftime('%Y%m%d')}.html"
         filepath = self.data_dir / filename
         
-        with open(filepath, 'w') as f:
+        with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html_content)
         
         print(f"  Saved HTML digest to: {filepath}")

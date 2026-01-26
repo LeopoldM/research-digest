@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-26T15:09:04.872963",
+  "generated_at": "2026-01-26T15:39:19.375625",
   "period": "daily",
   "paper_count": 15,
   "papers": [
@@ -28,7 +28,7 @@
         "cs.GT"
       ],
       "relevance_score": 15.555555555555555,
-      "summary": "This survey paper examines how incentive mechanism design based on game theory and auction theory can address resource management challenges in satellite networks, which face constraints from high mobility, long propagation distances, and limited energy/communication/computation resources. The methodology is a comprehensive literature review analyzing existing theoretical and applied work on economic mechanisms for satellite resource allocation. The key contribution is identifying how incentive-based approaches can improve upon traditional rigid allocation methods by incorporating user rationality and behavior, leading to better scalability, adaptability, and fairness in satellite network resource management across domains including communication, computation offloading, security, and coordination."
+      "summary": "This paper surveys how game-theoretic and auction-based incentive mechanisms can address resource allocation challenges in satellite networks, which face unique constraints from mobility, coverage, and energy/computation limitations. The methodology is a comprehensive literature review examining mechanism design applications across communication allocation, computation offloading, privacy/security, and coordination problems in satellite systems. The key contribution is demonstrating that economic incentive mechanisms can improve upon traditional performance-metric approaches by incorporating user rationality and behavior, thereby enhancing scalability, adaptability, and fairness in satellite resource management."
     },
     {
       "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
@@ -47,7 +47,7 @@
         "q-fin.GN"
       ],
       "relevance_score": 11.11111111111111,
-      "summary": "This paper examines why the US and China are accelerating AGI development despite acknowledging catastrophic risks, contradicting standard real options theory that predicts investment delay under extreme uncertainty. The authors develop a continuous-time preemption game with endogenous existential risk, where the cost of failure includes a global systemic ruin parameter rather than just sunk investment costs. The key finding is that shared catastrophic risk creates a \"suicide region\" where competitive pressures force rational actors to deploy AGI early despite negative risk-adjusted NPV, because the risk term cancels out of players' equilibrium conditions, and this dynamic can only be resolved by internalizing ruin costs through private liability mechanisms."
+      "summary": "This paper examines why the US and China are accelerating AI investment despite catastrophic risks, which contradicts standard real options theory that predicts delay under high uncertainty. The authors develop a continuous-time preemption game model where AGI development creates endogenous existential risk shared globally, causing the risk term to cancel out of players' equilibrium conditions. The key finding is that competitive dynamics create a \"suicide region\" where rational actors deploy AGI systems early despite negative risk-adjusted NPV, and this can only be prevented by internalizing ruin costs through sufficient private liability thresholds."
     },
     {
       "title": "Sharing with Frictions: Limited Transfers and Costly Inspections",
@@ -71,7 +71,7 @@
         "math.OC"
       ],
       "relevance_score": 8.88888888888889,
-      "summary": "This paper addresses the optimal allocation of government-held spectrum between incumbent non-commercial users (federal agencies, defense, public safety) and commercial users when direct monetary transfers are prohibited and both parties have private information about their valuations. The authors use mechanism design theory to characterize the optimal allocation mechanism under these constraints. The key contribution is showing that the optimal mechanism involves costly inspections to verify incumbent valuations and demonstrating how efficiency losses arise from the combination of transfer restrictions and information asymmetries, providing theoretical foundations for spectrum sharing policies beyond traditional market-based approaches."
+      "summary": "This paper addresses how to efficiently allocate spectrum between incumbent non-commercial users (government agencies, scientific institutions) and commercial users when direct monetary transfers are prohibited and both parties have private information about their valuations. The authors use mechanism design theory to characterize the optimal allocation mechanism under these constraints of limited transfers and asymmetric information. The key contribution is developing a novel theoretical framework that determines efficient resource allocation without monetary transfers, with applications extending beyond spectrum to other government-held resources where commercial incentives could distort public missions."
     },
     {
       "title": "Managing Learning Structures",
@@ -89,7 +89,7 @@
         "econ.TH"
       ],
       "relevance_score": 8.88888888888889,
-      "summary": "This paper examines how a designer should optimally manage information aggregation when agents have partial private information about a common-value good and the designer seeks to maximize allocations without monetary transfers. Using mechanism design theory, the authors characterize the optimal mechanism through two key parameters: one controlling allocation probability and another governing learning incentives. The key finding is that the optimal mechanism sometimes withholds socially efficient allocations to maintain proper learning incentives, demonstrating a fundamental trade-off between immediate efficiency and information aggregation in mechanism design."
+      "summary": "This paper examines how a designer should optimally manage information revelation when agents have partial private information about a common-value good and the designer wants to maximize allocation without monetary transfers. Using mechanism design theory, the authors characterize optimal mechanisms under general information distributions and show that these can be parameterized by allocation probability and induced learning intensity. The key finding is that optimal mechanisms sometimes withhold allocation even when it would be socially efficient, because managing learning incentives creates a trade-off between immediate allocation and preserving information revelation that enables future allocations."
     },
     {
       "title": "The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems",
@@ -108,7 +108,7 @@
         "math.PR"
       ],
       "relevance_score": 8.88888888888889,
-      "summary": "This paper investigates whether automated keyword-based recruitment systems contribute to artificially high frictional unemployment by creating semantic mismatches between job seekers and vacancies. The authors use controlled simulations comparing traditional keyword screening with semantic matching via high-dimensional vector representations of resumes and job descriptions. The key finding is that semantic matching substantially improves recall and matching efficiency without sacrificing precision, suggesting that algorithmic barriers in hiring systems impose significant economic costs and that better semantic alignment could reduce frictional unemployment."
+      "summary": "This paper investigates whether automated recruitment systems using keyword-based screening contribute to artificially high frictional unemployment despite abundant job vacancies. The authors use controlled simulations comparing traditional keyword screening against semantic matching with high-dimensional vector representations of resumes and job descriptions. The key finding is that semantic matching substantially improves recall and matching efficiency without sacrificing precision, suggesting that outdated algorithmic screening creates significant artificial friction in labor markets and proposing a standardized workforce architecture to improve human capital signal alignment."
     },
     {
       "title": "Screening for Choice Sets",
@@ -127,7 +127,7 @@
         "cs.GT"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper examines a screening mechanism where an agent privately observes a set of feasible technologies and can strategically report only a subset to the principal, who then chooses an action affecting both parties' payoffs. Using theoretical mechanism design with technology sets ordered by inclusion, the authors prove that the optimal mechanism features weakly increasing promised utility as reported sets expand, with the principal maximizing her utility subject to this constraint. The key contribution shows that optimal promised utility either matches the complete information benchmark or remains locally constant, with constant segments bounded by the downward-sloping segments of the first-best solution."
+      "summary": "This paper examines a screening mechanism where an agent privately observes a set of feasible technologies and can strategically reveal only a subset to the principal, who then chooses an action affecting both parties' payoffs. Using theoretical analysis under the assumption that technology sets are ordered by inclusion, the authors show that the optimal mechanism features weakly increasing promised utility as reported sets expand, with the principal's choice maximizing her utility subject to this constraint. The key contribution is proving that optimal promised utility either matches the complete information benchmark or remains locally constant, with constant segments bounded by the number of downward-sloping segments in the benchmark case."
     },
     {
       "title": "From No-Regret to Strategically Robust Learning in Repeated Auctions",
@@ -146,7 +146,7 @@
         "econ.TH"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper investigates whether the strategic robustness property of agile online gradient descent (OGD) in repeated auctions\u2014where bidders' learning cannot be exploited by auctioneers to extract excessive revenue\u2014extends to other learning algorithms and auction formats. Using theoretical analysis that bridges Myerson's auction theory with no-regret learning theory, the authors prove that any no-regret learning algorithm applied to monotone bidding strategies via quantile representation achieves strategic robustness across auction formats satisfying allocation monotonicity and voluntary participation. The key contribution is demonstrating that strategic robustness is a general property of no-regret learning in this setting rather than specific to particular algorithms or auction types, with multiplicative weights updates achieving both optimal regret and best-known strategic robustness guarantees."
+      "summary": "This paper investigates whether no-regret learning algorithms can provide strategic robustness guarantees in repeated auctions, extending beyond the specific case of agile online gradient descent in first-price auctions. Using theoretical analysis, the authors establish a general connection between Myerson's auction theory and no-regret learning by showing that any no-regret algorithm using gradient feedback on quantile representations of monotone bidding strategies achieves strategic robustness across various auction formats. The key contribution is proving that standard no-regret algorithms like multiplicative weights updates can simultaneously achieve optimal individual regret and bound the auctioneer's revenue relative to Myerson's optimal auction, even when auction formats and reserve prices change dynamically."
     },
     {
       "title": "Dynamic Decoupling in Multidimensional Screening",
@@ -163,7 +163,7 @@
         "econ.TH"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper examines optimal contract design when a monopolist faces an agent with private information about their future valuation distributions across multiple goods. Using mechanism design theory, the author shows that the monopolist can frontload surplus extraction by capturing expected information rents before valuations are realized, which dramatically simplifies the multidimensional screening problem. The key contribution is proving that under \"invariant dependencies\" (where valuation correlations don't vary with the agent's private information), the optimal mechanism decomposes into independent single-dimensional sequential screening mechanisms for each good, regardless of cross-dimensional dependencies."
+      "summary": "This paper examines optimal contract design when a monopolist faces an agent with private information about their future valuation distribution across multiple goods in a sequential setting. Using theoretical mechanism design, the author shows that the monopolist can frontload surplus extraction by capturing any information rents before valuations are realized, which dramatically simplifies the multidimensional screening problem. The key finding is that under \"invariant dependencies\" (where correlation structure across goods doesn't vary with the agent's private information), the optimal mechanism decouples into independent single-good sequential screening mechanisms, regardless of how valuations are correlated across dimensions."
     },
     {
       "title": "Multi-agent Adaptive Mechanism Design",
@@ -187,25 +187,7 @@
         "econ.TH"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper addresses how a principal can design truthful mechanisms for multiple agents when starting with no prior knowledge of agents' beliefs, combining mechanism design with online learning. The methodology introduces DRAM (Distributionally Robust Adaptive Mechanism), which iteratively estimates agent beliefs and updates a distributionally robust linear program with shrinking ambiguity sets to minimize payments while maintaining truthfulness. The key contribution is achieving $\\tilde{O}(\\sqrt{T})$ cumulative regret with a matching lower bound, proving this is the first adaptive mechanism to simultaneously guarantee truthfulness and optimal regret when incentive constraints are unknown and must be learned online."
-    },
-    {
-      "title": "Incomplete Information and Matching of Likes: A Mechanism Design Approach",
-      "authors": [
-        "Dinko Dimitrov",
-        "Dipjyoti Majumdar"
-      ],
-      "abstract": "We study the implementability of stable matchings in a two-sided market model with one-sided incomplete information. Firms' types are publicly known, whereas workers' types are private information. A mechanism generates a matching and additional announcements to the firms at each report profile of workers' types. When agents' preferences are increasing in the types of their matched partner, we show that the assortative matching mechanism which publicly announces the entire set of reported types is incentive compatible. Furthermore, any mechanism that limits information disclosure to firms' lower contour sets of reported types remains incentive compatible. However, when information is incomplete on both sides of the market, assortative matching is no longer implementable.",
-      "url": "https://arxiv.org/abs/2512.18764v1",
-      "pdf_url": "https://arxiv.org/pdf/2512.18764v1",
-      "source": "arxiv",
-      "source_id": "2512.18764v1",
-      "published_date": "2025-12-21",
-      "categories": [
-        "econ.TH"
-      ],
-      "relevance_score": 6.666666666666667,
-      "summary": "The paper examines whether stable assortative matchings can be implemented when workers have private type information but firms' types are public knowledge. Using mechanism design theory, the authors prove that assortative matching is incentive compatible when the mechanism discloses workers' reported types to firms (either fully or limited to firms' lower contour sets), as this prevents workers from misreporting to secure better matches. However, when both sides have private information, assortative matching becomes non-implementable due to the breakdown of the information structure that supports truthful reporting."
+      "summary": "This paper addresses the problem of designing truthful mechanisms when the principal has no prior knowledge of agents' beliefs and must learn incentive constraints over time. The authors develop a theoretical framework called Distributionally Robust Adaptive Mechanism (DRAM) that combines mechanism design with online learning, using distributionally robust optimization with shrinking ambiguity sets to iteratively update payments while maintaining truthfulness. The key contribution is achieving optimal $\\tilde{O}(\\sqrt{T})$ regret bounds with a matching lower bound, proving this is the first adaptive mechanism to simultaneously guarantee truthfulness and optimal learning performance under unknown incentive constraints."
     },
     {
       "title": "Calibrated Mechanism Design",
@@ -223,7 +205,25 @@
         "econ.TH"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper studies mechanism design when agents repeatedly interact with the same mechanism and learn about underlying states from their allocation outcomes. The methodology combines theoretical mechanism design with information design, proving that implementable outcomes correspond to two-stage mechanisms where the designer first discloses state information then commits to state-independent allocations. The key finding is that in private values environments, full transparency is optimal and traditional correlation-based surplus extraction mechanisms fail under this repeated interaction constraint, with the static \"calibrated\" framework exactly characterizing what is implementable with infinitely patient agents in dynamic settings."
+      "summary": "This paper studies mechanism design when strategic agents repeatedly interact with the same mechanism and learn about underlying states from their allocation history, asking what remains implementable under this \"calibration\" constraint. The methodology is theoretical, developing a static framework that requires mechanisms to maintain incentive compatibility given the information they reveal through repeated use. The key finding is that implementable outcomes correspond to two-stage mechanisms (information disclosure followed by state-independent allocation), full transparency becomes optimal in private values settings, and dynamic history-dependent mechanisms only expand implementability by weakening standard constraints rather than providing fundamental improvements."
+    },
+    {
+      "title": "Incomplete Information and Matching of Likes: A Mechanism Design Approach",
+      "authors": [
+        "Dinko Dimitrov",
+        "Dipjyoti Majumdar"
+      ],
+      "abstract": "We study the implementability of stable matchings in a two-sided market model with one-sided incomplete information. Firms' types are publicly known, whereas workers' types are private information. A mechanism generates a matching and additional announcements to the firms at each report profile of workers' types. When agents' preferences are increasing in the types of their matched partner, we show that the assortative matching mechanism which publicly announces the entire set of reported types is incentive compatible. Furthermore, any mechanism that limits information disclosure to firms' lower contour sets of reported types remains incentive compatible. However, when information is incomplete on both sides of the market, assortative matching is no longer implementable.",
+      "url": "https://arxiv.org/abs/2512.18764v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.18764v1",
+      "source": "arxiv",
+      "source_id": "2512.18764v1",
+      "published_date": "2025-12-21",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether stable matchings can be implemented when agents have private information about their types in two-sided matching markets. Using mechanism design theory, the authors analyze scenarios with one-sided incomplete information (workers' types private, firms' types public) versus two-sided incomplete information. The key finding is that assortative matching remains incentive compatible under one-sided incomplete information when the mechanism reveals workers' types to firms (or provides sufficient information through lower contour sets), but assortative matching becomes unimplementable when information is incomplete on both sides of the market."
     },
     {
       "title": "Optimal Carbon Prices in an Unequal World: The Role of Regional Welfare Weights",
@@ -240,7 +240,7 @@
         "econ.GN"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper investigates how incorporating global inequality through regional welfare weights affects optimal carbon pricing policies. Using theoretical analysis and calibrated simulations, the author examines conditions under which accounting for cross-country differences in marginal utility of consumption leads to more stringent climate policy without international transfers. The key finding is that accounting for global inequality reduces optimal global emissions by 21% under regionally differentiated carbon prices and increases uniform carbon prices by 15%, demonstrating that inequality considerations systematically favor more aggressive climate policy."
+      "summary": "This paper investigates how incorporating global income inequality through regional welfare weights affects optimal carbon pricing policy. Using theoretical modeling and calibrated simulations, the author analyzes conditions under which accounting for cross-country differences in marginal utility of consumption leads to more stringent climate policy without international transfers. The key finding is that incorporating global inequality reduces optimal emissions by 21% under differentiated regional carbon prices and increases uniform global carbon prices by 15%, as redistribution concerns favor more aggressive climate action that relatively benefits poorer nations."
     },
     {
       "title": "Institutional AI: Governing LLM Collusion in Multi-Agent Cournot Markets via Public Governance Graphs",
@@ -266,7 +266,7 @@
         "cs.AI"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper investigates how to prevent collusive behavior among multiple LLM agents in Cournot competition markets through institutional governance mechanisms. The methodology involves controlled experiments comparing three regimes across 90 runs per condition: ungoverned markets, constitutional (prompt-based prohibitions), and institutional governance using cryptographically-enforced \"governance graphs\" that specify legal states, transitions, and sanctions. The key finding is that institutional governance substantially reduces collusion (mean collusion tier drops from 3.1 to 1.8, severe collusion from 50% to 5.6%), while prompt-only constitutional approaches fail to constrain coordinated behavior under optimization pressure."
+      "summary": "This paper investigates how to prevent collusion among LLM agents in competitive markets through institutional governance mechanisms rather than prompt-based alignment. The authors use an experimental methodology comparing three governance regimes (Ungoverned, Constitutional prompt-only, and Institutional governance-graph-based) across 90 runs per condition in Cournot competition scenarios with six different model configurations. The key finding is that the Institutional AI framework with enforceable governance graphs dramatically reduces collusion (mean collusion tier from 3.1 to 1.8, severe collusion from 50% to 5.6%), while prompt-only constitutional approaches fail to prevent coordination under optimization pressure, demonstrating that mechanism design outperforms preference engineering for multi-agent AI alignment."
     },
     {
       "title": "Mechanism Design for Federated Learning with Non-Monotonic Network Effects",
@@ -312,7 +312,7 @@
         "Power market"
       ],
       "relevance_score": 6.666666666666667,
-      "summary": "This paper addresses the research question of how to design electricity market mechanisms that can simultaneously ensure frequency and voltage security in power systems with high renewable energy penetration. The methodology develops a theoretical market clearing optimization framework that incorporates both frequency and voltage stability constraints directly into the pricing mechanism, using stability-constrained optimal power flow formulations. The key contribution is demonstrating that coordinated stability-constrained pricing can maintain system security while providing economically efficient price signals that properly compensate resources for their stability services in renewable-dominated grids."
+      "summary": "This paper addresses the research question of how to design market clearing mechanisms that simultaneously ensure frequency and voltage stability in power systems with high renewable energy penetration. The methodology develops a theoretical stability-constrained market clearing optimization model that incorporates dynamic stability constraints directly into the economic dispatch and pricing framework, coordinating both frequency and voltage security requirements. The key contribution is a novel market design approach that co-optimizes energy dispatch and ancillary services while guaranteeing system stability through endogenous pricing of stability services, enabling efficient market operation in renewable-dominated grids."
     }
   ]
 }

@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-01-26T04:59:50.494245",
+  "generated_at": "2026-01-26T14:08:47.106368",
   "period": "daily",
-  "paper_count": 16,
+  "paper_count": 14,
   "papers": [
-    {
-      "title": "AI in Charge: Large-Scale Experimental Evidence on Electric Vehicle Charging Demand -- by Robert D. Metcalfe, Andrew Schein, Cohen R. Simpson, Yixin Sun",
-      "authors": [],
-      "abstract": "One of the promising opportunities offered by AI to support the decarbonization of electricity grids is to align demand with low-carbon supply. We evaluated the effects of one of the world\u2019s largest AI managed EV charging tariffs (a retail electricity pricing plan) using a large-scale natural field experiment. The tariff dynamically controlled vehicle charging to follow real-time wholesale electricity prices and coordinate and optimize charging for the grid and the consumer through AI. We randomized financial incentives to encourage enrollment onto the tariff. Over more than a year, we found that the tariff led to a 42% reduction in household electricity demand during peak hours, with 100% of this demand shifted to lower-cost and lower-carbon-intensity periods. The tariff generated substantial consumer savings, while demonstrating potential to lower producer costs, energy system costs, and carbon emissions through significant load shifting. Overrides of the AI algorithm were low, suggesting that this tariff was likely more efficient than a real-time-pricing tariff without AI, given our theoretical framework. We found similar plug-in and override behavior in several markets, including the UK, US, Germany, and Spain, implying the potential for comparable demand and welfare effects. Our findings highlight the potential for scalable AI managed charging and its substantial welfare gains for the electricity system and society. We also show that experimental estimates differed meaningfully from those obtained via non-randomized difference-in-differences analysis, due to differences in the samples in the two evaluation strategies, although we can reconcile the estimates with observables.",
-      "url": "https://www.nber.org/papers/w34709#fromrss",
-      "pdf_url": "https://www.nber.org/system/files/working_papers/w34709#fromrss.pdf",
-      "source": "nber",
-      "source_id": "w34709",
-      "published_date": "",
-      "categories": [
-        "NBER Working Paper"
-      ],
-      "relevance_score": 26.666666666666668,
-      "summary": "One of the promising opportunities offered by AI to support the decarbonization of electricity grids is to align demand with low-carbon supply. We evaluated the effects of one of the world\u2019s largest AI managed EV charging tariffs (a retail electricity pricing plan) using a large-scale natural fie...."
-    },
     {
       "title": "Incentive Mechanism Design for Resource Management in Satellite Networks: A Comprehensive Survey",
       "authors": [
@@ -304,30 +289,6 @@
       ],
       "relevance_score": 6.666666666666667,
       "summary": "Mechanism design is pivotal to federated learning (FL) for maximizing social welfare by coordinating self-interested clients. Existing mechanisms, however, often overlook the network effects of client participation and the diverse model performance requirements (i.e., generalization error) across...."
-    },
-    {
-      "title": "A stability-constrained market clearing and pricing approach for coordinated frequency and voltage security in high-renewable electric power systems",
-      "authors": [
-        "Yihang Jiang",
-        "Shuqian Zhao",
-        "Chutong Wang"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1016/j.apenergy.2026.127425",
-      "pdf_url": null,
-      "source": "openalex",
-      "source_id": "W7125606752",
-      "published_date": "2026-01-24",
-      "categories": [
-        "Journal: Applied Energy",
-        "Market clearing",
-        "Clearing",
-        "Electric power system",
-        "Voltage",
-        "Power market"
-      ],
-      "relevance_score": 6.666666666666667,
-      "summary": ""
     }
   ]
 }

@@ -54,12 +54,12 @@ st.markdown("""
 
 
 def load_digests():
-    """Load all digest files"""
+    """Load all digest files, sorted by generation time (newest first)"""
     data_dir = Path(__file__).parent.parent / "data"
     
     digests = []
     if data_dir.exists():
-        for file in sorted(data_dir.glob("*.json"), reverse=True):
+        for file in data_dir.glob("*.json"):
             try:
                 with open(file) as f:
                     data = json.load(f)
@@ -67,6 +67,16 @@ def load_digests():
                     digests.append(data)
             except:
                 continue
+    
+    # Sort by generated_at timestamp (newest first)
+    def get_timestamp(d):
+        try:
+            ts = d.get('generated_at', '')
+            return datetime.fromisoformat(ts.replace('Z', '+00:00'))
+        except:
+            return datetime.min
+    
+    digests.sort(key=get_timestamp, reverse=True)
     
     return digests
 

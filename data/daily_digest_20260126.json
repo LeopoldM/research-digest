@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-26T14:08:47.106368",
+  "generated_at": "2026-01-26T14:37:03.936168",
   "period": "daily",
   "paper_count": 14,
   "papers": [
@@ -149,23 +149,6 @@
       "summary": "In Bayesian single-item auctions, a monotone bidding strategy--one that prescribes a higher bid for a higher value type--can be equivalently represented as a partition of the quantile space into consecutive intervals corresponding to increasing bids. Kumar et al."
     },
     {
-      "title": "Dynamic Decoupling in Multidimensional Screening",
-      "authors": [
-        "Eric Gao"
-      ],
-      "abstract": "I study multidimensional sequential screening. A monopolist contracts with an agent endowed with private information about the distribution of their eventual valuations of different goods; a contract is written and the agent reports their initial private information before drawing and reporting their valuations. In these settings, the monopolist frontloads surplus extraction: Any information rents given to the agent to elicit their post-contractual valuations can be extracted in expectation before valuations are drawn. This significantly simplifies the multidimensional screening problem. If the agent's valuations satisfy invariant dependencies (valuations can be dependent across dimensions, but how valuations are coupled cannot vary in their initial private information), the optimal mechanism coincides with independently offering the optimal sequential screening mechanism for each good, regardless of the dependency structure.",
-      "url": "https://arxiv.org/abs/2512.23274v1",
-      "pdf_url": "https://arxiv.org/pdf/2512.23274v1",
-      "source": "arxiv",
-      "source_id": "2512.23274v1",
-      "published_date": "2025-12-29",
-      "categories": [
-        "econ.TH"
-      ],
-      "relevance_score": 6.666666666666667,
-      "summary": "I study multidimensional sequential screening. A monopolist contracts with an agent endowed with private information about the distribution of their eventual valuations of different goods; a contract is written and the agent reports their initial private information before drawing and reporting t...."
-    },
-    {
       "title": "Multi-agent Adaptive Mechanism Design",
       "authors": [
         "Qiushi Han",
@@ -188,6 +171,23 @@
       ],
       "relevance_score": 6.666666666666667,
       "summary": "We study a sequential mechanism design problem in which a principal seeks to elicit truthful reports from multiple rational agents while starting with no prior knowledge of agents' beliefs. We introduce Distributionally Robust Adaptive Mechanism (DRAM), a general framework combining insights from...."
+    },
+    {
+      "title": "Dynamic Decoupling in Multidimensional Screening",
+      "authors": [
+        "Eric Gao"
+      ],
+      "abstract": "I study multidimensional sequential screening. A monopolist contracts with an agent endowed with private information about the distribution of their eventual valuations of different goods; a contract is written and the agent reports their initial private information before drawing and reporting their valuations. In these settings, the monopolist frontloads surplus extraction: Any information rents given to the agent to elicit their post-contractual valuations can be extracted in expectation before valuations are drawn. This significantly simplifies the multidimensional screening problem. If the agent's valuations satisfy invariant dependencies (valuations can be dependent across dimensions, but how valuations are coupled cannot vary in their initial private information), the optimal mechanism coincides with independently offering the optimal sequential screening mechanism for each good, regardless of the dependency structure.",
+      "url": "https://arxiv.org/abs/2512.23274v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.23274v1",
+      "source": "arxiv",
+      "source_id": "2512.23274v1",
+      "published_date": "2025-12-29",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "I study multidimensional sequential screening. A monopolist contracts with an agent endowed with private information about the distribution of their eventual valuations of different goods; a contract is written and the agent reports their initial private information before drawing and reporting t...."
     },
     {
       "title": "Incomplete Information and Matching of Likes: A Mechanism Design Approach",

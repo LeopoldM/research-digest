@@ -38,6 +38,17 @@ st.markdown("""
         border-radius: 4px;
         font-size: 0.8em;
     }
+    .timestamp-box {
+        background: #dbeafe;
+        border: 1px solid #3b82f6;
+        border-radius: 8px;
+        padding: 10px 15px;
+        margin: 10px 0;
+    }
+    .last-updated {
+        color: #1e40af;
+        font-weight: 600;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -60,6 +71,24 @@ def load_digests():
     return digests
 
 
+def format_timestamp(iso_timestamp):
+    """Format ISO timestamp to readable format"""
+    try:
+        dt = datetime.fromisoformat(iso_timestamp.replace('Z', '+00:00'))
+        return dt.strftime("%A, %B %d, %Y at %H:%M:%S UTC")
+    except:
+        return iso_timestamp
+
+
+def format_timestamp_short(iso_timestamp):
+    """Format ISO timestamp to short format"""
+    try:
+        dt = datetime.fromisoformat(iso_timestamp.replace('Z', '+00:00'))
+        return dt.strftime("%Y-%m-%d %H:%M")
+    except:
+        return iso_timestamp
+
+
 def format_score(score):
     """Format relevance score with color"""
     if score >= 50:
@@ -73,6 +102,19 @@ def format_score(score):
 def main():
     st.title("📚 Leopold's Research Digest")
     st.markdown("*Personalized academic paper recommendations*")
+    
+    # Load digests once
+    digests = load_digests()
+    
+    # Show last update time prominently at the top
+    if digests:
+        latest = digests[0]
+        generated_at = latest.get('generated_at', 'Unknown')
+        st.markdown(f"""
+        <div class="timestamp-box">
+            🕐 <span class="last-updated">Last Updated:</span> {format_timestamp(generated_at)}
+        </div>
+        """, unsafe_allow_html=True)
     
     # Sidebar
     with st.sidebar:
@@ -90,11 +132,20 @@ def main():
         st.divider()
         
         # Quick stats
-        digests = load_digests()
         if digests:
             total_papers = sum(d.get('paper_count', 0) for d in digests)
             st.metric("Total Papers Collected", total_papers)
             st.metric("Digests Available", len(digests))
+            
+            st.divider()
+            
+            # Show all digest timestamps
+            st.subheader("📅 Digest History")
+            for d in digests[:10]:  # Show last 10
+                timestamp = format_timestamp_short(d.get('generated_at', 'Unknown'))
+                period = d.get('period', 'daily').capitalize()
+                count = d.get('paper_count', 0)
+                st.markdown(f"• **{timestamp}** - {period} ({count} papers)")
     
     # Main content
     tab1, tab2, tab3 = st.tabs(["📅 Latest Digest", "📊 Browse All", "⭐ Reading List"])
@@ -102,16 +153,22 @@ def main():
     with tab1:
         st.header("Latest Digest")
         
-        digests = load_digests()
-        
         if not digests:
             st.info("No digests found yet. Run the digest script first!")
             st.code("python run_digest.py --daily", language="bash")
         else:
             latest = digests[0]
             
-            st.markdown(f"**Generated:** {latest.get('generated_at', 'Unknown')}")
-            st.markdown(f"**Papers:** {latest.get('paper_count', 0)}")
+            # Show generation info
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("📅 Generated", format_timestamp_short(latest.get('generated_at', 'Unknown')))
+            with col2:
+                st.metric("📄 Papers Found", latest.get('paper_count', 0))
+            with col3:
+                st.metric("📋 Type", latest.get('period', 'daily').capitalize())
+            
+            st.divider()
             
             papers = latest.get('papers', [])
             
@@ -122,7 +179,7 @@ def main():
                 and p.get('source', '') in sources
             ]
             
-            st.markdown(f"*Showing {len(filtered_papers)} papers*")
+            st.markdown(f"*Showing {len(filtered_papers)} of {len(papers)} papers*")
             
             for paper in filtered_papers:
                 with st.container():
@@ -158,14 +215,12 @@ def main():
     with tab2:
         st.header("Browse All Digests")
         
-        digests = load_digests()
-        
         if not digests:
             st.info("No digests available yet.")
         else:
-            # Digest selector
+            # Digest selector with timestamps
             digest_options = {
-                f"{d.get('generated_at', 'Unknown')[:10]} - {d.get('period', 'daily')} ({d.get('paper_count', 0)} papers)": i
+                f"{format_timestamp_short(d.get('generated_at', 'Unknown'))} - {d.get('period', 'daily')} ({d.get('paper_count', 0)} papers)": i
                 for i, d in enumerate(digests)
             }
             
@@ -174,6 +229,13 @@ def main():
             if selected:
                 idx = digest_options[selected]
                 digest = digests[idx]
+                
+                # Show selected digest info
+                st.markdown(f"""
+                <div class="timestamp-box">
+                    🕐 <span class="last-updated">Generated:</span> {format_timestamp(digest.get('generated_at', 'Unknown'))}
+                </div>
+                """, unsafe_allow_html=True)
                 
                 papers = digest.get('papers', [])
                 

@@ -21,12 +21,20 @@ class EmailSender:
         self.api_key = api_key or os.getenv("SENDGRID_API_KEY")
         self.client = None
         
+        # Debug: Check if API key is present (don't print the actual key!)
+        print(f"  [DEBUG] SENDGRID_API_KEY present: {bool(self.api_key)}")
+        if self.api_key:
+            print(f"  [DEBUG] API key starts with: {self.api_key[:5]}..." if len(self.api_key) > 5 else "  [DEBUG] API key too short")
+        
         if self.api_key:
             try:
                 from sendgrid import SendGridAPIClient
                 self.client = SendGridAPIClient(self.api_key)
+                print("  [DEBUG] SendGrid client initialized successfully")
             except ImportError:
                 print("Warning: sendgrid package not installed. Email sending disabled.")
+            except Exception as e:
+                print(f"Warning: SendGrid client failed to initialize: {e}")
         else:
             print("Warning: No SENDGRID_API_KEY found. Email sending disabled.")
     
@@ -57,6 +65,8 @@ class EmailSender:
             return False
         
         from_email = from_email or os.getenv("SENDGRID_FROM_EMAIL", "digest@research-digest.com")
+        print(f"  [DEBUG] Sending from: {from_email}")
+        print(f"  [DEBUG] Sending to: {to_email}")
         
         try:
             from sendgrid.helpers.mail import Mail, Email, To, Content
@@ -77,6 +87,7 @@ class EmailSender:
                 return True
             else:
                 print(f"✗ Email failed with status {response.status_code}")
+                print(f"  Response body: {response.body}")
                 self._save_locally(html_content, subject)
                 return False
                 
@@ -115,7 +126,6 @@ def test_email_sender():
     </html>
     """
     
-    # This will save locally since we likely don't have API key configured
     sender.send_digest(
         to_email="test@example.com",
         subject="Test Research Digest",

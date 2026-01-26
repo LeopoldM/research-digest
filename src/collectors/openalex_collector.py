@@ -18,8 +18,6 @@ class OpenAlexCollector:
     """Collects papers from OpenAlex API"""
     
     BASE_URL = "https://api.openalex.org"
-    TIMEOUT = 90  # Increased timeout
-    MAX_RETRIES = 2
     
     # Top journals for Leopold's research interests
     JOURNALS = [
@@ -66,21 +64,6 @@ class OpenAlexCollector:
         self.session.headers.update({
             "User-Agent": f"ResearchDigest/1.0 (mailto:{email})"
         })
-    
-    def _make_request(self, url: str, params: dict) -> Optional[dict]:
-        """Make request with retry logic"""
-        for attempt in range(self.MAX_RETRIES):
-            try:
-                response = self.session.get(url, params=params, timeout=self.TIMEOUT)
-                response.raise_for_status()
-                return response.json()
-            except requests.exceptions.Timeout:
-                print(f"    Timeout (attempt {attempt + 1}/{self.MAX_RETRIES}), retrying...")
-                time.sleep(2)
-            except Exception as e:
-                print(f"    Error: {e}")
-                break
-        return None
         
     def fetch_recent(self, days: int = 7, max_results: int = 200) -> List[Paper]:
         """
@@ -127,6 +110,7 @@ class OpenAlexCollector:
         """Fetch papers by relevant concepts/keywords"""
         
         # OpenAlex concept IDs for relevant topics
+        # These are stable identifiers for concepts
         concepts = [
             "C162324750",  # Economics
             "C10138342",   # Mechanism design
@@ -148,12 +132,14 @@ class OpenAlexCollector:
                     "mailto": self.email
                 }
                 
-                data = self._make_request(url, params)
-                if data:
-                    for work in data.get("results", []):
-                        paper = self._parse_work(work)
-                        if paper:
-                            papers.append(paper)
+                response = self.session.get(url, params=params, timeout=30)
+                response.raise_for_status()
+                
+                data = response.json()
+                for work in data.get("results", []):
+                    paper = self._parse_work(work)
+                    if paper:
+                        papers.append(paper)
                         
                 time.sleep(0.5)  # Rate limiting
                 
@@ -181,8 +167,10 @@ class OpenAlexCollector:
                     "mailto": self.email
                 }
                 
-                data = self._make_request(url, params)
-                if data:
+                response = self.session.get(url, params=params, timeout=30)
+                
+                if response.status_code == 200:
+                    data = response.json()
                     for work in data.get("results", []):
                         paper = self._parse_work(work)
                         if paper:

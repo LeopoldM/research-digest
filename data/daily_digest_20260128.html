@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - January 28, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This digest covers 19 papers spanning several key areas of economic theory and policy. The majority focus on mechanism design (10 papers) and screening theory (3 papers), with notable contributions including &quot;Information Design and Mechanism Design: An Integrated Framework&quot; and emerging applications like &quot;Institutional AI: Governing LLM Collusion in Multi-Agent Cournot Markets.&quot; While most papers address theoretical foundations, there is also relevant applied work such as &quot;Optimal Carbon Prices in an Unequal World: The Role of Regional Welfare Weights&quot; that directly connects to energy and climate economics.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.17267v1" target="_blank">Information Design and Mechanism Design: An Integrated Framework</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Dirk Bergemann, Tibor Heumann, Stephen Morris
+            • 2026-01-24
+        </div>
+        <div>
+            <span class="paper-score">Score: 18</span>
+            <span class="paper-keywords">mechanism design, auction theory, screening</span>
+        </div>
+        <div class="paper-summary">This paper examines how to jointly optimize mechanism design (allocation rules) and information design (information structures) in screening environments. The methodology uses majorization theory to show that both problems reduce to maximizing linear functionals subject to majorization constraints - mechanisms choose allocations majorized by inventory while information design chooses structures majorized by priors. The key finding is that when jointly optimizing both mechanism and information structure, pooling of agent types and their associated allocations is always optimal, providing a unified framework that extends classical auction theory to information design settings.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.07526v1" target="_blank">The Suicide Region: Option Games and the Race to Artificial General Intelligence</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • David Tan
+            • 2025-12-08
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, real options</span>
+        </div>
+        <div class="paper-summary">This paper examines why the US and China are accelerating AI investment despite acknowledged catastrophic risks from AGI misalignment, contradicting standard real options theory that predicts delay under extreme uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when catastrophic failure costs are globally shared, the risk term cancels out of equilibrium conditions, creating a &quot;suicide region&quot; where rational agents deploy AGI systems early despite negative risk-adjusted NPV. The key contribution demonstrates that only internalizing ruin costs through private liability can restore option value and halt the dangerous race dynamics, as &quot;warning shots&quot; fail to deter acceleration due to winner-takes-all competitive pressures.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.21793v1" target="_blank">Sharing with Frictions: Limited Transfers and Costly Inspections</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Federico Bobbio, Randall A. Berry, Michael L. Honig, Thanh Nguyen et al.
+            • 2025-12-25
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">mechanism design, optimal mechanism</span>
+        </div>
+        <div class="paper-summary">This paper addresses the efficient allocation of government-held spectrum between non-commercial incumbents (federal agencies, public safety) and commercial users when direct monetary transfers are prohibited and both parties have private information about their valuations. The authors develop a novel mechanism design framework with limited transfers and costly inspection capabilities to solve this resource allocation problem under asymmetric information. The key contribution is characterizing the optimal mechanism that achieves efficient spectrum sharing without monetary compensation to public institutions, which has broader applications to other government-held resources where commercial transfers would distort non-commercial missions.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.20001v1" target="_blank">Managing Learning Structures</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Hiroto Sato, Ryo Shirakawa
+            • 2025-12-23
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">mechanism design, optimal mechanism</span>
+        </div>
+        <div class="paper-summary">This paper examines how a designer should optimally manage information aggregation when agents have partial private information about a common-value good and the designer seeks to maximize allocation without monetary transfers. Using mechanism design theory, the authors characterize optimal mechanisms under general information distributions and show they can be parameterized by allocation probability and induced learning intensity. The key finding is that optimal mechanisms sometimes withhold socially efficient allocations to maintain proper learning incentives, demonstrating a fundamental trade-off between immediate efficiency and information management in mechanism design.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.14534v1" target="_blank">The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ibrahim Denis Fofanah
+            • 2026-01-20
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">screening, information asymmetry</span>
+        </div>
+        <div class="paper-summary">This paper investigates whether automated recruitment systems using keyword-based screening contribute to artificially high frictional unemployment by creating semantic mismatches between qualified candidates and job openings. The authors employ controlled simulations comparing traditional keyword screening with semantic matching using high-dimensional vector representations of resumes and job descriptions. The key finding is that semantic matching significantly improves recall and matching efficiency without sacrificing precision, suggesting that outdated algorithmic hiring practices impose substantial economic costs on labor market efficiency.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

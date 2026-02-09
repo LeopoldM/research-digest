@@ -1,0 +1,239 @@
+{
+  "generated_at": "2026-02-09T05:41:47.902606",
+  "period": "daily",
+  "paper_count": 12,
+  "papers": [
+    {
+      "title": "Information Design and Mechanism Design: An Integrated Framework",
+      "authors": [
+        "Dirk Bergemann",
+        "Tibor Heumann",
+        "Stephen Morris"
+      ],
+      "abstract": "We develop an integrated framework for information design and mechanism design in screening environments with quasilinear utility. Using the tools of majorization theory and quantile functions, we show that both information design and mechanism design problems reduce to maximizing linear functionals subject to majorization constraints. For mechanism design, the designer chooses allocations weakly majorized by the exogenous inventory. For information design, the designer chooses information structures that are majorized by the prior distribution. When the designer can choose both the mechanism and the information structure simultaneously, then the joint optimization problem becomes bilinear with two majorization constraints. We show that pooling of values and associated allocations is always optimal in this case. Our approach unifies classic results in auction theory and screening, extends them to information design settings, and provides new insights into the welfare effects of jointly optimizing allocation and information.",
+      "url": "https://arxiv.org/abs/2601.17267v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.17267v1",
+      "source": "arxiv",
+      "source_id": "2601.17267v1",
+      "published_date": "2026-01-24",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 17.77777777777778,
+      "summary": "This paper investigates how to jointly optimize mechanism design and information design in screening environments with quasilinear utility. The methodology is theoretical, employing majorization theory and quantile functions to show that both problems reduce to maximizing linear functionals subject to majorization constraints. The key contribution is demonstrating that when a designer simultaneously chooses mechanisms and information structures, the optimal solution involves pooling of values and allocations, unifying and extending classic auction theory results while providing new insights into welfare effects of joint optimization."
+    },
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines why the US and China are accelerating AGI development despite acknowledging catastrophic risks, contradicting standard real options theory that predicts investment delay under high uncertainty. The authors develop a continuous-time preemption game model where competitive pressures between rational actors create a \"suicide region\" - an equilibrium where shared existential risk cancels out of players' optimization conditions, forcing early deployment despite negative risk-adjusted returns. The key contribution shows that competitive dynamics can lead rational agents to pursue globally destructive strategies, and that only internalizing ruin costs through private liability can restore socially optimal delay incentives."
+    },
+    {
+      "title": "Dynamic Mechanism Design without Monetary Transfers: A Queueing Theory Approach",
+      "authors": [
+        "Zihao Li",
+        "Xuandong Chen"
+      ],
+      "abstract": "We study the design of optimal allocation mechanisms in an environment where agents and goods arrive stochastically. Agents have private types that determine the principal payoff. Either agents or goods can be held in a queue at a flow cost until allocation. The principal cannot use monetary transfers, but can verify agents types at a cost. We characterize the optimal mechanism at the steady state of the system. It is a dynamic threshold mechanism in which the principal sets type thresholds for agent admission and goods allocation. These thresholds depend on the current state of the mechanism. The model applies to public programs such as public housing and grant allocation, and to allocation problems within organizations such as capital budgeting.",
+      "url": "https://arxiv.org/abs/2601.20728v3",
+      "pdf_url": "https://arxiv.org/pdf/2601.20728v3",
+      "source": "arxiv",
+      "source_id": "2601.20728v3",
+      "published_date": "2026-01-28",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper examines how to optimally allocate stochastically arriving agents and goods when monetary transfers are unavailable but costly type verification is possible. Using a queueing-theoretic framework, the authors characterize the steady-state optimal mechanism as a dynamic threshold policy where admission and allocation thresholds depend on current queue states. The key contribution is demonstrating that state-dependent thresholds can achieve optimality in dynamic allocation problems without monetary instruments, with applications to public housing, grants, and internal capital allocation."
+    },
+    {
+      "title": "The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems",
+      "authors": [
+        "Ibrahim Denis Fofanah"
+      ],
+      "abstract": "The United States labor market exhibits a persistent coexistence of high job vacancy rates and prolonged unemployment duration, a pattern that standard labor market theory struggles to explain. This paper argues that a non-trivial portion of contemporary frictional unemployment is artificially induced by automated recruitment systems that rely on deterministic keyword-based screening.   Drawing on labor economics, information asymmetry theory, and prior work on algorithmic hiring, we formalize this phenomenon as artificial frictional unemployment arising from semantic misinterpretation of candidate competencies. We evaluate this claim using controlled simulations that compare legacy keyword-based screening with semantic matching based on high-dimensional vector representations of resumes and job descriptions.   The results demonstrate substantial improvements in recall and overall matching efficiency without a corresponding loss in precision. Building on these findings, the paper proposes a candidate-side workforce operating architecture that standardizes, verifies, and semantically aligns human capital signals while remaining interoperable with existing recruitment infrastructure. The findings highlight the economic costs of outdated hiring systems and the potential gains from improving semantic alignment in labor market matching.",
+      "url": "https://arxiv.org/abs/2601.14534v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.14534v1",
+      "source": "arxiv",
+      "source_id": "2601.14534v1",
+      "published_date": "2026-01-20",
+      "categories": [
+        "cs.CY",
+        "econ.GN",
+        "math.PR"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper investigates whether automated recruitment systems using keyword-based screening artificially increase frictional unemployment by creating semantic mismatches between job seekers and vacancies. The authors employ controlled simulations comparing traditional keyword screening with semantic matching using high-dimensional vector representations of resumes and job descriptions. The key finding is that semantic matching significantly improves recall and matching efficiency without sacrificing precision, suggesting that outdated algorithmic hiring systems impose substantial economic costs on labor market efficiency."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses how to select optimal intended uses for underperforming real estate assets requiring redevelopment by developing a decision framework that treats use selection as a strategic options problem rather than purely financial optimization. The methodology combines real options theory (focusing on irreversibility and managerial flexibility) with multi-criteria decision analysis (MCDA) to evaluate alternatives across economic value, risk, complexity, and time-to-income dimensions. The key contribution is an integrated analytical framework that preserves option value through systematic ex-ante screening, demonstrated to reduce over-complexification and use-demand misalignment across different asset types and urban contexts."
+    },
+    {
+      "title": "Optimal Rates for Feasible Payoff Set Estimation in Games",
+      "authors": [
+        "Annalisa Barbara",
+        "Riccardo Poiani",
+        "Martino Bernasconi",
+        "Andrea Celli"
+      ],
+      "abstract": "We study a setting in which two players play a (possibly approximate) Nash equilibrium of a bimatrix game, while a learner observes only their actions and has no knowledge of the equilibrium or the underlying game. A natural question is whether the learner can rationalize the observed behavior by inferring the players' payoff functions. Rather than producing a single payoff estimate, inverse game theory aims to identify the entire set of payoffs consistent with observed behavior, enabling downstream use in, e.g., counterfactual analysis and mechanism design across applications like auctions, pricing, and security games. We focus on the problem of estimating the set of feasible payoffs with high probability and up to precision $\u03b5$ on the Hausdorff metric. We provide the first minimax-optimal rates for both exact and approximate equilibrium play, in zero-sum as well as general-sum games. Our results provide learning-theoretic foundations for set-valued payoff inference in multi-agent environments.",
+      "url": "https://arxiv.org/abs/2602.04397v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.04397v1",
+      "source": "arxiv",
+      "source_id": "2602.04397v1",
+      "published_date": "2026-02-04",
+      "categories": [
+        "cs.GT",
+        "cs.LG"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper studies the inverse game theory problem of inferring the set of all possible payoff matrices consistent with observed Nash equilibrium play when the learner only sees player actions but not the underlying game structure. The authors provide a theoretical analysis establishing minimax-optimal convergence rates for estimating the feasible payoff set within \u03b5-precision under the Hausdorff metric, covering both exact and approximate equilibrium scenarios in zero-sum and general-sum games. The key contribution is proving the first optimal sample complexity bounds for set-valued payoff inference, providing learning-theoretic foundations for applications requiring counterfactual analysis over all rationalizeable payoff structures."
+    },
+    {
+      "title": "DIML: Differentiable Inverse Mechanism Learning from Behaviors of Multi-Agent Learning Trajectories",
+      "authors": [
+        "Zhiyu An",
+        "Wan Du"
+      ],
+      "abstract": "We study inverse mechanism learning: recovering an unknown incentive-generating mechanism from observed strategic interaction traces of self-interested learning agents. Unlike inverse game theory and multi-agent inverse reinforcement learning, which typically infer utility/reward parameters inside a structured mechanism, our target includes unstructured mechanism -- a (possibly neural) mapping from joint actions to per-agent payoffs. Unlike differentiable mechanism design, which optimizes mechanisms forward, we infer mechanisms from behavior in an observational setting. We propose DIML, a likelihood-based framework that differentiates through a model of multi-agent learning dynamics and uses the candidate mechanism to generate counterfactual payoffs needed to predict observed actions. We establish identifiability of payoff differences under a conditional logit response model and prove statistical consistency of maximum likelihood estimation under standard regularity conditions. We evaluate DIML with simulated interactions of learning agents across unstructured neural mechanisms, congestion tolling, public goods subsidies, and large-scale anonymous games. DIML reliably recovers identifiable incentive differences and supports counterfactual prediction, where its performance rivals tabular enumeration oracle in small environments and its convergence scales to large, hundred-participant environments. Code to reproduce our experiments is open-sourced.",
+      "url": "https://arxiv.org/abs/2601.17678v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.17678v1",
+      "source": "arxiv",
+      "source_id": "2601.17678v1",
+      "published_date": "2026-01-25",
+      "categories": [
+        "cs.AI",
+        "cs.GT"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses the inverse mechanism learning problem: recovering unknown incentive mechanisms from observed behavioral trajectories of strategic learning agents. The methodology uses DIML, a likelihood-based framework that differentiates through multi-agent learning dynamics models and employs candidate mechanisms to generate counterfactual payoffs for predicting observed actions. The key contribution is establishing identifiability of payoff differences under conditional logit responses, proving statistical consistency of MLE, and demonstrating that DIML reliably recovers mechanisms and enables counterfactual prediction across diverse settings from small tabular games to large-scale anonymous games with hundreds of participants."
+    },
+    {
+      "title": "Screening for Choice Sets",
+      "authors": [
+        "Tan Gan",
+        "Yingkai Li"
+      ],
+      "abstract": "We study a screening problem in which an agent privately observes a set of feasible technologies and can strategically disclose only a subset to the principal. The principal then takes an action whose payoff consequences for both players are publicly known. Under the assumption that the possible technology sets are ordered by set inclusion, we show that the optimal mechanism promises the agent a utility that is weakly increasing as the reported set expands, and the choice of the principal maximizes her own utility subject to this promised utility constraint. Moreover, the optimal promised utility either coincides with the agent's utility under the complete information benchmark or remains locally constant, with the number of constant segments bounded by the number of downward-sloping segments of the complete information benchmark.",
+      "url": "https://arxiv.org/abs/2601.15580v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.15580v1",
+      "source": "arxiv",
+      "source_id": "2601.15580v1",
+      "published_date": "2026-01-22",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines a screening problem where an agent privately observes a set of feasible technologies and can strategically choose which subset to reveal to a principal who then selects an action. Using mechanism design theory with technology sets ordered by inclusion, the authors prove that the optimal mechanism features weakly increasing promised utility as reported sets expand, with the principal maximizing her payoff subject to this constraint. The key contribution shows that optimal promised utility either matches the complete information benchmark or exhibits local constancy, with constant segments bounded by the downward-sloping regions of the complete information solution."
+    },
+    {
+      "title": "From No-Regret to Strategically Robust Learning in Repeated Auctions",
+      "authors": [
+        "Junyao Zhao"
+      ],
+      "abstract": "In Bayesian single-item auctions, a monotone bidding strategy--one that prescribes a higher bid for a higher value type--can be equivalently represented as a partition of the quantile space into consecutive intervals corresponding to increasing bids. Kumar et al. (2024) prove that agile online gradient descent (OGD), when used to update a monotone bidding strategy through its quantile representation, is strategically robust in repeated first-price auctions: when all bidders employ agile OGD in this way, the auctioneer's average revenue per round is at most the revenue of Myerson's optimal auction, regardless of how she adjusts the reserve price over time.   In this work, we show that this strategic robustness guarantee is not unique to agile OGD or to the first-price auction: any no-regret learning algorithm, when fed gradient feedback with respect to the quantile representation, is strategically robust, even if the auction format changes every round, provided the format satisfies allocation monotonicity and voluntary participation. In particular, the multiplicative weights update (MWU) algorithm simultaneously achieves the optimal regret guarantee and the best-known strategic robustness guarantee. At a technical level, our results are established via a simple relation that bridges Myerson's auction theory and standard no-regret learning theory. This showcases the potential of translating standard regret guarantees into strategic robustness guarantees for specific games, without explicitly minimizing any form of swap regret.",
+      "url": "https://arxiv.org/abs/2601.03853v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.03853v1",
+      "source": "arxiv",
+      "source_id": "2601.03853v1",
+      "published_date": "2026-01-07",
+      "categories": [
+        "cs.GT",
+        "cs.LG",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how no-regret learning algorithms perform in repeated auctions when bidders use monotone strategies, extending beyond the specific case of agile online gradient descent in first-price auctions. The methodology is theoretical, establishing connections between Myerson's auction theory and no-regret learning through analysis of quantile-space representations of bidding strategies. The key contribution shows that any no-regret algorithm using gradient feedback on quantile representations achieves strategic robustness (auctioneer revenue bounded by Myerson's optimal auction) across general auction formats satisfying allocation monotonicity and voluntary participation, with multiplicative weights achieving both optimal regret and best-known strategic robustness guarantees."
+    },
+    {
+      "title": "Dynamic Decoupling in Multidimensional Screening",
+      "authors": [
+        "Eric Gao"
+      ],
+      "abstract": "I study multidimensional sequential screening. A monopolist contracts with an agent endowed with private information about the distribution of their eventual valuations of different goods; a contract is written and the agent reports their initial private information before drawing and reporting their valuations. In these settings, the monopolist frontloads surplus extraction: Any information rents given to the agent to elicit their post-contractual valuations can be extracted in expectation before valuations are drawn. This significantly simplifies the multidimensional screening problem. If the agent's valuations satisfy invariant dependencies (valuations can be dependent across dimensions, but how valuations are coupled cannot vary in their initial private information), the optimal mechanism coincides with independently offering the optimal sequential screening mechanism for each good, regardless of the dependency structure.",
+      "url": "https://arxiv.org/abs/2512.23274v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.23274v1",
+      "source": "arxiv",
+      "source_id": "2512.23274v1",
+      "published_date": "2025-12-29",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how a monopolist optimally designs contracts when an agent has private information about their future valuation distribution across multiple goods in a sequential setting. Using theoretical mechanism design, the author shows that the monopolist can frontload surplus extraction by capturing expected information rents before valuations are realized, which dramatically simplifies the multidimensional screening problem. The key contribution is proving that under \"invariant dependencies\" (where correlation patterns don't vary with the agent's private information), the optimal mechanism decouples into independent single-good sequential screening mechanisms, regardless of how valuations are correlated across dimensions."
+    },
+    {
+      "title": "Truthfulness Despite Weak Supervision: Evaluating and Training LLMs Using Peer Prediction",
+      "authors": [
+        "Tianyi Alex Qiu",
+        "Micah Carroll",
+        "Cameron Allen"
+      ],
+      "abstract": "The evaluation and post-training of large language models (LLMs) rely on supervision, but strong supervision for difficult tasks is often unavailable, especially when evaluating frontier models. In such cases, models are demonstrated to exploit evaluations built on such imperfect supervision, leading to deceptive results. However, underutilized in LLM research, a wealth of mechanism design research focuses on game-theoretic incentive compatibility, i.e., eliciting honest and informative answers with weak supervision. Drawing from this literature, we introduce the peer prediction method for model evaluation and post-training. It rewards honest and informative answers over deceptive and uninformative ones, using a metric based on mutual predictability and without requiring ground truth labels. We demonstrate the method's effectiveness and resistance to deception, with both theoretical guarantees and empirical validation on models with up to 405B parameters. We show that training an 8B model with peer prediction-based reward recovers most of the drop in truthfulness due to prior malicious finetuning, even when the reward is produced by a 0.135B language model with no finetuning. On the evaluation front, in contrast to LLM-as-a-Judge which requires strong and trusted judges, we discover an inverse scaling property in peer prediction, where, surprisingly, resistance to deception is strengthened as the capability gap between the experts and participants widens, enabling reliable evaluation of strong models with weak supervision. In particular, LLM-as-a-Judge become worse than random guess when facing deceptive models 5-20x the judge's size, while peer prediction thrives when such gaps are large, including in cases with over 100x size difference.",
+      "url": "https://arxiv.org/abs/2601.20299v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.20299v1",
+      "source": "arxiv",
+      "source_id": "2601.20299v1",
+      "published_date": "2026-01-28",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses the problem of evaluating and training LLMs when strong supervision is unavailable by applying peer prediction mechanisms from game theory. The methodology combines theoretical analysis with empirical experiments on models up to 405B parameters, using a peer prediction reward system based on mutual predictability rather than ground truth labels. The key contribution is demonstrating that peer prediction can recover truthfulness in maliciously fine-tuned models and exhibits an \"inverse scaling\" property where evaluation becomes more deception-resistant as the capability gap between expert judges and participant models increases."
+    },
+    {
+      "title": "Reimagining Peer Review Process Through Multi-Agent Mechanism Design",
+      "authors": [
+        "Ahmad Farooq",
+        "Kamran Iqbal"
+      ],
+      "abstract": "The software engineering research community faces a systemic crisis: peer review is failing under growing submissions, misaligned incentives, and reviewer fatigue. Community surveys reveal that researchers perceive the process as \"broken.\" This position paper argues that these dysfunctions are mechanism design failures amenable to computational solutions. We propose modeling the research community as a stochastic multi-agent system and applying multi-agent reinforcement learning to design incentive-compatible protocols. We outline three interventions: a credit-based submission economy, MARL-optimized reviewer assignment, and hybrid verification of review consistency. We present threat models, equity considerations, and phased pilot metrics. This vision charts a research agenda toward sustainable peer review.",
+      "url": "https://arxiv.org/abs/2601.19778v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.19778v1",
+      "source": "arxiv",
+      "source_id": "2601.19778v1",
+      "published_date": "2026-01-27",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CY",
+        "cs.GT",
+        "cs.SE"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses the research question of how to redesign the failing peer review system in software engineering using computational mechanism design principles. The methodology is theoretical, proposing to model the research community as a stochastic multi-agent system and apply multi-agent reinforcement learning (MARL) to optimize review protocols. The key contribution is a framework with three interventions: a credit-based submission economy for incentive alignment, MARL-optimized reviewer assignments, and hybrid verification systems for review consistency."
+    }
+  ]
+}

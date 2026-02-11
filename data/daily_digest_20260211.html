@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - February 11, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This digest covers 12 papers spanning mechanism design, screening, and auction theory. The majority focus on mechanism design innovations, including integrated information-mechanism frameworks, dynamic systems without monetary transfers, and novel applications to AI safety and peer review processes. Particularly notable are &quot;The Suicide Region: Option Games and the Race to Artificial General Intelligence,&quot; which examines strategic dynamics in AI development, and &quot;The Algorithmic Barrier,&quot; which quantifies how automated recruitment systems create artificial unemployment frictions.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.17267v1" target="_blank">Information Design and Mechanism Design: An Integrated Framework</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Dirk Bergemann, Tibor Heumann, Stephen Morris
+            • 2026-01-24
+        </div>
+        <div>
+            <span class="paper-score">Score: 18</span>
+            <span class="paper-keywords">mechanism design, auction theory, screening</span>
+        </div>
+        <div class="paper-summary">This paper examines how to jointly optimize mechanism design (allocation rules) and information design (information structures) in screening environments with quasilinear utility. Using majorization theory and quantile functions, the authors show both problems reduce to maximizing linear functionals subject to majorization constraints, with the joint optimization becoming a bilinear program. The key finding is that pooling of values and allocations is always optimal when simultaneously designing mechanisms and information structures, unifying and extending classical auction theory results while providing new welfare insights.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.07526v1" target="_blank">The Suicide Region: Option Games and the Race to Artificial General Intelligence</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • David Tan
+            • 2025-12-08
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, real options</span>
+        </div>
+        <div class="paper-summary">This paper investigates why the US and China are accelerating AI investment despite catastrophic AGI risks, contrary to standard real options theory which predicts investment delay under extreme uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when failure costs include a globally-shared systemic ruin parameter (rather than just sunk investment costs), the risk terms cancel out of players&#x27; equilibrium conditions, creating a &quot;suicide region&quot; where rational actors deploy AGI early despite negative risk-adjusted NPV. The key contribution is demonstrating that competitive races involving existential risks require internalizing ruin costs through liability mechanisms to restore proper investment timing incentives.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.20728v3" target="_blank">Dynamic Mechanism Design without Monetary Transfers: A Queueing Theory Approach</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zihao Li, Xuandong Chen
+            • 2026-01-28
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">mechanism design, optimal mechanism</span>
+        </div>
+        <div class="paper-summary">This paper examines how to optimally allocate resources when agents and goods arrive stochastically and monetary transfers are prohibited, with agents having private information about their value to the principal. Using a queueing theory framework where either agents or goods can be queued at a flow cost and agent types can be verified at a cost, the authors characterize the steady-state optimal mechanism. The key contribution is showing that the optimal mechanism is a dynamic threshold policy where admission and allocation thresholds depend on the current queue state, with applications to public programs like housing allocation and organizational capital budgeting where monetary transfers are infeasible.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.14534v1" target="_blank">The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ibrahim Denis Fofanah
+            • 2026-01-20
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">screening, information asymmetry</span>
+        </div>
+        <div class="paper-summary">This paper investigates how automated recruitment systems using deterministic keyword-based screening contribute to artificial frictional unemployment by creating semantic mismatches between job seekers and vacancies. Using controlled simulations, the authors compare traditional keyword screening with semantic matching based on high-dimensional vector representations of resumes and job descriptions. The key finding is that semantic matching substantially improves recall and matching efficiency without sacrificing precision, suggesting significant welfare gains from upgrading outdated hiring algorithms that currently impose artificial barriers in labor market matching.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.22166v1" target="_blank">A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Roberto Garrone
+            • 2026-01-15
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">screening, real options</span>
+        </div>
+        <div class="paper-summary">This paper addresses the research question of how to systematically select optimal uses for underperforming real estate assets during redevelopment processes. The methodology combines real options theory with multi-criteria decision analysis (MCDA) to create a decision framework that evaluates potential uses across dimensions of economic value, risk, complexity, and time-to-income while preserving managerial flexibility. The key contribution is demonstrating that treating redevelopment as strategic option selection rather than pure financial optimization reduces misalignment between intended use and market demand while maintaining option value through disciplined ex-ante screening.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

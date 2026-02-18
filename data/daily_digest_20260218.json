@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-02-18T05:27:40.195874",
+  "period": "daily",
+  "paper_count": 13,
+  "papers": [
+    {
+      "title": "Information Design and Mechanism Design: An Integrated Framework",
+      "authors": [
+        "Dirk Bergemann",
+        "Tibor Heumann",
+        "Stephen Morris"
+      ],
+      "abstract": "We develop an integrated framework for information design and mechanism design in screening environments with quasilinear utility. Using the tools of majorization theory and quantile functions, we show that both information design and mechanism design problems reduce to maximizing linear functionals subject to majorization constraints. For mechanism design, the designer chooses allocations weakly majorized by the exogenous inventory. For information design, the designer chooses information structures that are majorized by the prior distribution. When the designer can choose both the mechanism and the information structure simultaneously, then the joint optimization problem becomes bilinear with two majorization constraints. We show that pooling of values and associated allocations is always optimal in this case. Our approach unifies classic results in auction theory and screening, extends them to information design settings, and provides new insights into the welfare effects of jointly optimizing allocation and information.",
+      "url": "https://arxiv.org/abs/2601.17267v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.17267v1",
+      "source": "arxiv",
+      "source_id": "2601.17267v1",
+      "published_date": "2026-01-24",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 17.77777777777778,
+      "summary": "This paper examines how a designer can jointly optimize allocation mechanisms and information structures in screening environments with quasilinear utility. Using majorization theory and quantile functions, the authors show that both mechanism design (choosing allocations majorized by inventory) and information design (choosing information structures majorized by the prior) can be formulated as linear functionals subject to majorization constraints, making the joint problem bilinear. The key finding is that pooling of agent values and corresponding allocations is always optimal when simultaneously designing both mechanisms and information structures, unifying and extending classical auction theory results while providing new welfare insights."
+    },
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper investigates why the US and China are accelerating AI investment despite catastrophic risks, contrary to real options theory which predicts delay under high uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors model the AGI race where failure costs include a global systemic ruin parameter (D) rather than just sunk investment costs (I). The key finding is that shared catastrophic risk creates a \"suicide region\" where competitive pressures force rational agents to deploy AGI early despite negative risk-adjusted NPV, as the risk term cancels out of equilibrium conditions\u2014only internalizing ruin costs through private liability can restore safety incentives."
+    },
+    {
+      "title": "Dynamic Mechanism Design without Monetary Transfers: A Queueing Theory Approach",
+      "authors": [
+        "Zihao Li",
+        "Xuandong Chen"
+      ],
+      "abstract": "We study the design of optimal allocation mechanisms in an environment where agents and goods arrive stochastically. Agents have private types that determine the principal payoff. Either agents or goods can be held in a queue at a flow cost until allocation. The principal cannot use monetary transfers, but can verify agents types at a cost. We characterize the optimal mechanism at the steady state of the system. It is a dynamic threshold mechanism in which the principal sets type thresholds for agent admission and goods allocation. These thresholds depend on the current state of the mechanism. The model applies to public programs such as public housing and grant allocation, and to allocation problems within organizations such as capital budgeting.",
+      "url": "https://arxiv.org/abs/2601.20728v3",
+      "pdf_url": "https://arxiv.org/pdf/2601.20728v3",
+      "source": "arxiv",
+      "source_id": "2601.20728v3",
+      "published_date": "2026-01-28",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper examines how to optimally allocate stochastically arriving agents and goods when monetary transfers are unavailable but costly type verification is possible. Using dynamic mechanism design with queueing theory, the authors characterize the steady-state optimal mechanism as a state-dependent threshold policy where admission and allocation decisions depend on current queue lengths and private type thresholds. The key contribution is showing that without monetary transfers, optimal mechanisms take the form of dynamic thresholds that balance verification costs against improved matching quality, with applications to public housing, grants, and internal capital allocation."
+    },
+    {
+      "title": "The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems",
+      "authors": [
+        "Ibrahim Denis Fofanah"
+      ],
+      "abstract": "The United States labor market exhibits a persistent coexistence of high job vacancy rates and prolonged unemployment duration, a pattern that standard labor market theory struggles to explain. This paper argues that a non-trivial portion of contemporary frictional unemployment is artificially induced by automated recruitment systems that rely on deterministic keyword-based screening.   Drawing on labor economics, information asymmetry theory, and prior work on algorithmic hiring, we formalize this phenomenon as artificial frictional unemployment arising from semantic misinterpretation of candidate competencies. We evaluate this claim using controlled simulations that compare legacy keyword-based screening with semantic matching based on high-dimensional vector representations of resumes and job descriptions.   The results demonstrate substantial improvements in recall and overall matching efficiency without a corresponding loss in precision. Building on these findings, the paper proposes a candidate-side workforce operating architecture that standardizes, verifies, and semantically aligns human capital signals while remaining interoperable with existing recruitment infrastructure. The findings highlight the economic costs of outdated hiring systems and the potential gains from improving semantic alignment in labor market matching.",
+      "url": "https://arxiv.org/abs/2601.14534v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.14534v1",
+      "source": "arxiv",
+      "source_id": "2601.14534v1",
+      "published_date": "2026-01-20",
+      "categories": [
+        "cs.CY",
+        "econ.GN",
+        "math.PR"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper investigates whether automated recruitment systems using keyword-based screening contribute to artificially high frictional unemployment by creating semantic mismatches between job requirements and candidate qualifications. The authors employ controlled simulations comparing traditional keyword screening with semantic vector-based matching of resumes and job descriptions. The key finding is that semantic matching substantially improves recall and matching efficiency without sacrificing precision, suggesting that outdated algorithmic hiring practices impose significant economic costs through suboptimal labor market matching."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses how to systematically select optimal redevelopment uses for underperforming real estate assets experiencing structural demand misalignment rather than cyclical downturns. The methodology develops a theoretical decision-analytic framework that integrates real options theory (emphasizing irreversibility and managerial flexibility) with multi-criteria decision analysis (MCDA) to evaluate alternatives across dimensions of economic value, risk, complexity, and time-to-income. The key contribution is operationalizing option value preservation through disciplined ex-ante screening that treats redevelopment as strategic option selection rather than design optimization, demonstrating reduced over-complexification and improved alignment across different asset types and urban contexts."
+    },
+    {
+      "title": "Filling Positions Without Transfers: Screening on Outside Options",
+      "authors": [
+        "Morteza Honarvar",
+        "Joanna Krysta",
+        "Eric Tang"
+      ],
+      "abstract": "A designer offers vertically-differentiated positions to agents in the absence of transfers. Agents have private outside options and may reject their offers ex-post. The designer has preferences over the quantity of agents who accept each position. We show that under a general condition on the distribution of outside options, an optimal mechanism for the designer offers all agents an identical lottery, and we characterize this mechanism. When our condition does not hold, the optimal mechanism may require screening agents by offering a menu of distinct lotteries. Our results follow from a decomposition of agents' participation probabilities in any feasible mechanism.",
+      "url": "https://arxiv.org/abs/2602.10428v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.10428v1",
+      "source": "arxiv",
+      "source_id": "2602.10428v1",
+      "published_date": "2026-02-11",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how a designer optimally allocates vertically-differentiated positions to agents with private outside options when monetary transfers are unavailable. Using mechanism design theory, the authors decompose participation probabilities and establish that under a general distributional condition, the optimal mechanism offers all agents an identical lottery over positions rather than screening with menus. The key contribution is characterizing when simple uniform mechanisms dominate complex screening mechanisms in assignment problems without transfers, determined by the distribution of agents' outside options."
+    },
+    {
+      "title": "The Architecture of Illusion: Network Opacity and Strategic Escalation",
+      "authors": [
+        "Raman Ebrahimi",
+        "Sepehr Ilami",
+        "Babak Heydari",
+        "Isabel Trevino",
+        "Massimo Franceschetti"
+      ],
+      "abstract": "Standard models of bounded rationality typically assume agents either possess accurate knowledge of the population's reasoning abilities (Cognitive Hierarchy) or hold dogmatic, degenerate beliefs (Level-$k$). We introduce the ``Connected Minds'' model, which unifies these frameworks by integrating iterative reasoning with a parameterized network bias. We posit that agents do not observe the global population; rather, they observe a sample biased by their network position, governed by a locality parameter $p$ representing algorithmic ranking, social homophily, or information disclosure. We show that this parameter acts as a continuous bridge: the model collapses to the myopic Level-$k$ recursion as networks become opaque ($p \\to 0$) and recovers the standard Cognitive Hierarchy model under full transparency ($p=1$). Theoretically, we establish that network opacity induces a \\emph{Sophisticated Bias}, causing agents to systematically overestimate the cognitive depth of their opponents while preserving the log-concavity of belief distributions. This makes $p$ an actionable lever: a planner or platform can tune transparency, globally or by segment (a personalized $p_k$), to shape equilibrium behavior. From a mechanism design perspective, we derive the \\emph{Escalation Principle}: in games of strategic complements, restricting information can maximize aggregate effort by trapping agents in echo chambers where they compete against hallucinated, high-sophistication peers. Conversely, we identify a \\emph{Transparency Reversal} for coordination games, where maximizing network visibility is required to minimize variance and stabilize outcomes. Our results suggest that network topology functions as a cognitive zoom lens, determining whether agents behave as local imitators or global optimizers.",
+      "url": "https://arxiv.org/abs/2602.10053v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.10053v2",
+      "source": "arxiv",
+      "source_id": "2602.10053v2",
+      "published_date": "2026-02-10",
+      "categories": [
+        "cs.GT",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses how network opacity affects strategic behavior by developing the \"Connected Minds\" model that bridges Level-k and Cognitive Hierarchy theories of bounded rationality. The theoretical framework introduces a locality parameter p that captures how agents' network positions bias their observations of the population's reasoning abilities, ranging from complete opacity (p\u21920, recovering Level-k) to full transparency (p=1, recovering Cognitive Hierarchy). The key finding is the \"Escalation Principle\": network opacity creates a \"Sophisticated Bias\" where agents overestimate opponents' cognitive depth, and in games of strategic complements, platforms can exploit this by restricting information transparency to trap agents in echo chambers, thereby maximizing aggregate effort through competition against hallucinated high-sophistication peers."
+    },
+    {
+      "title": "Screening for Choice Sets",
+      "authors": [
+        "Tan Gan",
+        "Yingkai Li"
+      ],
+      "abstract": "We study a screening problem in which an agent privately observes a set of feasible technologies and can strategically disclose only a subset to the principal. The principal then takes an action whose payoff consequences for both players are publicly known. Under the assumption that the possible technology sets are ordered by set inclusion, we show that the optimal mechanism promises the agent a utility that is weakly increasing as the reported set expands, and the choice of the principal maximizes her own utility subject to this promised utility constraint. Moreover, the optimal promised utility either coincides with the agent's utility under the complete information benchmark or remains locally constant, with the number of constant segments bounded by the number of downward-sloping segments of the complete information benchmark.",
+      "url": "https://arxiv.org/abs/2601.15580v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.15580v1",
+      "source": "arxiv",
+      "source_id": "2601.15580v1",
+      "published_date": "2026-01-22",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper studies a screening problem where an agent privately observes a set of feasible technologies and can strategically disclose only a subset to the principal, who then chooses an action affecting both parties' payoffs. Using theoretical mechanism design with technology sets ordered by inclusion, the authors show that the optimal mechanism features weakly increasing promised utility as reported sets expand, with the principal's action maximizing her utility subject to this constraint. The key contribution is characterizing the structure of optimal promised utility, which either matches the complete information benchmark or remains locally constant, with constant segments bounded by the downward-sloping segments of the complete information case."
+    },
+    {
+      "title": "Pricing Discrete and Nonlinear Markets With Semidefinite Relaxations",
+      "authors": [
+        "Cheng Guo",
+        "Lauren Henderson",
+        "Ryan Cory-Wright",
+        "Boshi Yang"
+      ],
+      "abstract": "Nonconvexities in markets with discrete decisions and nonlinear constraints make efficient pricing challenging, often necessitating subsidies. A prime example is the unit commitment (UC) problem in electricity markets, where costly subsidies are commonly required. We propose a new pricing scheme for nonconvex markets with both discreteness and nonlinearity, by convexifying nonconvex structures through a semidefinite programming (SDP) relaxation and deriving prices from the relaxation's dual variables. When the choice set is bounded, we establish strong duality for the SDP, which allows us to extend the envelope theorem to the value function of the relaxation. This extension yields a marginal price signal for demand, which we use as our pricing mechanism. We demonstrate that under certain conditions-for instance, when the relaxation's right hand sides are linear in demand-the resulting lost opportunity cost is bounded by the relaxation's optimality gap. This result highlights the importance of achieving tight relaxations. The proposed framework applies to nonconvex electricity market problems, including for both direct current and alternating current UC. Our numerical experiments indicate that the SDP relaxations are often tight, reinforcing the effectiveness of the proposed pricing scheme. Across a suite of IEEE benchmark instances, the lost opportunity cost under our pricing scheme is, on average, 46% lower than that of the commonly used fixed-binary pricing scheme.",
+      "url": "https://arxiv.org/abs/2602.15722v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.15722v1",
+      "source": "arxiv",
+      "source_id": "2602.15722v1",
+      "published_date": "2026-02-17",
+      "categories": [
+        "math.OC",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses the pricing problem in nonconvex markets with discrete decisions and nonlinear constraints, where traditional convex pricing fails and subsidies are typically required. The methodology uses semidefinite programming (SDP) relaxations to convexify the nonconvex market structure and derives prices from the dual variables of the relaxed problem, with theoretical analysis establishing strong duality and extending the envelope theorem to bound lost opportunity costs by the relaxation's optimality gap. The key contribution is a new pricing scheme that reduces lost opportunity costs by 46% on average compared to existing fixed-binary pricing in electricity unit commitment problems, while providing theoretical guarantees when relaxations are tight."
+    },
+    {
+      "title": "Truthful Reverse Auctions for Adaptive Selection via Contextual Multi-Armed Bandits",
+      "authors": [
+        "Pronoy Patra",
+        "Sankarshan Damle",
+        "Manisha Padala",
+        "Sujit Gujar"
+      ],
+      "abstract": "We study the problem of selecting large language models (LLMs) for user queries in settings where multiple LLM providers submit the cost of solving a query. From the users' perspective, choosing an optimal model is a sequential, query-dependent decision problem: high-capacity models offer more reliable outputs but are costlier, while lightweight models are faster and cheaper. We formalize this interaction as a reverse auction design problem with contextual online learning, where the user adaptively discovers which model performs best while eliciting costs from competing LLM providers. Existing multi-armed bandit (MAB) mechanisms focus on forward auctions and social welfare, leaving open the challenges of reverse auctions, provider-optimal outcomes, and contextual adaptation. We address these gaps by designing a resampling-based procedure that generalizes truthful forward MAB mechanisms to reverse auctions and prove that any monotone allocation rule with this procedure is truthful. Using this, we propose a contextual MAB algorithm that learns query-dependent model quality with sublinear regret. Our framework unifies mechanism design and adaptive learning, enabling efficient, truthful, and query-aware LLM selection.",
+      "url": "https://arxiv.org/abs/2602.14476v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.14476v1",
+      "source": "arxiv",
+      "source_id": "2602.14476v1",
+      "published_date": "2026-02-16",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses the problem of designing truthful mechanisms for selecting large language models (LLMs) from competing providers while adaptively learning query-dependent model performance and costs. The methodology combines mechanism design theory with contextual multi-armed bandits, developing a resampling-based procedure that extends truthful forward auction mechanisms to reverse auctions and proving truthfulness for monotone allocation rules. The key contribution is a unified framework that achieves truthful elicitation of provider costs, sublinear regret in learning query-dependent model quality, and efficient LLM selection through contextual online learning."
+    },
+    {
+      "title": "Evaluating the Performance of Approximation Mechanisms under Budget Constraints",
+      "authors": [
+        "Juan Carlos Carbajal",
+        "Ahuva Mualem"
+      ],
+      "abstract": "We study revenue maximization in a buyer-seller setting where the seller has a single object and the buyer has both a private valuation and a private budget. The presence of private budgets complicates the classic single-product monopoly problem, making optimal mechanisms difficult to analyze. To overcome this, we evaluate the robust performance of approximation mechanisms relative to optimal mechanisms. We work with three measures of performance: the guaranteed fraction of optimal revenue (GFOR) for restricted classes of mechanisms, the maximal value of relaxation (MVR) for relaxed classes, and a revenue non-monotonicity gap for either relaxed or restricted classes. Our analysis reveals sharp contrasts. On the positive side, we show that for distributions with bounded support, simple mechanisms with poly-logarithmic menu size can approximate optimal revenue arbitrarily well, regardless of correlation between valuations and budgets. On the negative side, we establish strong impossibility results: for distributions with unbounded support, or even bounded distributions concentrated in the unit square, no simple mechanism - or indeed any mechanism with a finite or sublinear menu - can guarantee a positive fraction of the optimal revenue. We also demonstrate unbounded revenue gains from certain relaxations when valuations and budgets are negatively correlated, and highlight cases of revenue non-monotonicity. Taken together, our results underscore the fragility of approximation approaches in the presence of private budgets: except for a narrow set of conditions, approximation mechanisms incur large revenue losses, pointing to fundamental limits of simplicity and robustness in mechanism design. Our analysis highlights that approximation results are highly sensitive to details of the design environment.",
+      "url": "https://arxiv.org/abs/2602.14120v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.14120v1",
+      "source": "arxiv",
+      "source_id": "2602.14120v1",
+      "published_date": "2026-02-15",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper studies revenue maximization for a monopolist seller facing a buyer with both private valuation and private budget, investigating when simple mechanisms can approximate optimal revenue. Using theoretical analysis, the authors evaluate three performance measures: guaranteed fraction of optimal revenue (GFOR), maximal value of relaxation (MVR), and revenue non-monotonicity gaps across different mechanism classes. The key contribution reveals a sharp dichotomy: while simple mechanisms with poly-logarithmic menu size can approximate optimal revenue arbitrarily well for bounded support distributions regardless of valuation-budget correlation, no finite or sublinear menu mechanism can guarantee positive revenue fractions for unbounded distributions, demonstrating the fundamental fragility of approximation approaches under budget constraints."
+    },
+    {
+      "title": "Enhancing Affine Maximizer Auctions with Correlation-Aware Payment",
+      "authors": [
+        "Haoran Sun",
+        "Xuanzhi Xia",
+        "Xu Chu",
+        "Xiaotie Deng"
+      ],
+      "abstract": "Affine Maximizer Auctions (AMAs), a generalized mechanism family from VCG, are widely used in automated mechanism design due to their inherent dominant-strategy incentive compatibility (DSIC) and individual rationality (IR). However, as the payment form is fixed, AMA's expressiveness is restricted, especially in distributions where bidders' valuations are correlated. In this paper, we propose Correlation-Aware AMA (CA-AMA), a novel framework that augments AMA with a new correlation-aware payment. We show that any CA-AMA preserves the DSIC property and formalize finding optimal CA-AMA as a constraint optimization problem subject to the IR constraint. Then, we theoretically characterize scenarios where classic AMAs can perform arbitrarily poorly compared to the optimal revenue, while the CA-AMA can reach the optimal revenue. For optimizing CA-AMA, we design a practical two-stage training algorithm. We derive that the target function's continuity and the generalization bound on the degree of deviation from strict IR. Finally, extensive experiments showcase that our algorithm can find an approximate optimal CA-AMA in various distributions with improved revenue and a low degree of violation of IR.",
+      "url": "https://arxiv.org/abs/2602.09455v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.09455v1",
+      "source": "arxiv",
+      "source_id": "2602.09455v1",
+      "published_date": "2026-02-10",
+      "categories": [
+        "cs.GT",
+        "cs.LG"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses how to improve revenue in Affine Maximizer Auctions (AMAs) when bidders' valuations are correlated, which limits the performance of standard AMAs with fixed payment structures. The authors develop a theoretical framework called Correlation-Aware AMA (CA-AMA) that incorporates correlation-aware payments while preserving dominant-strategy incentive compatibility, and propose a two-stage optimization algorithm to solve the constrained revenue maximization problem subject to individual rationality. The key contribution is demonstrating that CA-AMA can achieve optimal revenue in scenarios where classical AMAs perform arbitrarily poorly, with experimental validation showing improved revenue performance across various correlated valuation distributions."
+    },
+    {
+      "title": "Seeing Green: The Effects of Financial Exposures on Support for Climate Action -- by Michelle Hanlon, Saumitra Jha, Namrata Kala, Nemit Shroff, Chagai M. Weiss",
+      "authors": [],
+      "abstract": "Despite the large common net benefits of climate mitigation, broad-based political consensus for large-scale policy action remains elusive. We hypothesize that financial exposure to energy stocks central to the green transition can induce learning and greater support for climate mitigation policies. We conduct a RCT which randomizes both the presence of financial market exposure to the energy sector, as well as which type of portfolio\u2014fossil-fuel (brown) or renewable energy (green)\u2014is given to an individual. Treatment increases support for mitigation action and intent to undertake adaptation, with positive support caused by ownership of both green and brown assets. The effects are particularly pronounced among individuals who are initially more climate-skeptic, and persist eight months after treatment. We present evidence consistent with learning as the primary mechanism: treated respondents are more likely to consume financial news and become more financially knowledgeable, less likely to obtain news from polarized sources, and better able to accurately predict the environmental impacts of green and brown firms.",
+      "url": "https://www.nber.org/papers/w34828#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w34828#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w34828",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines whether financial exposure to energy sector stocks affects individual support for climate policies through a randomized controlled trial that assigns participants portfolios of either renewable energy (\"green\") or fossil fuel (\"brown\") stocks versus no portfolio. The experimental methodology tracks participants' policy preferences, information consumption, and financial knowledge over eight months. The key finding is that both types of energy portfolio ownership increase climate policy support\u2014particularly among initially climate-skeptical individuals\u2014through a learning mechanism that enhances financial news consumption, reduces reliance on polarized media sources, and improves understanding of environmental impacts across energy sectors."
+    }
+  ]
+}

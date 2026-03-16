@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-03-16T05:53:47.532817",
+  "period": "daily",
+  "paper_count": 14,
+  "papers": [
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines why major powers accelerate AI development despite acknowledging catastrophic risks from AGI misalignment, contradicting standard real options theory that predicts investment delay under extreme uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when failure costs include a shared global ruin parameter (D) rather than just sunk investment costs (I), the risk terms cancel out of players' equilibrium conditions, creating a \"suicide region\" where rational actors deploy AGI early despite negative risk-adjusted NPV. The key contribution is demonstrating that competitive dynamics can force premature deployment of potentially catastrophic technologies unless ruin costs are internalized through private liability mechanisms that make safety research economically prerequisite."
+    },
+    {
+      "title": "Existence of Equilibrium Mechanisms in Generalized Principal-Agent Problems with Interacting Teams",
+      "authors": [
+        "Brian Roberson"
+      ],
+      "abstract": "We study incentive design when multiple principals simultaneously design mechanisms for their respective teams in environments with strategic spillovers. In this environment, each principal's set of incentive-compatible mechanisms--those that satisfy their own agents' incentive compatibility constraints--depends on the mechanisms offered by the other teams. Following a classic example by Myerson (1982), such games may lack equilibrium due to discontinuities in the correspondence of incentive-compatible mechanisms. We establish general conditions for equilibrium existence by introducing a novel approach that involves tracking both the outcome distributions along the truthful-obedient path and the sets of outcome distributions achievable through unilateral deviations, thereby providing a foundation for analyzing a wide range of multi-principal mechanism design with team production and agency problems.",
+      "url": "https://arxiv.org/abs/2602.20281v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.20281v2",
+      "source": "arxiv",
+      "source_id": "2602.20281v2",
+      "published_date": "2026-02-23",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper examines the existence of equilibrium in multi-principal mechanism design problems where each principal designs incentives for their own team while facing strategic spillovers from other teams' mechanisms. The authors develop a novel theoretical approach that tracks both truthful equilibrium outcomes and achievable deviation outcomes to address discontinuities in incentive-compatible mechanism correspondences that can prevent equilibrium existence (as in Myerson 1982). The key contribution is establishing general sufficient conditions for equilibrium existence in these complex multi-team environments, providing theoretical foundations for analyzing mechanism design with interacting principals and teams."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses how to select optimal intended uses for underperforming real estate assets requiring redevelopment by developing a decision framework that accounts for irreversibility and uncertainty. The methodology combines real options theory with multi-criteria decision analysis (MCDA) to evaluate alternative uses based on expected economic value, risk, complexity, and time-to-income while preserving managerial flexibility. The key contribution is operationalizing option value preservation in redevelopment decisions by treating use selection as strategic option choice rather than purely financial optimization, demonstrated to reduce misalignment and over-complexification across different asset types and urban contexts."
+    },
+    {
+      "title": "Stochastic Optimization and Coupling",
+      "authors": [
+        "Frank Yang",
+        "Kai Hao Yang"
+      ],
+      "abstract": "We study optimization problems in which a linear functional is maximized over probability measures that are dominated by a given measure according to an integral stochastic order in an arbitrary dimension. We show that the following four properties are equivalent for any such order: (i) the test function cone is closed under pointwise minimum, (ii) the value function is affine, (iii) the solution correspondence has a convex graph with decomposable extreme points, and (iv) every ordered pair of measures admits an order-preserving coupling. As corollaries, we derive the extreme and exposed point properties involving integral stochastic orders such as multidimensional mean-preserving spreads and stochastic dominance. Applying these results, we generalize Blackwell's theorem by completely characterizing the comparisons of experiments that admit two equivalent descriptions -- through instrumental values and through information technologies. We also show that these results immediately yield new insights into information design, mechanism design, and decision theory.",
+      "url": "https://arxiv.org/abs/2603.11448v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.11448v1",
+      "source": "arxiv",
+      "source_id": "2603.11448v1",
+      "published_date": "2026-03-12",
+      "categories": [
+        "econ.TH",
+        "math.PR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines stochastic optimization problems where linear functionals are maximized over probability measures constrained by integral stochastic orders in arbitrary dimensions. Using theoretical analysis, the authors prove that four key properties are equivalent: closure of test function cones under pointwise minimum, affine value functions, convex solution correspondences with decomposable extreme points, and existence of order-preserving couplings for all measure pairs. The main contribution is a generalization of Blackwell's theorem that completely characterizes experiment comparisons through both instrumental values and information technologies, with applications to information design, mechanism design, and decision theory."
+    },
+    {
+      "title": "Self-Confirming Mechanisms",
+      "authors": [
+        "Zhiming Feng",
+        "Qingmin Liu"
+      ],
+      "abstract": "This paper studies mechanism design environments in which the designer does not know the distribution of agents' private information a priori and instead learns from agents' behavior induced by the mechanism itself. We formalize a notion of self-confirming mechanisms and a refinement thereof, capturing the idea that an equilibrium mechanism is optimal given the designer's belief and that this belief is consistent with the information produced by the mechanism. We establish a fictitious revelation principle, showing that any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports that preserve the original mechanism's informational content. Applying the framework to a monopoly problem, we show that, subject to an equilibrium refinement, dominant-strategy self-confirming mechanisms are exactly posted-price mechanisms with locally revenue-maximizing prices.",
+      "url": "https://arxiv.org/abs/2603.12532v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.12532v1",
+      "source": "arxiv",
+      "source_id": "2603.12532v1",
+      "published_date": "2026-03-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines mechanism design when the designer lacks prior knowledge of agents' type distributions and must learn from the mechanism's own generated data. Using a theoretical approach, the authors develop the concept of self-confirming mechanisms where the designer's beliefs about agent types are consistent with the information revealed through mechanism outcomes, and prove a \"fictitious revelation principle\" showing any incentive-compatible mechanism can be represented as a direct mechanism with appropriately filtered type reports. The key contribution is demonstrating that in monopoly settings, dominant-strategy self-confirming mechanisms are equivalent to posted-price mechanisms with locally revenue-maximizing prices, providing a theoretical foundation for why simple pricing may emerge when designers learn from market behavior."
+    },
+    {
+      "title": "Delegation in Strategic Environments and Equilibrium Uniqueness",
+      "authors": [
+        "Fedor Sandomirskiy",
+        "Ben Wincelberg"
+      ],
+      "abstract": "We ask when a normal-form game yields a single equilibrium prediction, even if players can coordinate by delegating play to an intermediary such as a platform or a cartel. Delegation outcomes are modeled via coarse correlated equilibria (CCE) when the intermediary cannot punish deviators, and via the set of individually rational correlated profiles (IRCP) when it can. We characterize games in which the IRCP or the CCE is unique, uncovering a structural link between these solution concepts. Our analysis also provides new conditions for the uniqueness of classical correlated and Nash equilibria that do not rely on the existence of dominant strategies. The resulting equilibria are robust to players' information about the environment, payoff perturbations, pre-play communication, equilibrium selection, and learning dynamics. We apply these results to collusion-proof mechanism design.",
+      "url": "https://arxiv.org/abs/2602.21470v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21470v1",
+      "source": "arxiv",
+      "source_id": "2602.21470v1",
+      "published_date": "2026-02-25",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates when normal-form games have unique equilibrium predictions under delegation to intermediaries who may or may not have punishment capabilities. The methodology is theoretical, modeling delegation outcomes through coarse correlated equilibria (CCE) for intermediaries without punishment power and individually rational correlated profiles (IRCP) for those with punishment power. The key contribution is a structural characterization of games with unique CCE or IRCP, revealing connections between these solution concepts and providing new uniqueness conditions for classical equilibria that don't require dominant strategies, with applications to collusion-proof mechanism design."
+    },
+    {
+      "title": "Revenue Non-monotonicity in Matching Markets",
+      "authors": [
+        "Jason Hartline"
+      ],
+      "abstract": "The Vickrey-Clarke-Groves (VCG) mechanism is infamously revenue   non-monotone in combinatorial auctions. I.e., when a buyer increases   their value for a bundle of items, the total auction revenue may decrease.   Combinatorial auctions exhibit complementarities which broadly   result in complexities in auction theory. This brief note shows   that non-monotonicity in multi-item auctions is not a result of   complementarities, and in fact, VCG is revenue non-monotone even in matching   markets.",
+      "url": "https://arxiv.org/abs/2602.20439v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.20439v1",
+      "source": "arxiv",
+      "source_id": "2602.20439v1",
+      "published_date": "2026-02-24",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether revenue non-monotonicity in VCG mechanisms stems from complementarities by examining matching markets. Using theoretical analysis, the author demonstrates that VCG mechanisms exhibit revenue non-monotonicity even in matching markets where no complementarities exist. The key contribution is showing that revenue non-monotonicity is not caused by complementarities as commonly believed, but is a more fundamental property of VCG mechanisms in multi-item settings."
+    },
+    {
+      "title": "Robust Mechanism Design with Anonymous Information",
+      "authors": [
+        "Zhihao Gavin Tang",
+        "Shixin Wang"
+      ],
+      "abstract": "In practice, auction data are often endogenously censored and anonymous, revealing only limited outcome statistics rather than full bid profiles. We study robust auction design when the seller observes only aggregated, anonymous order statistics and seeks to maximize worst-case expected revenue over all product distributions consistent with the observed statistic. We show that simple and widely used mechanisms are robustly optimal. Specifically, posted pricing is robustly optimal given the distribution of the highest value; the Myerson auction designed for the unique consistent i.i.d. distribution is robustly optimal given the lowest value distribution; and the second-price auction with an optimal reserve is robustly optimal when an intermediate order statistic is observed and the implied i.i.d. distribution is regular above its reserve. More generally, for a broad class of monotone symmetric mechanisms depending only on the top k order statistics, including multi-unit and position auctions, the worst-case revenue is attained under the i.i.d. distribution consistent with the observed k-th order statistic. Our results provide a tractable foundation for non-discriminatory auction design, where fairness and privacy are intrinsic consequences of the information structure rather than imposed constraints.",
+      "url": "https://arxiv.org/abs/2602.20429v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.20429v2",
+      "source": "arxiv",
+      "source_id": "2602.20429v2",
+      "published_date": "2026-02-24",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines robust auction design when sellers only observe anonymous, aggregated statistics (like highest or lowest bids) rather than complete bidder information, seeking mechanisms that maximize worst-case expected revenue across all possible underlying bidder distributions consistent with these limited statistics. The authors employ theoretical mechanism design analysis, characterizing optimal auctions under different information structures through analytical proofs. The key contribution shows that simple, widely-used mechanisms are robustly optimal: posted pricing when observing the highest value distribution, Myerson auctions for the lowest value distribution, and second-price auctions with reserves for intermediate order statistics, with results extending to multi-unit and position auctions where worst-case revenue is achieved under i.i.d. distributions."
+    },
+    {
+      "title": "Filling Positions Without Transfers: Screening on Outside Options",
+      "authors": [
+        "Morteza Honarvar",
+        "Joanna Krysta",
+        "Eric Tang"
+      ],
+      "abstract": "A designer offers vertically-differentiated positions to agents in the absence of transfers. Agents have private outside options and may reject their offers ex-post. The designer has preferences over the quantity of agents who accept each position. We show that under a general condition on the distribution of outside options, an optimal mechanism for the designer offers all agents an identical lottery, and we characterize this mechanism. When our condition does not hold, the optimal mechanism may require screening agents by offering a menu of distinct lotteries. Our results follow from a decomposition of agents' participation probabilities in any feasible mechanism.",
+      "url": "https://arxiv.org/abs/2602.10428v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.10428v1",
+      "source": "arxiv",
+      "source_id": "2602.10428v1",
+      "published_date": "2026-02-11",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how a designer should optimally allocate vertically-differentiated positions to agents when transfers are unavailable and agents have private information about their outside options. Using mechanism design theory, the authors decompose participation probabilities across feasible mechanisms and establish conditions under which the optimal mechanism offers identical lotteries to all agents versus screening through distinct lottery menus. The key contribution is showing that under a general distributional condition on outside options, pooling all agents with identical lotteries is optimal, while violation of this condition may require separating mechanisms that screen on agents' private outside option values."
+    },
+    {
+      "title": "The Architecture of Illusion: Network Opacity and Strategic Escalation",
+      "authors": [
+        "Raman Ebrahimi",
+        "Sepehr Ilami",
+        "Babak Heydari",
+        "Isabel Trevino",
+        "Massimo Franceschetti"
+      ],
+      "abstract": "Standard models of bounded rationality typically assume agents either possess accurate knowledge of the population's reasoning abilities (Cognitive Hierarchy) or hold dogmatic, degenerate beliefs (Level-$k$). We introduce the ``Connected Minds'' model, which unifies these frameworks by integrating iterative reasoning with a parameterized network bias. We posit that agents do not observe the global population; rather, they observe a sample biased by their network position, governed by a locality parameter $p$ representing algorithmic ranking, social homophily, or information disclosure. We show that this parameter acts as a continuous bridge: the model collapses to the myopic Level-$k$ recursion as networks become opaque ($p \\to 0$) and recovers the standard Cognitive Hierarchy model under full transparency ($p=1$). Theoretically, we establish that network opacity induces a \\emph{Sophisticated Bias}, causing agents to systematically overestimate the cognitive depth of their opponents while preserving the log-concavity of belief distributions. This makes $p$ an actionable lever: a planner or platform can tune transparency, globally or by segment (a personalized $p_k$), to shape equilibrium behavior. From a mechanism design perspective, we derive the \\emph{Escalation Principle}: in games of strategic complements, restricting information can maximize aggregate effort by trapping agents in echo chambers where they compete against hallucinated, high-sophistication peers. Conversely, we identify a \\emph{Transparency Reversal} for coordination games, where maximizing network visibility is required to minimize variance and stabilize outcomes. Our results suggest that network topology functions as a cognitive zoom lens, determining whether agents behave as local imitators or global optimizers.",
+      "url": "https://arxiv.org/abs/2602.10053v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.10053v2",
+      "source": "arxiv",
+      "source_id": "2602.10053v2",
+      "published_date": "2026-02-10",
+      "categories": [
+        "cs.GT",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how network structure and information transparency affect strategic reasoning in games by introducing the \"Connected Minds\" model that bridges Level-k and Cognitive Hierarchy frameworks. The theoretical model incorporates a locality parameter p representing network opacity, showing that agents observe biased samples of the population based on their network position rather than the full population. The key finding is the \"Escalation Principle\": network opacity creates a \"Sophisticated Bias\" where agents systematically overestimate opponents' cognitive abilities, and in games of strategic complements, platforms can exploit this by restricting information transparency to trap agents in echo chambers and maximize aggregate effort."
+    },
+    {
+      "title": "Lies, Labels, and Mechanisms",
+      "authors": [
+        "Alex L. Brown",
+        "Ethan Park",
+        "Rodrigo A. Velez"
+      ],
+      "abstract": "We test whether lying aversion can steer equilibrium selection in mechanism design. In a principal-worker environment, the direct mechanism admits two dominant-strategy equilibria: the designer's target and a worker-optimal outcome. We show this limitation persists for all robust mechanisms, then ask whether framing misreports as explicit lies helps. We develop a 2X2 experiment that varies direct vs. extended mechanisms with implicit vs. explicit messages. We find that framing misreporting of type as an explicit lie shifts play away from the worker-optimal outcome toward truthful reporting, raising designer payoffs with minimal efficiency loss. These findings indicate that lying aversion is an effective lever for aligning behavior with social objectives.",
+      "url": "https://arxiv.org/abs/2602.16973v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.16973v1",
+      "source": "arxiv",
+      "source_id": "2602.16973v1",
+      "published_date": "2026-02-19",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether lying aversion can resolve equilibrium selection problems in mechanism design where multiple dominant-strategy equilibria exist, including an undesired worker-optimal outcome alongside the designer's target equilibrium. Using a 2\u00d72 laboratory experiment that manipulates mechanism type (direct vs. extended) and message framing (implicit vs. explicit lies), the authors test behavioral responses to different framings of misreporting. The key finding is that explicitly framing type misreporting as \"lying\" significantly reduces play of the worker-optimal equilibrium and increases truthful reporting, thereby improving designer payoffs with minimal efficiency costs, suggesting lying aversion can effectively align individual behavior with socially optimal outcomes in mechanism design."
+    },
+    {
+      "title": "Pricing Discrete and Nonlinear Markets With Semidefinite Relaxations",
+      "authors": [
+        "Cheng Guo",
+        "Lauren Henderson",
+        "Ryan Cory-Wright",
+        "Boshi Yang"
+      ],
+      "abstract": "Nonconvexities in markets with discrete decisions and nonlinear constraints make efficient pricing challenging, often necessitating subsidies. A prime example is the unit commitment (UC) problem in electricity markets, where costly subsidies are commonly required. We propose a new pricing scheme for nonconvex markets with both discreteness and nonlinearity, by convexifying nonconvex structures through a semidefinite programming (SDP) relaxation and deriving prices from the relaxation's dual variables. When the choice set is bounded, we establish strong duality for the SDP, which allows us to extend the envelope theorem to the value function of the relaxation. This extension yields a marginal price signal for demand, which we use as our pricing mechanism. We demonstrate that under certain conditions-for instance, when the relaxation's right hand sides are linear in demand-the resulting lost opportunity cost is bounded by the relaxation's optimality gap. This result highlights the importance of achieving tight relaxations. The proposed framework applies to nonconvex electricity market problems, including for both direct current and alternating current UC. Our numerical experiments indicate that the SDP relaxations are often tight, reinforcing the effectiveness of the proposed pricing scheme. Across a suite of IEEE benchmark instances, the lost opportunity cost under our pricing scheme is, on average, 46% lower than that of the commonly used fixed-binary pricing scheme.",
+      "url": "https://arxiv.org/abs/2602.15722v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.15722v1",
+      "source": "arxiv",
+      "source_id": "2602.15722v1",
+      "published_date": "2026-02-17",
+      "categories": [
+        "math.OC",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses the challenge of efficient pricing in nonconvex electricity markets with discrete decisions and nonlinear constraints, where traditional pricing schemes often require costly subsidies. The methodology uses semidefinite programming (SDP) relaxations to convexify the nonconvex market-clearing problem and derives prices from the dual variables of the relaxation, establishing strong duality conditions and extending the envelope theorem to obtain marginal price signals. The key contribution is a pricing mechanism that bounds lost opportunity costs by the SDP relaxation's optimality gap, demonstrating 46% lower costs compared to fixed-binary pricing schemes across IEEE benchmark instances for unit commitment problems."
+    },
+    {
+      "title": "JSAM: Privacy Straggler-Resilient Joint Client Selection and Incentive Mechanism Design in Differentially Private Federated Learning",
+      "authors": [
+        "Ruichen Xu",
+        "Ying-Jun Angela Zhang",
+        "Jianwei Huang"
+      ],
+      "abstract": "Differentially private federated learning faces a fundamental tension: privacy protection mechanisms that safeguard client data simultaneously create quantifiable privacy costs that discourage participation, undermining the collaborative training process. Existing incentive mechanisms rely on unbiased client selection, forcing servers to compensate even the most privacy-sensitive clients (\"privacy stragglers\"), leading to systemic inefficiency and suboptimal resource allocation. We introduce JSAM (Joint client Selection and privacy compensAtion Mechanism), a Bayesian-optimal framework that simultaneously optimizes client selection probabilities and privacy compensation to maximize training effectiveness under budget constraints. Our approach transforms a complex 2N-dimensional optimization problem into an efficient three-dimensional formulation through novel theoretical characterization of optimal selection strategies. We prove that servers should preferentially select privacy-tolerant clients while excluding high-sensitivity participants, and uncover the counter-intuitive insight that clients with minimal privacy sensitivity may incur the highest cumulative costs due to frequent participation. Extensive evaluations on MNIST and CIFAR-10 demonstrate that JSAM achieves up to 15% improvement in test accuracy compared to existing unbiased selection mechanisms while maintaining cost efficiency across varying data heterogeneity levels.",
+      "url": "https://arxiv.org/abs/2602.21844v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21844v1",
+      "source": "arxiv",
+      "source_id": "2602.21844v1",
+      "published_date": "2026-02-25",
+      "categories": [
+        "cs.LG",
+        "cs.DC",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses how to optimally select clients and design compensation mechanisms in differentially private federated learning when privacy requirements create participation costs that vary across clients. The authors develop JSAM, a Bayesian-optimal theoretical framework that jointly optimizes client selection probabilities and privacy compensation, transforming a complex 2N-dimensional problem into a tractable three-dimensional formulation. The key contribution shows that servers should strategically exclude high-privacy-sensitivity \"stragglers\" and preferentially select privacy-tolerant clients, achieving up to 15% accuracy improvements over unbiased selection methods while maintaining budget efficiency."
+    },
+    {
+      "title": "Economic assessment of hybrid electric vehicles for sustainable transportation and decarbonization in Brazil",
+      "authors": [
+        "Laene Oliveira Soares",
+        "Jos\u00e9 Ricardo Sodr\u00e9",
+        "Lu\u00eds Hern\u00e1ndez-Callejo",
+        "Paulo S\u00e9rgio Duque de Brito",
+        "Ronney Arismel Mancebo Boloy"
+      ],
+      "abstract": "The transportation sector is a significant contributor to global greenhouse gas emissions, demanding the adoption of low-carbon technologies. This study focuses on the economic assessment of two types of hybrid electric vehicles as taxis in Brazil, exploring their potential to ease electric vehicle adoption and contribute to decarbonizing the transportation sector. Environmental life cycle cost, net present value, and total cost of ownership were calculated for hybrid electric vehicles (HEVs) and plug-in hybrid electric vehicles (PHEVs), as taxis and private cars, fuelled by different fuels, in single-fuel and dual-fuel modes. It also compares the Brazilian scenario with Spain and the United Kingdom to examine their economic benefits, considering factors such as purchase costs, operating expenses, and government incentives. Results show that taxis outperform private cars in return on investment, with Spain performing best due to its lower discount rate. Brazil ranked between Spain and the United Kingdom in ELCC and TCO but was the least favourable in NPV. Overall, the research highlights that taxis are identified as a practical short-term alternative for introducing electric vehicles in Brazil, proving to be more economically favourable than private vehicles.",
+      "url": "https://openalex.org/W7128940619",
+      "pdf_url": "https://publications.aston.ac.uk/id/eprint/48705/1/L_Oliveira_Soares_et_al_Economic_assessment_of_hybrid_electric_vehicles_for_sustainable_transportation_and_decarbonization_in_Brazil.pdf",
+      "source": "openalex",
+      "source_id": "W7128940619",
+      "published_date": "2026-03-15",
+      "categories": [
+        "Journal: Aston Publications Explorer (Aston University)",
+        "Taxis",
+        "Greenhouse gas",
+        "Government (linguistics)",
+        "Business",
+        "Electric vehicle"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This study examines the economic viability of hybrid electric vehicles (HEVs and PHEVs) as a pathway for electric vehicle adoption in Brazil's transportation sector, with particular focus on taxi applications versus private use. The methodology employs financial analysis techniques including environmental life cycle cost (ELCC), net present value (NPV), and total cost of ownership (TCO) calculations, comparing Brazilian results against Spain and UK benchmarks across different fuel configurations and vehicle operation modes. The key finding demonstrates that taxi operations significantly outperform private vehicle use in terms of return on investment, positioning commercial taxi fleets as the most economically viable short-term strategy for accelerating electric vehicle penetration in Brazil's decarbonization efforts."
+    }
+  ]
+}

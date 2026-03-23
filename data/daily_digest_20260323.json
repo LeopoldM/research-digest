@@ -1,0 +1,249 @@
+{
+  "generated_at": "2026-03-23T05:44:29.118918",
+  "period": "daily",
+  "paper_count": 13,
+  "papers": [
+    {
+      "title": "Prices vs. Quantities: Robust Regulation",
+      "authors": [
+        "Zi Yang Kang"
+      ],
+      "abstract": "This paper revisits the classic instrument choice problem in a setting with consumption externalities, through the lens of robust mechanism design. A regulator can implement any incentive-compatible policy but is uncertain about how individual demand is correlated with marginal externalities, and evaluates policies by worst-case welfare. The optimal policy is a quantity control: a floor for positive externalities and a ceiling for negative externalities. If the sign of the correlation is known, a uniform tax or subsidy can be optimal. The framework also applies to regulatory uncertainty and costly screening, providing a welfare-based explanation for the prevalence of non-price policies.",
+      "url": "https://arxiv.org/abs/2603.15832v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.15832v1",
+      "source": "arxiv",
+      "source_id": "2603.15832v1",
+      "published_date": "2026-03-16",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines the classic prices versus quantities regulatory instrument choice problem using robust mechanism design, where a regulator is uncertain about the correlation between individual demand and marginal externalities and seeks to maximize worst-case welfare. The methodology is theoretical, employing robust optimization techniques to analyze optimal policy design under uncertainty. The key finding is that quantity controls (floors for positive externalities, ceilings for negative externalities) are optimal under full uncertainty, while price instruments become optimal only when the sign of the demand-externality correlation is known, providing a welfare-theoretic justification for the widespread use of non-price regulatory policies."
+    },
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines why the US and China accelerate AGI development despite catastrophic risks, contradicting standard real options theory that predicts investment delay under high uncertainty. The authors develop a continuous-time preemption game model with endogenous existential risk, where the cost of failure extends beyond sunk investment costs to include a systemic ruin parameter shared globally. The key finding is that competitive pressures create a \"suicide region\" where rational actors deploy AGI early despite negative risk-adjusted NPV, because the shared existential risk cancels out of equilibrium conditions, and this race can only be halted by internalizing ruin costs through private liability mechanisms."
+    },
+    {
+      "title": "Existence of Equilibrium Mechanisms in Generalized Principal-Agent Problems with Interacting Teams",
+      "authors": [
+        "Brian Roberson"
+      ],
+      "abstract": "We study incentive design when multiple principals simultaneously design mechanisms for their respective teams in environments with strategic spillovers. In this environment, each principal's set of incentive-compatible mechanisms--those that satisfy their own agents' incentive compatibility constraints--depends on the mechanisms offered by the other teams. Following a classic example by Myerson (1982), such games may lack equilibrium due to discontinuities in the correspondence of incentive-compatible mechanisms. We establish general conditions for equilibrium existence by introducing a novel approach that involves tracking both the outcome distributions along the truthful-obedient path and the sets of outcome distributions achievable through unilateral deviations, thereby providing a foundation for analyzing a wide range of multi-principal mechanism design with team production and agency problems.",
+      "url": "https://arxiv.org/abs/2602.20281v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.20281v2",
+      "source": "arxiv",
+      "source_id": "2602.20281v2",
+      "published_date": "2026-02-23",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses the fundamental question of whether equilibrium exists in multi-principal mechanism design games where teams interact strategically and each principal designs incentive schemes for their agents while facing spillovers from other teams' mechanisms. The authors develop a theoretical framework that tracks both truthful equilibrium outcomes and deviation sets to overcome discontinuities in incentive-compatible mechanism correspondences that can prevent equilibrium existence (as in Myerson 1982). The key contribution is establishing general sufficient conditions for equilibrium existence in these complex multi-principal environments, providing theoretical foundations for analyzing team production and agency problems with strategic interdependencies."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses how to systematically select optimal uses for underperforming real estate assets requiring redevelopment by developing a decision framework that treats use selection as a strategic options problem rather than purely financial optimization. The methodology combines real options theory (accounting for irreversibility and managerial flexibility) with multi-criteria decision analysis (MCDA) to evaluate alternatives across dimensions of economic value, risk, complexity, and time-to-income. The key contribution is an integrated analytical framework that preserves option value through disciplined ex-ante screening, demonstrated to reduce over-complexification and use-demand misalignment across different asset types and urban contexts."
+    },
+    {
+      "title": "Self-Confirming Mechanisms",
+      "authors": [
+        "Zhiming Feng",
+        "Qingmin Liu"
+      ],
+      "abstract": "This paper studies mechanism design environments in which the designer does not know the distribution of agents' private information a priori and instead learns from agents' behavior induced by the mechanism itself. We formalize a notion of self-confirming mechanisms and a refinement thereof, capturing the idea that an equilibrium mechanism is optimal given the designer's belief and that this belief is consistent with the information produced by the mechanism. We establish a fictitious revelation principle, showing that any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports that preserve the original mechanism's informational content. Applying the framework to a monopoly problem, we show that, subject to an equilibrium refinement, dominant-strategy self-confirming mechanisms are exactly posted-price mechanisms with locally revenue-maximizing prices.",
+      "url": "https://arxiv.org/abs/2603.12532v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.12532v1",
+      "source": "arxiv",
+      "source_id": "2603.12532v1",
+      "published_date": "2026-03-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines mechanism design when the designer must learn agents' type distributions from the mechanism's own induced behavior rather than knowing them a priori. Using a theoretical approach, the authors develop the concept of self-confirming mechanisms where the designer's beliefs are consistent with information generated by the mechanism itself, and establish a \"fictitious revelation principle\" showing any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports. Applied to monopoly pricing, they demonstrate that dominant-strategy self-confirming mechanisms reduce exactly to posted-price mechanisms with locally revenue-maximizing prices."
+    },
+    {
+      "title": "Stochastic Optimization and Coupling",
+      "authors": [
+        "Frank Yang",
+        "Kai Hao Yang"
+      ],
+      "abstract": "We study optimization problems in which a linear functional is maximized over probability measures that are dominated by a given measure according to an integral stochastic order in an arbitrary dimension. We show that the following four properties are equivalent for any such order: (i) the test function cone is closed under pointwise minimum, (ii) the value function is affine, (iii) the solution correspondence has a convex graph with decomposable extreme points, and (iv) every ordered pair of measures admits an order-preserving coupling. As corollaries, we derive the extreme and exposed point properties involving integral stochastic orders such as multidimensional mean-preserving spreads and stochastic dominance. Applying these results, we generalize Blackwell's theorem by completely characterizing the comparisons of experiments that admit two equivalent descriptions -- through instrumental values and through information technologies. We also show that these results immediately yield new insights into information design, mechanism design, and decision theory.",
+      "url": "https://arxiv.org/abs/2603.11448v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.11448v1",
+      "source": "arxiv",
+      "source_id": "2603.11448v1",
+      "published_date": "2026-03-12",
+      "categories": [
+        "econ.TH",
+        "math.PR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates stochastic optimization problems where a linear functional is maximized over probability measures constrained by integral stochastic orders in arbitrary dimensions. Using theoretical analysis, the authors establish the equivalence of four key properties: closure of test function cones under pointwise minimum, affinity of the value function, convexity properties of solution correspondences, and existence of order-preserving couplings between measure pairs. The main contribution is a comprehensive characterization theorem that generalizes Blackwell's comparison of experiments and provides new theoretical foundations for information design, mechanism design, and decision theory through the lens of stochastic orders and optimal couplings."
+    },
+    {
+      "title": "Delegation in Strategic Environments and Equilibrium Uniqueness",
+      "authors": [
+        "Fedor Sandomirskiy",
+        "Ben Wincelberg"
+      ],
+      "abstract": "We ask when a normal-form game yields a single equilibrium prediction, even if players can coordinate by delegating play to an intermediary such as a platform or a cartel. Delegation outcomes are modeled via coarse correlated equilibria (CCE) when the intermediary cannot punish deviators, and via the set of individually rational correlated profiles (IRCP) when it can. We characterize games in which the IRCP or the CCE is unique, uncovering a structural link between these solution concepts. Our analysis also provides new conditions for the uniqueness of classical correlated and Nash equilibria that do not rely on the existence of dominant strategies. The resulting equilibria are robust to players' information about the environment, payoff perturbations, pre-play communication, equilibrium selection, and learning dynamics. We apply these results to collusion-proof mechanism design.",
+      "url": "https://arxiv.org/abs/2602.21470v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21470v1",
+      "source": "arxiv",
+      "source_id": "2602.21470v1",
+      "published_date": "2026-02-25",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates when strategic games have unique equilibrium predictions under delegation to intermediaries like platforms or cartels. The methodology is theoretical, modeling delegation outcomes through coarse correlated equilibria (CCE) when intermediaries cannot punish deviators and individually rational correlated profiles (IRCP) when they can, then characterizing conditions for uniqueness in each case. The key contribution is establishing structural conditions for equilibrium uniqueness that don't require dominant strategies, yielding robust predictions across information structures, payoff perturbations, communication, and learning dynamics, with applications to collusion-proof mechanism design."
+    },
+    {
+      "title": "Robust Mechanism Design with Anonymous Information",
+      "authors": [
+        "Zhihao Gavin Tang",
+        "Shixin Wang"
+      ],
+      "abstract": "In practice, auction data are often endogenously censored and anonymous, revealing only limited outcome statistics rather than full bid profiles. We study robust auction design when the seller observes only aggregated, anonymous order statistics and seeks to maximize worst-case expected revenue over all product distributions consistent with the observed statistic. We show that simple and widely used mechanisms are robustly optimal. Specifically, posted pricing is robustly optimal given the distribution of the highest value; the Myerson auction designed for the unique consistent i.i.d. distribution is robustly optimal given the lowest value distribution; and the second-price auction with an optimal reserve is robustly optimal when an intermediate order statistic is observed and the implied i.i.d. distribution is regular above its reserve. More generally, for a broad class of monotone symmetric mechanisms depending only on the top k order statistics, including multi-unit and position auctions, the worst-case revenue is attained under the i.i.d. distribution consistent with the observed k-th order statistic. Our results provide a tractable foundation for non-discriminatory auction design, where fairness and privacy are intrinsic consequences of the information structure rather than imposed constraints.",
+      "url": "https://arxiv.org/abs/2602.20429v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.20429v2",
+      "source": "arxiv",
+      "source_id": "2602.20429v2",
+      "published_date": "2026-02-24",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines optimal auction design when sellers only observe anonymous, aggregated bidding statistics (e.g., highest or lowest bid) rather than complete bid profiles, seeking mechanisms that maximize worst-case expected revenue across all possible underlying bidder value distributions consistent with the observed data. Using robust optimization theory, the authors prove that simple, widely-used mechanisms are optimal: posted pricing when observing the highest value distribution, Myerson auctions for the lowest value distribution, and second-price auctions with reserves for intermediate order statistics. The key contribution is demonstrating that standard auction formats are robustly optimal under realistic information constraints, providing theoretical justification for their prevalence while naturally achieving fairness and privacy without additional constraints."
+    },
+    {
+      "title": "Revenue Non-monotonicity in Matching Markets",
+      "authors": [
+        "Jason Hartline"
+      ],
+      "abstract": "The Vickrey-Clarke-Groves (VCG) mechanism is infamously revenue   non-monotone in combinatorial auctions. I.e., when a buyer increases   their value for a bundle of items, the total auction revenue may decrease.   Combinatorial auctions exhibit complementarities which broadly   result in complexities in auction theory. This brief note shows   that non-monotonicity in multi-item auctions is not a result of   complementarities, and in fact, VCG is revenue non-monotone even in matching   markets.",
+      "url": "https://arxiv.org/abs/2602.20439v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.20439v1",
+      "source": "arxiv",
+      "source_id": "2602.20439v1",
+      "published_date": "2026-02-24",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether revenue non-monotonicity in VCG mechanisms stems from complementarities in multi-item settings. Using theoretical analysis, the author demonstrates that VCG exhibits revenue non-monotonicity even in matching markets where complementarities are absent, showing that complementarities are not the source of this problematic property. The key contribution is disproving the common intuition that complementarities cause VCG's revenue non-monotonicity by providing a counterexample in the simpler matching market context."
+    },
+    {
+      "title": "Filling Positions Without Transfers: Screening on Outside Options",
+      "authors": [
+        "Morteza Honarvar",
+        "Joanna Krysta",
+        "Eric Tang"
+      ],
+      "abstract": "A designer offers vertically-differentiated positions to agents in the absence of transfers. Agents have private outside options and may reject their offers ex-post. The designer has preferences over the quantity of agents who accept each position. We show that under a general condition on the distribution of outside options, an optimal mechanism for the designer offers all agents an identical lottery, and we characterize this mechanism. When our condition does not hold, the optimal mechanism may require screening agents by offering a menu of distinct lotteries. Our results follow from a decomposition of agents' participation probabilities in any feasible mechanism.",
+      "url": "https://arxiv.org/abs/2602.10428v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.10428v1",
+      "source": "arxiv",
+      "source_id": "2602.10428v1",
+      "published_date": "2026-02-11",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper studies how a designer optimally allocates vertically-differentiated positions to agents when transfers are unavailable and agents have private outside options that allow ex-post rejection. Using mechanism design theory, the authors derive conditions under which the optimal mechanism offers identical lotteries to all agents versus screening through menus of distinct lotteries, based on the distribution of outside options. The key contribution is showing that under a general distributional condition, offering uniform lotteries dominates screening mechanisms, with the analysis enabled by decomposing agents' participation probabilities across feasible mechanisms."
+    },
+    {
+      "title": "The Architecture of Illusion: Network Opacity and Strategic Escalation",
+      "authors": [
+        "Raman Ebrahimi",
+        "Sepehr Ilami",
+        "Babak Heydari",
+        "Isabel Trevino",
+        "Massimo Franceschetti"
+      ],
+      "abstract": "Standard models of bounded rationality typically assume agents either possess accurate knowledge of the population's reasoning abilities (Cognitive Hierarchy) or hold dogmatic, degenerate beliefs (Level-$k$). We introduce the ``Connected Minds'' model, which unifies these frameworks by integrating iterative reasoning with a parameterized network bias. We posit that agents do not observe the global population; rather, they observe a sample biased by their network position, governed by a locality parameter $p$ representing algorithmic ranking, social homophily, or information disclosure. We show that this parameter acts as a continuous bridge: the model collapses to the myopic Level-$k$ recursion as networks become opaque ($p \\to 0$) and recovers the standard Cognitive Hierarchy model under full transparency ($p=1$). Theoretically, we establish that network opacity induces a \\emph{Sophisticated Bias}, causing agents to systematically overestimate the cognitive depth of their opponents while preserving the log-concavity of belief distributions. This makes $p$ an actionable lever: a planner or platform can tune transparency, globally or by segment (a personalized $p_k$), to shape equilibrium behavior. From a mechanism design perspective, we derive the \\emph{Escalation Principle}: in games of strategic complements, restricting information can maximize aggregate effort by trapping agents in echo chambers where they compete against hallucinated, high-sophistication peers. Conversely, we identify a \\emph{Transparency Reversal} for coordination games, where maximizing network visibility is required to minimize variance and stabilize outcomes. Our results suggest that network topology functions as a cognitive zoom lens, determining whether agents behave as local imitators or global optimizers.",
+      "url": "https://arxiv.org/abs/2602.10053v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.10053v2",
+      "source": "arxiv",
+      "source_id": "2602.10053v2",
+      "published_date": "2026-02-10",
+      "categories": [
+        "cs.GT",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how network opacity affects strategic reasoning by introducing a \"Connected Minds\" model that bridges Level-k and Cognitive Hierarchy frameworks through a locality parameter p representing how much agents observe beyond their local network position. Using theoretical analysis, the authors demonstrate that network opacity creates a \"Sophisticated Bias\" where agents overestimate opponents' cognitive depth, and derive an \"Escalation Principle\" showing that platforms can strategically restrict information transparency to increase aggregate effort in games with strategic complements by trapping agents in echo chambers. The key contribution is establishing network transparency as an actionable policy lever for mechanism designers to manipulate equilibrium behavior through controlled information architecture."
+    },
+    {
+      "title": "A mechanism design overview of Sedna",
+      "authors": [
+        "Benjamin Marsh",
+        "Alejandro Ranchal-Pedrosa"
+      ],
+      "abstract": "Sedna is a coded multi-proposer consensus protocol in which a sender shards a transaction payload into rateless symbols and disseminates them across parallel proposer lanes, providing high throughput and ``until decode'' privacy. This paper studies a sharp incentive failure in such systems. A cartel of lane proposers can withhold the bundles addressed to its lanes, slowing the chain's symbol accumulation while privately pooling the missing symbols. Because finalized symbols become public, the cartel's multi-slot information lead is governed by a chain level delay event where the chain fails to accumulate the $\u03ba$ bundles needed for decoding by the honest horizon $t^\\star=\\lceil \u03ba/m\\rceil$. We characterize the resulting delay probability with KL-type large deviation bounds and show a knife edge pathology when the slack $\u0394=t^\\star m-\u03ba$ is zero such that withholding a single bundle suffices to push inclusion into the next slot with high probability.   We propose \\textsf{PIVOT-$K$}, a Sedna native pivotal bundle bounty that concentrates rewards on the $\u03ba$ bundles that actually trigger decoding, and we derive explicit incentive compatibility conditions against partial and coalition deviations. We further show that an adaptive sender ``ratchet'' that excludes lanes whose tickets were not redeemed collapses multi-slot withholding into a first slot deficit when $t^\\star\\ge 2$, reducing the required bounty by orders of magnitude. We close by bounding irreducible within slot decode races and providing parameter guidance and numerical illustrations. Our results show that for realistic parameters Sedna can reduce MEV costs to 0.04\\% of the transaction value.",
+      "url": "https://arxiv.org/abs/2603.17614v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.17614v1",
+      "source": "arxiv",
+      "source_id": "2603.17614v1",
+      "published_date": "2026-03-18",
+      "categories": [
+        "cs.GT",
+        "cs.DC"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper analyzes the incentive design problem in Sedna, a multi-proposer blockchain consensus protocol where transactions are sharded across parallel lanes using rateless coding. The methodology combines game-theoretic mechanism design with large deviation theory to characterize when cartels of lane proposers can profitably withhold transaction bundles to gain informational advantages. The key contribution is proposing PIVOT-K, an incentive-compatible bounty mechanism that rewards only the \u03ba bundles that trigger decoding, coupled with an adaptive \"ratchet\" that excludes non-participating lanes and reduces required bounties by orders of magnitude while preventing multi-slot withholding attacks."
+    },
+    {
+      "title": "Learning, Misspecification, and Cognitive Arbitrage in Linear-Quadratic Network Games",
+      "authors": [
+        "Quanyan Zhu",
+        "Zhengye Han"
+      ],
+      "abstract": "We study strategic interaction in linear-quadratic network games where agents act on subjective, misspecified models of their environment. Agents observe noisy aggregate signals generated by local network externalities and interpret them through simplified conjectures, such as constant or mean-field representations. We characterize the long-run behavior using the Berk-Nash equilibrium (BNE) concept, establishing conditions under which BNE diverges from the Nash equilibrium of the perfectly specified game. We quantify this divergence using a Value of Misspecification (VoM) metric. Building on this framework, we introduce \"cognitive arbitrage\" -- a design paradigm where a system designer strategically shapes agents' conjectures via minimal observation distortions to steer equilibrium outcomes. We formulate the cognitive arbitrage problem as a Stackelberg optimization with closed-form solutions and prove the convergence of a two-time-scale learning algorithm to the optimal BNE. Our results provide a principled framework for influencing behavior in networked systems with bounded rationality, offering a new perspective on mechanism design that operates on agents' representations rather than their incentives.",
+      "url": "https://arxiv.org/abs/2603.17157v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.17157v1",
+      "source": "arxiv",
+      "source_id": "2603.17157v1",
+      "published_date": "2026-03-17",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how strategic agents with misspecified models behave in linear-quadratic network games where they observe noisy aggregate signals but use simplified conjectures (e.g., constant or mean-field approximations) to interpret their environment. Using theoretical analysis, the authors characterize long-run behavior via Berk-Nash equilibrium and introduce a \"cognitive arbitrage\" framework where a system designer optimally distorts agents' observations to steer equilibrium outcomes toward desired targets. The key contribution is a closed-form Stackelberg optimization solution with convergence guarantees for a two-time-scale learning algorithm, providing a novel mechanism design approach that manipulates agents' mental models rather than their direct incentives."
+    }
+  ]
+}

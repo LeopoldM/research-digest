@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - March 23, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This digest covers 13 papers spanning mechanism design, screening, and auction theory. The majority focus on mechanism design with notable contributions including &quot;Prices vs. Quantities: Robust Regulation&quot; which directly relates to energy policy instruments, and &quot;Robust Mechanism Design with Anonymous Information&quot; addressing information asymmetries common in energy markets. Additional papers examine screening mechanisms for investment decisions and revenue properties in matching markets, providing relevant insights for energy market structure and regulatory design.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2603.15832v1" target="_blank">Prices vs. Quantities: Robust Regulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zi Yang Kang
+            • 2026-03-16
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper examines the classic prices versus quantities regulatory instrument choice problem using robust mechanism design, where a regulator is uncertain about the correlation between individual demand and marginal externalities and seeks to maximize worst-case welfare. The methodology is theoretical, employing robust optimization techniques to analyze optimal policy design under uncertainty. The key finding is that quantity controls (floors for positive externalities, ceilings for negative externalities) are optimal under full uncertainty, while price instruments become optimal only when the sign of the demand-externality correlation is known, providing a welfare-theoretic justification for the widespread use of non-price regulatory policies.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.07526v1" target="_blank">The Suicide Region: Option Games and the Race to Artificial General Intelligence</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • David Tan
+            • 2025-12-08
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, real options</span>
+        </div>
+        <div class="paper-summary">This paper examines why the US and China accelerate AGI development despite catastrophic risks, contradicting standard real options theory that predicts investment delay under high uncertainty. The authors develop a continuous-time preemption game model with endogenous existential risk, where the cost of failure extends beyond sunk investment costs to include a systemic ruin parameter shared globally. The key finding is that competitive pressures create a &quot;suicide region&quot; where rational actors deploy AGI early despite negative risk-adjusted NPV, because the shared existential risk cancels out of equilibrium conditions, and this race can only be halted by internalizing ruin costs through private liability mechanisms.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2602.20281v2" target="_blank">Existence of Equilibrium Mechanisms in Generalized Principal-Agent Problems with Interacting Teams</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Brian Roberson
+            • 2026-02-23
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">mechanism design, principal-agent</span>
+        </div>
+        <div class="paper-summary">This paper addresses the fundamental question of whether equilibrium exists in multi-principal mechanism design games where teams interact strategically and each principal designs incentive schemes for their agents while facing spillovers from other teams&#x27; mechanisms. The authors develop a theoretical framework that tracks both truthful equilibrium outcomes and deviation sets to overcome discontinuities in incentive-compatible mechanism correspondences that can prevent equilibrium existence (as in Myerson 1982). The key contribution is establishing general sufficient conditions for equilibrium existence in these complex multi-principal environments, providing theoretical foundations for analyzing team production and agency problems with strategic interdependencies.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.22166v1" target="_blank">A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Roberto Garrone
+            • 2026-01-15
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">screening, real options</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to systematically select optimal uses for underperforming real estate assets requiring redevelopment by developing a decision framework that treats use selection as a strategic options problem rather than purely financial optimization. The methodology combines real options theory (accounting for irreversibility and managerial flexibility) with multi-criteria decision analysis (MCDA) to evaluate alternatives across dimensions of economic value, risk, complexity, and time-to-income. The key contribution is an integrated analytical framework that preserves option value through disciplined ex-ante screening, demonstrated to reduce over-complexification and use-demand misalignment across different asset types and urban contexts.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2603.12532v1" target="_blank">Self-Confirming Mechanisms</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zhiming Feng, Qingmin Liu
+            • 2026-03-13
+        </div>
+        <div>
+            <span class="paper-score">Score: 7</span>
+            <span class="paper-keywords">mechanism design</span>
+        </div>
+        <div class="paper-summary">This paper examines mechanism design when the designer must learn agents&#x27; type distributions from the mechanism&#x27;s own induced behavior rather than knowing them a priori. Using a theoretical approach, the authors develop the concept of self-confirming mechanisms where the designer&#x27;s beliefs are consistent with information generated by the mechanism itself, and establish a &quot;fictitious revelation principle&quot; showing any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports. Applied to monopoly pricing, they demonstrate that dominant-strategy self-confirming mechanisms reduce exactly to posted-price mechanisms with locally revenue-maximizing prices.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

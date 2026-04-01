@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-04-01T06:00:43.797449",
+  "period": "daily",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "Salience and (Non-)Buyer's Remorse: Optimal Nonlinear Pricing with Cognitively Constrained Consumers -- by Aaron L. Bodoh-Creed, Brent R. Hickman, John A. List, Ian Muir, Gregory K. Sun",
+      "authors": [],
+      "abstract": "Nonlinear pricing theory predicts that firms can extract surplus by inducing heterogeneous consumers to self-sort across price contract offers that are ex-post optimal for them. We study subscription pricing when the frictionless sorting assumption fails. Using large-scale subscription experiments conducted by Lyft, we document systematic deviations from optimal self-selection: many high-demand consumers decline subscriptions that would have saved them money, while some subscribers fail to break even. We develop a structural model of intensive-margin demand in which consumers may exhibit salience failures, forecast errors about future demand, or impulsivity. We show that subscription uptake can be recast as one-sided noncompliance in a binary-instrument framework, allowing us to leverage LATE methods to identify counterfactual outcome distributions and a novel \u201cuptake function\u201d linking baseline outcomes to compliance behavior. Combining experimental price variation with this identification strategy, we recover utility primitives, demand heterogeneity, and behavioral parameters. Salience failures and forecast errors play quantitatively important roles. Counterfactual analyses show that optimal subscription pricing generates substantial gains relative to linear pricing, but these gains are highly sensitive to consumer deviations from ex-post optimal choice. Implementing nonlinear pricing therefore requires not only optimal contract design for consumer screening, but also coordinated efforts to mitigate behavioral frictions.",
+      "url": "https://www.nber.org/papers/w35003#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35003#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35003",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper examines how behavioral biases affect firms' ability to extract surplus through nonlinear pricing when consumers fail to optimally self-select into subscription contracts. Using large-scale field experiments with Lyft's subscription service, the authors develop a structural model incorporating salience failures, forecast errors, and impulsivity, and employ a novel identification strategy treating subscription uptake as one-sided noncompliance in a binary-instrument framework with LATE methods. The key finding is that while optimal nonlinear pricing can generate substantial gains over linear pricing, these gains are highly sensitive to systematic deviations from rational choice\u2014particularly salience failures and demand forecast errors\u2014requiring firms to coordinate optimal contract design with strategies that address consumer cognitive constraints."
+    }
+  ]
+}

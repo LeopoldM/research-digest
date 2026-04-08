@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-04-08T05:52:34.803286",
+  "period": "daily",
+  "paper_count": 16,
+  "papers": [
+    {
+      "title": "Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism",
+      "authors": [
+        "Shobhit Singhal",
+        "Lesia Mitridati",
+        "Licio Romao"
+      ],
+      "abstract": "Renewable power sources have low marginal pro-duction costs, but may result in high balancing costs due to the inherent production uncertainty. Current day-ahead markets elicit only point production profiles and neglect the degree of uncertainty associated with each generating asset, preventing the market operator from accounting for balancing costs in day-ahead dispatch and ancillary service procurement. This increases total system costs and undermines market efficiency, especially in renewable-heavy power systems. To address this, we propose a new market clearing paradigm based on a two-stage mechanism, where producers report their production forecast distribution in the day-ahead stage, followed by the realized production in the real-time stage. By extending the Vickery-Clarke-Groves (VCG) payments to the two-stage setting, we show appealing properties in terms of incentive compatibility and individual rationality. An electricity market case study validates the theoretical claims, and illustrates the effectiveness of the proposed mechanism to reduce system costs.",
+      "url": "https://arxiv.org/abs/2604.02455v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02455v1",
+      "source": "arxiv",
+      "source_id": "2604.02455v1",
+      "published_date": "2026-04-02",
+      "categories": [
+        "eess.SY",
+        "econ.TH"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper addresses how electricity markets can better incorporate production uncertainty from renewable sources by designing a mechanism that elicits truthful uncertainty information from generators. The methodology develops a two-stage theoretical mechanism extending Vickrey-Clarke-Groves (VCG) payments, where producers report their full production forecast distributions in day-ahead markets rather than just point forecasts, followed by realized production reporting in real-time. The key contribution is proving this mechanism achieves incentive compatibility and individual rationality while demonstrating through case studies that accounting for uncertainty information in dispatch decisions reduces total system costs compared to current market designs that ignore production uncertainty."
+    },
+    {
+      "title": "Carbon Regulation and Competition in the European Airline Industry",
+      "authors": [
+        "Ertian Chen",
+        "Lichao Chen",
+        "Lars Nesheim"
+      ],
+      "abstract": "The European Union Emissions Trading System is set to substantially increase the effective carbon price faced by airlines. To quantify the impact of this carbon regulation on the European airline industry, we estimate a two-stage model of airline competition with endogenous route entry, flight frequencies, and pricing using European data on market shares and prices. Counterfactual simulations reveal that the impacts of carbon pricing are highly asymmetric across carrier types and market segments. Consumer surplus declines by up to 25% overall, with medium-haul markets bearing the brunt at up to 90%, while short-haul markets experience positive net welfare gains (including carbon revenue and the social value of avoided emissions) as airlines reallocate capacity toward shorter routes. We find that airline profits decline by 8-45% across scenarios, while carbon tax revenue of $0.9-3.1 billion and a social value of avoided CO2 emissions of $0.5-1.4 billion partially offset the welfare losses. We also show that a hypothetical Wizz Air-Ryanair merger primarily benefits firm profits through network expansion synergies.",
+      "url": "https://arxiv.org/abs/2603.27724v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27724v1",
+      "source": "arxiv",
+      "source_id": "2603.27724v1",
+      "published_date": "2026-03-29",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper examines how EU carbon pricing through the Emissions Trading System affects competition and welfare in the European airline industry. The authors employ a two-stage structural model of airline competition estimated on European market share and pricing data, incorporating endogenous route entry, flight frequency, and pricing decisions. Key findings show highly asymmetric impacts: consumer surplus falls up to 25% overall (90% in medium-haul markets), airline profits decline 8-45%, but short-haul markets experience net welfare gains as airlines reallocate capacity toward shorter routes, with carbon revenues ($0.9-3.1B) and social benefits from avoided emissions ($0.5-1.4B) partially offsetting losses."
+    },
+    {
+      "title": "Lexicographic Robustness and the Efficiency of Optimal Mechanisms",
+      "authors": [
+        "Ashwin Kambhampati"
+      ],
+      "abstract": "A central challenge in mechanism design is to identify mechanisms whose performance is robust under uncertainty about the environment. The maxmin optimality criterion is commonly used for this purpose, but it often yields a large and economically uninformative set of mechanisms. This paper proposes a lexicographic approach to refining the maxmin criterion and characterizes the efficiency of optimal mechanisms. In canonical screening and auction environments, the strongest refinement $\\unicode{x2013}$ proper robustness $\\unicode{x2013}$ selects ex post efficient mechanisms. By contrast, in a public good provision environment, it identifies the precise form of optimal inefficiencies, which become severe in large economies.",
+      "url": "https://arxiv.org/abs/2604.06105v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06105v1",
+      "source": "arxiv",
+      "source_id": "2604.06105v1",
+      "published_date": "2026-04-07",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper addresses how to design robust mechanisms when the designer faces uncertainty about the economic environment by proposing a lexicographic refinement of the standard maxmin criterion. The methodology is theoretical, developing the concept of \"proper robustness\" as the strongest lexicographic refinement and characterizing optimal mechanisms in screening, auction, and public good settings. The key finding is that proper robustness yields ex post efficient mechanisms in screening and auction environments, but in public good provision it identifies specific optimal inefficiencies that become severe as economies grow large."
+    },
+    {
+      "title": "Prices vs. Quantities: Robust Regulation",
+      "authors": [
+        "Zi Yang Kang"
+      ],
+      "abstract": "This paper revisits the classic instrument choice problem in a setting with consumption externalities, through the lens of robust mechanism design. A regulator can implement any incentive-compatible policy but is uncertain about how individual demand is correlated with marginal externalities, and evaluates policies by worst-case welfare. The optimal policy is a quantity control: a floor for positive externalities and a ceiling for negative externalities. If the sign of the correlation is known, a uniform tax or subsidy can be optimal. The framework also applies to regulatory uncertainty and costly screening, providing a welfare-based explanation for the prevalence of non-price policies.",
+      "url": "https://arxiv.org/abs/2603.15832v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.15832v1",
+      "source": "arxiv",
+      "source_id": "2603.15832v1",
+      "published_date": "2026-03-16",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines the classic prices versus quantities instrument choice problem under regulatory uncertainty about the correlation between individual demand and marginal externalities, using robust mechanism design where the regulator maximizes worst-case welfare. The methodology is theoretical, employing mechanism design with robust optimization to characterize optimal policies under uncertainty. The key finding is that quantity controls (floors for positive externalities, ceilings for negative externalities) are optimal under uncertainty, while uniform pricing instruments become optimal only when the sign of the demand-externality correlation is known, providing a welfare-theoretic rationale for the widespread use of quantity-based regulations."
+    },
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines why the US and China are accelerating AI investment despite acknowledging catastrophic risks from AGI misalignment, which contradicts standard real options theory that predicts investment delay under high uncertainty. The authors develop a continuous-time preemption game with endogenous existential risk, where the failure cost is a globally-shared systemic ruin parameter rather than just sunk investment costs. The key finding is that shared catastrophic risk mathematically cancels out of players' equilibrium conditions, creating a \"suicide region\" where competitive pressures force rational agents to deploy AGI early despite negative risk-adjusted NPV, and only internalizing ruin costs through private liability can restore optimal delay incentives."
+    },
+    {
+      "title": "Existence of Equilibrium Mechanisms in Generalized Principal-Agent Problems with Interacting Teams",
+      "authors": [
+        "Brian Roberson"
+      ],
+      "abstract": "We study incentive design when multiple principals simultaneously design mechanisms for their respective teams in environments with strategic spillovers. In this environment, each principal's set of incentive-compatible mechanisms--those that satisfy their own agents' incentive compatibility constraints--depends on the mechanisms offered by the other teams. Following a classic example by Myerson (1982), such games may lack equilibrium due to discontinuities in the correspondence of incentive-compatible mechanisms. We establish general conditions for equilibrium existence by introducing a novel approach that involves tracking both the outcome distributions along the truthful-obedient path and the sets of outcome distributions achievable through unilateral deviations, thereby providing a foundation for analyzing a wide range of multi-principal mechanism design with team production and agency problems.",
+      "url": "https://arxiv.org/abs/2602.20281v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.20281v2",
+      "source": "arxiv",
+      "source_id": "2602.20281v2",
+      "published_date": "2026-02-23",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses the fundamental question of whether equilibrium exists in multi-principal mechanism design games where teams interact strategically and each principal's feasible mechanism set depends on competitors' choices. The authors employ theoretical analysis using a novel approach that tracks both truthful equilibrium outcomes and the sets of achievable deviations to characterize the correspondence of incentive-compatible mechanisms. The key contribution is establishing general sufficient conditions for equilibrium existence in these games, overcoming the discontinuity problems identified in Myerson (1982) that can cause equilibrium failure in multi-principal environments with strategic spillovers."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This research addresses how to systematically select optimal uses for underperforming real estate assets requiring redevelopment by integrating real options theory with multi-criteria decision analysis. The methodology combines theoretical real options logic (emphasizing irreversibility and managerial flexibility) with a multi-criteria decision framework that evaluates economic value, risk, complexity, and time-to-income across alternative uses. The key contribution is an ex-ante decision framework that treats redevelopment as strategic option selection rather than design optimization, demonstrating through illustrative cases that this approach reduces complexity and use-demand misalignment while preserving option value."
+    },
+    {
+      "title": "Self-Confirming Mechanisms",
+      "authors": [
+        "Zhiming Feng",
+        "Qingmin Liu"
+      ],
+      "abstract": "This paper studies mechanism design environments in which the designer does not know the distribution of agents' private information a priori and instead learns from agents' behavior induced by the mechanism itself. We formalize a notion of self-confirming mechanisms and a refinement thereof, capturing the idea that an equilibrium mechanism is optimal given the designer's belief and that this belief is consistent with the information produced by the mechanism. We establish a fictitious revelation principle, showing that any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports that preserve the original mechanism's informational content. Applying the framework to a monopoly problem, we show that, subject to an equilibrium refinement, dominant-strategy self-confirming mechanisms are exactly posted-price mechanisms with locally revenue-maximizing prices.",
+      "url": "https://arxiv.org/abs/2603.12532v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.12532v1",
+      "source": "arxiv",
+      "source_id": "2603.12532v1",
+      "published_date": "2026-03-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines mechanism design when the designer lacks prior knowledge of agents' type distributions and must learn from behavior generated by the mechanism itself. The authors develop a theoretical framework using self-confirming equilibrium concepts and establish a \"fictitious revelation principle\" showing any incentive-compatible mechanism can be represented as a direct mechanism with appropriately filtered type reports. Applied to monopoly pricing, they prove that dominant-strategy self-confirming mechanisms correspond precisely to posted-price mechanisms with locally revenue-maximizing prices, providing a learning-based foundation for simple pricing rules."
+    },
+    {
+      "title": "Stochastic Optimization and Coupling",
+      "authors": [
+        "Frank Yang",
+        "Kai Hao Yang"
+      ],
+      "abstract": "We study optimization problems in which a linear functional is maximized over probability measures that are dominated by a given measure according to an integral stochastic order in an arbitrary dimension. We show that the following four properties are equivalent for any such order: (i) the test function cone is closed under pointwise minimum, (ii) the value function is affine, (iii) the solution correspondence has a convex graph with decomposable extreme points, and (iv) every ordered pair of measures admits an order-preserving coupling. As corollaries, we derive the extreme and exposed point properties involving integral stochastic orders such as multidimensional mean-preserving spreads and stochastic dominance. Applying these results, we generalize Blackwell's theorem by completely characterizing the comparisons of experiments that admit two equivalent descriptions -- through instrumental values and through information technologies. We also show that these results immediately yield new insights into information design, mechanism design, and decision theory.",
+      "url": "https://arxiv.org/abs/2603.11448v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.11448v1",
+      "source": "arxiv",
+      "source_id": "2603.11448v1",
+      "published_date": "2026-03-12",
+      "categories": [
+        "econ.TH",
+        "math.PR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines stochastic optimization problems where linear functionals are maximized over probability measures constrained by integral stochastic orders in arbitrary dimensions. Using theoretical analysis, the authors establish the equivalence of four key properties: closure of test function cones under pointwise minimum, affinity of value functions, convexity of solution correspondences with decomposable extreme points, and existence of order-preserving couplings between measure pairs. The main contribution is a generalization of Blackwell's theorem that completely characterizes experimental comparisons admitting equivalent descriptions through both instrumental values and information technologies, with applications to information design, mechanism design, and decision theory."
+    },
+    {
+      "title": "Delegation in Strategic Environments and Equilibrium Uniqueness",
+      "authors": [
+        "Fedor Sandomirskiy",
+        "Ben Wincelberg"
+      ],
+      "abstract": "We ask when a normal-form game yields a single equilibrium prediction, even if players can coordinate by delegating play to an intermediary such as a platform or a cartel. Delegation outcomes are modeled via coarse correlated equilibria (CCE) when the intermediary cannot punish deviators, and via the set of individually rational correlated profiles (IRCP) when it can. We characterize games in which the IRCP or the CCE is unique, uncovering a structural link between these solution concepts. Our analysis also provides new conditions for the uniqueness of classical correlated and Nash equilibria that do not rely on the existence of dominant strategies. The resulting equilibria are robust to players' information about the environment, payoff perturbations, pre-play communication, equilibrium selection, and learning dynamics. We apply these results to collusion-proof mechanism design.",
+      "url": "https://arxiv.org/abs/2602.21470v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21470v1",
+      "source": "arxiv",
+      "source_id": "2602.21470v1",
+      "published_date": "2026-02-25",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates when strategic games have unique equilibrium predictions under delegation to intermediaries who may or may not have enforcement power. The methodology is theoretical, characterizing games where coarse correlated equilibria (CCE) are unique when intermediaries cannot punish deviations, and where individually rational correlated profiles (IRCP) are unique when they can enforce compliance. The key contribution is establishing structural connections between these solution concepts and deriving new uniqueness conditions for classical equilibria that don't require dominant strategies, with applications to robust mechanism design."
+    },
+    {
+      "title": "Revenue Non-monotonicity in Matching Markets",
+      "authors": [
+        "Jason Hartline"
+      ],
+      "abstract": "The Vickrey-Clarke-Groves (VCG) mechanism is infamously revenue   non-monotone in combinatorial auctions. I.e., when a buyer increases   their value for a bundle of items, the total auction revenue may decrease.   Combinatorial auctions exhibit complementarities which broadly   result in complexities in auction theory. This brief note shows   that non-monotonicity in multi-item auctions is not a result of   complementarities, and in fact, VCG is revenue non-monotone even in matching   markets.",
+      "url": "https://arxiv.org/abs/2602.20439v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.20439v1",
+      "source": "arxiv",
+      "source_id": "2602.20439v1",
+      "published_date": "2026-02-24",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether revenue non-monotonicity in VCG mechanisms stems from complementarities in multi-item settings. Using theoretical analysis, the author demonstrates that VCG exhibits revenue non-monotonicity even in matching markets where complementarities are absent, thereby showing that complementarities are not the fundamental cause of this well-known pathological property of VCG mechanisms."
+    },
+    {
+      "title": "Robust Mechanism Design with Anonymous Information",
+      "authors": [
+        "Zhihao Gavin Tang",
+        "Shixin Wang"
+      ],
+      "abstract": "In practice, auction data are often endogenously censored and anonymous, revealing only limited outcome statistics rather than full bid profiles. We study robust auction design when the seller observes only aggregated, anonymous order statistics and seeks to maximize worst-case expected revenue over all product distributions consistent with the observed statistic. We show that simple and widely used mechanisms are robustly optimal. Specifically, posted pricing is robustly optimal given the distribution of the highest value; the Myerson auction designed for the unique consistent i.i.d. distribution is robustly optimal given the lowest value distribution; and the second-price auction with an optimal reserve is robustly optimal when an intermediate order statistic is observed and the implied i.i.d. distribution is regular above its reserve. More generally, for a broad class of monotone symmetric mechanisms depending only on the top k order statistics, including multi-unit and position auctions, the worst-case revenue is attained under the i.i.d. distribution consistent with the observed k-th order statistic. Our results provide a tractable foundation for non-discriminatory auction design, where fairness and privacy are intrinsic consequences of the information structure rather than imposed constraints.",
+      "url": "https://arxiv.org/abs/2602.20429v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.20429v2",
+      "source": "arxiv",
+      "source_id": "2602.20429v2",
+      "published_date": "2026-02-24",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper studies robust auction design when sellers only observe anonymous, aggregated statistics (like highest or lowest bids) rather than complete bidder information, seeking to maximize worst-case expected revenue across all possible underlying bidder distributions consistent with these limited observations. Using theoretical mechanism design analysis, the authors prove that commonly used simple mechanisms are robustly optimal: posted pricing when observing the highest value distribution, Myerson auctions when observing the lowest value distribution, and second-price auctions with reserves for intermediate order statistics. The key contribution demonstrates that these tractable, widely-implemented mechanisms achieve optimal worst-case performance under information constraints, providing theoretical justification for their prevalence while naturally incorporating fairness through anonymity rather than as an imposed constraint."
+    },
+    {
+      "title": "Latency-Aware Resource Allocation over Heterogeneous Networks: A Lorentz-Invariant Market Mechanism",
+      "authors": [
+        "Saad Alqithami"
+      ],
+      "abstract": "We present a telecom-native auction mechanism for allocating bandwidth and time slots across heterogeneous-delay networks, ranging from low-Earth-orbit (LEO) satellite constellations to delay-tolerant deep-space relays. The Lorentz-Invariant Auction (LIA) treats bids as spacetime events and reweights reported values based on the \\emph{horizon slack}, a causal quantity derived from the earliest-arrival times relative to a public clearing horizon. Unlike other delay-equalization rules, LIA combines a causal-ordering formulation, a uniquely exponential slack correction implied by a semigroup-style invariance axiom, and a critical-value implementation that ensures truthful reported values once slacks are fixed by trusted infrastructure. We analyze the incentive result in the exogenous-slack regime and separately examine bounded slack-estimation error and endogenous-delay limitations. Under fixed feasible slacks, LIA is individually rational and achieves welfare at least \\(e^{-\u03bb\u0394}\\) relative to the optimal feasible allocation, where \\(\u0394\\) is the slack spread. We evaluate LIA on STARLINK-200, INTERNET-100, and DSN-30 across 52,500 baseline instances with market sizes \\(n\\in\\{10,20,30,40,50\\}\\) and conduct additional robustness sweeps. On Starlink and Internet, LIA maintains near-efficiency while eliminating measured timing rents. However, on DSN, welfare is lower in thin markets but improves with depth. We also distinguish winner-determination time from the background cost of maintaining slack estimates and study robustness beyond independent and identically distributed (iid) noise through error-spread bounds and structured (distance-biased and subnetwork-correlated) noise models. These results suggest that causal-consistent mechanism design offers a practical non-buffering alternative to synchronized delay equalization in heterogeneous telecom infrastructures.",
+      "url": "https://arxiv.org/abs/2604.03897v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03897v1",
+      "source": "arxiv",
+      "source_id": "2604.03897v1",
+      "published_date": "2026-04-04",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper develops a Lorentz-Invariant Auction (LIA) mechanism for allocating bandwidth and time slots across networks with heterogeneous delays (LEO satellites to deep-space relays), treating bids as spacetime events and reweighting them based on \"horizon slack\" - a causal quantity measuring earliest-arrival times relative to a clearing horizon. The methodology combines theoretical mechanism design with empirical evaluation on three network types (STARLINK-200, INTERNET-100, DSN-30) across 52,500 instances with varying market sizes. The key contribution is a truthful auction that achieves welfare within a factor of e^(-\u03bb\u0394) of optimal allocation under fixed feasible slacks, maintaining near-efficiency while eliminating timing rents on low-delay networks, though performance degrades in thin markets for high-delay deep-space networks."
+    },
+    {
+      "title": "Optimal Pricing with Unreliable Signals",
+      "authors": [
+        "Zhihao Gavin Tang",
+        "Yixin Tao",
+        "Shixin Wang"
+      ],
+      "abstract": "We study a single-buyer pricing problem with unreliable side information, motivated by the increasing use of AI-assisted decision-making and LLM-based predictions. The seller observes a private sample that may be either accurate (coinciding with the buyer's valuation), or hallucinatory (an independent draw from the prior), without knowing which case has realized. The buyer does not observe the realized signal, yet knows whether it is accurate or hallucinatory. This creates a higher-order informational asymmetry: the seller is uncertain about the reliability of his own side information, while the buyer has private information about that reliability.   Adopting a consistency-robustness framework, we characterize the exact Pareto frontier of tradeoffs between consistency (performance under an accurate signal) and robustness (performance under a hallucinatory signal). We show that keeping the unreliable signal private generates substantial value, yielding tradeoffs that strictly dominate any public-signal benchmark. We further show that perfect consistency does not preclude meaningful protection against hallucination: for every prior, there exists a mechanism achieving perfect consistency together with a nontrivial robustness guarantee of $\\frac{1}{2}$. Moreover, if the prior has an infinite mean or a mean of at most its monopoly price, we provide a mechanism that is simultaneously 1-consistent and 1-robust. Our results illustrate a new mechanism design paradigm: rather than relying only on information directly possessed by the designer, mechanisms can be built to leverage the other side's knowledge about the reliability of the designer's information.",
+      "url": "https://arxiv.org/abs/2604.02758v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02758v1",
+      "source": "arxiv",
+      "source_id": "2604.02758v1",
+      "published_date": "2026-04-03",
+      "categories": [
+        "cs.GT",
+        "cs.DS"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines optimal pricing mechanisms when a seller receives unreliable AI-generated signals about buyer valuation, where the seller cannot distinguish between accurate signals and \"hallucinatory\" (random) ones, but the buyer knows the signal's reliability status. Using mechanism design theory, the authors characterize the complete Pareto frontier trading off consistency (performance with accurate signals) and robustness (performance with hallucinatory signals), showing that keeping unreliable signals private strictly dominates public disclosure. The key contribution demonstrates that perfect consistency is achievable alongside meaningful robustness guarantees (at least 1/2), with some prior distributions allowing simultaneously perfect consistency and robustness, establishing a new paradigm for mechanism design under higher-order information asymmetries about signal reliability."
+    },
+    {
+      "title": "Approximating Gains-from-Trade in Matching Markets",
+      "authors": [
+        "Moshe Babaioff",
+        "Aviad Rubinstein",
+        "Xizhi Tan",
+        "Kangning Wang"
+      ],
+      "abstract": "A central challenge in mechanism design is to develop truthful trade mechanisms that maximize the expected gains-from-trade (GFT) in two-sided markets with strategic agents. As achieving the full GFT is generally impossible, much of the literature has focused on constant-factor approximations. Existing results, however, are limited to the highly structured settings of bilateral trade and double auctions, in which every buyer can trade with every seller.   We consider the significantly more general setting of two-sided matching markets with arbitrary downward-closed constraints on the family of allowed matchings. For this setting, we present a simple randomized truthful mechanism that guarantees a constant-factor approximation to the optimal expected GFT. This result also resolves an open problem posed by Cai, Goldner, Ma, and Zhao (2021).",
+      "url": "https://arxiv.org/abs/2604.00129v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.00129v1",
+      "source": "arxiv",
+      "source_id": "2604.00129v1",
+      "published_date": "2026-03-31",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses the mechanism design challenge of maximizing gains-from-trade (GFT) in two-sided matching markets where agents have private valuations and arbitrary downward-closed constraints limit feasible matchings. The authors develop a theoretical framework using a randomized truthful mechanism that applies beyond the traditional bilateral trade settings studied in prior work. The key contribution is proving that their mechanism achieves a constant-factor approximation to the optimal expected GFT in this general constrained matching environment, resolving an open theoretical question while extending approximation guarantees from simple bilateral trade to complex matching markets with structural constraints."
+    },
+    {
+      "title": "One Model, Two Markets: Bid-Aware Generative Recommendation",
+      "authors": [
+        "Yanchen Jiang",
+        "Zhe Feng",
+        "Christopher P. Mah",
+        "Aranyak Mehta",
+        "Di Wang"
+      ],
+      "abstract": "Generative Recommender Systems using semantic ids, such as TIGER (Rajput et al., 2023), have emerged as a widely adopted competitive paradigm in sequential recommendation. However, existing architectures are designed solely for semantic retrieval and do not address concerns such as monetization via ad revenue and incorporation of bids for commercial retrieval. We propose GEM-Rec, a unified framework that integrates commercial relevance and monetization objectives directly into the generative sequence. We introduce control tokens to decouple the decision of whether to show an ad from which item to show. This allows the model to learn valid placement patterns directly from interaction logs, which inherently reflect past successful ad placements. Complementing this, we devise a Bid-Aware Decoding mechanism that handles real-time pricing, injecting bids directly into the inference process to steer the generation toward high-value items. We prove that this approach guarantees allocation monotonicity, ensuring that higher bids weakly increase an ad's likelihood of being shown without requiring model retraining. Experiments demonstrate that GEM-Rec allows platforms to dynamically optimize for semantic relevance and platform revenue.",
+      "url": "https://arxiv.org/abs/2603.22231v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22231v1",
+      "source": "arxiv",
+      "source_id": "2603.22231v1",
+      "published_date": "2026-03-23",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.GT",
+        "cs.LG"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Weekly Digest - April 12, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This research digest covers 5 papers spanning key areas in energy economics and regulatory mechanism design. The collection includes work on electricity market clearing mechanisms under production uncertainty, carbon pricing impacts in the airline sector, and broader mechanism design theory with applications to robust regulation and pricing versus quantity controls. Of particular note is the paper on truthful production uncertainty in electricity markets, which directly addresses critical challenges in power system operations, and the work on carbon regulation in European airlines, which provides sector-specific insights into climate policy implementation.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.02455v1" target="_blank">Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shobhit Singhal, Lesia Mitridati, Licio Romao
+            • 2026-04-02
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">market clearing, electricity market</span>
+        </div>
+        <div class="paper-summary">This paper addresses how electricity markets can better account for renewable generation uncertainty by designing a mechanism that elicits truthful reporting of production uncertainty distributions, not just point forecasts. The authors develop a theoretical two-stage mechanism extending Vickery-Clarke-Groves payments where producers report forecast distributions day-ahead and realized production real-time, proving incentive compatibility and individual rationality properties. The key contribution is demonstrating that this mechanism reduces total system costs compared to current markets by enabling optimal co-optimization of energy dispatch and balancing reserves when accounting for producer-specific uncertainty.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2603.27724v1" target="_blank">Carbon Regulation and Competition in the European Airline Industry</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ertian Chen, Lichao Chen, Lars Nesheim
+            • 2026-03-29
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">carbon pricing, emissions trading</span>
+        </div>
+        <div class="paper-summary">This paper examines how EU carbon pricing through the Emissions Trading System affects competition and welfare in European airline markets. Using a structural two-stage model of airline competition estimated on market share and pricing data, the authors simulate counterfactual scenarios with endogenous route entry, frequencies, and pricing decisions. The key finding is that carbon regulation creates highly asymmetric impacts: consumer surplus falls up to 25% overall (90% in medium-haul markets), but short-haul markets experience net welfare gains as airlines reallocate capacity toward shorter routes, with carbon revenues ($0.9-3.1B) and avoided emissions benefits ($0.5-1.4B) partially offsetting welfare losses.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.06105v1" target="_blank">Lexicographic Robustness and the Efficiency of Optimal Mechanisms</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ashwin Kambhampati
+            • 2026-04-07
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to design robust mechanisms when the designer faces uncertainty about the economic environment, proposing a lexicographic refinement of the standard maxmin robustness criterion to narrow down the typically large set of maxmin-optimal mechanisms. Using theoretical mechanism design methodology, the authors characterize optimal mechanisms under their &quot;proper robustness&quot; criterion across different settings. The key finding is that lexicographic robustness yields ex post efficient mechanisms in standard screening and auction problems, but identifies specific optimal inefficiencies in public good provision that worsen significantly as the economy grows large.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2603.15832v1" target="_blank">Prices vs. Quantities: Robust Regulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zi Yang Kang
+            • 2026-03-16
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper examines the classic prices vs. quantities debate in regulation by analyzing optimal policy design when a regulator is uncertain about the correlation between individual demand and marginal externalities and uses a robust (worst-case welfare) criterion. Using robust mechanism design theory, the authors show that quantity controls—floors for positive externalities and ceilings for negative externalities—are optimal under uncertainty about correlation sign, while uniform taxes/subsidies can be optimal when correlation sign is known. The key contribution is providing a welfare-theoretic foundation for why quantity-based regulations are more prevalent than price-based instruments in practice, extending beyond traditional Weitzman-type analysis to settings with distributional uncertainty and robust preferences.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.07526v1" target="_blank">The Suicide Region: Option Games and the Race to Artificial General Intelligence</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • David Tan
+            • 2025-12-08
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, real options</span>
+        </div>
+        <div class="paper-summary">This paper examines why the US and China are accelerating AI investment despite catastrophic AGI risks, contrary to standard real options theory that predicts delay under high uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when catastrophic failure costs are globally shared, the risk terms cancel out of equilibrium conditions, creating a &quot;suicide region&quot; where rational actors deploy AGI systems early despite negative risk-adjusted NPV. The key contribution is demonstrating that competitive dynamics can force premature deployment of potentially catastrophic technologies unless failure costs are internalized through private liability mechanisms that make safety research economically essential.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

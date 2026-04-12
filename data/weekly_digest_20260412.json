@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-04-12T07:10:51.039645",
+  "period": "weekly",
+  "paper_count": 5,
+  "papers": [
+    {
+      "title": "Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism",
+      "authors": [
+        "Shobhit Singhal",
+        "Lesia Mitridati",
+        "Licio Romao"
+      ],
+      "abstract": "Renewable power sources have low marginal pro-duction costs, but may result in high balancing costs due to the inherent production uncertainty. Current day-ahead markets elicit only point production profiles and neglect the degree of uncertainty associated with each generating asset, preventing the market operator from accounting for balancing costs in day-ahead dispatch and ancillary service procurement. This increases total system costs and undermines market efficiency, especially in renewable-heavy power systems. To address this, we propose a new market clearing paradigm based on a two-stage mechanism, where producers report their production forecast distribution in the day-ahead stage, followed by the realized production in the real-time stage. By extending the Vickery-Clarke-Groves (VCG) payments to the two-stage setting, we show appealing properties in terms of incentive compatibility and individual rationality. An electricity market case study validates the theoretical claims, and illustrates the effectiveness of the proposed mechanism to reduce system costs.",
+      "url": "https://arxiv.org/abs/2604.02455v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02455v1",
+      "source": "arxiv",
+      "source_id": "2604.02455v1",
+      "published_date": "2026-04-02",
+      "categories": [
+        "eess.SY",
+        "econ.TH"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper addresses how electricity markets can better account for renewable generation uncertainty by designing a mechanism that elicits truthful reporting of production uncertainty distributions, not just point forecasts. The authors develop a theoretical two-stage mechanism extending Vickery-Clarke-Groves payments where producers report forecast distributions day-ahead and realized production real-time, proving incentive compatibility and individual rationality properties. The key contribution is demonstrating that this mechanism reduces total system costs compared to current markets by enabling optimal co-optimization of energy dispatch and balancing reserves when accounting for producer-specific uncertainty."
+    },
+    {
+      "title": "Carbon Regulation and Competition in the European Airline Industry",
+      "authors": [
+        "Ertian Chen",
+        "Lichao Chen",
+        "Lars Nesheim"
+      ],
+      "abstract": "The European Union Emissions Trading System is set to substantially increase the effective carbon price faced by airlines. To quantify the impact of this carbon regulation on the European airline industry, we estimate a two-stage model of airline competition with endogenous route entry, flight frequencies, and pricing using European data on market shares and prices. Counterfactual simulations reveal that the impacts of carbon pricing are highly asymmetric across carrier types and market segments. Consumer surplus declines by up to 25% overall, with medium-haul markets bearing the brunt at up to 90%, while short-haul markets experience positive net welfare gains (including carbon revenue and the social value of avoided emissions) as airlines reallocate capacity toward shorter routes. We find that airline profits decline by 8-45% across scenarios, while carbon tax revenue of $0.9-3.1 billion and a social value of avoided CO2 emissions of $0.5-1.4 billion partially offset the welfare losses. We also show that a hypothetical Wizz Air-Ryanair merger primarily benefits firm profits through network expansion synergies.",
+      "url": "https://arxiv.org/abs/2603.27724v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27724v1",
+      "source": "arxiv",
+      "source_id": "2603.27724v1",
+      "published_date": "2026-03-29",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper examines how EU carbon pricing through the Emissions Trading System affects competition and welfare in European airline markets. Using a structural two-stage model of airline competition estimated on market share and pricing data, the authors simulate counterfactual scenarios with endogenous route entry, frequencies, and pricing decisions. The key finding is that carbon regulation creates highly asymmetric impacts: consumer surplus falls up to 25% overall (90% in medium-haul markets), but short-haul markets experience net welfare gains as airlines reallocate capacity toward shorter routes, with carbon revenues ($0.9-3.1B) and avoided emissions benefits ($0.5-1.4B) partially offsetting welfare losses."
+    },
+    {
+      "title": "Lexicographic Robustness and the Efficiency of Optimal Mechanisms",
+      "authors": [
+        "Ashwin Kambhampati"
+      ],
+      "abstract": "A central challenge in mechanism design is to identify mechanisms whose performance is robust under uncertainty about the environment. The maxmin optimality criterion is commonly used for this purpose, but it often yields a large and economically uninformative set of mechanisms. This paper proposes a lexicographic approach to refining the maxmin criterion and characterizes the efficiency of optimal mechanisms. In canonical screening and auction environments, the strongest refinement $\\unicode{x2013}$ proper robustness $\\unicode{x2013}$ selects ex post efficient mechanisms. By contrast, in a public good provision environment, it identifies the precise form of optimal inefficiencies, which become severe in large economies.",
+      "url": "https://arxiv.org/abs/2604.06105v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06105v1",
+      "source": "arxiv",
+      "source_id": "2604.06105v1",
+      "published_date": "2026-04-07",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper addresses how to design robust mechanisms when the designer faces uncertainty about the economic environment, proposing a lexicographic refinement of the standard maxmin robustness criterion to narrow down the typically large set of maxmin-optimal mechanisms. Using theoretical mechanism design methodology, the authors characterize optimal mechanisms under their \"proper robustness\" criterion across different settings. The key finding is that lexicographic robustness yields ex post efficient mechanisms in standard screening and auction problems, but identifies specific optimal inefficiencies in public good provision that worsen significantly as the economy grows large."
+    },
+    {
+      "title": "Prices vs. Quantities: Robust Regulation",
+      "authors": [
+        "Zi Yang Kang"
+      ],
+      "abstract": "This paper revisits the classic instrument choice problem in a setting with consumption externalities, through the lens of robust mechanism design. A regulator can implement any incentive-compatible policy but is uncertain about how individual demand is correlated with marginal externalities, and evaluates policies by worst-case welfare. The optimal policy is a quantity control: a floor for positive externalities and a ceiling for negative externalities. If the sign of the correlation is known, a uniform tax or subsidy can be optimal. The framework also applies to regulatory uncertainty and costly screening, providing a welfare-based explanation for the prevalence of non-price policies.",
+      "url": "https://arxiv.org/abs/2603.15832v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.15832v1",
+      "source": "arxiv",
+      "source_id": "2603.15832v1",
+      "published_date": "2026-03-16",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines the classic prices vs. quantities debate in regulation by analyzing optimal policy design when a regulator is uncertain about the correlation between individual demand and marginal externalities and uses a robust (worst-case welfare) criterion. Using robust mechanism design theory, the authors show that quantity controls\u2014floors for positive externalities and ceilings for negative externalities\u2014are optimal under uncertainty about correlation sign, while uniform taxes/subsidies can be optimal when correlation sign is known. The key contribution is providing a welfare-theoretic foundation for why quantity-based regulations are more prevalent than price-based instruments in practice, extending beyond traditional Weitzman-type analysis to settings with distributional uncertainty and robust preferences."
+    },
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines why the US and China are accelerating AI investment despite catastrophic AGI risks, contrary to standard real options theory that predicts delay under high uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when catastrophic failure costs are globally shared, the risk terms cancel out of equilibrium conditions, creating a \"suicide region\" where rational actors deploy AGI systems early despite negative risk-adjusted NPV. The key contribution is demonstrating that competitive dynamics can force premature deployment of potentially catastrophic technologies unless failure costs are internalized through private liability mechanisms that make safety research economically essential."
+    }
+  ]
+}

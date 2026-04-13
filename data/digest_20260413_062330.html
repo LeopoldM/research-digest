@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - April 13, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This digest covers 12 recent papers spanning key areas in energy economics and related fields. The collection emphasizes mechanism design theory with 9 papers exploring optimal pricing, market mechanisms, and regulatory frameworks, complemented by specialized studies in electricity markets, carbon pricing in aviation, and real-time market dynamics. Of particular note is &quot;Zero Energy Day: How Nationwide Blackouts Affect the Economy&quot; by Gonzales, Ito, and Reguant, which examines the macroeconomic impacts of power system failures, and &quot;Truthful Production Uncertainty in Electricity Markets,&quot; which addresses critical information asymmetries in power market clearing mechanisms.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.02455v1" target="_blank">Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shobhit Singhal, Lesia Mitridati, Licio Romao
+            • 2026-04-02
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">market clearing, electricity market</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to incorporate renewable energy production uncertainty into electricity market design to reduce total system costs. The authors develop a theoretical two-stage mechanism where producers report their full production forecast distributions (not just point forecasts) in the day-ahead market, followed by realized production in real-time, with payments based on an extended Vickery-Clarke-Groves framework. The mechanism achieves incentive compatibility and individual rationality while demonstrating reduced system costs compared to current point-forecast markets through an electricity market case study.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2603.27724v1" target="_blank">Carbon Regulation and Competition in the European Airline Industry</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ertian Chen, Lichao Chen, Lars Nesheim
+            • 2026-03-29
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">carbon pricing, emissions trading</span>
+        </div>
+        <div class="paper-summary">This paper investigates how EU carbon pricing under the Emissions Trading System affects competition and welfare in the European airline industry. Using a structural two-stage model estimated on European market share and pricing data, the authors simulate airline responses through endogenous route entry, frequency, and pricing decisions. The key finding is that carbon regulation creates highly asymmetric impacts: consumer surplus falls up to 25% overall (90% in medium-haul markets), while short-haul markets experience net welfare gains as airlines reallocate capacity toward shorter routes, with carbon revenues of $0.9-3.1 billion partially offsetting welfare losses.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.06105v1" target="_blank">Lexicographic Robustness and the Efficiency of Optimal Mechanisms</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ashwin Kambhampati
+            • 2026-04-07
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to select robust mechanisms when facing uncertainty about the economic environment, proposing a lexicographic refinement of the standard maxmin criterion to narrow down the typically large set of maxmin-optimal mechanisms. The methodology is theoretical, developing the concept of &quot;proper robustness&quot; as the strongest lexicographic refinement and characterizing optimal mechanisms in screening, auction, and public goods settings. The key finding is that proper robustness yields ex post efficient mechanisms in screening and auction environments, but identifies specific optimal inefficiencies in public goods provision that become severe as economies grow large.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2603.15832v1" target="_blank">Prices vs. Quantities: Robust Regulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zi Yang Kang
+            • 2026-03-16
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper examines the classic prices vs. quantities regulatory instrument choice problem using robust mechanism design, where a regulator faces uncertainty about the correlation between individual demand and marginal externalities and optimizes for worst-case welfare outcomes. The methodology employs theoretical mechanism design with robust optimization techniques. The key finding is that quantity controls (floors for positive externalities, ceilings for negative externalities) are optimal under correlation uncertainty, while uniform taxes/subsidies can be optimal when the correlation sign is known, providing a welfare-theoretic justification for the widespread use of non-price regulatory policies.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.07526v1" target="_blank">The Suicide Region: Option Games and the Race to Artificial General Intelligence</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • David Tan
+            • 2025-12-08
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, real options</span>
+        </div>
+        <div class="paper-summary">This paper examines why major powers accelerate AI development despite catastrophic risks, contradicting standard real options theory that predicts investment delay under high uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when catastrophic failure costs are globally shared, competitive pressures create a &quot;suicide region&quot; where rational actors deploy AGI systems early despite negative risk-adjusted returns, as the systemic risk terms cancel out in equilibrium conditions. The key contribution is demonstrating that only internalizing ruin costs through private liability mechanisms can restore option value and incentivize safety-first development strategies.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

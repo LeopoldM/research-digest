@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-04-22T06:07:01.273861",
+  "period": "daily",
+  "paper_count": 8,
+  "papers": [
+    {
+      "title": "Mapping the causal structure of price formation in Texas's transitioning electricity market",
+      "authors": [
+        "Shiva Madadkhani",
+        "Nils Sturma",
+        "Mathias Drton",
+        "Svetlana Ikonnikova"
+      ],
+      "abstract": "Electricity markets are changing, driven by large-scale renewable integration and rising demand from electrification and digitalisation. This raises fundamental questions about how electricity prices form as the relationships among key price determinants evolve. Here we apply causal discovery to characterise these dynamics across major supply- and demand-side drivers of wholesale electricity prices in Texas, where rapid renewable growth intersects with surging demand. We show that wind generation has become the dominant causal driver of day-ahead electricity prices with effects more than 3 times larger than those of natural gas prices, overturning the view of the Texas market as gas-price-driven. Wind reduces prices locally but redistributes congestion costs across regions in seasonally varying patterns. Natural gas prices remain causally relevant, though their influence is modest and the dominant gas benchmark changes over time. Electricity demand also shows region- and period-specific causal effects. These findings highlight the need for causal models that capture time-varying relationships across both supply and demand to guide system planners and market participants navigating the ongoing transition.",
+      "url": "https://arxiv.org/abs/2604.14257v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.14257v1",
+      "source": "arxiv",
+      "source_id": "2604.14257v1",
+      "published_date": "2026-04-15",
+      "categories": [
+        "econ.GN",
+        "stat.AP"
+      ],
+      "relevance_score": 20.0,
+      "summary": "This paper investigates how the causal structure of electricity price formation is evolving in Texas's wholesale market amid renewable integration and demand growth. Using causal discovery methods applied to supply- and demand-side price drivers, the researchers find that wind generation has become the dominant causal factor in day-ahead prices\u2014with effects over 3 times larger than natural gas prices\u2014fundamentally overturning the traditional view of Texas as a gas-price-driven market. The key contribution demonstrates that wind reduces local prices but redistributes congestion costs spatially and seasonally, highlighting the need for time-varying causal models to understand price dynamics in transitioning electricity systems."
+    },
+    {
+      "title": "Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism",
+      "authors": [
+        "Shobhit Singhal",
+        "Lesia Mitridati",
+        "Licio Romao"
+      ],
+      "abstract": "Renewable power sources have low marginal pro-duction costs, but may result in high balancing costs due to the inherent production uncertainty. Current day-ahead markets elicit only point production profiles and neglect the degree of uncertainty associated with each generating asset, preventing the market operator from accounting for balancing costs in day-ahead dispatch and ancillary service procurement. This increases total system costs and undermines market efficiency, especially in renewable-heavy power systems. To address this, we propose a new market clearing paradigm based on a two-stage mechanism, where producers report their production forecast distribution in the day-ahead stage, followed by the realized production in the real-time stage. By extending the Vickery-Clarke-Groves (VCG) payments to the two-stage setting, we show appealing properties in terms of incentive compatibility and individual rationality. An electricity market case study validates the theoretical claims, and illustrates the effectiveness of the proposed mechanism to reduce system costs.",
+      "url": "https://arxiv.org/abs/2604.02455v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02455v1",
+      "source": "arxiv",
+      "source_id": "2604.02455v1",
+      "published_date": "2026-04-02",
+      "categories": [
+        "eess.SY",
+        "econ.TH"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper addresses how to efficiently incorporate production uncertainty from renewable generators into electricity market design by developing a two-stage mechanism where producers report their forecast distributions in day-ahead markets rather than just point forecasts. The methodology extends Vickrey-Clarke-Groves (VCG) auction theory to a two-stage setting with uncertain production realization, proving the mechanism achieves incentive compatibility and individual rationality. The key contribution is demonstrating that eliciting truthful uncertainty information allows market operators to optimize dispatch and ancillary service procurement jointly, reducing total system costs compared to current market designs that ignore production uncertainty."
+    },
+    {
+      "title": "Carbon Regulation and Competition in the European Airline Industry",
+      "authors": [
+        "Ertian Chen",
+        "Lichao Chen",
+        "Lars Nesheim"
+      ],
+      "abstract": "The European Union Emissions Trading System is set to substantially increase the effective carbon price faced by airlines. To quantify the impact of this carbon regulation on the European airline industry, we estimate a two-stage model of airline competition with endogenous route entry, flight frequencies, and pricing using European data on market shares and prices. Counterfactual simulations reveal that the impacts of carbon pricing are highly asymmetric across carrier types and market segments. Consumer surplus declines by up to 25% overall, with medium-haul markets bearing the brunt at up to 90%, while short-haul markets experience positive net welfare gains (including carbon revenue and the social value of avoided emissions) as airlines reallocate capacity toward shorter routes. We find that airline profits decline by 8-45% across scenarios, while carbon tax revenue of $0.9-3.1 billion and a social value of avoided CO2 emissions of $0.5-1.4 billion partially offset the welfare losses. We also show that a hypothetical Wizz Air-Ryanair merger primarily benefits firm profits through network expansion synergies.",
+      "url": "https://arxiv.org/abs/2603.27724v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27724v1",
+      "source": "arxiv",
+      "source_id": "2603.27724v1",
+      "published_date": "2026-03-29",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper examines how EU carbon pricing under the Emissions Trading System affects airline competition and welfare outcomes. The authors use a structural two-stage model estimated on European airline data to analyze endogenous route entry, flight frequency, and pricing decisions under carbon regulation. The key finding is that carbon pricing creates highly asymmetric impacts: consumer surplus falls up to 25% overall (90% in medium-haul markets), while short-haul markets experience net welfare gains as airlines reallocate capacity to shorter routes, generating $0.9-3.1B in carbon revenue that partially offsets welfare losses."
+    },
+    {
+      "title": "Lexicographic Robustness and the Efficiency of Optimal Mechanisms",
+      "authors": [
+        "Ashwin Kambhampati"
+      ],
+      "abstract": "A central challenge in mechanism design is to identify mechanisms whose performance is robust under uncertainty about the environment. The maxmin optimality criterion is commonly used for this purpose, but it often yields a large and economically uninformative set of mechanisms. This paper proposes a lexicographic approach to refining the maxmin criterion and characterizes the efficiency of optimal mechanisms. In canonical screening and auction environments, the strongest refinement $\\unicode{x2013}$ proper robustness $\\unicode{x2013}$ selects ex post efficient mechanisms. By contrast, in a public good provision environment, it identifies the precise form of optimal inefficiencies, which become severe in large economies.",
+      "url": "https://arxiv.org/abs/2604.06105v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06105v1",
+      "source": "arxiv",
+      "source_id": "2604.06105v1",
+      "published_date": "2026-04-07",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper addresses how to design robust mechanisms when facing uncertainty about the economic environment by proposing a lexicographic refinement of the standard maxmin criterion. The methodology is theoretical, developing the concept of \"proper robustness\" as the strongest lexicographic refinement and characterizing optimal mechanisms in canonical mechanism design settings. The key finding is that proper robustness yields ex post efficient mechanisms in screening and auction environments, but in public good provision settings it identifies specific optimal inefficiencies that worsen significantly as economy size increases."
+    },
+    {
+      "title": "Optimal linear-payment auction design with aftermarket collaboration",
+      "authors": [
+        "Dazhong Wang",
+        "Ruqu Wang",
+        "Xinyi Xu"
+      ],
+      "abstract": "This paper studies optimal auction design when valuations depend endogenously on post-auction collaboration between the seller and the winning bidder. Both parties exert non-contractible efforts after the auction, generating a double moral hazard problem alongside adverse selection. We analyze two role structures -- winner-pivotal and seller-pivotal collaboration -- and characterize optimal direct mechanisms using linear payment schemes that combine cash transfers with proportional value sharing. The optimal mechanism allocates the asset to the bidder with the highest virtual surplus, employs a deterministic value-sharing rule, and achieves full type revelation through the signal realization rule. Comparing the two scenarios yields three main findings. First, regarding value sharing, the seller secures a strictly higher share under seller-pivotal collaboration: for sufficiently low-type winners, the seller extracts the entire value, whereas under winner-pivotal collaboration every winner must retain a positive share to sustain his critical effort. Second, regarding effort exertion, the pivotal party always exerts higher post-auction effort than the supporting party, and each party exerts greater effort when pivotal than when providing support. Third, seller-pivotal collaboration yields strictly higher seller revenue than winner-pivotal collaboration for any type distribution. Finally, these optimal mechanisms can be implemented through ascending auctions with endogenously determined linear contracts.",
+      "url": "https://arxiv.org/abs/2604.17923v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17923v1",
+      "source": "arxiv",
+      "source_id": "2604.17923v1",
+      "published_date": "2026-04-20",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines optimal auction design when the seller and winning bidder must collaborate post-auction through non-contractible efforts, creating a double moral hazard problem combined with adverse selection. Using mechanism design theory, the authors characterize optimal linear payment schemes that combine cash transfers with proportional value sharing under two scenarios: winner-pivotal and seller-pivotal collaboration structures. The key finding is that seller-pivotal collaboration strictly dominates winner-pivotal collaboration in terms of seller revenue, as it allows the seller to extract the entire value from low-type winners while the pivotal party always exerts higher effort than the supporting party."
+    },
+    {
+      "title": "Self-Confirming Mechanisms",
+      "authors": [
+        "Zhiming Feng",
+        "Qingmin Liu"
+      ],
+      "abstract": "This paper studies mechanism design environments in which the designer does not know the distribution of agents' private information a priori and instead learns from agents' behavior induced by the mechanism itself. We formalize a notion of self-confirming mechanisms and a refinement thereof, capturing the idea that an equilibrium mechanism is optimal given the designer's belief and that this belief is consistent with the information produced by the mechanism. We establish a fictitious revelation principle, showing that any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports that preserve the original mechanism's informational content. Applying the framework to a monopoly problem, we show that, subject to an equilibrium refinement, dominant-strategy self-confirming mechanisms are exactly posted-price mechanisms with locally revenue-maximizing prices.",
+      "url": "https://arxiv.org/abs/2603.12532v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.12532v1",
+      "source": "arxiv",
+      "source_id": "2603.12532v1",
+      "published_date": "2026-03-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines mechanism design when the designer lacks prior knowledge of agents' type distributions and must learn from behavior generated by the mechanism itself. The authors develop a theoretical framework using self-confirming equilibrium concepts and establish a \"fictitious revelation principle\" showing that any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports. Applied to monopoly pricing, they prove that dominant-strategy self-confirming mechanisms are equivalent to posted-price mechanisms with locally revenue-maximizing prices, providing a behavioral foundation for simple pricing strategies under learning."
+    },
+    {
+      "title": "Stochastic Optimization and Coupling",
+      "authors": [
+        "Frank Yang",
+        "Kai Hao Yang"
+      ],
+      "abstract": "We study optimization problems in which a linear functional is maximized over probability measures that are dominated by a given measure according to an integral stochastic order in an arbitrary dimension. We show that the following four properties are equivalent for any such order: (i) the test function cone is closed under pointwise minimum, (ii) the value function is affine, (iii) the solution correspondence has a convex graph with decomposable extreme points, and (iv) every ordered pair of measures admits an order-preserving coupling. As corollaries, we derive the extreme and exposed point properties involving integral stochastic orders such as multidimensional mean-preserving spreads and stochastic dominance. Applying these results, we generalize Blackwell's theorem by completely characterizing the comparisons of experiments that admit two equivalent descriptions -- through instrumental values and through information technologies. We also show that these results immediately yield new insights into information design, mechanism design, and decision theory.",
+      "url": "https://arxiv.org/abs/2603.11448v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.11448v1",
+      "source": "arxiv",
+      "source_id": "2603.11448v1",
+      "published_date": "2026-03-12",
+      "categories": [
+        "econ.TH",
+        "math.PR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates stochastic optimization problems where a linear functional is maximized over probability measures constrained by integral stochastic orders in arbitrary dimensions. Using theoretical analysis, the authors establish the equivalence of four key properties: closure of test function cones under pointwise minimum, affinity of the value function, convexity properties of solution correspondences, and existence of order-preserving couplings between measure pairs. The main contribution is a unified framework that generalizes Blackwell's theorem on experiment comparisons and provides new theoretical insights applicable to information design, mechanism design, and decision theory through the characterization of integral stochastic orders."
+    },
+    {
+      "title": "AdequacyLab: an open, reproducible benchmark for electricity capacity remuneration mechanisms",
+      "authors": [
+        "Omar Mourssi"
+      ],
+      "abstract": "AdequacyLab is an open, reproducible benchmark for comparing electricity capacity remuneration mechanisms under deep decarbonization. It combines Nash-Cournot strategic equilibrium analysis with stochastic simulation of demand and renewable availability, a calibrated Ontario case study using publicly available IESO data, Kim-Nelson and Rinott ranking-and-selection procedures with probability-of-correct-selection guarantees, a RevenueStack hybrid-market formalism with an explicit DifferencePayment settlement stream and a missing-money decomposition layer, an Ontario technology factory with primary-source-cited OEB and IESO defaults that lets the Ontario missing-money problem be analyzed under three lenses (energy-only counterfactual, current hybrid, reliability-options counterfactual), fixed-seed exact-reproducibility benchmark anchors for each pillar, and a Jupyter Book documentation site. The project is personal research conducted independently; it is not affiliated with, endorsed by, or representative of any employer or academic institution. See DISCLAIMER.md in the repository for details.",
+      "url": "https://doi.org/10.5281/zenodo.19671490",
+      "pdf_url": "https://doi.org/10.5281/zenodo.19671490",
+      "source": "openalex",
+      "source_id": "W7154946444",
+      "published_date": "2026-04-21",
+      "categories": [
+        "Journal: Zenodo (CERN European Organization for Nuclear Research)",
+        "Remuneration",
+        "Benchmark (surveying)",
+        "Documentation",
+        "Electricity",
+        "Computer science"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper introduces AdequacyLab, an open-source computational framework that benchmarks different electricity capacity remuneration mechanisms (energy-only, hybrid markets, reliability options) in decarbonized power systems. The methodology combines Nash-Cournot game-theoretic equilibrium modeling with Monte Carlo simulation of stochastic demand and renewables, applied to a calibrated Ontario case study using public IESO data. The key contribution is providing a reproducible, statistically rigorous platform with ranking-and-selection procedures that enables systematic comparison of capacity market designs under uncertainty, addressing the \"missing money\" problem in electricity markets transitioning to high renewable penetration."
+    }
+  ]
+}

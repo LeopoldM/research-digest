@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Weekly Digest - April 26, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This week&#x27;s research digest covers 5 papers spanning key areas in energy economics and related market mechanisms. The collection includes studies on electricity market dynamics, with a focus on price formation in Texas&#x27;s evolving market structure and a novel two-stage mechanism for handling production uncertainty in market clearing processes. Additionally, the digest features research on carbon regulation&#x27;s competitive effects in the airline industry and advances in mechanism design theory, providing both sector-specific insights and broader methodological contributions relevant to energy market analysis.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.14257v1" target="_blank">Mapping the causal structure of price formation in Texas&#x27;s transitioning electricity market</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shiva Madadkhani, Nils Sturma, Mathias Drton, Svetlana Ikonnikova
+            • 2026-04-15
+        </div>
+        <div>
+            <span class="paper-score">Score: 20</span>
+            <span class="paper-keywords">electricity market, wholesale electricity, renewable integration</span>
+        </div>
+        <div class="paper-summary">This paper investigates how the causal structure of electricity price formation is evolving in Texas&#x27;s wholesale market amid rapid renewable integration and demand growth. Using causal discovery methods applied to supply- and demand-side price determinants, the authors empirically analyze the shifting relationships between wind generation, natural gas prices, demand, and wholesale electricity prices across regions and time periods. The key finding is that wind generation has displaced natural gas as the dominant causal driver of day-ahead prices (with effects 3x larger than gas prices), while also creating complex spatial and temporal redistribution of congestion costs, challenging traditional models of gas-price-driven electricity markets.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.02455v1" target="_blank">Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shobhit Singhal, Lesia Mitridati, Licio Romao
+            • 2026-04-02
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">market clearing, electricity market</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to incorporate production uncertainty from renewable generators into electricity market design to reduce total system costs. The methodology develops a two-stage mechanism extending Vickrey-Clarke-Groves (VCG) payments where producers report probability distributions of production forecasts in day-ahead markets, then actual production in real-time. The key contribution is proving this mechanism achieves truthful reporting of uncertainty (incentive compatibility) and individual rationality while reducing system-wide costs compared to current point-forecast approaches, validated through electricity market case studies.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2603.27724v1" target="_blank">Carbon Regulation and Competition in the European Airline Industry</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ertian Chen, Lichao Chen, Lars Nesheim
+            • 2026-03-29
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">carbon pricing, emissions trading</span>
+        </div>
+        <div class="paper-summary">This paper examines how EU carbon pricing through the Emissions Trading System affects competition and welfare in the European airline industry. The authors employ a structural two-stage model of airline competition estimated on European market data, incorporating endogenous decisions on route entry, flight frequency, and pricing in counterfactual simulations. The key finding is that carbon regulation creates highly asymmetric impacts: consumer surplus falls up to 25% overall (90% in medium-haul markets), airline profits decline 8-45%, but short-haul markets experience net welfare gains as airlines reallocate capacity toward shorter routes, with carbon revenues ($0.9-3.1B) and avoided emissions benefits ($0.5-1.4B) partially offsetting welfare losses.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.06105v1" target="_blank">Lexicographic Robustness and the Efficiency of Optimal Mechanisms</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ashwin Kambhampati
+            • 2026-04-07
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to design robust mechanisms when the planner is uncertain about the economic environment, proposing a lexicographic refinement of the standard maxmin criterion to overcome its lack of discriminatory power. Using theoretical mechanism design analysis, the authors characterize optimal mechanisms under their &quot;proper robustness&quot; criterion across different settings. The key finding is that lexicographic robustness yields ex post efficient outcomes in screening and auction environments, but identifies specific optimal inefficiencies in public good provision that worsen with economy size.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.07526v1" target="_blank">The Suicide Region: Option Games and the Race to Artificial General Intelligence</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • David Tan
+            • 2025-12-08
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, real options</span>
+        </div>
+        <div class="paper-summary">This paper investigates why the US and China are accelerating AI investment despite acknowledging catastrophic AGI risks, contrary to standard real options theory which predicts delay under extreme uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when catastrophic failure costs (D) are globally shared rather than bounded by individual sunk costs (I), the risk terms cancel out of players&#x27; equilibrium conditions, creating a &quot;suicide region&quot; where rational agents deploy AGI early despite negative risk-adjusted NPV. The key contribution is demonstrating that competitive pressures override safety considerations in winner-takes-all races with systemic risks, and that only internalizing ruin costs through private liability can restore proper option value and incentivize safety research.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

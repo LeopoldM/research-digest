@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-04-27T06:36:09.585939",
+  "period": "daily",
+  "paper_count": 14,
+  "papers": [
+    {
+      "title": "Mapping the causal structure of price formation in Texas's transitioning electricity market",
+      "authors": [
+        "Shiva Madadkhani",
+        "Nils Sturma",
+        "Mathias Drton",
+        "Svetlana Ikonnikova"
+      ],
+      "abstract": "Electricity markets are changing, driven by large-scale renewable integration and rising demand from electrification and digitalisation. This raises fundamental questions about how electricity prices form as the relationships among key price determinants evolve. Here we apply causal discovery to characterise these dynamics across major supply- and demand-side drivers of wholesale electricity prices in Texas, where rapid renewable growth intersects with surging demand. We show that wind generation has become the dominant causal driver of day-ahead electricity prices with effects more than 3 times larger than those of natural gas prices, overturning the view of the Texas market as gas-price-driven. Wind reduces prices locally but redistributes congestion costs across regions in seasonally varying patterns. Natural gas prices remain causally relevant, though their influence is modest and the dominant gas benchmark changes over time. Electricity demand also shows region- and period-specific causal effects. These findings highlight the need for causal models that capture time-varying relationships across both supply and demand to guide system planners and market participants navigating the ongoing transition.",
+      "url": "https://arxiv.org/abs/2604.14257v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.14257v1",
+      "source": "arxiv",
+      "source_id": "2604.14257v1",
+      "published_date": "2026-04-15",
+      "categories": [
+        "econ.GN",
+        "stat.AP"
+      ],
+      "relevance_score": 20.0,
+      "summary": "This paper investigates how the causal drivers of wholesale electricity price formation are evolving in Texas's rapidly transforming electricity market, particularly with large-scale renewable integration. Using causal discovery methods applied to supply- and demand-side price determinants, the authors find that wind generation has displaced natural gas as the dominant causal driver of day-ahead prices, with effects over 3 times larger than gas prices, while also redistributing congestion costs across regions in seasonal patterns. The key contribution is demonstrating that traditional gas-price-driven market models are obsolete in renewable-heavy systems, requiring time-varying causal frameworks to capture the complex, region-specific dynamics of price formation during the energy transition."
+    },
+    {
+      "title": "Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism",
+      "authors": [
+        "Shobhit Singhal",
+        "Lesia Mitridati",
+        "Licio Romao"
+      ],
+      "abstract": "Renewable power sources have low marginal pro-duction costs, but may result in high balancing costs due to the inherent production uncertainty. Current day-ahead markets elicit only point production profiles and neglect the degree of uncertainty associated with each generating asset, preventing the market operator from accounting for balancing costs in day-ahead dispatch and ancillary service procurement. This increases total system costs and undermines market efficiency, especially in renewable-heavy power systems. To address this, we propose a new market clearing paradigm based on a two-stage mechanism, where producers report their production forecast distribution in the day-ahead stage, followed by the realized production in the real-time stage. By extending the Vickery-Clarke-Groves (VCG) payments to the two-stage setting, we show appealing properties in terms of incentive compatibility and individual rationality. An electricity market case study validates the theoretical claims, and illustrates the effectiveness of the proposed mechanism to reduce system costs.",
+      "url": "https://arxiv.org/abs/2604.02455v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02455v1",
+      "source": "arxiv",
+      "source_id": "2604.02455v1",
+      "published_date": "2026-04-02",
+      "categories": [
+        "eess.SY",
+        "econ.TH"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper addresses how electricity markets can better incorporate production uncertainty from renewable sources by designing a mechanism where generators truthfully report their uncertainty distributions, not just point forecasts. The methodology develops a theoretical two-stage mechanism extending Vickrey-Clarke-Groves (VCG) payments where producers report forecast distributions day-ahead and realized production real-time, proving incentive compatibility and individual rationality properties. The key contribution shows this mechanism reduces total system costs by enabling market operators to optimally account for balancing costs in day-ahead dispatch and ancillary service procurement, validated through an electricity market case study."
+    },
+    {
+      "title": "Carbon Regulation and Competition in the European Airline Industry",
+      "authors": [
+        "Ertian Chen",
+        "Lichao Chen",
+        "Lars Nesheim"
+      ],
+      "abstract": "The European Union Emissions Trading System is set to substantially increase the effective carbon price faced by airlines. To quantify the impact of this carbon regulation on the European airline industry, we estimate a two-stage model of airline competition with endogenous route entry, flight frequencies, and pricing using European data on market shares and prices. Counterfactual simulations reveal that the impacts of carbon pricing are highly asymmetric across carrier types and market segments. Consumer surplus declines by up to 25% overall, with medium-haul markets bearing the brunt at up to 90%, while short-haul markets experience positive net welfare gains (including carbon revenue and the social value of avoided emissions) as airlines reallocate capacity toward shorter routes. We find that airline profits decline by 8-45% across scenarios, while carbon tax revenue of $0.9-3.1 billion and a social value of avoided CO2 emissions of $0.5-1.4 billion partially offset the welfare losses. We also show that a hypothetical Wizz Air-Ryanair merger primarily benefits firm profits through network expansion synergies.",
+      "url": "https://arxiv.org/abs/2603.27724v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27724v1",
+      "source": "arxiv",
+      "source_id": "2603.27724v1",
+      "published_date": "2026-03-29",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper examines how EU carbon pricing affects competition and welfare in European aviation markets using a structural two-stage game model where airlines endogenously choose route entry, frequencies, and prices estimated on European market data. The methodology combines demand estimation with supply-side modeling to simulate counterfactual carbon tax scenarios and a hypothetical low-cost carrier merger. Key findings show highly asymmetric impacts: consumer surplus falls up to 25% overall (90% in medium-haul markets), airline profits decline 8-45%, but short-haul markets experience net welfare gains as capacity reallocates toward shorter routes, with carbon revenues ($0.9-3.1B) and avoided emissions benefits ($0.5-1.4B) partially offsetting losses."
+    },
+    {
+      "title": "Lexicographic Robustness and the Efficiency of Optimal Mechanisms",
+      "authors": [
+        "Ashwin Kambhampati"
+      ],
+      "abstract": "A central challenge in mechanism design is to identify mechanisms whose performance is robust under uncertainty about the environment. The maxmin optimality criterion is commonly used for this purpose, but it often yields a large and economically uninformative set of mechanisms. This paper proposes a lexicographic approach to refining the maxmin criterion and characterizes the efficiency of optimal mechanisms. In canonical screening and auction environments, the strongest refinement $\\unicode{x2013}$ proper robustness $\\unicode{x2013}$ selects ex post efficient mechanisms. By contrast, in a public good provision environment, it identifies the precise form of optimal inefficiencies, which become severe in large economies.",
+      "url": "https://arxiv.org/abs/2604.06105v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06105v1",
+      "source": "arxiv",
+      "source_id": "2604.06105v1",
+      "published_date": "2026-04-07",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper addresses how to design robust mechanisms when the economic environment is uncertain by proposing a lexicographic refinement of the standard maxmin robustness criterion. The methodology is theoretical, developing the concept of \"proper robustness\" as the strongest lexicographic refinement and characterizing optimal mechanisms in screening, auction, and public goods environments. The key finding is that proper robustness selects ex post efficient mechanisms in screening and auction settings, but in public goods provision it identifies specific optimal inefficiencies that worsen significantly in large economies."
+    },
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines why the US and China are accelerating AI investment despite acknowledging catastrophic AGI risks, contradicting standard real options theory that predicts investment delay under extreme uncertainty. Using a continuous-time preemption game with endogenous existential risk, the authors show that when catastrophic failure costs are globally shared, the risk terms cancel out of equilibrium conditions, creating a \"suicide region\" where rational actors deploy AGI early despite negative risk-adjusted NPV. The key contribution is demonstrating that competitive dynamics can override safety considerations in winner-take-all races with systemic risks, and that only internalizing ruin costs through private liability can restore rational delay incentives."
+    },
+    {
+      "title": "KWBench: Measuring Unprompted Problem Recognition in Knowledge Work",
+      "authors": [
+        "Ankit Maloo"
+      ],
+      "abstract": "We introduce the first version of KWBench (Knowledge Work Bench), a benchmark for unprompted problem recognition in large language models: can an LLM identify a professional scenario before attempting to solve it. Existing frontier benchmarks have saturated, and most knowledge-work evaluations to date reduce to extraction or task completion against a specification. KWBench targets the step before that: recognizing the governing structure of the situation from raw inputs alone.   The benchmark contains 223 tasks sourced from practitioners across acquisitions, contract negotiations, clinical pharmacy, organizational politics, fraud analysis, and incentive design. Each task encodes a formal game-theoretic pattern (principal-agent conflict, signaling, mechanism design failure, strategic omission, coalitional dynamics, strategic interdependence) and carries structured ground truth recording the expert reading of the situation and the anticipated failure modes. Models receive raw data and a task prompt with no indication of problem type. Scoring is a three-tier rubric gated by a mandatory conjunctive check. Mandatory criteria encode the predicted wrong paths.   We evaluate 16 models. The best model passes on 27.9% of tasks. The top two models agree on only 31.7% of their passes. Among the top 8, 44 tasks are solved by exactly one model; routing across the top 8 covers 50.7% of the benchmark, nearly double the best single model. Conditional on passing, quality scores converge (approx 83% across models); unconditional scores do not. Same models articulate the relevant game-theoretic concept correctly when asked, then fail to apply it unprompted. We release KWBench to shift how frontier models are evaluated on knowledge work, scoring them on whether they recognize the right problem from the situation alone, not only on how well they execute once the problem has been framed for them.",
+      "url": "https://arxiv.org/abs/2604.15760v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.15760v1",
+      "source": "arxiv",
+      "source_id": "2604.15760v1",
+      "published_date": "2026-04-17",
+      "categories": [
+        "cs.AI",
+        "cs.GT"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper introduces KWBench, a benchmark testing whether large language models can recognize the underlying strategic structure of professional scenarios (e.g., principal-agent problems, signaling games) from raw data without explicit prompts about the problem type. The methodology is empirical evaluation using 223 real-world tasks from domains like contract negotiations and fraud analysis, with game-theoretic patterns as ground truth and a three-tier scoring rubric. The key finding is that even the best LLM achieves only 27.9% success, with low inter-model agreement (31.7%) and high complementarity across models, suggesting current LLMs struggle with unprompted strategic problem recognition in knowledge work contexts."
+    },
+    {
+      "title": "Personalization as a Game: Equilibrium-Guided Generative Modeling for Physician Behavior in Pharmaceutical Engagement",
+      "authors": [
+        "Suyash Mishra"
+      ],
+      "abstract": "We present \\textbf{EGPF} (Equilibrium-Guided Personalization Framework), a mathematically rigorous architecture unifying Bayesian game theory, category theory, information theory, and generative AI for hyper-personalized physician engagement in the pharmaceutical domain. Our framework models the pharma--physician interaction as an incomplete-information Bayesian game where physician behavioral types are inferred via functorial mappings from observational categories, equilibrium strategies guide content generation through large language models (LLMs), and information-theoretic feedback loops ensure adaptive recalibration. We formalize behavior composition through category-theoretic functors, natural transformations, and monoidal structures, enabling modular, composable physician archetypes that respect structural invariants under domain shift. We introduce a novel \\textit{Rate-Distortion Equilibrium} (RDE) criterion that bounds the personalization--privacy tradeoff, an \\textit{Evolutionary Game Dynamics} layer for population-level behavior modeling, a \\textit{Mechanism Design} module for incentive-compatible engagement, and a \\textit{Sheaf-Theoretic} extension for multi-scale behavioral consistency. We prove convergence of our iterative belief-update mechanism at rate $O(\\frac{K\\log K}{t \\cdot C_{\\min}})$ and establish finite-sample regret bounds. Extensive experiments on synthetic pharma datasets and a real-world HCP engagement pilot demonstrate a 34\\% improvement in engagement prediction (AUC) and 28\\% lift in content relevance scores compared to state-of-the-art methods.",
+      "url": "https://arxiv.org/abs/2604.06860v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06860v1",
+      "source": "arxiv",
+      "source_id": "2604.06860v1",
+      "published_date": "2026-04-08",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper develops EGPF, a framework that models pharmaceutical-physician interactions as Bayesian games to optimize personalized engagement strategies. The methodology combines game-theoretic equilibrium concepts with category theory and generative AI, using incomplete information games where physician behavioral types are inferred and equilibrium strategies guide LLM-based content generation. The key contribution is achieving 34% improvement in engagement while providing theoretical convergence guarantees (O(K log K/t\u00b7C_min)) and establishing a novel Rate-Distortion Equilibrium criterion that balances personalization effectiveness against privacy constraints."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper addresses how to optimally select the intended use for underperforming real estate assets requiring redevelopment by developing a decision framework that accounts for irreversibility and managerial flexibility. The methodology combines real options theory with multi-criteria decision analysis (MCDA) to evaluate alternatives across dimensions of economic value, risk, complexity, and time-to-income. The key contribution is operationalizing option value preservation through systematic ex-ante screening that treats redevelopment as strategic option selection rather than design optimization, thereby reducing misalignment between intended use and market demand."
+    },
+    {
+      "title": "Optimal linear-payment auction design with aftermarket collaboration",
+      "authors": [
+        "Dazhong Wang",
+        "Ruqu Wang",
+        "Xinyi Xu"
+      ],
+      "abstract": "This paper studies optimal auction design when valuations depend endogenously on post-auction collaboration between the seller and the winning bidder. Both parties exert non-contractible efforts after the auction, generating a double moral hazard problem alongside adverse selection. We analyze two role structures -- winner-pivotal and seller-pivotal collaboration -- and characterize optimal direct mechanisms using linear payment schemes that combine cash transfers with proportional value sharing. The optimal mechanism allocates the asset to the bidder with the highest virtual surplus, employs a deterministic value-sharing rule, and achieves full type revelation through the signal realization rule. Comparing the two scenarios yields three main findings. First, regarding value sharing, the seller secures a strictly higher share under seller-pivotal collaboration: for sufficiently low-type winners, the seller extracts the entire value, whereas under winner-pivotal collaboration every winner must retain a positive share to sustain his critical effort. Second, regarding effort exertion, the pivotal party always exerts higher post-auction effort than the supporting party, and each party exerts greater effort when pivotal than when providing support. Third, seller-pivotal collaboration yields strictly higher seller revenue than winner-pivotal collaboration for any type distribution. Finally, these optimal mechanisms can be implemented through ascending auctions with endogenously determined linear contracts.",
+      "url": "https://arxiv.org/abs/2604.17923v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17923v1",
+      "source": "arxiv",
+      "source_id": "2604.17923v1",
+      "published_date": "2026-04-20",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines optimal auction design when post-auction value depends on non-contractible collaborative efforts between the seller and winning bidder, creating combined adverse selection and double moral hazard problems. Using mechanism design theory, the authors characterize optimal direct mechanisms with linear payments (cash plus proportional value sharing) under two scenarios: winner-pivotal and seller-pivotal collaboration structures. The key finding is that seller-pivotal collaboration strictly dominates winner-pivotal collaboration in terms of seller revenue, with the pivotal party always exerting higher effort and securing better terms, and these mechanisms can be implemented via ascending auctions."
+    },
+    {
+      "title": "Stochastic Optimization and Coupling",
+      "authors": [
+        "Frank Yang",
+        "Kai Hao Yang"
+      ],
+      "abstract": "We study optimization problems in which a linear functional is maximized over probability measures that are dominated by a given measure according to an integral stochastic order in an arbitrary dimension. We show that the following four properties are equivalent for any such order: (i) the test function cone is closed under pointwise minimum, (ii) the value function is affine, (iii) the solution correspondence has a convex graph with decomposable extreme points, and (iv) every ordered pair of measures admits an order-preserving coupling. As corollaries, we derive the extreme and exposed point properties involving integral stochastic orders such as multidimensional mean-preserving spreads and stochastic dominance. Applying these results, we generalize Blackwell's theorem by completely characterizing the comparisons of experiments that admit two equivalent descriptions -- through instrumental values and through information technologies. We also show that these results immediately yield new insights into information design, mechanism design, and decision theory.",
+      "url": "https://arxiv.org/abs/2603.11448v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.11448v1",
+      "source": "arxiv",
+      "source_id": "2603.11448v1",
+      "published_date": "2026-03-12",
+      "categories": [
+        "econ.TH",
+        "math.PR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates stochastic optimization problems where a linear functional is maximized over probability measures constrained by integral stochastic orders in arbitrary dimensions. Using theoretical analysis, the authors establish that four key properties are equivalent: closure of the test function cone under pointwise minimum, affinity of the value function, convexity properties of the solution correspondence, and existence of order-preserving couplings between measure pairs. The main contribution is a complete characterization that generalizes Blackwell's theorem on experiment comparisons and provides new theoretical foundations for information design, mechanism design, and decision theory."
+    },
+    {
+      "title": "Self-Confirming Mechanisms",
+      "authors": [
+        "Zhiming Feng",
+        "Qingmin Liu"
+      ],
+      "abstract": "This paper studies mechanism design environments in which the designer does not know the distribution of agents' private information a priori and instead learns from agents' behavior induced by the mechanism itself. We formalize a notion of self-confirming mechanisms and a refinement thereof, capturing the idea that an equilibrium mechanism is optimal given the designer's belief and that this belief is consistent with the information produced by the mechanism. We establish a fictitious revelation principle, showing that any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports that preserve the original mechanism's informational content. Applying the framework to a monopoly problem, we show that, subject to an equilibrium refinement, dominant-strategy self-confirming mechanisms are exactly posted-price mechanisms with locally revenue-maximizing prices.",
+      "url": "https://arxiv.org/abs/2603.12532v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.12532v1",
+      "source": "arxiv",
+      "source_id": "2603.12532v1",
+      "published_date": "2026-03-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines mechanism design when the designer must learn agents' private information distributions from the mechanism's own outcomes rather than knowing them ex ante. Using game-theoretic analysis, the authors develop a \"fictitious revelation principle\" showing any incentive-compatible mechanism can be represented as a direct mechanism with filtered type reports that preserve informational content. The key contribution is proving that in monopoly settings, dominant-strategy self-confirming mechanisms are equivalent to posted-price mechanisms with locally revenue-maximizing prices, providing theoretical foundation for why simple pricing often emerges when sellers learn demand through market interactions."
+    },
+    {
+      "title": "Compliance Moral Hazard and the Backfiring Mandate",
+      "authors": [
+        "Jian Ni",
+        "Lecheng Zheng",
+        "John R Birge"
+      ],
+      "abstract": "Competing firms that serve shared customer populations face a fundamental information aggregation problem: each firm holds fragmented signals about risky customers, but individual incentives impede efficient collective detection. We develop a mechanism design framework for decentralized risk analytics, grounded in anti-money laundering in banking networks. Three strategic frictions distinguish our setting: compliance moral hazard, adversarial adaptation, and information destruction through intervention. A temporal value assignment (TVA) mechanism, which credits institutions using a strictly proper scoring rule on discounted verified outcomes, implements truthful reporting as a Bayes--Nash equilibrium (uniquely optimal at each edge) in large federations. Embedding TVA in a banking competition model, we show competitive pressure amplifies compliance moral hazard and poorly designed mandates can reduce welfare below autarky, a ``backfiring'' result with direct policy implications. In simulation using a synthetic AML benchmark, TVA achieves substantially higher welfare than autarky or mandated sharing without incentive design.",
+      "url": "https://arxiv.org/abs/2604.21789v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21789v1",
+      "source": "arxiv",
+      "source_id": "2604.21789v1",
+      "published_date": "2026-04-23",
+      "categories": [
+        "cs.GT",
+        "cs.LG"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses how competing firms can efficiently share fragmented risk information about shared customers despite individual incentives that discourage cooperation, focusing on anti-money laundering in banking networks. The authors use mechanism design theory combined with simulation on synthetic AML data to develop and test a temporal value assignment (TVA) mechanism that uses proper scoring rules on discounted verified outcomes. The key finding is that TVA implements truthful information sharing as a Bayes-Nash equilibrium and substantially outperforms both autarky and poorly designed mandates, which can actually reduce welfare below no-sharing baselines due to compliance moral hazard amplified by competitive pressure."
+    },
+    {
+      "title": "Latency-Aware Resource Allocation over Heterogeneous Networks: A Lorentz-Invariant Market Mechanism",
+      "authors": [
+        "Saad Alqithami"
+      ],
+      "abstract": "We present a telecom-native auction mechanism for allocating bandwidth and time slots across heterogeneous-delay networks, ranging from low-Earth-orbit (LEO) satellite constellations to delay-tolerant deep-space relays. The Lorentz-Invariant Auction (LIA) treats bids as spacetime events and reweights reported values based on the \\emph{horizon slack}, a causal quantity derived from the earliest-arrival times relative to a public clearing horizon. Unlike other delay-equalization rules, LIA combines a causal-ordering formulation, a uniquely exponential slack correction implied by a semigroup-style invariance axiom, and a critical-value implementation that ensures truthful reported values once slacks are fixed by trusted infrastructure. We analyze the incentive result in the exogenous-slack regime and separately examine bounded slack-estimation error and endogenous-delay limitations. Under fixed feasible slacks, LIA is individually rational and achieves welfare at least \\(e^{-\u03bb\u0394}\\) relative to the optimal feasible allocation, where \\(\u0394\\) is the slack spread. We evaluate LIA on STARLINK-200, INTERNET-100, and DSN-30 across 52,500 baseline instances with market sizes \\(n\\in\\{10,20,30,40,50\\}\\) and conduct additional robustness sweeps. On Starlink and Internet, LIA maintains near-efficiency while eliminating measured timing rents. However, on DSN, welfare is lower in thin markets but improves with depth. We also distinguish winner-determination time from the background cost of maintaining slack estimates and study robustness beyond independent and identically distributed (iid) noise through error-spread bounds and structured (distance-biased and subnetwork-correlated) noise models. These results suggest that causal-consistent mechanism design offers a practical non-buffering alternative to synchronized delay equalization in heterogeneous telecom infrastructures.",
+      "url": "https://arxiv.org/abs/2604.03897v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03897v1",
+      "source": "arxiv",
+      "source_id": "2604.03897v1",
+      "published_date": "2026-04-04",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper develops a novel auction mechanism (Lorentz-Invariant Auction, LIA) for allocating bandwidth and time slots across heterogeneous-delay networks by treating bids as spacetime events and applying exponential reweighting based on \"horizon slack\" - the causal relationship between earliest-arrival times and clearing horizons. The methodology combines theoretical mechanism design with computational experiments on three network types (STARLINK-200, INTERNET-100, DSN-30) across 52,500 instances with varying market sizes. The key contribution is proving that LIA achieves truthfulness and individual rationality under fixed slacks while maintaining welfare within a factor of e^(-\u03bb\u0394) of optimal allocation, with empirical results showing near-efficiency on low-latency networks but reduced performance in thin markets for high-delay networks like deep-space relays."
+    },
+    {
+      "title": "Teachers\u2019 Participation in Budget Planning and Its Relationship with Classroom Resource Allocation and Financial Transparency in a Private Basic Education Institution",
+      "authors": [
+        "Nilda Barleta",
+        "Bernardo Lunar"
+      ],
+      "abstract": "Teacher involvement in school financial decision-making has gained increasing attention in decentralized and school-based management systems. This study examined the extent of teachers\u2019 participation in budget planning and its relationship with classroom resource allocation and perceived financial transparency in a private basic education institution. Anchored on Participatory Decision-Making Theory and Distributed Leadership Theory, the study employed a descriptive quantitative research design. Data were collected from 34 basic education teachers of Christian School International using a researcher-developed survey instrument measuring participation in budget planning, perceptions of instructional resource adequacy, financial transparency, and trust in the School-Based Management Committee (SBMC). Descriptive statistics were used to analyze the data. Findings revealed that teachers\u2019 participation in budget planning was moderate, with respondents strongly affirming the importance of teacher involvement in financial decisions. Financial transparency and trust in the SBMC were also perceived at moderate levels, particularly in terms of access to financial reports and comfort in raising financial concerns. Despite these limitations, results indicated that greater teacher participation was positively associated with improved alignment of budget allocations with classroom needs and perceived improvements in educational quality. Teachers reported that inclusive budgeting contributed to more adequate instructional resources and better student support. The study concludes that while participatory budgeting mechanisms exist, gaps remain between policy intentions and actual practice. Strengthening structured teacher involvement, improving financial communication, and enhancing transparency mechanisms are essential to maximizing the benefits of participatory governance. The study recommends institutionalizing teacher representation in budget planning, promoting budget literacy",
+      "url": "https://doi.org/10.66206/eh.ajimas.46",
+      "pdf_url": "https://doi.org/10.66206/eh.ajimas.46",
+      "source": "openalex",
+      "source_id": "W7155616763",
+      "published_date": "2026-04-25",
+      "categories": [
+        "Journal: AJIMAS",
+        "Transparency (behavior)",
+        "Descriptive statistics",
+        "Citizen journalism",
+        "Business",
+        "Finance"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This study examines how teachers' participation in budget planning relates to classroom resource allocation and financial transparency in private basic education. Using a descriptive quantitative methodology with survey data from 34 teachers at a Christian school, the research applies Participatory Decision-Making Theory and Distributed Leadership Theory to analyze these relationships. The key finding is that greater teacher participation in budget planning is positively associated with improved alignment between budget allocations and classroom needs, as well as enhanced perceived educational quality, despite moderate levels of actual participation and financial transparency."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - May 11, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This research digest covers 16 papers spanning key areas in energy economics and market design. The collection focuses heavily on electricity market mechanisms, with notable contributions including a causal analysis of price formation in Texas&#x27;s transitioning electricity market and novel approaches to handling production uncertainty through two-stage market clearing mechanisms. Additional themes include auction design, adverse selection problems, and broader mechanism design theory, providing valuable insights for understanding market efficiency and strategic behavior in energy and related sectors.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.14257v1" target="_blank">Mapping the causal structure of price formation in Texas&#x27;s transitioning electricity market</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shiva Madadkhani, Nils Sturma, Mathias Drton, Svetlana Ikonnikova
+            • 2026-04-15
+        </div>
+        <div>
+            <span class="paper-score">Score: 20</span>
+            <span class="paper-keywords">electricity market, wholesale electricity, renewable integration</span>
+        </div>
+        <div class="paper-summary">This paper investigates how the causal structure of electricity price formation is evolving in Texas&#x27;s wholesale market amid rapid renewable integration and demand growth. Using causal discovery methods applied to supply- and demand-side price drivers, the authors find that wind generation has become the dominant causal factor in day-ahead price formation—with effects over 3 times larger than natural gas prices—fundamentally challenging the traditional view of Texas as a gas-price-driven market. The key contribution demonstrates that wind reduces local prices but creates spatially and seasonally varying congestion redistribution effects, while natural gas and demand show more modest, region-specific causal influences, highlighting the need for time-varying causal models to understand transitioning electricity markets.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.01080v1" target="_blank">Principal-agent problems with adverse selection: A stochastic target problem formulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Guillermo Alonso Alvarez, Ibrahim Ekren, Liwei Huang
+            • 2026-05-01
+        </div>
+        <div>
+            <span class="paper-score">Score: 16</span>
+            <span class="paper-keywords">self-selection, screening, adverse selection</span>
+        </div>
+        <div class="paper-summary">This paper examines a principal-agent problem with adverse selection where the principal must offer a single contract without knowing the agent&#x27;s true cost type, departing from standard screening models that allow multiple contracts for self-selection. The methodology combines stochastic target problem formulation with optimal control theory under partial information and state constraints. The key contribution is demonstrating that the agent&#x27;s problem can be recast as a stochastic target problem, enabling characterization of the &quot;credible domain&quot; and reformulation of the principal&#x27;s optimization as a constrained stochastic control problem, while also providing a method to quantify the value of screening contracts.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.02455v1" target="_blank">Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shobhit Singhal, Lesia Mitridati, Licio Romao
+            • 2026-04-02
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">market clearing, electricity market</span>
+        </div>
+        <div class="paper-summary">This paper addresses how electricity markets can better incorporate production uncertainty from renewable sources by eliciting truthful uncertainty information from generators. The authors develop a theoretical two-stage mechanism extending Vickery-Clarke-Groves (VCG) payments where producers report probability distributions of their production forecasts in day-ahead markets, followed by realized production in real-time. The mechanism achieves incentive compatibility and individual rationality while reducing total system costs by enabling market operators to optimize dispatch and ancillary services accounting for balancing costs associated with forecast uncertainty.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.03216v1" target="_blank">MenuNet: A Strategy-Proof Mechanism for Matching Markets</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zhaohong Sun, Makoto Yokoo
+            • 2026-05-04
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">mechanism design, market clearing</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to design strategy-proof mechanisms for matching markets with complex distributional constraints where stable matchings may not exist. The methodology uses a neural network framework (MenuNet) that learns to generate personalized probabilistic menus for agents, with assignments realized through a sequential choice rule that guarantees strategy-proofness by construction while optimizing the distribution of instability through differentiable objectives that decompose stability into fairness and non-wastefulness. The key contribution is demonstrating that MenuNet effectively navigates the trade-off between competing axioms, consistently reducing envy compared to Random Serial Dictatorship and reducing waste compared to Deferred Acceptance while maintaining scalability.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.24156v1" target="_blank">Strategic Bidding in 6G Spectrum Auctions with Large Language Models</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ismail Lotfi, Ali Ghrayeb
+            • 2026-04-27
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">mechanism design, bidding behavior</span>
+        </div>
+        <div class="paper-summary">This paper investigates whether Large Language Models can serve as effective bidding agents in repeated 6G spectrum auctions under budget constraints, comparing their performance against the theoretical benchmark of truthful Vickrey-Clarke-Groves mechanisms. The methodology combines mechanism design theory with experimental evaluation of LLM agents that use historical data and prompt-based reasoning to adapt bidding strategies dynamically in vehicular network scenarios. The key finding is that LLMs achieve near-equilibrium outcomes when VCG assumptions hold, but more importantly, they outperform traditional strategies when theoretical assumptions break down (e.g., under budget constraints), demonstrating superior ability to find adaptive equilibria beyond static mechanism design predictions.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

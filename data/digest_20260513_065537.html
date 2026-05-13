@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - May 13, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This digest covers 14 recent papers spanning electricity markets, mechanism design, and related economic theory. The research encompasses both practical applications in electricity market operations—including price formation in Texas&#x27;s transitioning market and demand-response programs—and fundamental theoretical contributions in mechanism design, adverse selection, and market clearing processes. Particularly notable are studies on truthful production uncertainty mechanisms in electricity markets and the intersection of AI with cooperative mechanism design, reflecting the field&#x27;s evolution toward both digitalization and strategic complexity.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.14257v1" target="_blank">Mapping the causal structure of price formation in Texas&#x27;s transitioning electricity market</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shiva Madadkhani, Nils Sturma, Mathias Drton, Svetlana Ikonnikova
+            • 2026-04-15
+        </div>
+        <div>
+            <span class="paper-score">Score: 20</span>
+            <span class="paper-keywords">electricity market, wholesale electricity, renewable integration</span>
+        </div>
+        <div class="paper-summary">This paper investigates how the causal structure of electricity price formation has evolved in Texas&#x27;s wholesale market amid rapid renewable integration. Using causal discovery methods applied to supply- and demand-side price drivers, the authors find that wind generation has become the dominant causal factor in day-ahead price formation—with effects over 3 times larger than natural gas prices—fundamentally overturning the traditional view of Texas as a gas-price-driven market. The key contribution demonstrates that renewable integration creates complex, time-varying causal relationships where wind reduces local prices but redistributes congestion costs across regions, highlighting the need for dynamic causal models to understand price formation in transitioning electricity systems.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.01080v1" target="_blank">Principal-agent problems with adverse selection: A stochastic target problem formulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Guillermo Alonso Alvarez, Ibrahim Ekren, Liwei Huang
+            • 2026-05-01
+        </div>
+        <div>
+            <span class="paper-score">Score: 16</span>
+            <span class="paper-keywords">self-selection, screening, adverse selection</span>
+        </div>
+        <div class="paper-summary">This paper examines a principal-agent problem with adverse selection where the principal must offer a single contract rather than a menu of contracts for self-selection. Using stochastic target problem methodology, the authors reformulate the agent&#x27;s optimization as a stochastic control problem and characterize the &quot;credible domain&quot; of feasible contracts under partial information and state constraints. The key contribution is demonstrating that this reformulation enables solving the principal&#x27;s optimization problem and provides a method to compute the value of screening contracts relative to the constrained single-contract scenario.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.02455v1" target="_blank">Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shobhit Singhal, Lesia Mitridati, Licio Romao
+            • 2026-04-02
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">market clearing, electricity market</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to efficiently incorporate production uncertainty from renewable generators into electricity market clearing when current day-ahead markets only consider point forecasts, ignoring uncertainty that drives balancing costs. The authors develop a theoretical two-stage mechanism extending Vickery-Clarke-Groves (VCG) payments where producers report their full production forecast distribution in day-ahead markets followed by realized production in real-time. The mechanism achieves incentive compatibility and individual rationality while demonstrating reduced total system costs compared to current market designs in an electricity market case study.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.03216v1" target="_blank">MenuNet: A Strategy-Proof Mechanism for Matching Markets</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zhaohong Sun, Makoto Yokoo
+            • 2026-05-04
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">mechanism design, market clearing</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to design strategy-proof matching mechanisms when complex distributional constraints make stable matchings impossible. The methodology combines mechanism design theory with neural networks, proposing MenuNet—a framework that learns to generate personalized probabilistic menus and realizes assignments through a sequential choice rule that guarantees strategy-proofness by construction. The key contribution is demonstrating that MenuNet effectively trades off between fairness (envy) and efficiency (waste) by outperforming Random Serial Dictatorship on envy measures and Deferred Acceptance on waste measures, while maintaining computational scalability.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.06105v1" target="_blank">Lexicographic Robustness and the Efficiency of Optimal Mechanisms</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ashwin Kambhampati
+            • 2026-04-07
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to select robust mechanisms when facing uncertainty about economic environments, proposing lexicographic refinements to overcome the indeterminacy of standard maxmin criteria. Using theoretical mechanism design analysis, the authors characterize &quot;proper robustness&quot; - the strongest lexicographic refinement - across different settings. The key finding is that proper robustness yields ex post efficient mechanisms in screening and auction environments, but identifies specific optimal inefficiencies in public goods provision that worsen significantly as economies scale up.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

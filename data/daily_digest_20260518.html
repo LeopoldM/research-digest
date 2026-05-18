@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - May 18, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This digest covers 13 papers spanning key areas in energy economics and market design. The research is heavily concentrated in mechanism design (6 papers) and market operations, with notable contributions including empirical work on Texas electricity market price formation and theoretical advances in strategy-proof matching mechanisms. Additional papers explore traditional information economics topics such as adverse selection and screening, alongside emerging areas like AI-driven demand response programs and climate policy under heterogeneous preferences.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.14257v1" target="_blank">Mapping the causal structure of price formation in Texas&#x27;s transitioning electricity market</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Shiva Madadkhani, Nils Sturma, Mathias Drton, Svetlana Ikonnikova
+            • 2026-04-15
+        </div>
+        <div>
+            <span class="paper-score">Score: 20</span>
+            <span class="paper-keywords">electricity market, wholesale electricity, renewable integration</span>
+        </div>
+        <div class="paper-summary">This paper investigates how the causal structure of electricity price formation has evolved in Texas&#x27;s rapidly transitioning market driven by renewable integration and demand growth. Using causal discovery methods applied to supply- and demand-side price drivers, the authors find that wind generation has become the dominant causal driver of day-ahead prices—with effects over 3 times larger than natural gas prices—fundamentally overturning the traditional view of Texas as a gas-price-driven market. The key contribution is demonstrating that wind reduces local prices while redistributing congestion costs across regions in seasonally varying patterns, highlighting the need for time-varying causal models to understand price formation in renewable-heavy systems.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.01080v1" target="_blank">Principal-agent problems with adverse selection: A stochastic target problem formulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Guillermo Alonso Alvarez, Ibrahim Ekren, Liwei Huang
+            • 2026-05-01
+        </div>
+        <div>
+            <span class="paper-score">Score: 16</span>
+            <span class="paper-keywords">self-selection, screening, adverse selection</span>
+        </div>
+        <div class="paper-summary">This paper examines a principal-agent problem with adverse selection where the principal must offer a single contract without knowing the agent&#x27;s true cost type, rather than using standard screening mechanisms. The methodology employs stochastic optimal control theory, reformulating the agent&#x27;s problem as a stochastic target problem and the principal&#x27;s problem as a partial information control problem with state constraints. The key contribution is characterizing the &quot;credible domain&quot; of feasible outcomes, which enables solving for optimal single contracts and provides a benchmark for evaluating the value of traditional screening mechanisms.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.03216v1" target="_blank">MenuNet: A Strategy-Proof Mechanism for Matching Markets</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Zhaohong Sun, Makoto Yokoo
+            • 2026-05-04
+        </div>
+        <div>
+            <span class="paper-score">Score: 13</span>
+            <span class="paper-keywords">mechanism design, market clearing</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to design strategy-proof mechanisms for matching markets with complex distributional constraints where stable matchings may not exist. The methodology combines mechanism design theory with neural networks, proposing MenuNet—a framework that learns to generate personalized probabilistic menus and uses sequential choice rules to guarantee strategy-proofness by construction while optimizing the trade-off between fairness (no envy) and efficiency (non-wastefulness) through differentiable objectives. The key contribution is demonstrating that MenuNet consistently outperforms standard mechanisms (Random Serial Dictatorship in terms of envy, Deferred Acceptance in terms of waste) while maintaining computational scalability for constrained matching markets where traditional stable solutions fail.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2604.06105v1" target="_blank">Lexicographic Robustness and the Efficiency of Optimal Mechanisms</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Ashwin Kambhampati
+            • 2026-04-07
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, screening</span>
+        </div>
+        <div class="paper-summary">This paper addresses how to design robust mechanisms when facing uncertainty about the economic environment by proposing a lexicographic refinement of the standard maxmin criterion. The methodology is theoretical, developing the concept of &quot;proper robustness&quot; as the strongest lexicographic refinement and characterizing optimal mechanisms in screening, auction, and public goods settings. The key finding is that proper robustness yields ex post efficient mechanisms in screening and auction environments, but identifies specific optimal inefficiencies in public goods provision that worsen significantly as the economy scales up.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2512.07526v1" target="_blank">The Suicide Region: Option Games and the Race to Artificial General Intelligence</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • David Tan
+            • 2025-12-08
+        </div>
+        <div>
+            <span class="paper-score">Score: 11</span>
+            <span class="paper-keywords">mechanism design, real options</span>
+        </div>
+        <div class="paper-summary">This paper examines why the US and China are accelerating AGI development despite acknowledged catastrophic risks, contrary to standard real options theory which predicts delay under high uncertainty. The authors develop a continuous-time preemption game model where competitive pressures between rational actors create a &quot;suicide region&quot; where early deployment occurs despite negative risk-adjusted NPV, because the shared global catastrophic risk mathematically cancels out of players&#x27; equilibrium conditions. The key contribution is showing that competitive dynamics can force rational agents into collectively destructive behavior, and that only internalizing ruin costs through private liability can restore safety incentives and halt premature deployment.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

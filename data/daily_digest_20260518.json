@@ -1,0 +1,357 @@
+{
+  "generated_at": "2026-05-18T08:13:08.022621",
+  "period": "daily",
+  "paper_count": 18,
+  "papers": [
+    {
+      "title": "Mapping the causal structure of price formation in Texas's transitioning electricity market",
+      "authors": [
+        "Shiva Madadkhani",
+        "Nils Sturma",
+        "Mathias Drton",
+        "Svetlana Ikonnikova"
+      ],
+      "abstract": "Electricity markets are changing, driven by large-scale renewable integration and rising demand from electrification and digitalisation. This raises fundamental questions about how electricity prices form as the relationships among key price determinants evolve. Here we apply causal discovery to characterise these dynamics across major supply- and demand-side drivers of wholesale electricity prices in Texas, where rapid renewable growth intersects with surging demand. We show that wind generation has become the dominant causal driver of day-ahead electricity prices with effects more than 3 times larger than those of natural gas prices, overturning the view of the Texas market as gas-price-driven. Wind reduces prices locally but redistributes congestion costs across regions in seasonally varying patterns. Natural gas prices remain causally relevant, though their influence is modest and the dominant gas benchmark changes over time. Electricity demand also shows region- and period-specific causal effects. These findings highlight the need for causal models that capture time-varying relationships across both supply and demand to guide system planners and market participants navigating the ongoing transition.",
+      "url": "https://arxiv.org/abs/2604.14257v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.14257v1",
+      "source": "arxiv",
+      "source_id": "2604.14257v1",
+      "published_date": "2026-04-15",
+      "categories": [
+        "econ.GN",
+        "stat.AP"
+      ],
+      "relevance_score": 20.0,
+      "summary": "This paper investigates how the causal structure of electricity price formation has evolved in Texas's rapidly transitioning market driven by renewable integration and demand growth. Using causal discovery methods applied to supply- and demand-side price drivers, the authors find that wind generation has become the dominant causal driver of day-ahead prices\u2014with effects over 3 times larger than natural gas prices\u2014fundamentally overturning the traditional view of Texas as a gas-price-driven market. The key contribution is demonstrating that wind reduces local prices while redistributing congestion costs across regions in seasonally varying patterns, highlighting the need for time-varying causal models to understand price formation in renewable-heavy systems."
+    },
+    {
+      "title": "Principal-agent problems with adverse selection: A stochastic target problem formulation",
+      "authors": [
+        "Guillermo Alonso Alvarez",
+        "Ibrahim Ekren",
+        "Liwei Huang"
+      ],
+      "abstract": "We study a principal-agent problem with adverse selection, where the principal does not know the agent's true cost but must design a contract to optimize a specific criterion. Unlike standard screening frameworks that allow for self-selection, we assume the principal can only offer a unique contract. We show that the agent's optimization problem can be reformulated as a stochastic target problem. After characterizing the credible domain of this target problem, we show that the principal's objective can be solved as a stochastic optimal control problem with partial information and state constraints. The description of the credible domain also allows us to obtain the value of screening contracts.",
+      "url": "https://arxiv.org/abs/2605.01080v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.01080v1",
+      "source": "arxiv",
+      "source_id": "2605.01080v1",
+      "published_date": "2026-05-01",
+      "categories": [
+        "econ.TH",
+        "math.OC"
+      ],
+      "relevance_score": 15.555555555555555,
+      "summary": "This paper examines a principal-agent problem with adverse selection where the principal must offer a single contract without knowing the agent's true cost type, rather than using standard screening mechanisms. The methodology employs stochastic optimal control theory, reformulating the agent's problem as a stochastic target problem and the principal's problem as a partial information control problem with state constraints. The key contribution is characterizing the \"credible domain\" of feasible outcomes, which enables solving for optimal single contracts and provides a benchmark for evaluating the value of traditional screening mechanisms."
+    },
+    {
+      "title": "MenuNet: A Strategy-Proof Mechanism for Matching Markets",
+      "authors": [
+        "Zhaohong Sun",
+        "Makoto Yokoo"
+      ],
+      "abstract": "Strategy-proofness is a fundamental desideratum in mechanism design, ensuring truthful reporting and robust participation. Stability is another central requirement in matching markets, widely adopted in applications such as school choice and labor market clearing. In practice, however, these markets are invariably governed by complex distributional constraints, ranging from diversity quotas and regional balance to global capacity slacks, under which stable matchings often fail to exist. This raises a fundamental question: how to distribute unavoidable instability across agents while preserving strategy-proofness? To address this, we propose \\texttt{MenuNet}, a strategy-proof mechanism design framework based on a neural representation of menus. Rather than directly constructing assignments, \\texttt{MenuNet} learns to generate personalized probabilistic menus, from which assignments are realized via a structured sequential choice rule that guarantees strategy-proofness by construction. By decomposing stability into fairness (no envy) and non-wastefulness, our approach models these properties as vector-valued quantities and optimizes their distribution through differentiable objectives, providing a principled trade-off between competing axioms. Empirically, \\texttt{MenuNet} navigates this trade-off effectively: it consistently outperforms Random Serial Dictatorship (RSD) in terms of envy and Deferred Acceptance (DA) in terms of waste, while maintaining scalability and computational efficiency. These results suggest that learning-based menu mechanisms provide a flexible and scalable paradigm for mechanism design in highly constrained, real-world environments.",
+      "url": "https://arxiv.org/abs/2605.03216v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03216v1",
+      "source": "arxiv",
+      "source_id": "2605.03216v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "cs.GT",
+        "cs.AI"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper addresses how to design strategy-proof mechanisms for matching markets with complex distributional constraints where stable matchings may not exist. The methodology combines mechanism design theory with neural networks, proposing MenuNet\u2014a framework that learns to generate personalized probabilistic menus and uses sequential choice rules to guarantee strategy-proofness by construction while optimizing the trade-off between fairness (no envy) and efficiency (non-wastefulness) through differentiable objectives. The key contribution is demonstrating that MenuNet consistently outperforms standard mechanisms (Random Serial Dictatorship in terms of envy, Deferred Acceptance in terms of waste) while maintaining computational scalability for constrained matching markets where traditional stable solutions fail."
+    },
+    {
+      "title": "Lexicographic Robustness and the Efficiency of Optimal Mechanisms",
+      "authors": [
+        "Ashwin Kambhampati"
+      ],
+      "abstract": "A central challenge in mechanism design is to identify mechanisms whose performance is robust under uncertainty about the environment. The maxmin optimality criterion is commonly used for this purpose, but it often yields a large and economically uninformative set of mechanisms. This paper proposes a lexicographic approach to refining the maxmin criterion and characterizes the efficiency of optimal mechanisms. In canonical screening and auction environments, the strongest refinement $\\unicode{x2013}$ proper robustness $\\unicode{x2013}$ selects ex post efficient mechanisms. By contrast, in a public good provision environment, it identifies the precise form of optimal inefficiencies, which become severe in large economies.",
+      "url": "https://arxiv.org/abs/2604.06105v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06105v1",
+      "source": "arxiv",
+      "source_id": "2604.06105v1",
+      "published_date": "2026-04-07",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper addresses how to design robust mechanisms when facing uncertainty about the economic environment by proposing a lexicographic refinement of the standard maxmin criterion. The methodology is theoretical, developing the concept of \"proper robustness\" as the strongest lexicographic refinement and characterizing optimal mechanisms in screening, auction, and public goods settings. The key finding is that proper robustness yields ex post efficient mechanisms in screening and auction environments, but identifies specific optimal inefficiencies in public goods provision that worsen significantly as the economy scales up."
+    },
+    {
+      "title": "The Suicide Region: Option Games and the Race to Artificial General Intelligence",
+      "authors": [
+        "David Tan"
+      ],
+      "abstract": "Standard real options theory predicts delay in exercising the option to invest or deploy when extreme asset volatility or technological uncertainty are present. However, in the current race to develop artificial general intelligence (AGI), sovereign actors are exhibiting behaviors contrary to theoretical predictions: the US and China are accelerating AI investment despite acknowledging the potential for catastrophic failure from AGI misalignment. We resolve this puzzle by formalizing the AGI race as a continuous-time preemption game with endogenous existential risk. In our model, the cost of failure is no longer bounded only by the sunk cost of investment (I), but rather a systemic ruin parameter (D) that is correlated with development velocity and shared globally. As the disutility of catastrophe is embedded in both players' payoffs, the risk term mathematically cancels out of the equilibrium indifference condition. This creates a \"suicide region\" in the investment space where competitive pressures force rational agents to deploy AGI systems early, despite a negative risk-adjusted net present value. Furthermore, we show that \"warning shots\" (sub-existential disasters) will fail to deter AGI acceleration, as the winner-takes-all nature of the race remains intact. The race can only be halted if the cost of ruin is internalized, making safety research a prerequisite for economic viability. We derive the critical private liability threshold required to restore the option value of waiting and propose mechanism design interventions that can better ensure safe AGI research and socially responsible deployment.",
+      "url": "https://arxiv.org/abs/2512.07526v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07526v1",
+      "source": "arxiv",
+      "source_id": "2512.07526v1",
+      "published_date": "2025-12-08",
+      "categories": [
+        "q-fin.RM",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper examines why the US and China are accelerating AGI development despite acknowledged catastrophic risks, contrary to standard real options theory which predicts delay under high uncertainty. The authors develop a continuous-time preemption game model where competitive pressures between rational actors create a \"suicide region\" where early deployment occurs despite negative risk-adjusted NPV, because the shared global catastrophic risk mathematically cancels out of players' equilibrium conditions. The key contribution is showing that competitive dynamics can force rational agents into collectively destructive behavior, and that only internalizing ruin costs through private liability can restore safety incentives and halt premature deployment."
+    },
+    {
+      "title": "Mechanism Design Is Not Enough: Prosocial Agents for Cooperative AI",
+      "authors": [
+        "Xuanqiang Angelo Huang",
+        "Charlie Tharas",
+        "Samuele Marro",
+        "Van Q. Truong",
+        "Bernhard Sch\u00f6lkopf",
+        "Emanuele La Malfa",
+        "Zhijing Jin"
+      ],
+      "abstract": "Ensuring that AI agents behave safely and beneficially when interacting with other parties has emerged as one of the central challenges of modern AI safety. While mechanism design, as the theory of designing rules to align individual and collective objectives, can incentivize cooperative behavior, it is still an open question whether it alone is sufficient to maximize LLM agents' social welfare. This work proves that the answer is negative: drawing from incomplete contract theory, we formally show that when contracts cannot distinguish all relevant future contingencies, there is a strictly positive welfare loss that no realistic mechanism can eliminate. We show that prosocial agents, who weigh others' welfare alongside their own, can close this gap and achieve outcomes that are socially superior and individually beneficial. Experimentally, we show that in multi-agent resource-allocation environments and canonical social dilemmas where agents are powered by large language models, prosociality is beneficial. The implication for AI safety is clear: to enable cooperative interactions at scale, designing adequate mechanisms is not sufficient; agents must be built to be intrinsically prosocial.",
+      "url": "https://arxiv.org/abs/2605.08426v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08426v1",
+      "source": "arxiv",
+      "source_id": "2605.08426v1",
+      "published_date": "2026-05-08",
+      "categories": [
+        "cs.GT",
+        "cs.AI"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This paper investigates whether mechanism design alone can ensure socially optimal outcomes when AI agents interact in strategic settings. Using theoretical analysis based on incomplete contract theory, the authors prove that mechanisms cannot eliminate welfare losses when contracts cannot specify all future contingencies, and demonstrate through experiments with LLM agents in resource allocation and social dilemma games that prosocial agents (who internalize others' welfare) can achieve superior outcomes. The key contribution is formally establishing that intrinsic prosociality in AI agents is necessary\u2014not just sufficient institutional design\u2014for maximizing social welfare in multi-agent interactions."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This research addresses how to select optimal uses for underperforming real estate assets that suffer from structural demand-supply misalignment rather than cyclical market conditions. The methodology develops a multi-criteria decision analysis (MCDA) framework integrated with real options theory to evaluate redevelopment alternatives across dimensions of economic value, risk, complexity, and time-to-income while preserving managerial flexibility. The key contribution is operationalizing option value preservation through systematic ex-ante screening that treats redevelopment as strategic option selection rather than purely financial optimization, reducing project complexity and use-demand misalignment."
+    },
+    {
+      "title": "On the Possibility of Informationally Inefficient Markets Without Noise",
+      "authors": [
+        "Mattthijs Breugem"
+      ],
+      "abstract": "Noise traders can be dispensed with entirely. Partial revelation of information through prices arises under any non-exponential expected utility preference, including CRRA, without noise traders, random endowments, supply shocks, hedging motives, or behavioral biases. The model contains zero exogenous noise.   The mechanism is a mismatch between the space in which market clearing aggregates signals and the Bayesian sufficient statistic. CARA demand is linear in log-odds, so prices aggregate in log-odds space and reveal the statistic exactly. Every other preference aggregates differently; the resulting Jensen gap makes revelation partial. I prove that CARA is the unique fully revealing preference class, characterize the rational expectations equilibrium via a contour integration fixed point, and verify that partial revelation survives learning from prices. The Grossman-Stiglitz paradox is resolved: information acquisition has positive value within the rational class. Numerical solution of the rational expectations fixed point at K = 3 confirms partial revelation, positive trade volume, and positive value of information across the full range of CRRA risk aversion, vanishing only in the CARA limit.",
+      "url": "https://arxiv.org/abs/2605.09136v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.09136v1",
+      "source": "arxiv",
+      "source_id": "2605.09136v1",
+      "published_date": "2026-05-09",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether financial markets can be informationally inefficient without introducing noise traders or other standard assumptions. Using theoretical analysis, the author demonstrates that any non-exponential utility preferences (including CRRA) generate partial information revelation through a Jensen inequality gap between how prices aggregate signals versus the Bayesian sufficient statistic, whereas CARA preferences uniquely achieve full revelation due to their linear demand structure in log-odds space. The key contribution is resolving the Grossman-Stiglitz paradox by showing that information acquisition retains positive value in rational expectations equilibrium without requiring exogenous noise, with numerical results confirming partial revelation and positive trading volume across all CRRA risk aversion parameters except the CARA limit."
+    },
+    {
+      "title": "Aggregate Stable Matching with Money Burning",
+      "authors": [
+        "Alfred Galichon",
+        "Yu-Wei Hsieh",
+        "Antoine Jacquet"
+      ],
+      "abstract": "We propose an aggregate notion of non-transferable utility (NTU) stability for decentralized matching markets with fixed prices, where market clearing is achieved through one-sided money burning, which can be interpreted as waiting. Agents are grouped into observable types and are indifferent among individuals within type; equilibrium is defined at the type level and delivers equal indirect utility within each type. We introduce money burning into two types of NTU models: In a deterministic model, we relate our notion to classical Gale--Shapley stability and show how money burning decentralizes stable outcomes under aggregation. We then introduce separable random utility, obtaining an NTU counterpart to Choo and Siow (2006). We prove the existence and uniqueness of equilibrium and provide a stationary queueing interpretation. Finally, we develop a generalized deferred acceptance algorithm based on alternating constrained discrete-choice problems and prove its convergence to the unique equilibrium.",
+      "url": "https://arxiv.org/abs/2605.07528v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07528v1",
+      "source": "arxiv",
+      "source_id": "2605.07528v1",
+      "published_date": "2026-05-08",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how decentralized matching markets with fixed prices can achieve stability through \"money burning\" (interpreted as waiting costs) when agents are grouped into observable types. The methodology combines theoretical matching models with both deterministic analysis (relating to Gale-Shapley stability) and a stochastic framework using separable random utility as an NTU counterpart to Choo and Siow (2006). The key contribution is proving existence and uniqueness of equilibrium in this aggregate NTU setting and developing a convergent generalized deferred acceptance algorithm that solves alternating constrained discrete-choice problems to reach the unique equilibrium."
+    },
+    {
+      "title": "The Design and Composition of Structural Causal Decision Processes",
+      "authors": [
+        "Sebastian Benthall",
+        "Alan Lujan"
+      ],
+      "abstract": "We present two new classes of causal models of decision-making agents. Our approach is motivated by the needs of modeling the economics of computing systems. These systems are composed of subsystems and can exhibit endogenous limits on cognitive resources and value discounting. Structural Causal Decision Models (SCDMs) expand on Structural Causal Influence Models. Like SCIMs, they explicitly represent the causal relationships between model variables and the payoffs of agent decisions. Additionally, agent decisions can be constrained by their causal antecedents, and SCDMs can have open root variables for which no probability distribution or structural equation is given. We show that SCDMs have a well-defined and computationally useful property of composability. Building on SCDMs, we then define a Structural Causal Decision Process (SCDP) as a recurring SCDM with a discount variable. SCDPs benefit from the useful composition properties of SCDMs. Moreover, SCDPs are strictly more expressive than POMDPs because they do not assume rational belief formation. Indeed, an SCDP can endogenously model the memory-formation process, and is thus useful for modeling resource rational agents in dynamic settings. SCDPs are also capable of modeling variable discounting, a tool used widely in social scientific modeling. We pose that SCDPs are a useful framework for policy simulation for the digital economy, mechanism design for information systems, and digital twin modeling of cyberinfrastructure.",
+      "url": "https://arxiv.org/abs/2605.02681v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02681v1",
+      "source": "arxiv",
+      "source_id": "2605.02681v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "cs.CE",
+        "cs.AI",
+        "cs.GT",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper introduces Structural Causal Decision Models (SCDMs) and Structural Causal Decision Processes (SCDPs) to model bounded rational agents in computing systems economics. The methodology is theoretical, extending Structural Causal Influence Models to incorporate constrained decision-making with composability properties and developing SCDPs as dynamic versions with discounting that can model endogenous memory formation. The key contribution is demonstrating that SCDPs are strictly more expressive than POMDPs by relaxing rational belief formation assumptions, enabling modeling of resource-constrained agents with variable discounting for digital economy policy simulation and mechanism design."
+    },
+    {
+      "title": "Optimal linear-payment auction design with aftermarket collaboration",
+      "authors": [
+        "Dazhong Wang",
+        "Ruqu Wang",
+        "Xinyi Xu"
+      ],
+      "abstract": "This paper studies optimal auction design when valuations depend endogenously on post-auction collaboration between the seller and the winning bidder. Both parties exert non-contractible efforts after the auction, generating a double moral hazard problem alongside adverse selection. We analyze two role structures -- winner-pivotal and seller-pivotal collaboration -- and characterize optimal direct mechanisms using linear payment schemes that combine cash transfers with proportional value sharing. The optimal mechanism allocates the asset to the bidder with the highest virtual surplus, employs a deterministic value-sharing rule, and achieves full type revelation through the signal realization rule. Comparing the two scenarios yields three main findings. First, regarding value sharing, the seller secures a strictly higher share under seller-pivotal collaboration: for sufficiently low-type winners, the seller extracts the entire value, whereas under winner-pivotal collaboration every winner must retain a positive share to sustain his critical effort. Second, regarding effort exertion, the pivotal party always exerts higher post-auction effort than the supporting party, and each party exerts greater effort when pivotal than when providing support. Third, seller-pivotal collaboration yields strictly higher seller revenue than winner-pivotal collaboration for any type distribution. Finally, these optimal mechanisms can be implemented through ascending auctions with endogenously determined linear contracts.",
+      "url": "https://arxiv.org/abs/2604.17923v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17923v1",
+      "source": "arxiv",
+      "source_id": "2604.17923v1",
+      "published_date": "2026-04-20",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines optimal auction design when the seller and winning bidder must collaborate post-auction through non-contractible efforts, creating both adverse selection and double moral hazard problems. Using mechanism design theory, the authors characterize optimal direct mechanisms with linear payments combining cash transfers and proportional value sharing under two scenarios: winner-pivotal and seller-pivotal collaboration. The key findings are that seller-pivotal collaboration generates strictly higher revenue than winner-pivotal collaboration, the pivotal party always exerts higher effort and secures better terms, and optimal mechanisms can be implemented through ascending auctions with endogenous value-sharing rules."
+    },
+    {
+      "title": "The Demand Externality of Automation",
+      "authors": [
+        "Erhan Bayraktar"
+      ],
+      "abstract": "Automation raises productivity and reduces paid human labor, but it also reallocates income and ownership claims. This paper studies that tradeoff in a static benchmark and in a stationary heterogeneous-agent general equilibrium. Firms choose automation from a profit function. Households differ by skill and wealth, save in a capital/equity claim, and face incomplete insurance. Wages and returns are determined by market clearing from a Cobb--Douglas final-good firm, while the wealth distribution is pinned down by a Hamilton--Jacobi--Bellman (HJB) equation and a Kolmogorov forward equation (KFE). The paper is deliberately two-sided. With strong productivity growth, high-skill complementarity, low obsolescence, and broad ownership, automation raises output, capital, and consumption. With strong exposure of low-wealth, high-marginal-propensity-to-consume (high-MPC) households and concentrated ownership, privately chosen automation can be excessive even though it raises high-skilled labor income. The central object is the derivative of household consumption demand and collective wage bill with respect to automation. Fiscal policy is modeled as a government problem rather than as an abstract planner: a tax changes the firm's automation first-order condition, raises revenue only on the remaining automation base, and must specify rebates and administrative losses.",
+      "url": "https://arxiv.org/abs/2605.05127v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.05127v1",
+      "source": "arxiv",
+      "source_id": "2605.05127v1",
+      "published_date": "2026-05-06",
+      "categories": [
+        "econ.GN",
+        "math.OC"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines the welfare effects of firm automation decisions in a heterogeneous-agent general equilibrium model where households differ by skill and wealth and face incomplete insurance markets. The methodology combines static analysis with a dynamic stationary equilibrium solved using Hamilton-Jacobi-Bellman and Kolmogorov forward equations to determine the wealth distribution alongside market-clearing wages and returns. The key finding is that privately chosen automation can be socially excessive when ownership is concentrated and low-wealth, high-MPC households face strong displacement effects, even when automation increases high-skilled wages and aggregate output\u2014with the welfare assessment depending critically on the \"demand externality\" of automation on household consumption and the collective wage bill."
+    },
+    {
+      "title": "Profit Maximization in Bilateral Trade against a Smooth Adversary",
+      "authors": [
+        "Simone Di Gregorio",
+        "Paul D\u00fctting",
+        "Federico Fusco",
+        "Chris Schwiegelshohn"
+      ],
+      "abstract": "Bilateral trade models the task of intermediating between two strategic agents, a seller and a buyer, who wish to trade a good. We study this problem from the perspective of a profit-maximizing broker within an online learning framework, where the agents' valuations are generated by a smooth adversary.   We devise a learning algorithm that guarantees a $\\tilde{O}(\\sqrt{T})$ regret bound, which is tight in the time horizon $T$ up to poly-logarithmic factors. This matches the minimax rate for the stochastic i.i.d. case, and is also well separated from the adversarial setting, where sublinear-regret is unattainable. By extending the strong regret guarantees from the i.i.d. case to the smooth adversary, we significantly broaden the scope of settings where such fast rate is achievable, while closing an important gap in the regret landscape of this fundamental economic problem.   To overcome the challenges posed by this adversary, we leverage a continuity property of smooth instances and combines this with a hierarchical net-construction of the broker's action space, which is analyzed via algorithmic chaining. We showcase the applicability of these techniques by deriving a similarly tight $\\tilde{O}(\\sqrt{T})$ regret bound for a related mechanism design model: the joint ads problem.",
+      "url": "https://arxiv.org/abs/2605.12664v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.12664v1",
+      "source": "arxiv",
+      "source_id": "2605.12664v1",
+      "published_date": "2026-05-12",
+      "categories": [
+        "cs.GT",
+        "cs.LG"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how a profit-maximizing broker can learn optimal trading mechanisms in bilateral trade when agents' valuations are generated by a smooth (but non-stochastic) adversary. The authors develop a theoretical learning algorithm that exploits the continuity properties of smooth instances through hierarchical net-construction and algorithmic chaining techniques. The key contribution is achieving a tight $\\tilde{O}(\\sqrt{T})$ regret bound that matches the stochastic i.i.d. rate while significantly outperforming the adversarial setting (where sublinear regret is impossible), thus bridging an important gap in the regret landscape for this fundamental mechanism design problem."
+    },
+    {
+      "title": "Towards Affordable Energy: A Gymnasium Environment for Electric Utility Demand-Response Programs",
+      "authors": [
+        "Jose E. Aguilar Escamilla",
+        "Lingdong Zhou",
+        "Xiangqi Zhu",
+        "Huazheng Wang"
+      ],
+      "abstract": "Extreme weather and volatile wholesale electricity markets expose residential consumers to catastrophic financial risks, yet demand response at the distribution level remains an underutilized tool for grid flexibility and energy affordability. While a demand-response program can shield consumers by issuing financial credits during high-price periods, optimizing this sequential decision-making process presents a unique challenge for reinforcement learning despite the plentiful offline historical smart meter and wholesale pricing data available publicly. Offline historical data fails to capture the dynamic, interactive feedback loop between an electric utility's pricing signals and customer acceptance and adaptation to a demand-response program. To address this, we introduce DR-Gym, an open-source, online Gymnasium-compatible environment designed to train and evaluate demand-response from the electric utility's perspective. Unlike existing device-level energy simulators, our environment focuses on the market-level electric utility setting and provides a rich observational space relevant to the electric utility. The simulator additionally features a regime-switching wholesale price model calibrated to real-world extreme events, alongside physics-based building demand profiles. For our learning signal, we use a configurable, multi-objective reward function for specifying diverse learning objectives. We demonstrate through baseline strategies and data snapshots the capability of our simulator to create realistic and learnable environments.",
+      "url": "https://arxiv.org/abs/2605.12462v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.12462v1",
+      "source": "arxiv",
+      "source_id": "2605.12462v1",
+      "published_date": "2026-05-12",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.GT",
+        "cs.LG"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses how electric utilities can optimize demand-response programs to protect consumers from extreme electricity price volatility while maintaining grid flexibility. The authors develop DR-Gym, an open-source reinforcement learning environment that simulates utility-level demand response decisions using regime-switching wholesale price models and physics-based building demand profiles, overcoming limitations of offline historical data that cannot capture dynamic utility-consumer interactions. The key contribution is providing a realistic simulation platform for training RL algorithms on multi-objective utility demand-response optimization, featuring configurable reward functions and market-level observational spaces rather than device-level controls."
+    },
+    {
+      "title": "Social Welfare under Heterogeneous Time Preferences",
+      "authors": [
+        "Sarvin Bahmani",
+        "Soumyajit Paul",
+        "Sven Schewe",
+        "Shadi Tasdighi Kalat",
+        "Ashutosh Trivedi"
+      ],
+      "abstract": "In several socioeconomic-critical decision-making settings, such as fair resource allocation, climate policy, or AI alignment, multiple principals interact within a common arena. While it is well established that these principals may have differing preferences, decision-making under heterogeneous time preferences remains relatively unexplored. In particular, principals may weigh future outcomes differently and may derive distinct utilities from the same decisions. Motivated by such scenarios, we introduce the notion of heterogeneous time preferences in MDPs, where multiple principals possess distinct reward functions and apply different discount factors to future rewards. To compute meaningful decisions in such settings, an AI agent must rely on a notion of optimality that accounts for the preferences of all principals. We adopt a utilitarian notion of social welfare, defined as the sum of utilities accrued to all principals, and study the synthesis of agent strategies that maximise this welfare. Under heterogeneous time preferences, we show that optimal strategies are no longer positional, even when all principals receive identical rewards. Nevertheless, optimal strategies remain structurally simple: they can be realized as pure finite-memory counting strategies, require only polynomial memory in the system size, and can be synthesized in polynomial time. On the other hand, we show that deciding threshold questions for optimal positional strategies is NP-hard, exposing a poor trade-off: insisting on positional simplicity neither makes synthesis tractable nor preserves social welfare.",
+      "url": "https://arxiv.org/abs/2605.12251v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.12251v1",
+      "source": "arxiv",
+      "source_id": "2605.12251v1",
+      "published_date": "2026-05-12",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how to compute optimal strategies for an AI agent serving multiple principals with heterogeneous discount factors in Markov Decision Processes, addressing a gap in multi-principal decision-making theory. Using theoretical analysis, the authors prove that while optimal strategies maximizing utilitarian social welfare are no longer positional (even with identical reward functions), they maintain structural simplicity as pure finite-memory counting strategies that require only polynomial memory and synthesis time. The key contribution demonstrates a fundamental trade-off: optimal strategies remain computationally tractable despite losing the positional property, though deciding threshold questions for optimal positional strategies becomes NP-hard."
+    },
+    {
+      "title": "Mechanism Design for Quality-Preserving LLM Advertising",
+      "authors": [
+        "Jiale Han",
+        "Xiaowu Dai"
+      ],
+      "abstract": "Embedding advertisements into large language model (LLM) outputs introduces a fundamental tension: revenue optimization can distort content and degrade user experience. Existing approaches largely ignore this trade-off, often forcing irrelevant ads into responses. We propose a quality-preserving auction framework that explicitly integrates content fidelity into the mechanism design. Built on retrieval-augmented generation (RAG), our approach treats organic content as a reference and derives an endogenous reserve price that screens out ads with non-positive marginal social welfare contributions. We develop a KL-regularized single-allocation mechanism with Myerson payments and a screened VCG multi-allocation mechanism, both satisfying dominant-strategy incentive compatibility and individual rationality. Experiments across diverse scenarios demonstrate that our mechanisms outperform existing baselines in metrics such as revenue per ad and semantic similarity to no-ad responses. Our results establish a new paradigm for LLM advertising that enables monetization without compromising output quality.",
+      "url": "https://arxiv.org/abs/2605.10964v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10964v1",
+      "source": "arxiv",
+      "source_id": "2605.10964v1",
+      "published_date": "2026-05-07",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "Fiscal Policy and Transition Risk -- by Stefano Carattini, Garth Heutel, Givi Melkadze, In\u00e8s Mourelon",
+      "authors": [],
+      "abstract": "We study how climate policy can interact with distortionary fiscal policy and potentially lead to transition risk. Using an environmental dynamic stochastic general equilibrium model that features financial frictions and preexisting labor and capital taxes, we simulate a carbon tax and an abatement subsidy under different scenarios for returning carbon tax revenue or financing the subsidy. We find novel policy implications and important differences between the carbon tax and the subsidy. Under both policies, transition dynamics can differ sharply from long-run outcomes. For the carbon tax, transition dynamics depend on both financial frictions and the choice of revenue recycling. For the abatement subsidy, distortionary financing can generate contractionary transition dynamics, because of financial frictions. Macroprudential policy can mitigate transition risk under the carbon tax but has little effect under the subsidy.",
+      "url": "https://www.nber.org/papers/w35202#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35202#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35202",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    }
+  ]
+}

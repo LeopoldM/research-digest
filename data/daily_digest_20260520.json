@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-05-20T07:53:27.180727",
+  "period": "daily",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "Fiscal Policy and Transition Risk -- by Stefano Carattini, Garth Heutel, Givi Melkadze, In\u00e8s Mourelon",
+      "authors": [],
+      "abstract": "We study how climate policy can interact with distortionary fiscal policy and potentially lead to transition risk. Using an environmental dynamic stochastic general equilibrium model that features financial frictions and preexisting labor and capital taxes, we simulate a carbon tax and an abatement subsidy under different scenarios for returning carbon tax revenue or financing the subsidy. We find novel policy implications and important differences between the carbon tax and the subsidy. Under both policies, transition dynamics can differ sharply from long-run outcomes. For the carbon tax, transition dynamics depend on both financial frictions and the choice of revenue recycling. For the abatement subsidy, distortionary financing can generate contractionary transition dynamics, because of financial frictions. Macroprudential policy can mitigate transition risk under the carbon tax but has little effect under the subsidy.",
+      "url": "https://www.nber.org/papers/w35202#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35202#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35202",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how climate policies interact with pre-existing distortionary taxes and financial frictions to create transition risk during the shift to a low-carbon economy. Using a dynamic stochastic general equilibrium model with financial frictions and existing labor/capital taxes, the authors simulate carbon taxes and abatement subsidies under various revenue recycling and financing scenarios. The key finding is that transition dynamics differ substantially from long-run equilibria and between policy instruments: carbon tax transition effects depend on financial frictions and revenue recycling choices, while abatement subsidies can generate contractionary dynamics due to distortionary financing, with macroprudential policy being more effective at mitigating transition risk under carbon taxation than subsidies."
+    }
+  ]
+}

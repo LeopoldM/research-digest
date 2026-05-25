@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Daily Digest - May 25, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This research digest covers 17 papers spanning key areas in energy economics and mechanism design. The collection is dominated by mechanism design research (6 papers) exploring auction theory, supply chain coordination, and strategic behavior, alongside market clearing studies (4 papers) examining energy storage systems and market efficiency. Notable contributions include work on strategic inertia in climate policy reforms, a novel gymnasium environment for electricity demand-response programs, and several papers addressing information asymmetries through adverse selection and screening mechanisms.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.01080v2" target="_blank">Principal-agent problems with adverse selection: A stochastic target problem formulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Guillermo Alonso Alvarez, Ibrahim Ekren, Liwei Huang
+            • 2026-05-01
+        </div>
+        <div>
+            <span class="paper-score">Score: 16</span>
+            <span class="paper-keywords">self-selection, screening, adverse selection</span>
+        </div>
+        <div class="paper-summary">This paper examines a principal-agent problem with adverse selection where the principal must offer a single contract without knowing the agent&#x27;s true cost type, rather than using standard screening mechanisms that allow self-selection. The methodology reformulates the agent&#x27;s optimization as a stochastic target problem and transforms the principal&#x27;s objective into a stochastic optimal control problem with partial information and state constraints. The key contribution is characterizing the &quot;credible domain&quot; of feasible contracts and demonstrating how this framework can quantify the value of screening contracts compared to the single-contract constraint.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.16853v1" target="_blank">A Truthful Multiunit Profit-Optimal Mechanism for Synthesizing Social Laws</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Jun Wu, Jian Huang, Chongjun Wang
+            • 2026-05-16
+        </div>
+        <div>
+            <span class="paper-score">Score: 16</span>
+            <span class="paper-keywords">mechanism design, procurement auction, optimal mechanism</span>
+        </div>
+        <div class="paper-summary">This paper addresses the problem of designing optimal social laws in multi-agent systems where agents behave strategically, formulating it as a novel multi-unit mechanism design problem. The methodology combines theoretical mechanism design with computational approaches, using Alternating-time Temporal Logic (ATL) to model agent valuations and reducing the complex payment determination problem to allocation determination through polynomial-time algorithms, while encoding ATL semantics as integer linear programming constraints. The key contribution is the $\mathcal{PO\text{-}ASL}$ mechanism that achieves truthfulness, individual rationality, and profit optimality for social law synthesis, with computational complexity results showing the allocation problem is $FP^{NP}$-complete but remains tractable through ILP formulations.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2601.22166v1" target="_blank">A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Roberto Garrone
+            • 2026-01-15
+        </div>
+        <div>
+            <span class="paper-score">Score: 9</span>
+            <span class="paper-keywords">screening, real options</span>
+        </div>
+        <div class="paper-summary">This study addresses how to optimally select redevelopment uses for underperforming real estate assets that suffer from structural demand-supply misalignment rather than cyclical market conditions. The methodology combines real options theory with multi-criteria decision analysis (MCDA) to create a decision framework that evaluates economic value, risk, complexity, and time-to-income while preserving managerial flexibility and accounting for investment irreversibility. The key contribution is operationalizing option value preservation through disciplined ex-ante screening, treating redevelopment as strategic option selection rather than design optimization, which reduces project complexity and demand misalignment across different asset types and urban contexts.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.21647v1" target="_blank">Strategic Inertia and Institutional Change:A Behavioral Model of Price Reforms versus Action Deletion</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Madjid Eshaghi Gordji, Mohammadali Berahman, Hasti Eshaghi
+            • 2026-05-20
+        </div>
+        <div>
+            <span class="paper-score">Score: 7</span>
+            <span class="paper-keywords">climate policy</span>
+        </div>
+        <div class="paper-summary">This paper investigates why inefficient institutions persist despite available superior alternatives, comparing price-based reforms versus outright bans as policy interventions. The authors develop a quantal response equilibrium model with status-quo bias (QRE-SB) where players face fixed switching costs from inherited default actions, analyzing a binary coordination game theoretically with numerical simulations. The key finding is that while price reforms (taxes) require surpassing a specific threshold to induce transitions—and may still yield suboptimal welfare—completely deleting the inefficient option always forces coordination on the superior equilibrium and delivers higher expected welfare when that equilibrium is Pareto-dominant.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.19087v1" target="_blank">Breaking Status-Quo Inertia in Living Temporal Games: Dynamic Intervention, Implementation, and Structural Design</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Madjid Eshaghi Gordji, Ali Jabbari, Mohammad Ali Berahman, Esmaiel Abounoori
+            • 2026-05-18
+        </div>
+        <div>
+            <span class="paper-score">Score: 7</span>
+            <span class="paper-keywords">mechanism design</span>
+        </div>
+        <div class="paper-summary">This paper examines how a central planner can design dynamic interventions to eliminate inefficient status-quo equilibria in continuous-time stochastic games where agents strategically choose their activity states on temporal networks. The methodology combines game-theoretic analysis with mechanism design theory, proving structural results about intervention effectiveness and establishing impossibility theorems using uniformization techniques. The key contributions are: (1) a threshold theorem showing that price-based transfers below a critical bound cannot overcome inertia, (2) a structural dominance result demonstrating that network modifications (particularly replacing continuous-flow with discrete-transport edges) can succeed where bounded monetary interventions fail, and (3) an impossibility result for efficient implementation under private information with history privacy constraints.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

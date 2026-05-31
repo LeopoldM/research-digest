@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-31T08:41:17.073923",
+  "period": "weekly",
+  "paper_count": 2,
+  "papers": [
+    {
+      "title": "Principal-agent problems with adverse selection: A stochastic target problem formulation",
+      "authors": [
+        "Guillermo Alonso Alvarez",
+        "Ibrahim Ekren",
+        "Liwei Huang"
+      ],
+      "abstract": "We study a principal-agent problem with adverse selection, where the principal does not know the agent's true cost but must design a contract to optimize a specific criterion. Unlike standard screening frameworks that allow for self-selection, we assume the principal can only offer a unique contract. We show that the agent's optimization problem can be reformulated as a stochastic target problem. After characterizing the credible domain of this target problem, we show that the principal's objective can be solved as a stochastic optimal control problem with partial information and state constraints. The description of the credible domain also allows us to obtain the value of screening contracts.",
+      "url": "https://arxiv.org/abs/2605.01080v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.01080v2",
+      "source": "arxiv",
+      "source_id": "2605.01080v2",
+      "published_date": "2026-05-01",
+      "categories": [
+        "econ.TH",
+        "math.OC"
+      ],
+      "relevance_score": 15.555555555555555,
+      "summary": "This paper examines a principal-agent problem with adverse selection where the principal must offer a single contract rather than a menu of contracts for self-selection. Using stochastic target problem methodology, the authors reformulate the agent's optimization as a stochastic control problem and characterize the \"credible domain\" of feasible outcomes. The key contribution is showing how to solve the principal's optimization under partial information with state constraints and demonstrating how this framework can also derive the value of traditional screening contracts."
+    },
+    {
+      "title": "A Truthful Multiunit Profit-Optimal Mechanism for Synthesizing Social Laws",
+      "authors": [
+        "Jun Wu",
+        "Jian Huang",
+        "Chongjun Wang"
+      ],
+      "abstract": "This paper studies Social Law Synthesis (SLS) in strategic multi-agent environments as a new multi-unit mechanism design problem. We model SLS as a Bayesian single-parameter procurement auction based on Alternating-time Temporal Logic (ATL) and aim to design a truthful, individually rational, and profit-optimal mechanism. We first prove a representation lemma showing that any valuation respecting alternating bisimulation can be compactly expressed as a feature set of ATL formulae. We then reduce payment determination to allocation determination in polynomial time, resolving the irregular payment issue inherent in multi-unit settings. We further show that allocation determination is \\(FP^{NP}\\)-complete and encode ATL semantics into integer linear programming (ILP) constraints to make the problem tractable with standard solvers. Based on these results, we present the $\\mathcal{PO\\text{-}ASL}$ mechanism, which is incentive-compatible, individually rational, and maximizes expected profit. Theoretical guarantees and examples confirm that our approach provides an effective and computationally feasible solution for synthesizing optimal social laws under strategic agent behavior.",
+      "url": "https://arxiv.org/abs/2605.16853v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16853v1",
+      "source": "arxiv",
+      "source_id": "2605.16853v1",
+      "published_date": "2026-05-16",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 15.555555555555555,
+      "summary": "This paper addresses Social Law Synthesis (SLS) in strategic multi-agent environments by formulating it as a Bayesian single-parameter procurement auction using Alternating-time Temporal Logic (ATL). The methodology combines theoretical mechanism design with computational approaches, proving a representation lemma for valuations, reducing payment determination to allocation determination in polynomial time, and encoding the FP^NP-complete allocation problem as integer linear programming constraints. The key contribution is the PO-ASL mechanism that achieves truthfulness, individual rationality, and profit-optimality while being computationally tractable through standard ILP solvers."
+    }
+  ]
+}

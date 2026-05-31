@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 30px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .paper {
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+            margin: 25px 0;
+        }
+        .paper-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        .paper-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        .paper-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .paper-keywords {
+            display: inline-block;
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+        .paper-summary {
+            color: #444;
+            margin-top: 8px;
+        }
+        .paper-abstract {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Leopold's Research Digest</h1>
+    <p class="date">Weekly Digest - May 31, 2026</p>
+    
+    <div class="intro">
+        <strong>📊 Today's Summary</strong><br>
+        This research digest presents 2 papers covering key themes in information economics and strategic behavior. The collection spans self-selection problems, with a focus on principal-agent relationships under adverse selection using stochastic optimization approaches, and mechanism design for multiunit auctions with truthful bidding strategies. Of particular note is the paper on stochastic target formulations for adverse selection problems, which offers a novel mathematical framework for addressing information asymmetries in principal-agent settings.
+    </div>
+    
+    <h2>📄 Papers</h2>
+<h3 style="color: #6b7280;">📋 Other Papers</h3>
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.01080v2" target="_blank">Principal-agent problems with adverse selection: A stochastic target problem formulation</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Guillermo Alonso Alvarez, Ibrahim Ekren, Liwei Huang
+            • 2026-05-01
+        </div>
+        <div>
+            <span class="paper-score">Score: 16</span>
+            <span class="paper-keywords">self-selection, screening, adverse selection</span>
+        </div>
+        <div class="paper-summary">This paper examines a principal-agent problem with adverse selection where the principal must offer a single contract rather than a menu of contracts for self-selection. Using stochastic target problem methodology, the authors reformulate the agent&#x27;s optimization as a stochastic control problem and characterize the &quot;credible domain&quot; of feasible outcomes. The key contribution is showing how to solve the principal&#x27;s optimization under partial information with state constraints and demonstrating how this framework can also derive the value of traditional screening contracts.</div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-title">
+            <a href="https://arxiv.org/abs/2605.16853v1" target="_blank">A Truthful Multiunit Profit-Optimal Mechanism for Synthesizing Social Laws</a>
+        </div>
+        <div class="paper-meta">
+            <span class="source-badge">arxiv</span>
+            • Jun Wu, Jian Huang, Chongjun Wang
+            • 2026-05-16
+        </div>
+        <div>
+            <span class="paper-score">Score: 16</span>
+            <span class="paper-keywords">mechanism design, procurement auction, optimal mechanism</span>
+        </div>
+        <div class="paper-summary">This paper addresses Social Law Synthesis (SLS) in strategic multi-agent environments by formulating it as a Bayesian single-parameter procurement auction using Alternating-time Temporal Logic (ATL). The methodology combines theoretical mechanism design with computational approaches, proving a representation lemma for valuations, reducing payment determination to allocation determination in polynomial time, and encoding the FP^NP-complete allocation problem as integer linear programming constraints. The key contribution is the PO-ASL mechanism that achieves truthfulness, individual rationality, and profit-optimality while being computationally tractable through standard ILP solvers.</div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Generated by Research Digest • 
+            <a href="https://github.com/LeopoldM/research-digest">View on GitHub</a>
+        </p>
+        <p>Papers are validated for authenticity before inclusion.</p>
+    </div>
+</body>
+</html>

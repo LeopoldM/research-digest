@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-06-03T09:00:38.345625",
+  "period": "daily",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "AI for Structural Estimation -- by Victor Duarte, Julia Fonseca",
+      "authors": [],
+      "abstract": "We develop a global method to solve and estimate dynamic equilibrium models that treats prices as pseudo parameters and market clearing as moment conditions, and reduces estimation time from days to minutes. Our approach leverages AI algorithms, software, and hardware, and has three building blocks. First, we extend the state space to include equilibrium prices and model parameters, which allows us to clear markets and estimate parameters by solving the model once. Second, we approximate the mapping between parameters and moments by training neural networks on model-simulated data, which act as closed-form expressions for moment conditions. Third, we use this mapping to estimate parameters by minimizing the distance between the model and data moments, and to find equilibrium prices by targeting a market-clearing imbalance of zero. We also use this mapping to assess identification globally, verifying if the estimation objective function has a unique minimum for each parameter. We illustrate our method by estimating a dynamic general equilibrium model of leverage and investment with three state variables, three controls, endogenous default, costly equity issuance, and non-convex adjustment costs. After four days, the traditional approach does not reach the loss we achieve in under 20 minutes. We build an AI agent that applies our method to new models from natural language prompts.",
+      "url": "https://www.nber.org/papers/w35283#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35283#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35283",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper addresses the computational challenge of estimating complex dynamic equilibrium models by developing an AI-powered global estimation method that treats prices as pseudo-parameters and market clearing as moment conditions. The methodology trains neural networks on model-simulated data to approximate the mapping between parameters and moments, then uses this mapping for both parameter estimation and equilibrium price determination through moment matching. The key contribution is a dramatic reduction in estimation time from days to minutes while maintaining accuracy, demonstrated on a dynamic general equilibrium model with leverage, investment, and multiple frictions, and extended to an AI agent that can apply the method to new models from natural language descriptions."
+    }
+  ]
+}

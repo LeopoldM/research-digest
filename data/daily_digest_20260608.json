@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-06-08T09:00:16.540300",
+  "period": "daily",
+  "paper_count": 11,
+  "papers": [
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "This study addresses how to optimally select the intended use for underperforming real estate assets requiring redevelopment, framing this as a strategic option selection problem rather than a design or financial optimization issue. The methodology combines real options theory (incorporating irreversibility and managerial flexibility) with multi-criteria decision analysis (MCDA) to evaluate alternatives across dimensions of economic value, risk, complexity, and time-to-income. The key contribution is a decision framework that preserves option value through systematic ex-ante screening, demonstrated to reduce over-complexification and use-demand misalignment across different property types and urban contexts."
+    },
+    {
+      "title": "Strategic Inertia and Institutional Change:A Behavioral Model of Price Reforms versus Action Deletion",
+      "authors": [
+        "Madjid Eshaghi Gordji",
+        "Mohammadali Berahman",
+        "Hasti Eshaghi"
+      ],
+      "abstract": "Why do inefficient practices, technologies, or institutions persist even when su perior alternatives are available? This paper introduces a quantal response equilib rium with status-quo bias (QRE-SB) in which each player incurs a fixed switching cost when deviating from an inherited default action. In a binary coordination game, we compare two policy interventions: a tax on the default action (price-only reform) versus deleting the default action entirely (ban). We prove that there exists a threshold tax below which the status quo persists and above which a transition occurs; notably, this threshold does not depend on the degree of bounded ratio nality. Deleting the default action always forces play to the superior equilibrium, irrespective of switching costs or rationality. Moreover, when the superior equilib rium is Pareto-dominant, deletion yields strictly higher expected welfare than any finite tax that leaves the old action feasible. Numerical simulations illustrate the theoretical predictions. The framework provides a formal foundation for the policy principle that sometimes you must ban, not just tax, with direct applications to climate policy, social media regulation, and international sanctions.",
+      "url": "https://arxiv.org/abs/2605.21647v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21647v1",
+      "source": "arxiv",
+      "source_id": "2605.21647v1",
+      "published_date": "2026-05-20",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates why inefficient institutions persist despite available superior alternatives by developing a quantal response equilibrium model with status-quo bias (QRE-SB) where players face fixed switching costs from inherited default actions. Using theoretical analysis in a binary coordination game framework, the authors compare price-based reforms (taxing the inefficient default) versus regulatory bans (eliminating the default entirely). The key finding is that while price reforms only succeed above a critical tax threshold (independent of bounded rationality levels), bans always force transitions to superior equilibria and yield strictly higher welfare than any finite tax when the superior outcome is Pareto-dominant, providing formal justification for \"ban rather than tax\" policies in contexts like climate regulation."
+    },
+    {
+      "title": "Breaking Status-Quo Inertia in Living Temporal Games: Dynamic Intervention, Implementation, and Structural Design",
+      "authors": [
+        "Madjid Eshaghi Gordji",
+        "Ali Jabbari",
+        "Mohammad Ali Berahman",
+        "Esmaiel Abounoori"
+      ],
+      "abstract": "Westudy how a planner can design dynamic interventions to overcome status-quo inertia in living temporal games, where strategic agents control their state (active, sleep, partially dead) on a temporal network. Building on the continuous-time stochastic game framework of our companion paper, we introduce three intervention classes: bounded transfers (price based), structural modifications (edge deletion, addition, or replacement), and information signals. We formalize the notion of inertia depth and prove a threshold theorem: the status quo equilibrium survives all transfer perturbations whose magnitude is below a critical bound that depends on the remaining horizon. A central structural dominance result shows that for any finite transfer budget there exists a family of games where no bounded price intervention can eliminate the inefficient equilibrium, yet a single edge replacement (continuous-flow to discrete-transport) succeeds. We then study private-information subclasses with static types. Using a uniformization reduction, we prove an impossibility result: no direct mechanism can simultaneously satisfy ex post incentive compatibility, ex post budget balance, and history privacy while always implementing an efficient equilibrium. In the same subclass we construct a dynamic pivot mechanism that achieves second-best efficiency with bounded deficit. Finally, we show that replacing continuous-flow edges by discrete-transport edges weakly expands the set of implementable outcomes, highlighting the importance of temporal semantics for mechanism design. Our results extend the static analysis of [5] to continuous time strategic networks and provide a rigorous foundation for subsequent papers on learning and mean-field design.",
+      "url": "https://arxiv.org/abs/2605.19087v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19087v1",
+      "source": "arxiv",
+      "source_id": "2605.19087v1",
+      "published_date": "2026-05-18",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper studies how a planner can design dynamic interventions to overcome inefficient status-quo equilibria in continuous-time stochastic games where agents control their temporal network states. Using theoretical analysis, the authors prove a threshold theorem showing that price-based transfers below a critical bound cannot eliminate status-quo inertia, and demonstrate structural dominance results where single edge modifications (switching from continuous-flow to discrete-transport) can succeed where bounded transfer interventions fail. For private information settings, they establish an impossibility theorem for first-best implementation under standard mechanism design constraints, but construct a dynamic pivot mechanism achieving second-best efficiency, while showing that discrete-transport network structures weakly expand implementable outcomes relative to continuous-flow structures."
+    },
+    {
+      "title": "Profit-Oriented Planning and Multi-Market Operation Model for Hybrid Energy Storage Systems",
+      "authors": [
+        "Lizhong Zhang",
+        "Junqi Liu",
+        "Jianxiao Wang",
+        "Lei Zhu"
+      ],
+      "abstract": "The increasing penetration of renewable energy necessitates improved power system flexibility, driving the deployment of independent energy storage operators (ESOs). Existing research extensively investigates capacity sizing for price-taker storage systems or the operational coordination of aggregated distributed resources, lacking the joint optimization of capacity planning and multi-market bidding for a price-maker ESO with hybrid energy storage system (HESS) that preserves the technological heterogeneity of the integrated components. We propose a bi-level optimization framework to jointly optimize profit-oriented decisions on capacity and multi-market operation. The upper-level problem determines the optimal capacities of two heterogeneous storage systems while coordinating their bidding across day-ahead joint energy-reserve and real-time balancing markets. The lower-level problems represent market clearing of the system operator (SO). The model is reformulated into a mixed-integer linear program and solved with a Benders' decomposition algorithm. Results demonstrate that the ESO can allocate capacity between energy arbitrage and reserve provision strategically. The system with the high power-to-capacity ratio is used to capture arbitrage profits while the system with low power-to-capacity ratio is used to specialize in reserve markets. There can be internal power transfer between storage systems if there exist grid access constraints. The framework provides differentiated bidding strategies and market participation flexibility for HESS to enhance overall profitability.",
+      "url": "https://arxiv.org/abs/2605.17867v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17867v1",
+      "source": "arxiv",
+      "source_id": "2605.17867v1",
+      "published_date": "2026-05-18",
+      "categories": [
+        "econ.TH",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates the joint optimization of capacity planning and multi-market bidding strategies for profit-maximizing energy storage operators (ESOs) using hybrid energy storage systems (HESS) that can influence market prices. The authors develop a bi-level optimization framework where the upper level determines optimal capacities and bidding strategies across day-ahead energy-reserve and real-time balancing markets, while the lower level represents market clearing, solved via mixed-integer linear programming with Benders' decomposition. The key finding is that ESOs can strategically allocate heterogeneous storage technologies based on their power-to-capacity ratios\u2014high-ratio systems for energy arbitrage and low-ratio systems for reserve provision\u2014with potential internal power transfers when grid constraints exist."
+    },
+    {
+      "title": "Supply Chain Coordination Mechanism Design: Consensus Planning Protocol Meets Vickrey-Clarke-Groves Mechanism",
+      "authors": [
+        "Dirk Bergemann",
+        "Garrett van Ryzin",
+        "Jiaxuan Li"
+      ],
+      "abstract": "This paper introduces the theoretical framework for combining Vickrey-Clarke-Groves (VCG) mechanisms with the Consensus Planning Protocol (CPP) to enable truthful and efficient collaboration between a retailer and vendors to lower joint Cost to Serve. We demonstrate how this integration preserves both dominant-strategy incentive compatibility and efficiency in high-dimensional environments. We further introduce an activity fee design to improve its revenue property for the retailer while maintaining the mechanism's desirable properties. This CPP-VCG framework serves as the theoretical foundation for designing collaborative mechanisms to coordinates distributed, agent-based optimization between retailers and suppliers.",
+      "url": "https://arxiv.org/abs/2605.16695v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16695v1",
+      "source": "arxiv",
+      "source_id": "2605.16695v1",
+      "published_date": "2026-05-15",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how to design truthful and efficient coordination mechanisms for retailer-vendor supply chain collaboration to minimize joint Cost to Serve. The authors develop a theoretical framework combining the Vickrey-Clarke-Groves (VCG) auction mechanism with a Consensus Planning Protocol (CPP) for distributed optimization in high-dimensional settings. The key contribution is proving that this CPP-VCG integration maintains dominant-strategy incentive compatibility and efficiency while introducing an activity fee structure that enhances revenue properties for the retailer without compromising the mechanism's desirable theoretical properties."
+    },
+    {
+      "title": "On the Possibility of Informationally Inefficient Markets Without Noise",
+      "authors": [
+        "Mattthijs Breugem"
+      ],
+      "abstract": "Noise traders can be dispensed with entirely. Partial revelation of information through prices arises under any non-exponential expected utility preference, including CRRA, without noise traders, random endowments, supply shocks, hedging motives, or behavioral biases. The model contains zero exogenous noise.   The mechanism is a mismatch between the space in which market clearing aggregates signals and the Bayesian sufficient statistic. CARA demand is linear in log-odds, so prices aggregate in log-odds space and reveal the statistic exactly. Every other preference aggregates differently; the resulting Jensen gap makes revelation partial. I prove that CARA is the unique fully revealing preference class, characterize the rational expectations equilibrium via a contour integration fixed point, and verify that partial revelation survives learning from prices. The Grossman-Stiglitz paradox is resolved: information acquisition has positive value within the rational class. Numerical solution of the rational expectations fixed point at K = 3 confirms partial revelation, positive trade volume, and positive value of information across the full range of CRRA risk aversion, vanishing only in the CARA limit.",
+      "url": "https://arxiv.org/abs/2605.09136v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.09136v1",
+      "source": "arxiv",
+      "source_id": "2605.09136v1",
+      "published_date": "2026-05-09",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether informationally efficient markets require noise traders by examining how different utility preferences affect price revelation in rational expectations equilibrium. Using theoretical analysis, the author shows that any non-exponential utility function (including CRRA) generates partial information revelation through a \"Jensen gap\" mechanism where market clearing aggregates signals in a different space than the Bayesian sufficient statistic, while CARA utility uniquely achieves full revelation by aggregating linearly in log-odds space. The key contribution is demonstrating that informational inefficiency and positive value of information can arise in purely rational markets without any exogenous noise, resolving the Grossman-Stiglitz paradox through utility function curvature alone."
+    },
+    {
+      "title": "Aggregate Stable Matching with Money Burning",
+      "authors": [
+        "Alfred Galichon",
+        "Yu-Wei Hsieh",
+        "Antoine Jacquet"
+      ],
+      "abstract": "We propose an aggregate notion of non-transferable utility (NTU) stability for decentralized matching markets with fixed prices, where market clearing is achieved through one-sided money burning, which can be interpreted as waiting. Agents are grouped into observable types and are indifferent among individuals within type; equilibrium is defined at the type level and delivers equal indirect utility within each type. We introduce money burning into two types of NTU models: In a deterministic model, we relate our notion to classical Gale--Shapley stability and show how money burning decentralizes stable outcomes under aggregation. We then introduce separable random utility, obtaining an NTU counterpart to Choo and Siow (2006). We prove the existence and uniqueness of equilibrium and provide a stationary queueing interpretation. Finally, we develop a generalized deferred acceptance algorithm based on alternating constrained discrete-choice problems and prove its convergence to the unique equilibrium.",
+      "url": "https://arxiv.org/abs/2605.07528v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07528v1",
+      "source": "arxiv",
+      "source_id": "2605.07528v1",
+      "published_date": "2026-05-08",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how stable matching outcomes can be achieved in decentralized markets with fixed prices through a mechanism where agents \"burn money\" (interpreted as waiting costs) to clear markets. The methodology combines theoretical analysis of aggregate non-transferable utility (NTU) stability with algorithmic development, extending both deterministic Gale-Shapley models and random utility frameworks like Choo-Siow (2006). The key contribution is proving that money burning can decentralize stable matching outcomes at the aggregate level, establishing existence and uniqueness of equilibrium, and developing a convergent generalized deferred acceptance algorithm for markets where traditional price adjustment mechanisms are unavailable."
+    },
+    {
+      "title": "Extending the El Farol Bar Game with Partial Observability and Incentive Design",
+      "authors": [
+        "Iosif Polenakis",
+        "Kalliopi Kastampolidou",
+        "Theodore Andronikos"
+      ],
+      "abstract": "The El Farol Bar game is a classic model of coordination under uncertainty, traditionally treating the venue as a passive constraint. In this work, we re-conceptualize the problem by modeling the bar as a strategic player equipped with AI-driven learning capabilities. We extend the original framework to include partial observability, i.e., agents observe only subsets of past attendees, and transform the bar from a passive capacity threshold into an active mechanism designer that adjusts pricing policies to balance revenue, utilization, and sustainability constraints. Agents employ AI-based learning to form beliefs and adapt attendance strategies under incomplete information, while the bar uses policy learning to optimize dynamic pricing. The resulting two-sided learning system frames coordination as a co-evolutionary process between boundedly rational agents and an adaptive institution, offering insights into congestion management, resource allocation, and mechanism design in complex adaptive systems.",
+      "url": "https://arxiv.org/abs/2606.04753v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.04753v1",
+      "source": "arxiv",
+      "source_id": "2606.04753v1",
+      "published_date": "2026-06-03",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how coordination dynamics change when venues become strategic players with learning capabilities, extending the classic El Farol Bar coordination game by introducing partial observability (agents see only subsets of past attendance) and transforming the bar into an active mechanism designer. The methodology employs a two-sided AI-based learning framework where boundedly rational agents adapt attendance strategies under incomplete information while the bar simultaneously learns optimal dynamic pricing policies. The key contribution is demonstrating that coordination problems can be reframed as co-evolutionary processes between adaptive agents and intelligent institutions, providing new insights for congestion management and mechanism design in complex adaptive systems."
+    },
+    {
+      "title": "Facility Location Mechanism Design: Breaking The Deterministic Barrier",
+      "authors": [
+        "Zohar Barak"
+      ],
+      "abstract": "We study the facility location mechanism design problem where $n$ agents report their locations in Euclidean space, and the output is a single facility location. The cost function of each agent is the distance from the returned facility, and the objective is to minimize the social cost function (the sum of agent costs) in a strategyproof way.   Our contributions: 1. Breaking the deterministic barrier. For $\\mathbb{R}^2$, we give a random strategyproof mechanism (RR-CWM) achieving an expected approximation ratio of $\\frac{4}\u03c0 \\approx 1.27$, which strictly improves upon the best deterministic strategyproof mechanism (which has a $\\sqrt{2} \\approx 1.41$ ratio). This closes the open problem of separating deterministic and random mechanisms for utilitarian facility location mechanism design in $\\mathbb{R}^2$. For $\\mathbb{R}^d$, we show that the expected approximation ratio of our mechanism is in $[1.41 - O(1/\\sqrt{d}), 1.547]$.   2. Improved learning augmented mechanisms through randomization. We show our ideas can achieve better performance in the learning augmented setting in $\\mathbb{R}^2$, where in addition to the input the mechanism also receives predictions. For the output prediction model of Agrawal et al. 2022 we show an improved expected consistency-robustness trade-off. Our results also imply improved performance for the input MAC predictions model of Barak et al. 2024.   3. The limitations of Random Dictators. We show a lower bound for the common mechanism class of GRD (Generalized Random Dictator) mechanisms, where only locations reported by the agents may be returned. We show that any GRD mechanism has a larger expected approximation ratio than our RR-CWM mechanism, as our lower bound for $\\mathbb{R}^2$ is $\\frac{4}\u03c0$ (matching the upper bound of RR-CWM, which is not a GRD mechanism). For $\\mathbb{R}^d$, we show a lower bound of $\\sqrt{2} - O(1/d)$.",
+      "url": "https://arxiv.org/abs/2605.24750v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.24750v2",
+      "source": "arxiv",
+      "source_id": "2605.24750v2",
+      "published_date": "2026-05-23",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates whether randomized mechanisms can outperform deterministic ones in strategyproof facility location design, where agents report locations and a mechanism selects a facility location to minimize total distance costs. The authors develop a novel randomized mechanism (RR-CWM) and prove theoretical approximation bounds, demonstrating the first separation between deterministic and randomized approaches in this setting. The key contribution is showing that randomization breaks the deterministic barrier, achieving a 4/\u03c0 \u2248 1.27 approximation ratio in R\u00b2 compared to the best deterministic bound of \u221a2 \u2248 1.41, while also improving performance in learning-augmented settings with predictions."
+    },
+    {
+      "title": "Dynamic Evolution of Corporate Emissions Determinants",
+      "authors": [
+        "George Kapetanios",
+        "Steven Ongena",
+        "Alexia Ventouri",
+        "Huiyan Xiao"
+      ],
+      "abstract": "This paper examines how firm-level determinants of industrial emissions evolve over time as firms adapt to environmental regulation, economic conditions, and organisational constraints. Using a panel of 204 U.S. industrial facilities observed from 1992 to 2023, we link facility-level emissions from the Toxics Release Inventory to firm financial characteristics, managerial attributes, local labour-market conditions, and aggregate macroeconomic indicators. We employ a time-varying mean-group estimator that allows average relationships to change smoothly over time while accommodating persistent heterogeneity across facilities. We find several covariates display episodic associations with emissions growth. The results reveal pronounced stage-like dynamics in emissions determinants, with firm-level characteristics and aggregate conditions dominating in different periods. From an innovation-policy perspective, the findings highlight that firms' responses to environmental regulation are time-dependent and shaped by their adaptive capacity.",
+      "url": "https://arxiv.org/abs/2605.22994v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22994v1",
+      "source": "arxiv",
+      "source_id": "2605.22994v1",
+      "published_date": "2026-05-21",
+      "categories": [
+        "econ.EM",
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper investigates how firm-level determinants of industrial emissions change over time as companies adapt to regulatory and economic conditions. Using a panel dataset of 204 U.S. industrial facilities (1992-2023) linked to financial, managerial, and macroeconomic variables, the authors employ a time-varying mean-group estimator to capture evolving relationships while accounting for facility heterogeneity. The key finding is that emissions determinants exhibit pronounced stage-like dynamics with episodic associations, where firm-level characteristics versus aggregate conditions dominate in different periods, suggesting that corporate responses to environmental regulation are time-dependent and contingent on adaptive capacity."
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing s...."
+    }
+  ]
+}

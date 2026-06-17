@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-06-17T09:06:31.186347",
+  "period": "daily",
+  "paper_count": 12,
+  "papers": [
+    {
+      "title": "Battery Bidding under Price Uncertainty in Wholesale Electricity Markets",
+      "authors": [
+        "Vincent Yinjun-Wang",
+        "Madeleine Udell"
+      ],
+      "abstract": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk management. We develop an asset-level model of a price-taking battery that submits stepwise buy and sell bid curves in the day-ahead market under a finite set of price scenarios. The battery chooses quantity--price pairs to maximize a mean--CVaR objective subject to physical and market constraints. A direct formulation is a mixed-integer linear program, but we show that its integer decisions can be removed, yielding an exact linear programming reformulation suitable for empirical analysis. Our empirical results deliver three insights. First, withholding behavior can arise even without market power, because scarce stored energy and uncertain future prices increase the value of holding energy. Second, the effect of uncertainty depends on the state of charge: when stored energy is scarce, greater uncertainty raises sell bid prices, whereas when stored energy is abundant it can lower them. Third, risk management reshapes bid curves into layered structures that secure profitable execution across a broad set of scenarios while preserving some exposure to rare but valuable price spikes.",
+      "url": "https://arxiv.org/abs/2606.14050v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14050v1",
+      "source": "arxiv",
+      "source_id": "2606.14050v1",
+      "published_date": "2026-06-12",
+      "categories": [
+        "math.OC",
+        "econ.GN",
+        "eess.SY",
+        "q-fin.PM",
+        "q-fin.RM"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk manage...."
+    },
+    {
+      "title": "From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies -- by Panle Jia Barwick, Jack Collison, Pinelopi K. Goldberg, Shanjun Li, Yucheng Wang",
+      "authors": [],
+      "abstract": "We study the optimal design of trade and industrial policy when governments pursue environmental objectives alongside traditional welfare goals. Motivated by the global transition to electric vehicles (EVs) and growing concerns about competitiveness, energy security, and climate change, we develop a framework in which policymakers choose tariffs and domestic production subsidies to maximize welfare, defined as the sum of consumer surplus, domestic profits, environmental benefits, and tariff revenue. We combine a theoretical model of differentiated-product oligopoly with a structural demand model estimated using vehicle-level data from 13 countries that together account for the vast majority of global EV sales. Our central finding is that the optimal policy combines a moderate tariff on imported EVs with a subsidy to domestic EV production financed through tariff revenue. This policy substantially outperforms both outright protectionism and laissez-faire. Relative to current policies, it preserves consumer access to affordable EVs, accelerates fleet electrification, supports domestic producers, and remains budget-neutral. For the United States, the optimal policy more than doubles EV market share, generates over $45 billion in annual welfare gains, and avoids approximately 95 million tons of lifetime CO2 emissions. A key mechanism underlying these results is the pass-through of tariffs and subsidies to prices, which depends critically on demand curvature, product substitution, and market structure. More broadly, our results suggest that effective industrial policy requires careful attention to market structure and country-specific conditions, balancing consumer, producer, fiscal, and environmental objectives rather than adhering to ideological prescriptions.",
+      "url": "https://www.nber.org/papers/w35334#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35334#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35334",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "We study the optimal design of trade and industrial policy when governments pursue environmental objectives alongside traditional welfare goals. Motivated by the global transition to electric vehicles (EVs) and growing concerns about competitiveness, energy security, and climate change, we develo...."
+    },
+    {
+      "title": "EconCSLib: A Lean Library for Computational Economics and AI-Assisted Research",
+      "authors": [
+        "Xiaohui Bei",
+        "Jiajun Ma",
+        "Zhan Jing",
+        "Hongfei Fu",
+        "Zhihao Gavin Tang"
+      ],
+      "abstract": "Mathematical formalization uses interactive theorem provers to turn informal mathematical statements into machine-checkable artifacts. The success of mathlib, a large collaborative library for Lean, illustrates the potential of this approach. Recent progress in AI-assisted programming and theorem proving is also making large-scale formalization more practical. This paper presents EconCSLib, an early Lean 4 library for computational economics, as both infrastructure and a case study for AI-assisted formalization. The library aims to provide reusable definitions and theorems for game theory, mechanism design, social choice, and related areas. Beyond verified proofs of existing results, the library also aims to host machine-checked open problems and formalization of modern research papers. We discuss the design principles behind the library, the lessons learned from its development, and future directions for AI-assisted formalization in computational economics.",
+      "url": "https://arxiv.org/abs/2606.16144v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16144v1",
+      "source": "arxiv",
+      "source_id": "2606.16144v1",
+      "published_date": "2026-06-15",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "Mathematical formalization uses interactive theorem provers to turn informal mathematical statements into machine-checkable artifacts. The success of mathlib, a large collaborative library for Lean, illustrates the potential of this approach."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consiste...."
+    },
+    {
+      "title": "Strategic Inertia and Institutional Change:A Behavioral Model of Price Reforms versus Action Deletion",
+      "authors": [
+        "Madjid Eshaghi Gordji",
+        "Mohammadali Berahman",
+        "Hasti Eshaghi"
+      ],
+      "abstract": "Why do inefficient practices, technologies, or institutions persist even when su perior alternatives are available? This paper introduces a quantal response equilib rium with status-quo bias (QRE-SB) in which each player incurs a fixed switching cost when deviating from an inherited default action. In a binary coordination game, we compare two policy interventions: a tax on the default action (price-only reform) versus deleting the default action entirely (ban). We prove that there exists a threshold tax below which the status quo persists and above which a transition occurs; notably, this threshold does not depend on the degree of bounded ratio nality. Deleting the default action always forces play to the superior equilibrium, irrespective of switching costs or rationality. Moreover, when the superior equilib rium is Pareto-dominant, deletion yields strictly higher expected welfare than any finite tax that leaves the old action feasible. Numerical simulations illustrate the theoretical predictions. The framework provides a formal foundation for the policy principle that sometimes you must ban, not just tax, with direct applications to climate policy, social media regulation, and international sanctions.",
+      "url": "https://arxiv.org/abs/2605.21647v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21647v1",
+      "source": "arxiv",
+      "source_id": "2605.21647v1",
+      "published_date": "2026-05-20",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Why do inefficient practices, technologies, or institutions persist even when su perior alternatives are available? This paper introduces a quantal response equilib rium with status-quo bias (QRE-SB) in which each player incurs a fixed switching cost when deviating from an inherited default actio...."
+    },
+    {
+      "title": "Breaking Status-Quo Inertia in Living Temporal Games: Dynamic Intervention, Implementation, and Structural Design",
+      "authors": [
+        "Madjid Eshaghi Gordji",
+        "Ali Jabbari",
+        "Mohammad Ali Berahman",
+        "Esmaiel Abounoori"
+      ],
+      "abstract": "Westudy how a planner can design dynamic interventions to overcome status-quo inertia in living temporal games, where strategic agents control their state (active, sleep, partially dead) on a temporal network. Building on the continuous-time stochastic game framework of our companion paper, we introduce three intervention classes: bounded transfers (price based), structural modifications (edge deletion, addition, or replacement), and information signals. We formalize the notion of inertia depth and prove a threshold theorem: the status quo equilibrium survives all transfer perturbations whose magnitude is below a critical bound that depends on the remaining horizon. A central structural dominance result shows that for any finite transfer budget there exists a family of games where no bounded price intervention can eliminate the inefficient equilibrium, yet a single edge replacement (continuous-flow to discrete-transport) succeeds. We then study private-information subclasses with static types. Using a uniformization reduction, we prove an impossibility result: no direct mechanism can simultaneously satisfy ex post incentive compatibility, ex post budget balance, and history privacy while always implementing an efficient equilibrium. In the same subclass we construct a dynamic pivot mechanism that achieves second-best efficiency with bounded deficit. Finally, we show that replacing continuous-flow edges by discrete-transport edges weakly expands the set of implementable outcomes, highlighting the importance of temporal semantics for mechanism design. Our results extend the static analysis of [5] to continuous time strategic networks and provide a rigorous foundation for subsequent papers on learning and mean-field design.",
+      "url": "https://arxiv.org/abs/2605.19087v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19087v1",
+      "source": "arxiv",
+      "source_id": "2605.19087v1",
+      "published_date": "2026-05-18",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Westudy how a planner can design dynamic interventions to overcome status-quo inertia in living temporal games, where strategic agents control their state (active, sleep, partially dead) on a temporal network. Building on the continuous-time stochastic game framework of our companion paper, we in...."
+    },
+    {
+      "title": "Competing firms, competing regulators: The strategic cost of fragmented climate policy",
+      "authors": [
+        "Nicole Adler",
+        "Gianmarco Andreana",
+        "Gerben de Jong"
+      ],
+      "abstract": "Climate policy in global network industries is implemented across fragmented jurisdictions, yet firms respond through integrated operational networks. We develop a two-stage game-theoretic framework to analyze how firm-level responses interact with alternative governance structures. Regulators first choose emissions charges. Firms subsequently compete through pricing, service capacity and capital deployment decisions. The analytical results demonstrate that uniform global regulation maximizes welfare in symmetric markets. However, in sufficiently asymmetric markets, a uniform global charge is dominated by decentralized regimes. Multiple regulatory instruments better accommodate region-specific market externalities. We apply this framework to a calibrated case study of North American, Western European and transatlantic aviation markets. The numerical results establish that a globally coordinated regulator setting region-specific charges achieves the highest aggregate welfare. These aggregate gains nonetheless mask substantial distributional disparities across jurisdictions. Effective climate governance in network industries therefore requires more than determining an efficient emissions charge. Policy instruments ought to accommodate regional heterogeneity and transfer mechanisms will be necessary to ensure efficient, politically stable cooperation.",
+      "url": "https://arxiv.org/abs/2606.17290v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17290v1",
+      "source": "arxiv",
+      "source_id": "2606.17290v1",
+      "published_date": "2026-06-15",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Climate policy in global network industries is implemented across fragmented jurisdictions, yet firms respond through integrated operational networks. We develop a two-stage game-theoretic framework to analyze how firm-level responses interact with alternative governance structures."
+    },
+    {
+      "title": "Gaming-Resistant Insurance Contracts for Autonomous AI Agents: Strategy-Proof Toll Mechanism Design",
+      "authors": [
+        "Hao-Hsuan Chen"
+      ],
+      "abstract": "Paper A defines a time-consistent actuarial runtime that prices each side-effect-bearing action against a contractually fixed safe default and gates execution against a reserve budget. It treats the operator as passive. This paper makes the operator strategic. We characterise a five-attack space for autonomous AI-agent insurance contracts and prove when the actuarial runtime is gaming-resistant. Two attack surfaces -- post-toll safe-default selection and within-boundary action splitting -- are closed by Paper A's minimal-authority and no-splitting clauses. The remaining three require new contract clauses. First, common-control aggregation prevents cross-boundary re-routing from reducing toll below the boundary potential applied to total exposure. Second, interface failures such as invalid JSON are contract-relevant events, not safety wins: treating them as zero-toll safe defaults can reward unreliable models, while escalation fees reverse the incentive. We validate this interface-compliance theorem on committed cross-model traces from the companion empirical paper. Third, a model-identity menu with a componentwise-minimum penalty schedule makes truthful reporting of the deployed model weakly dominant. We then compose these clauses with Paper A's runtime guarantees to obtain joint incentive compatibility over the five-attack space. Finally, a two-parameter premium family discharges operator individual rationality and weak budget balance at the truthful equilibrium. The result is an incentive-compatibility layer for actuarial control of autonomous-agent side effects.",
+      "url": "https://arxiv.org/abs/2606.16326v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16326v1",
+      "source": "arxiv",
+      "source_id": "2606.16326v1",
+      "published_date": "2026-06-15",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Paper A defines a time-consistent actuarial runtime that prices each side-effect-bearing action against a contractually fixed safe default and gates execution against a reserve budget. It treats the operator as passive."
+    },
+    {
+      "title": "Benchmark-Tight Approximation Ratio of Simple Mechanism for a Unit-Demand Buyer",
+      "authors": [
+        "Yaonan Jin",
+        "Pinyan Lu"
+      ],
+      "abstract": "We study revenue maximization in the unit-demand single-buyer setting. Our main result is that \\textsf{Uniform-Ironed-Virtual-Value Item Pricing} guarantees a {\\em tight} $3$-approximation to the \\textsf{Duality Relaxation Benchmark} [Chawla-Malec-Sivan, EC'10/GEB'15; Cai-Devanur-Weinberg, STOC'16/ SICOMP'21], breaking the barrier of $4$ since [Chawla-Hartline-Malec-Sivan, STOC'10; Chawla-Malec-Sivan, EC'10/GEB'15]. To our knowledge, this is the first {\\em benchmark-tight} revenue guarantee of any simple multi-item mechanism.   Technically, all previous works employ \\textsf{Myerson Auction} as an intermediary. The barrier of $4$ follows as \\textsf{Uniform-Ironed-Virtual-Value Item Pricing} achieves a {\\em tight} $2$-approximation to \\textsf{Myerson Auction}, which then achieves a {\\em tight} $2$-approximation to \\textsf{Duality Relaxation Benchmark}. Instead, our new approach avoids \\textsf{Myerson Auction}, thus enabling the improvement. Central to our work are a {\\em benchmark-based} $3$-competitive prophet inequality and its {\\em fully constructive} proof. Such variant prophet inequalities shall find future applications, e.g., to Multi-Item Mechanism Design where optimal revenues are relaxed to various more accessible benchmarks.   We complement our benchmark-tight ratio with an impossibility result. All previous works and ours follow the {\\em single-dimensional representative} approach introduced by [Chawla-Hartline-Kleinberg, EC'07]. Against \\textsf{Duality Relaxation Benchmark}, it turns out that this approach cannot beat our bound of $3$ for a large class of \\textsf{Item Pricing}'s.",
+      "url": "https://arxiv.org/abs/2606.10169v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.10169v1",
+      "source": "arxiv",
+      "source_id": "2606.10169v1",
+      "published_date": "2026-06-08",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study revenue maximization in the unit-demand single-buyer setting. Our main result is that \\textsf{Uniform-Ironed-Virtual-Value Item Pricing} guarantees a {\\em tight} $3$-approximation to the \\textsf{Duality Relaxation Benchmark} [Chawla-Malec-Sivan, EC'10/GEB'15; Cai-Devanur-Weinberg, STOC'1...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements ar...."
+    },
+    {
+      "title": "Dynamic Evolution of Corporate Emissions Determinants",
+      "authors": [
+        "George Kapetanios",
+        "Steven Ongena",
+        "Alexia Ventouri",
+        "Huiyan Xiao"
+      ],
+      "abstract": "This paper examines how firm-level determinants of industrial emissions evolve over time as firms adapt to environmental regulation, economic conditions, and organisational constraints. Using a panel of 204 U.S. industrial facilities observed from 1992 to 2023, we link facility-level emissions from the Toxics Release Inventory to firm financial characteristics, managerial attributes, local labour-market conditions, and aggregate macroeconomic indicators. We employ a time-varying mean-group estimator that allows average relationships to change smoothly over time while accommodating persistent heterogeneity across facilities. We find several covariates display episodic associations with emissions growth. The results reveal pronounced stage-like dynamics in emissions determinants, with firm-level characteristics and aggregate conditions dominating in different periods. From an innovation-policy perspective, the findings highlight that firms' responses to environmental regulation are time-dependent and shaped by their adaptive capacity.",
+      "url": "https://arxiv.org/abs/2605.22994v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22994v1",
+      "source": "arxiv",
+      "source_id": "2605.22994v1",
+      "published_date": "2026-05-21",
+      "categories": [
+        "econ.EM",
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how firm-level determinants of industrial emissions evolve over time as firms adapt to environmental regulation, economic conditions, and organisational constraints. Using a panel of 204 U.S."
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing s...."
+    }
+  ]
+}

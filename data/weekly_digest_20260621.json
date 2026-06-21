@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-06-21T09:44:57.042473",
+  "period": "weekly",
+  "paper_count": 3,
+  "papers": [
+    {
+      "title": "Climate Policy and The Energy Transition",
+      "authors": [
+        "Roy Sarkis"
+      ],
+      "abstract": "This paper studies the macroeconomic dynamics of climate policy in a multi-sector dynamic general equilibrium model with renewable and non-renewable energy, sector-specific capital adjustment frictions, household energy demand, and endogenous fossil resource dynamics. The central mechanism is that decarbonization requires reallocating energy use and installed capital: fossil energy demand can contract immediately, while renewable capacity and abatement adjust only gradually. The analysis delivers four results. First, gradual policy implementation sharply reduces transition costs: relative to immediate implementation, gradual emissions caps improve welfare by 2.26 percentage points under comprehensive regulation and by 5.06 percentage points under firm-only regulation. Second, renewable energy subsidies and non-renewable energy taxes support renewable capital accumulation and reduce, but do not eliminate, the welfare cost of front-loaded tightening. Third, sectoral coverage changes the welfare ranking across implementation speeds. Firm-only regulation performs better under gradual implementation because it shields utility-relevant household energy services, but becomes nearly as costly as the carbon-price-only transition under immediate implementation. Fourth, endogenous fossil exploration and stock-dependent extraction costs transmit climate policy into lower extraction, fewer discoveries, and a declining shadow value of reserves, providing a structural mechanism for stranded fossil assets. The results show that deep decarbonization can be achieved at substantially lower macroeconomic cost when policy manages the speed and incidence of energy-capital reallocation.",
+      "url": "https://arxiv.org/abs/2606.18994v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18994v1",
+      "source": "arxiv",
+      "source_id": "2606.18994v1",
+      "published_date": "2026-06-17",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper studies the macroeconomic dynamics of climate policy in a multi-sector dynamic general equilibrium model with renewable and non-renewable energy, sector-specific capital adjustment frictions, household energy demand, and endogenous fossil resource dynamics. The central mechanism is tha...."
+    },
+    {
+      "title": "Battery Bidding under Price Uncertainty in Wholesale Electricity Markets",
+      "authors": [
+        "Vincent Yinjun-Wang",
+        "Madeleine Udell"
+      ],
+      "abstract": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk management. We develop an asset-level model of a price-taking battery that submits stepwise buy and sell bid curves in the day-ahead market under a finite set of price scenarios. The battery chooses quantity--price pairs to maximize a mean--CVaR objective subject to physical and market constraints. A direct formulation is a mixed-integer linear program, but we show that its integer decisions can be removed, yielding an exact linear programming reformulation suitable for empirical analysis. Our empirical results deliver three insights. First, withholding behavior can arise even without market power, because scarce stored energy and uncertain future prices increase the value of holding energy. Second, the effect of uncertainty depends on the state of charge: when stored energy is scarce, greater uncertainty raises sell bid prices, whereas when stored energy is abundant it can lower them. Third, risk management reshapes bid curves into layered structures that secure profitable execution across a broad set of scenarios while preserving some exposure to rare but valuable price spikes.",
+      "url": "https://arxiv.org/abs/2606.14050v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14050v1",
+      "source": "arxiv",
+      "source_id": "2606.14050v1",
+      "published_date": "2026-06-12",
+      "categories": [
+        "math.OC",
+        "econ.GN",
+        "eess.SY",
+        "q-fin.PM",
+        "q-fin.RM"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk manage...."
+    },
+    {
+      "title": "From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies -- by Panle Jia Barwick, Jack Collison, Pinelopi K. Goldberg, Shanjun Li, Yucheng Wang",
+      "authors": [],
+      "abstract": "We study the optimal design of trade and industrial policy when governments pursue environmental objectives alongside traditional welfare goals. Motivated by the global transition to electric vehicles (EVs) and growing concerns about competitiveness, energy security, and climate change, we develop a framework in which policymakers choose tariffs and domestic production subsidies to maximize welfare, defined as the sum of consumer surplus, domestic profits, environmental benefits, and tariff revenue. We combine a theoretical model of differentiated-product oligopoly with a structural demand model estimated using vehicle-level data from 13 countries that together account for the vast majority of global EV sales. Our central finding is that the optimal policy combines a moderate tariff on imported EVs with a subsidy to domestic EV production financed through tariff revenue. This policy substantially outperforms both outright protectionism and laissez-faire. Relative to current policies, it preserves consumer access to affordable EVs, accelerates fleet electrification, supports domestic producers, and remains budget-neutral. For the United States, the optimal policy more than doubles EV market share, generates over $45 billion in annual welfare gains, and avoids approximately 95 million tons of lifetime CO2 emissions. A key mechanism underlying these results is the pass-through of tariffs and subsidies to prices, which depends critically on demand curvature, product substitution, and market structure. More broadly, our results suggest that effective industrial policy requires careful attention to market structure and country-specific conditions, balancing consumer, producer, fiscal, and environmental objectives rather than adhering to ideological prescriptions.",
+      "url": "https://www.nber.org/papers/w35334#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35334#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35334",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "We study the optimal design of trade and industrial policy when governments pursue environmental objectives alongside traditional welfare goals. Motivated by the global transition to electric vehicles (EVs) and growing concerns about competitiveness, energy security, and climate change, we develo...."
+    }
+  ]
+}

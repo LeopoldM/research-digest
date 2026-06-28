@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-06-28T08:47:27.414022",
+  "period": "weekly",
+  "paper_count": 2,
+  "papers": [
+    {
+      "title": "Climate Policy and The Energy Transition",
+      "authors": [
+        "Roy Sarkis"
+      ],
+      "abstract": "This paper studies the macroeconomic dynamics of climate policy in a multi-sector dynamic general equilibrium model with renewable and non-renewable energy, sector-specific capital adjustment frictions, household energy demand, and endogenous fossil resource dynamics. The central mechanism is that decarbonization requires reallocating energy use and installed capital: fossil energy demand can contract immediately, while renewable capacity and abatement adjust only gradually. The analysis delivers four results. First, gradual policy implementation sharply reduces transition costs: relative to immediate implementation, gradual emissions caps improve welfare by 2.26 percentage points under comprehensive regulation and by 5.06 percentage points under firm-only regulation. Second, renewable energy subsidies and non-renewable energy taxes support renewable capital accumulation and reduce, but do not eliminate, the welfare cost of front-loaded tightening. Third, sectoral coverage changes the welfare ranking across implementation speeds. Firm-only regulation performs better under gradual implementation because it shields utility-relevant household energy services, but becomes nearly as costly as the carbon-price-only transition under immediate implementation. Fourth, endogenous fossil exploration and stock-dependent extraction costs transmit climate policy into lower extraction, fewer discoveries, and a declining shadow value of reserves, providing a structural mechanism for stranded fossil assets. The results show that deep decarbonization can be achieved at substantially lower macroeconomic cost when policy manages the speed and incidence of energy-capital reallocation.",
+      "url": "https://arxiv.org/abs/2606.18994v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18994v1",
+      "source": "arxiv",
+      "source_id": "2606.18994v1",
+      "published_date": "2026-06-17",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper studies the macroeconomic dynamics of climate policy in a multi-sector dynamic general equilibrium model with renewable and non-renewable energy, sector-specific capital adjustment frictions, household energy demand, and endogenous fossil resource dynamics. The central mechanism is tha...."
+    },
+    {
+      "title": "Battery Bidding under Price Uncertainty in Wholesale Electricity Markets",
+      "authors": [
+        "Vincent Yinjun-Wang",
+        "Madeleine Udell"
+      ],
+      "abstract": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk management. We develop an asset-level model of a price-taking battery that submits stepwise buy and sell bid curves in the day-ahead market under a finite set of price scenarios. The battery chooses quantity--price pairs to maximize a mean--CVaR objective subject to physical and market constraints. A direct formulation is a mixed-integer linear program, but we show that its integer decisions can be removed, yielding an exact linear programming reformulation suitable for empirical analysis. Our empirical results deliver three insights. First, withholding behavior can arise even without market power, because scarce stored energy and uncertain future prices increase the value of holding energy. Second, the effect of uncertainty depends on the state of charge: when stored energy is scarce, greater uncertainty raises sell bid prices, whereas when stored energy is abundant it can lower them. Third, risk management reshapes bid curves into layered structures that secure profitable execution across a broad set of scenarios while preserving some exposure to rare but valuable price spikes.",
+      "url": "https://arxiv.org/abs/2606.14050v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14050v1",
+      "source": "arxiv",
+      "source_id": "2606.14050v1",
+      "published_date": "2026-06-12",
+      "categories": [
+        "math.OC",
+        "econ.GN",
+        "eess.SY",
+        "q-fin.PM",
+        "q-fin.RM"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk manage...."
+    }
+  ]
+}

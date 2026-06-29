@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-06-29T09:03:23.585350",
+  "period": "daily",
+  "paper_count": 15,
+  "papers": [
+    {
+      "title": "Climate Policy and The Energy Transition",
+      "authors": [
+        "Roy Sarkis"
+      ],
+      "abstract": "This paper studies the macroeconomic dynamics of climate policy in a multi-sector dynamic general equilibrium model with renewable and non-renewable energy, sector-specific capital adjustment frictions, household energy demand, and endogenous fossil resource dynamics. The central mechanism is that decarbonization requires reallocating energy use and installed capital: fossil energy demand can contract immediately, while renewable capacity and abatement adjust only gradually. The analysis delivers four results. First, gradual policy implementation sharply reduces transition costs: relative to immediate implementation, gradual emissions caps improve welfare by 2.26 percentage points under comprehensive regulation and by 5.06 percentage points under firm-only regulation. Second, renewable energy subsidies and non-renewable energy taxes support renewable capital accumulation and reduce, but do not eliminate, the welfare cost of front-loaded tightening. Third, sectoral coverage changes the welfare ranking across implementation speeds. Firm-only regulation performs better under gradual implementation because it shields utility-relevant household energy services, but becomes nearly as costly as the carbon-price-only transition under immediate implementation. Fourth, endogenous fossil exploration and stock-dependent extraction costs transmit climate policy into lower extraction, fewer discoveries, and a declining shadow value of reserves, providing a structural mechanism for stranded fossil assets. The results show that deep decarbonization can be achieved at substantially lower macroeconomic cost when policy manages the speed and incidence of energy-capital reallocation.",
+      "url": "https://arxiv.org/abs/2606.18994v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18994v1",
+      "source": "arxiv",
+      "source_id": "2606.18994v1",
+      "published_date": "2026-06-17",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper studies the macroeconomic dynamics of climate policy in a multi-sector dynamic general equilibrium model with renewable and non-renewable energy, sector-specific capital adjustment frictions, household energy demand, and endogenous fossil resource dynamics. The central mechanism is tha...."
+    },
+    {
+      "title": "Battery Bidding under Price Uncertainty in Wholesale Electricity Markets",
+      "authors": [
+        "Vincent Yinjun-Wang",
+        "Madeleine Udell"
+      ],
+      "abstract": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk management. We develop an asset-level model of a price-taking battery that submits stepwise buy and sell bid curves in the day-ahead market under a finite set of price scenarios. The battery chooses quantity--price pairs to maximize a mean--CVaR objective subject to physical and market constraints. A direct formulation is a mixed-integer linear program, but we show that its integer decisions can be removed, yielding an exact linear programming reformulation suitable for empirical analysis. Our empirical results deliver three insights. First, withholding behavior can arise even without market power, because scarce stored energy and uncertain future prices increase the value of holding energy. Second, the effect of uncertainty depends on the state of charge: when stored energy is scarce, greater uncertainty raises sell bid prices, whereas when stored energy is abundant it can lower them. Third, risk management reshapes bid curves into layered structures that secure profitable execution across a broad set of scenarios while preserving some exposure to rare but valuable price spikes.",
+      "url": "https://arxiv.org/abs/2606.14050v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14050v1",
+      "source": "arxiv",
+      "source_id": "2606.14050v1",
+      "published_date": "2026-06-12",
+      "categories": [
+        "math.OC",
+        "econ.GN",
+        "eess.SY",
+        "q-fin.PM",
+        "q-fin.RM"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Grid-scale batteries increasingly influence outcomes in wholesale electricity markets, but their observed bid patterns remain difficult to interpret. In particular, bids that appear to reflect strategic withholding may instead arise from rational operations under price uncertainty and risk manage...."
+    },
+    {
+      "title": "EconCSLib: A Lean Library for Computational Economics and AI-Assisted Research",
+      "authors": [
+        "Xiaohui Bei",
+        "Jiajun Ma",
+        "Zhan Jing",
+        "Hongfei Fu",
+        "Zhihao Gavin Tang"
+      ],
+      "abstract": "Mathematical formalization uses interactive theorem provers to turn informal mathematical statements into machine-checkable artifacts. The success of mathlib, a large collaborative library for Lean, illustrates the potential of this approach. Recent progress in AI-assisted programming and theorem proving is also making large-scale formalization more practical. This paper presents EconCSLib, an early Lean 4 library for computational economics, as both infrastructure and a case study for AI-assisted formalization. The library aims to provide reusable definitions and theorems for game theory, mechanism design, social choice, and related areas. Beyond verified proofs of existing results, the library also aims to host machine-checked open problems and formalization of modern research papers. We discuss the design principles behind the library, the lessons learned from its development, and future directions for AI-assisted formalization in computational economics.",
+      "url": "https://arxiv.org/abs/2606.16144v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16144v1",
+      "source": "arxiv",
+      "source_id": "2606.16144v1",
+      "published_date": "2026-06-15",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "Mathematical formalization uses interactive theorem provers to turn informal mathematical statements into machine-checkable artifacts. The success of mathlib, a large collaborative library for Lean, illustrates the potential of this approach."
+    },
+    {
+      "title": "A Real-Options-Aware Multi-Criteria Framework for Ex-Ante Real Estate Redevelopment Use Selection",
+      "authors": [
+        "Roberto Garrone"
+      ],
+      "abstract": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consistent with the capital immobilized. This condition reflects a structural misalignment between intended use and effective demand rather than episodic market weakness, and calls for a decision framework capable of integrating value, risk, complexity, and irreversibility in strategic use selection. This study proposes a decision-analytic framework for the ex-ante selection of intended use in real estate redevelopment processes. The framework integrates real-options logic on irreversibility and managerial flexibility with a multi-criteria decision-analysis structure, enabling comparative evaluation of expected economic value, market and operational risk, technical and managerial complexity, and time-to-income. By treating redevelopment primarily as a problem of strategic option selection rather than design or financial optimization, the framework operationalizes option value preservation through disciplined ex-ante screening. Illustrative cases demonstrate how this integration of real options reasoning and MCDA reduces over-complexification and misalignment across different asset types and urban contexts.",
+      "url": "https://arxiv.org/abs/2601.22166v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22166v1",
+      "source": "arxiv",
+      "source_id": "2601.22166v1",
+      "published_date": "2026-01-15",
+      "categories": [
+        "q-fin.GN",
+        "econ.GN"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "A growing share of the existing real estate stock exhibits persistent underperformance that can no longer be explained by cyclical market phases or inadequate maintenance alone. In many cases, technically recoverable assets located in non-marginal contexts fail to generate economic value consiste...."
+    },
+    {
+      "title": "Generating EUPHEMIA-compatible bids for flexible demand under imperfect information",
+      "authors": [
+        "Christian Doh Dinga",
+        "Mukunda Badarinath",
+        "Seyed Hossein Jamali",
+        "Laurens de Vries",
+        "Milos Cvetkovic"
+      ],
+      "abstract": "Electricity procurement constitutes a significant share of operational costs for large electricity consumers, and thus exposure to extreme prices poses a substantial financial risk. This paper proposes a method to generate EUPHEMIA-compatible bids for flexible demand to enable their participation in the European day-ahead electricity market while minimizing risks. Two strategies are considered, resulting in two bid formats: hourly bids (HBs), representing flexibility via marginal price responsiveness through price-quantity pairs, and exclusive-group bids (EBs), representing flexibility via mutually exclusive operational schedules submitted at opportunity cost. Our method is evaluated on a hypothetical electrolyzer system and a real-world steel plant under different market conditions. Results show that the economic performance of each strategy depends on the operational characteristics of the load and market conditions. Under volatile market conditions, highly flexible systems achieve better economic outcomes with EBs, while less flexible systems with stronger intertemporal constraints perform better with HBs.",
+      "url": "https://arxiv.org/abs/2606.24183v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24183v1",
+      "source": "arxiv",
+      "source_id": "2606.24183v1",
+      "published_date": "2026-06-23",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Electricity procurement constitutes a significant share of operational costs for large electricity consumers, and thus exposure to extreme prices poses a substantial financial risk. This paper proposes a method to generate EUPHEMIA-compatible bids for flexible demand to enable their participation...."
+    },
+    {
+      "title": "Distributionally Robust Joint Information and Mechanism Design for Multi-Area Power System Coordination",
+      "authors": [
+        "Furkan Sezer"
+      ],
+      "abstract": "We study a continuous-time stochastic Stackelberg control problem in which a leader steers a system of strategic followers through two non-standard channels - the information structure and a transfer mechanism - rather than through the dynamics directly. The latent environment is a jump-diffusion; the leader commits to a Gaussian public-signaling channel whose belief consequences are tracked by a finite-dimensional projection filter (the exact filter being infinite-dimensional), together with a Groves transfer that aligns the followers' incentives. Under truthful disclosure, efficient behavior is a dominant-strategy best response, and the induced differential game admits saturated and bang-bang Nash feedback. We cast the leader's distributionally robust problem, over a relative-entropy ambiguity neighborhood, as a two-controller Isaacs equation; prove that incentive alignment collapses the bilevel Stackelberg problem to a single robust control problem with an exact first-order condition; and characterize the value function as the unique viscosity solution, with a verification theorem valid for the non-smooth bang-bang feedback and a semiconcavity result that renders the switching set Lebesgue-null. We instantiate the framework on resilient multi-area power-system coordination under extreme weather. Calibrated to the 2021 Winter Storm Uri, an Isaacs solve over ERCOT's near-islanded interconnection (a 0.82 GW tie, under 2% of peak) shows mutual aid removes about 8% of social cost, rising to roughly 30% under the FERC/DOE-recommended interregional transfer capability; a reserve-scheduling experiment shows that public disclosure lowers welfare cost by 37% under autarky and 48% under market coupling, and that information design and market coupling are complements under common (systemic) risk.",
+      "url": "https://arxiv.org/abs/2606.24015v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24015v1",
+      "source": "arxiv",
+      "source_id": "2606.24015v1",
+      "published_date": "2026-06-22",
+      "categories": [
+        "math.OC",
+        "cs.GT",
+        "econ.TH",
+        "eess.SY"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study a continuous-time stochastic Stackelberg control problem in which a leader steers a system of strategic followers through two non-standard channels - the information structure and a transfer mechanism - rather than through the dynamics directly. The latent environment is a jump-diffusion...."
+    },
+    {
+      "title": "Impact of distribution fees on BESS scheduling and profitability",
+      "authors": [
+        "Katarzyna Maciejowska"
+      ],
+      "abstract": "Battery energy storage systems (BESS) are expected to play an important role in electricity markets with increasing shares of renewable generation. While existing research has primarily focused on price arbitrage and ancillary services, the role of grid fees in shaping BESS operation and profitability remains insufficiently understood. This article investigates how different levels of distribution fees affect the scheduling and economic viability of BESS in the day-ahead electricity market.   The analysis employs a mixed-integer linear programming model of BESS operation combined with electricity price data from the German market. Four system configurations are considered: stand-alone storage and BESS combined with consumption, generation, or both. The value of storage is measured as the difference between system profits with and without BESS. In addition, a rolling-horizon optimization framework is used to evaluate the impact of forecast uncertainty and decision horizon length on operational outcomes.   The results show that grid fees significantly influence both BESS profitability and operational strategies. For stand-alone storage, higher transmission charges reduce arbitrage revenues and battery utilization. When BESS is integrated with consumption and generation units, load shifting and self-consumption become the dominant sources of value, leading to a non-monotonic relationship between grid fees and storage profitability. These findings highlight the importance of considering tariff structures when evaluating storage investments and designing regulatory frameworks for electricity markets with increasing flexibility needs.",
+      "url": "https://arxiv.org/abs/2606.22185v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22185v1",
+      "source": "arxiv",
+      "source_id": "2606.22185v1",
+      "published_date": "2026-06-20",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Battery energy storage systems (BESS) are expected to play an important role in electricity markets with increasing shares of renewable generation. While existing research has primarily focused on price arbitrage and ancillary services, the role of grid fees in shaping BESS operation and profitab...."
+    },
+    {
+      "title": "Have Data Centers Raised Your Electric Bill? Causal Evidence from the United States",
+      "authors": [
+        "Asa Watten",
+        "John Bistline",
+        "Geoffrey Blanford"
+      ],
+      "abstract": "We estimate that data centers caused average retail electricity rates to fall modestly in the United States from 2015 to 2024 using an instrumental variables approach. Despite prevailing sentiment, the finding is consistent with economic reasoning: existing large power system fixed costs, economies of scale in transmission and distribution, and declining unit costs for generation imply that durable demand growth lowers average prices. We find patterns of economies of scale for transmission, distribution, and generation costs as well as within and across retail customer classes. We caution that future supply constraints could reverse the effect.",
+      "url": "https://arxiv.org/abs/2606.19777v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19777v1",
+      "source": "arxiv",
+      "source_id": "2606.19777v1",
+      "published_date": "2026-06-18",
+      "categories": [
+        "physics.soc-ph",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We estimate that data centers caused average retail electricity rates to fall modestly in the United States from 2015 to 2024 using an instrumental variables approach. Despite prevailing sentiment, the finding is consistent with economic reasoning: existing large power system fixed costs, economi...."
+    },
+    {
+      "title": "Analysing drivers and interdependencies in European electricity markets using XAI",
+      "authors": [
+        "Antoine Pesenti",
+        "Aidan O'Sullivan"
+      ],
+      "abstract": "Electricity markets are inherently complex systems characterised by strong nonlinearities, high-dimensional interactions, and increasing interdependence across regions. While deep neural networks (DNNs) have demonstrated strong predictive capabilities for electricity prices, their lack of interpretability limits their usefulness for understanding the underlying drivers of price formation. This paper addresses this gap by combining DNN models with explainable artificial intelligence (XAI) techniques to analyse the determinants of electricity prices across 39 European bidding zones. We employ SHAP (SHapley Additive exPlanations) to quantify feature contributions and apply and extend SSHAP, an aggregation framework to improve interpretability in high-dimensional settings. The analysis identifies that renewable energy sources, particularly solar, play a disproportionately important role in price formation despite their lower share in total power generation. Gas prices remain a dominant and consistent driver across electricity markets, while interconnections significantly shape price dynamics, highlighting the strong interdependence of European electricity systems. In addition, a synthetic EU-wide electricity market is constructed to explore the counterfactual scenario of a fully integrated market with a single price.",
+      "url": "https://arxiv.org/abs/2606.19118v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19118v1",
+      "source": "arxiv",
+      "source_id": "2606.19118v1",
+      "published_date": "2026-06-17",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Electricity markets are inherently complex systems characterised by strong nonlinearities, high-dimensional interactions, and increasing interdependence across regions. While deep neural networks (DNNs) have demonstrated strong predictive capabilities for electricity prices, their lack of interpr...."
+    },
+    {
+      "title": "Competing firms, competing regulators: The strategic cost of fragmented climate policy",
+      "authors": [
+        "Nicole Adler",
+        "Gianmarco Andreana",
+        "Gerben de Jong"
+      ],
+      "abstract": "Climate policy in global network industries is implemented across fragmented jurisdictions, yet firms respond through integrated operational networks. We develop a two-stage game-theoretic framework to analyze how firm-level responses interact with alternative governance structures. Regulators first choose emissions charges. Firms subsequently compete through pricing, service capacity and capital deployment decisions. The analytical results demonstrate that uniform global regulation maximizes welfare in symmetric markets. However, in sufficiently asymmetric markets, a uniform global charge is dominated by decentralized regimes. Multiple regulatory instruments better accommodate region-specific market externalities. We apply this framework to a calibrated case study of North American, Western European and transatlantic aviation markets. The numerical results establish that a globally coordinated regulator setting region-specific charges achieves the highest aggregate welfare. These aggregate gains nonetheless mask substantial distributional disparities across jurisdictions. Effective climate governance in network industries therefore requires more than determining an efficient emissions charge. Policy instruments ought to accommodate regional heterogeneity and transfer mechanisms will be necessary to ensure efficient, politically stable cooperation.",
+      "url": "https://arxiv.org/abs/2606.17290v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.17290v1",
+      "source": "arxiv",
+      "source_id": "2606.17290v1",
+      "published_date": "2026-06-15",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Climate policy in global network industries is implemented across fragmented jurisdictions, yet firms respond through integrated operational networks. We develop a two-stage game-theoretic framework to analyze how firm-level responses interact with alternative governance structures."
+    },
+    {
+      "title": "Gaming-Resistant Insurance Contracts for Autonomous AI Agents: Strategy-Proof Toll Mechanism Design",
+      "authors": [
+        "Hao-Hsuan Chen"
+      ],
+      "abstract": "Paper A defines a time-consistent actuarial runtime that prices each side-effect-bearing action against a contractually fixed safe default and gates execution against a reserve budget. It treats the operator as passive. This paper makes the operator strategic. We characterise a five-attack space for autonomous AI-agent insurance contracts and prove when the actuarial runtime is gaming-resistant. Two attack surfaces -- post-toll safe-default selection and within-boundary action splitting -- are closed by Paper A's minimal-authority and no-splitting clauses. The remaining three require new contract clauses. First, common-control aggregation prevents cross-boundary re-routing from reducing toll below the boundary potential applied to total exposure. Second, interface failures such as invalid JSON are contract-relevant events, not safety wins: treating them as zero-toll safe defaults can reward unreliable models, while escalation fees reverse the incentive. We validate this interface-compliance theorem on committed cross-model traces from the companion empirical paper. Third, a model-identity menu with a componentwise-minimum penalty schedule makes truthful reporting of the deployed model weakly dominant. We then compose these clauses with Paper A's runtime guarantees to obtain joint incentive compatibility over the five-attack space. Finally, a two-parameter premium family discharges operator individual rationality and weak budget balance at the truthful equilibrium. The result is an incentive-compatibility layer for actuarial control of autonomous-agent side effects.",
+      "url": "https://arxiv.org/abs/2606.16326v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.16326v2",
+      "source": "arxiv",
+      "source_id": "2606.16326v2",
+      "published_date": "2026-06-15",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Paper A defines a time-consistent actuarial runtime that prices each side-effect-bearing action against a contractually fixed safe default and gates execution against a reserve budget. It treats the operator as passive."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements ar...."
+    },
+    {
+      "title": "Dynamic Evolution of Corporate Emissions Determinants",
+      "authors": [
+        "George Kapetanios",
+        "Steven Ongena",
+        "Alexia Ventouri",
+        "Huiyan Xiao"
+      ],
+      "abstract": "This paper examines how firm-level determinants of industrial emissions evolve over time as firms adapt to environmental regulation, economic conditions, and organisational constraints. Using a panel of 204 U.S. industrial facilities observed from 1992 to 2023, we link facility-level emissions from the Toxics Release Inventory to firm financial characteristics, managerial attributes, local labour-market conditions, and aggregate macroeconomic indicators. We employ a time-varying mean-group estimator that allows average relationships to change smoothly over time while accommodating persistent heterogeneity across facilities. We find several covariates display episodic associations with emissions growth. The results reveal pronounced stage-like dynamics in emissions determinants, with firm-level characteristics and aggregate conditions dominating in different periods. From an innovation-policy perspective, the findings highlight that firms' responses to environmental regulation are time-dependent and shaped by their adaptive capacity.",
+      "url": "https://arxiv.org/abs/2605.22994v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22994v1",
+      "source": "arxiv",
+      "source_id": "2605.22994v1",
+      "published_date": "2026-05-21",
+      "categories": [
+        "econ.EM",
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper examines how firm-level determinants of industrial emissions evolve over time as firms adapt to environmental regulation, economic conditions, and organisational constraints. Using a panel of 204 U.S."
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing s...."
+    },
+    {
+      "title": "Pricing and Production Without the Invisible Hand -- by Joel P. Flynn, George Nikolakoudis, Karthik Sastry",
+      "authors": [],
+      "abstract": "Modern theories of the business cycle do not allow for the simultaneous rational choice of both prices and quantities, instead assuming that an \u201cinvisible hand\u201d determines one of these variables to clear markets. In this paper, we develop a macroeconomic model in which both prices and quantities are chosen optimally by firms and exchange is both voluntary and efficient. As a consequence, individual markets will generically be in Walrasian disequilibrium: either slack (over-supplied) or rationed (under-supplied). The absence of market clearing changes pricing and production in qualitatively important ways: markups are governed by the probability of rationing rather than the elasticity of demand, and higher uncertainty reduces production and increases markups. Marrying the Old and New Keynesian traditions, we study general Walrasian disequilibrium with rational expectations and optimal firm decisions. On a technical level, we characterize cross-market spillovers arising from rationed demand with differentiated goods, overcoming the standard combinatorial problem that arises when studying multi-market disequilibrium. Unlike in New Keynesian economies, monetary shocks propagate by reducing product-market slack, raising aggregate labor productivity and consumption with muted effects on employment, while uncertainty shocks act as stagflationary cost-push shocks.",
+      "url": "https://www.nber.org/papers/w35390#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35390#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35390",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Modern theories of the business cycle do not allow for the simultaneous rational choice of both prices and quantities, instead assuming that an \u201cinvisible hand\u201d determines one of these variables to clear markets. In this paper, we develop a macroeconomic model in which both prices and quantities ...."
+    }
+  ]
+}

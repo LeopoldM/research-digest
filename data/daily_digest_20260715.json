@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-07-15T06:22:40.274453",
+  "period": "daily",
+  "paper_count": 19,
+  "papers": [
+    {
+      "title": "Competitive effects of transmission constraints in the German electricity market",
+      "authors": [
+        "Alice Lixuan Xu",
+        "Clemens Stiewe"
+      ],
+      "abstract": "This paper estimates the effect of cross-border transmission constraints on suspected market power abuse in the German wholesale electricity market. Using a 2SRI instrumental variables approach, we study suspected strategic behavior by German gas- and coal-fired power plants in 2022-2024. Cross-border transmission constraints are measured using the maximum and minimum bounds of zonal net position, while suspected market power abuse is measured as the upward or downward deviation of observed dispatch from a modeled competitive benchmark. We find that transmission constraints significantly elevate the likelihood of suspected market power abuse. When headroom for further imports is already scarce, reducing import headroom by one Gigawatt (GW) increases the odds of suspected capacity withholding by 15%. Similarly, reducing export headroom by one GW when it is scarce increases the odds of suspected capacity push-in, a strategy to depress prices, by 16%. These results provide empirical support for interconnection expansion as an instrument to mitigate market power.",
+      "url": "https://arxiv.org/abs/2607.00977v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.00977v1",
+      "source": "arxiv",
+      "source_id": "2607.00977v1",
+      "published_date": "2026-07-01",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 17.77777777777778,
+      "summary": "This paper estimates the effect of cross-border transmission constraints on suspected market power abuse in the German wholesale electricity market. Using a 2SRI instrumental variables approach, we study suspected strategic behavior by German gas- and coal-fired power plants in 2022-2024."
+    },
+    {
+      "title": "From Welfare to Utility: Generalized Objectives in Budget-Feasible Procurement",
+      "authors": [
+        "Alon Eden",
+        "Eldar Kerner",
+        "Kira Goldner",
+        "Thodoris Tsilivis"
+      ],
+      "abstract": "We study mechanism design for the budget-feasible procurement problem, a natural problem that arises when a buyer wants to procure goods or services from multiple strategic sellers who each have a cost to provide that service, the buyer has a value for each service procured, but is constrained by a budget. In contrast to prior work, which has focused on buyer value maximization for this problem, we solve for optimal and approximately-optimal mechanisms for the objectives of buyer utility (value of procured services minus payments), welfare (value minus production costs), and generalizations of the two. For welfare, we design a simple mechanism that obtains a constant-factor approximation for the prior-free (worst-case) setting. As prior-free mechanisms fail to provide any guarantee for utility, even for a single seller, we consider Bayesian settings, where the buyer has distributional knowledge over sellers' costs. We first provide a utility-optimal mechanism that satisfies the buyer's budget constraint in expectation, then we show how to modify the mechanism to satisfy the budget constraint ex-post, for every realization of seller costs, while still obtaining near-optimal utility guarantees. Finally, we generalize our mechanisms to other objectives.",
+      "url": "https://arxiv.org/abs/2607.00101v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.00101v1",
+      "source": "arxiv",
+      "source_id": "2607.00101v1",
+      "published_date": "2026-06-30",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "We study mechanism design for the budget-feasible procurement problem, a natural problem that arises when a buyer wants to procure goods or services from multiple strategic sellers who each have a cost to provide that service, the buyer has a value for each service procured, but is constrained by...."
+    },
+    {
+      "title": "Rockafellian relaxation and minimum-norm slack for the Walrasian equilibrium problem",
+      "authors": [
+        "Julio Deride"
+      ],
+      "abstract": "We propose a Rockafellian relaxation of the Walrasian equilibrium problem for an exchange economy that may not admit one. Market clearing is slackened by a non-negative variable $v$ whose norm is penalized; the relaxation is well posed throughout. As the penalty grows, the residual converges to a vector $v^*_\\infty$ of minimum norm in the feasible range of excess demand, measuring the distance to the nearest equilibrium-admitting economy. A stressed Shapley--Shubik example recovers the analytical infeasibility floor to machine",
+      "url": "https://arxiv.org/abs/2607.04717v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.04717v1",
+      "source": "arxiv",
+      "source_id": "2607.04717v1",
+      "published_date": "2026-07-06",
+      "categories": [
+        "math.OC",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We propose a Rockafellian relaxation of the Walrasian equilibrium problem for an exchange economy that may not admit one. Market clearing is slackened by a non-negative variable $v$ whose norm is penalized; the relaxation is well posed throughout."
+    },
+    {
+      "title": "Demand reduction and initial endowments in consignment auctions",
+      "authors": [
+        "Kiho Yoon"
+      ],
+      "abstract": "Consignment auctions, in which bidders first receive free initial endowments of a good and must then consign them to a subsequent uniform price auction, are often used in emissions allowance trading for the environmental regulation of greenhouse gas emissions. We study consignment auctions where many asymmetric bidders have flat demands up to their respective quantity constraints. We first characterize the equilibrium outcome and then examine the effects of initial endowments and total supply. If bidders' initial endowments increase or the total supply decreases, the equilibrium price increases whereas the social welfare and the auctioneer's revenue may increase or decrease. In particular, the revenue may increase even though fewer units remain in the hands of the auctioneer since an increase in initial endowments can prevent the low price equilibrium resulting from demand reduction.",
+      "url": "https://arxiv.org/abs/2607.03648v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.03648v1",
+      "source": "arxiv",
+      "source_id": "2607.03648v1",
+      "published_date": "2026-07-04",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Consignment auctions, in which bidders first receive free initial endowments of a good and must then consign them to a subsequent uniform price auction, are often used in emissions allowance trading for the environmental regulation of greenhouse gas emissions. We study consignment auctions where ...."
+    },
+    {
+      "title": "Congestion-Based Slot Pricing in a Railway Auction Game",
+      "authors": [
+        "Bill Roungas",
+        "Sebastiaan Meijer"
+      ],
+      "abstract": "We present a multi-agent system for studying the allocation of discrete, congested resources among heterogeneous strategic agents, motivated by the problem of railway slot allocation under deregulation. Multiple operator-agents, differing in size and capacity, interact through a shared auction mechanism over repeated rounds under time-constrained decision-making. The mechanism combines a congestion-based base price that increases with aggregate demand with an asymmetric corrective adjustment that penalises the agent requesting the most slots and rewards the agent requesting the fewest, and is designed to mitigate strategic dominance by large agents while preserving transparency and congestion sensitivity. We formulate the interaction as a repeated game with incomplete information and implement the system as a real-time, web-based multi-agent environment in which human participants control individual agents and observe live marginal-cost and competitor feedback.   We report exploratory observations from two structured sessions with domain experts acting as operator-agents. The congestion mechanism responds to aggregate demand as designed and the corrective incentives are actively triggered, but agents representing large operators persist with high-request strategies despite the penalty, suggesting that corrective pricing is necessary but not sufficient to neutralise strategic dominance in this multi-agent setting. A post-session debrief indicates that participants' decisions were driven by the assumed agent role rather than personal disposition, and provides qualitative support for strategic motives, such as preserving market presence and raising rivals' costs, operating alongside short-term profit maximisation. We discuss implications for multi-agent mechanism design under asymmetric budgets and outline directions for analytical validation and larger-scale multi-agent experiments.",
+      "url": "https://arxiv.org/abs/2607.01822v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01822v1",
+      "source": "arxiv",
+      "source_id": "2607.01822v1",
+      "published_date": "2026-07-02",
+      "categories": [
+        "cs.MA",
+        "cs.GT",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We present a multi-agent system for studying the allocation of discrete, congested resources among heterogeneous strategic agents, motivated by the problem of railway slot allocation under deregulation. Multiple operator-agents, differing in size and capacity, interact through a shared auction me...."
+    },
+    {
+      "title": "Topping Up and Optimal Redistribution",
+      "authors": [
+        "Zi Yang Kang",
+        "Mitchell Watt"
+      ],
+      "abstract": "This paper studies how topping up -- allowing recipients of in-kind transfers to supplement subsidized consumption in a private market -- affects optimal redistribution. Consumers can access a competitive private market, while a social planner offers an alternative nonlinear price schedule. We show that the effect of topping up depends on the correlation between redistributive priority and demand. When the correlation is positive, topping up does not affect the optimal mechanism. When the correlation is negative, topping up weakens screening and reduces redistribution. At the extensive margin, topping up reduces the set of environments in which intervention is optimal. At the intensive margin, topping up weakly reduces both the scope of a free public option and the mass of consumers served, and shifts redistribution away from the consumers with the highest redistributive priority. We characterize the optimal mechanisms and show how topping up changes the comparative statics of optimal redistribution with respect to redistributive priorities.",
+      "url": "https://arxiv.org/abs/2606.28919v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28919v1",
+      "source": "arxiv",
+      "source_id": "2606.28919v1",
+      "published_date": "2026-06-27",
+      "categories": [
+        "econ.GN",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper studies how topping up -- allowing recipients of in-kind transfers to supplement subsidized consumption in a private market -- affects optimal redistribution. Consumers can access a competitive private market, while a social planner offers an alternative nonlinear price schedule."
+    },
+    {
+      "title": "Distributionally Robust Joint Information and Mechanism Design for Multi-Area Power System Coordination",
+      "authors": [
+        "Furkan Sezer"
+      ],
+      "abstract": "We study a continuous-time stochastic Stackelberg control problem in which a leader steers a system of strategic followers through two non-standard channels - the information structure and a transfer mechanism - rather than through the dynamics directly. The latent environment is a jump-diffusion; the leader commits to a Gaussian public-signaling channel whose belief consequences are tracked by a finite-dimensional projection filter (the exact filter being infinite-dimensional), together with a Groves transfer that aligns the followers' incentives. Under truthful disclosure, efficient behavior is a dominant-strategy best response, and the induced differential game admits saturated and bang-bang Nash feedback. We cast the leader's distributionally robust problem, over a relative-entropy ambiguity neighborhood, as a two-controller Isaacs equation; prove that incentive alignment collapses the bilevel Stackelberg problem to a single robust control problem with an exact first-order condition; and characterize the value function as the unique viscosity solution, with a verification theorem valid for the non-smooth bang-bang feedback and a semiconcavity result that renders the switching set Lebesgue-null. We instantiate the framework on resilient multi-area power-system coordination under extreme weather. Calibrated to the 2021 Winter Storm Uri, an Isaacs solve over ERCOT's near-islanded interconnection (a 0.82 GW tie, under 2% of peak) shows mutual aid removes about 8% of social cost, rising to roughly 30% under the FERC/DOE-recommended interregional transfer capability; a reserve-scheduling experiment shows that public disclosure lowers welfare cost by 37% under autarky and 48% under market coupling, and that information design and market coupling are complements under common (systemic) risk.",
+      "url": "https://arxiv.org/abs/2606.24015v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24015v1",
+      "source": "arxiv",
+      "source_id": "2606.24015v1",
+      "published_date": "2026-06-22",
+      "categories": [
+        "math.OC",
+        "cs.GT",
+        "econ.TH",
+        "eess.SY"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study a continuous-time stochastic Stackelberg control problem in which a leader steers a system of strategic followers through two non-standard channels - the information structure and a transfer mechanism - rather than through the dynamics directly. The latent environment is a jump-diffusion...."
+    },
+    {
+      "title": "Generating EUPHEMIA-compatible bids for flexible demand under imperfect information",
+      "authors": [
+        "Christian Doh Dinga",
+        "Mukunda Badarinath",
+        "Seyed Hossein Jamali",
+        "Laurens de Vries",
+        "Milos Cvetkovic"
+      ],
+      "abstract": "Electricity procurement constitutes a significant share of operational costs for large electricity consumers, and thus exposure to extreme prices poses a substantial financial risk. This paper proposes a method to generate EUPHEMIA-compatible bids for flexible demand to enable their participation in the European day-ahead electricity market while minimizing risks. Two strategies are considered, resulting in two bid formats: hourly bids (HBs), representing flexibility via marginal price responsiveness through price-quantity pairs, and exclusive-group bids (EBs), representing flexibility via mutually exclusive operational schedules submitted at opportunity cost. Our method is evaluated on a hypothetical electrolyzer system and a real-world steel plant under different market conditions. Results show that the economic performance of each strategy depends on the operational characteristics of the load and market conditions. Under volatile market conditions, highly flexible systems achieve better economic outcomes with EBs, while less flexible systems with stronger intertemporal constraints perform better with HBs.",
+      "url": "https://arxiv.org/abs/2606.24183v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24183v1",
+      "source": "arxiv",
+      "source_id": "2606.24183v1",
+      "published_date": "2026-06-23",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Electricity procurement constitutes a significant share of operational costs for large electricity consumers, and thus exposure to extreme prices poses a substantial financial risk. This paper proposes a method to generate EUPHEMIA-compatible bids for flexible demand to enable their participation...."
+    },
+    {
+      "title": "Shared Bidding Algorithms and Competition: Evidence from Electricity Markets",
+      "authors": [
+        "Nicolas Eschenbaum"
+      ],
+      "abstract": "Competing firms increasingly delegate pricing and bidding decisions to algorithms supplied by the same third-party providers. We study whether a shared algorithm leads competitors to internalise one another's profits, using data from the Australian National Electricity Market, where every battery's bids are observed at 5-minute frequency and can be linked to an identifiable autobidding provider. Bids constructed by the same provider co-move, and do so more strongly after a disclosure reform made the common scarcity state easier to observe: the same information that steers batteries towards efficient arbitrage also synchronises the bids of competitors who share a provider. To separate co-movement due to shared information from joint profit maximisation, we estimate each battery's dynamic value of stored energy and reclear the market under counterfactual bids. Owner-level profits cannot rationalise observed bidding: batteries forgo profitable dispatch where it would depress the prices earned by same-provider batteries owned by rival firms, and the estimated weight on those rivals' profits is close to one. We find evidence of this conduct only where a provider's share of near-margin battery capacity exceeds roughly 30%, corresponding to an installed share of roughly 20%. The identified conduct costs consumers an annualised $5.5 million on the current fleet, and it arises at the level of the algorithm provider rather than the asset owner, a layer that ownership-based concentration screens do not capture.",
+      "url": "https://arxiv.org/abs/2607.13002v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13002v1",
+      "source": "arxiv",
+      "source_id": "2607.13002v1",
+      "published_date": "2026-07-14",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Competing firms increasingly delegate pricing and bidding decisions to algorithms supplied by the same third-party providers. We study whether a shared algorithm leads competitors to internalise one another's profits, using data from the Australian National Electricity Market, where every battery...."
+    },
+    {
+      "title": "Does Financial Trading Smooth Non-Convex Markets?",
+      "authors": [
+        "Nicolas Stevens",
+        "Peter Cramton",
+        "Martial Toniotti"
+      ],
+      "abstract": "In non-convex markets, a competitive equilibrium may fail to exist. This turns out to be an important issue in real-world non-convex auction markets, such as electricity markets, as it complicates pricing and requires the auctioneer to resort to out-of-market discriminatory side payments to sustain an equilibrium. We investigate whether the introduction of convex financial trading induces a smoothing effect, mitigating the issues arising from non-convexities. We develop a two-stage non-convex market model (a forward market followed by a spot market) in which convex financial traders participate in the forward market. Our model predicts that financial trading reduces the magnitude of side payments required to support the cleared allocation. To test the prediction of our model, we examine the introduction of a transaction fee on financial traders in 2020 by PJM, the US's largest electricity market. We show that the substantial decline in financial trading volume caused by this policy coincided with a significant increase in side payments, in line with our theoretical predictions.",
+      "url": "https://arxiv.org/abs/2607.06316v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06316v1",
+      "source": "arxiv",
+      "source_id": "2607.06316v1",
+      "published_date": "2026-07-07",
+      "categories": [
+        "math.OC",
+        "econ.GN",
+        "eess.SY"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "In non-convex markets, a competitive equilibrium may fail to exist. This turns out to be an important issue in real-world non-convex auction markets, such as electricity markets, as it complicates pricing and requires the auctioneer to resort to out-of-market discriminatory side payments to susta...."
+    },
+    {
+      "title": "The neglected contributions of Thomas C. Schelling to the economics of climate change",
+      "authors": [
+        "Richard S. J. Tol"
+      ],
+      "abstract": "The rich have emitted the bulk of greenhouse gases. The poor suffer the bulk of the impacts. Climate change is a transfer from poor to rich. Climate policy is a transfer from rich to poor. Why, Schelling asked, do people in the Global North care about the descendants of people they do not care about? And, assuming they do, are there no better ways to help them than emission reduction? A prominent economist, Schelling posed his Paradox and Conjecture in a series of papers in the 1980s and 1990s. The economics profession has largely ignored his work, instead focusing on Nordhaus' simpler carbon-as-an-externality framing.",
+      "url": "https://arxiv.org/abs/2607.04322v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.04322v1",
+      "source": "arxiv",
+      "source_id": "2607.04322v1",
+      "published_date": "2026-07-05",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The rich have emitted the bulk of greenhouse gases. The poor suffer the bulk of the impacts."
+    },
+    {
+      "title": "FedMark-FM: Auditable, Risk-Adjusted Data Markets for Federated Foundation-Model Adaptation",
+      "authors": [
+        "Phat T. Tran-Truong",
+        "Xuan-Bach Le",
+        "Minh Nhat Nguyen"
+      ],
+      "abstract": "Federated foundation-model adaptation increasingly relies on heterogeneous private artifacts (retrieval corpora, prompts and demonstrations, LoRA adapters, preference and safety data, and update sketches), yet existing federated-learning incentive mechanisms price clients as homogeneous data or update providers. This assumption poorly matches foundation-model pipelines, where contribution value is heterogeneous, non-IID, pipeline-dependent, privacy-constrained, and vulnerable to strategic behavior. We propose FedMark-FM, an auditable, risk-adjusted data-market framework that models clients as sellers of typed artifacts, estimates marginal contribution with S3Val, a stratified, uncertainty-aware Shapley estimator supporting pipeline-ordered valuation, and converts lower-confidence-bound values into budget-feasible payments penalizing duplication, sybil splitting, poisoned adapters, privacy-budget gaming, and cost inflation. We evaluate FedMark-FM-Bench across FEVER retrieval, held-out generator-backed RAG, and trained PEFT/LoRA tracks. Under a held-out prompt-injection poisoner, FedMark-FM improves downstream accuracy by 7.5-8.1 points over volume, leave-one-out, and FL-Shapley while selecting zero strategic clients. Split-conformal calibration reaches full lower-bound coverage at mean width 0.0141, versus 0.33 for naive intervals. We prove pipeline-ordered valuation is the unique credit rule respecting serving causality, and show it materially changes credit assignment (Spearman 0.76, selected-set overlap 0.67) while leaving held-out task quality unchanged; the market preserves rare specialists with audit-ready ledgers at 200-1000-client scale. FedMark-FM shows incentives for federated foundation models can be engineered as auditable data infrastructure coupling valuation, mechanism design, privacy interfaces, and pipeline-order semantics.",
+      "url": "https://arxiv.org/abs/2607.07529v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07529v1",
+      "source": "arxiv",
+      "source_id": "2607.07529v1",
+      "published_date": "2026-07-08",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Federated foundation-model adaptation increasingly relies on heterogeneous private artifacts (retrieval corpora, prompts and demonstrations, LoRA adapters, preference and safety data, and update sketches), yet existing federated-learning incentive mechanisms price clients as homogeneous data or u...."
+    },
+    {
+      "title": "Mechanism Design for Locating a Bridge Between Regions with Prelocated Facilities",
+      "authors": [
+        "Genjie Qin",
+        "Chenhao Wang",
+        "Jianan Lin",
+        "Qizhi Fang",
+        "Wenjing Liu"
+      ],
+      "abstract": "In many urban planning projects, social planners require the construction of a bridge to connect two regions separated by obstacles such as rivers or highways. This paper studies the mechanism design problem for locating a bridge between two separate regions, each of which has been equipped with a facility. There are a set of agents located in each region and each agent has her location as private information. Once the bridge is built, the agents will go to the nearest facility to receive service and each agent's cost is the distance from her location to the nearest prelocated facility via the bridge. We investigate social cost and maximum cost under strategyproof (SP) mechanisms, with stronger notions of group-strategyproof (GSP) and strong group-strategyproof (SGSP).   For the maximum cost objective, we characterize the optimal solution and show that it satisfies GSP. Under the SGSP, we propose a deterministic 3-approximation mechanism and a randomized 2-approximation mechanism, while proving a lower bound of 2 for any deterministic SGSP mechanism. For the social cost objective, we present a deterministic 3-approximation mechanism and a randomized 2-approximation mechanism that satisfy GSP. We establish lower bounds of 2 and 1.1 for deterministic and randomized SP mechanisms, respectively. Under the SGSP, the lower bound for deterministic mechanisms increases to 1 + min{m, n}, and we provide a (1 + 2 min{m, n})-approximation mechanism. For randomized mechanisms, the lower bound remains 1.1, while an upper bound of (1 + 2mn/(m+n)) is achieved.",
+      "url": "https://arxiv.org/abs/2607.04309v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.04309v1",
+      "source": "arxiv",
+      "source_id": "2607.04309v1",
+      "published_date": "2026-07-05",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "In many urban planning projects, social planners require the construction of a bridge to connect two regions separated by obstacles such as rivers or highways. This paper studies the mechanism design problem for locating a bridge between two separate regions, each of which has been equipped with ...."
+    },
+    {
+      "title": "Knowing Who, Not How Much: Learning-Augmented Mechanisms for Consumer Utility Maximization",
+      "authors": [
+        "Kira Goldner",
+        "Divyarthi Mohan",
+        "Thodoris Tsilivis"
+      ],
+      "abstract": "We study consumer utility maximization in an online random-order model where strategic agents arrive sequentially. To circumvent strong impossibility results for utility maximization, we turn to the framework of learning-augmented mechanism design. Crucially, we show that the types of predictions commonly used in learning-augmented mechanism design (such as predictions of agent values or the optimal value) are not useful for utility maximization, where payments are directly at odds with the objective. Instead, we identify that a qualitatively different kind of prediction suffices: the identity of the highest-valued agent. First, we provide a deterministic truthful mechanism for our online setting by adapting offline randomized techniques. Then, we augment our mechanism with predictions. When the predictions are correct, we achieve a constant approximation to the optimal solution under full information (consistency), and even when predictions are arbitrarily bad, we guarantee a constant approximation to the best implementable solution (robustness).",
+      "url": "https://arxiv.org/abs/2607.00175v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.00175v1",
+      "source": "arxiv",
+      "source_id": "2607.00175v1",
+      "published_date": "2026-06-30",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study consumer utility maximization in an online random-order model where strategic agents arrive sequentially. To circumvent strong impossibility results for utility maximization, we turn to the framework of learning-augmented mechanism design."
+    },
+    {
+      "title": "Revenue Guarantee of Anonymous Pricing for Mixed Bidders:Bridging Value and Utility Maximizers",
+      "authors": [
+        "Zhile Jiang",
+        "Stratis Skoulakis"
+      ],
+      "abstract": "Mechanism design increasingly faces heterogeneous environments containing both traditional utility maximizers and value maximizers, the latter of whom seek to maximize acquired value subject to Return-on-Spend constraints. Designing revenue-optimal mechanisms for such multi-dimensional settings is both computationally and theoretically challenging. To address this complexity, we investigate the revenue guarantees of \\textit{Anonymous Pricing} (AP), a simple and practical mechanism, in heterogeneous markets composed of both value and utility maximizers.   By establishing a structural behavioral equivalence between value and utility maximizers, we show that AP, with an appropriately chosen price, achieves a \\(1/e\\) fraction of the optimal revenue. Our result improves upon the recent \\( \\frac{1}{2}(1 - 1/e) \\) guarantee established by Deng et al.~(2022) for pure value maximizers, while extending it to mixed bidder types (both value and utility maximizers). We additionally establish an upper bound of \\(1/2.62\\) for AP.   Finally, we demonstrate a counterintuitive phenomenon: competition can reduce revenue with the presence of value maximizers. In particular, running a First-Price Auction with the exact same reserve price as AP can, in the presence of value maximizers, generate lower revenue than AP itself.",
+      "url": "https://arxiv.org/abs/2606.30162v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30162v1",
+      "source": "arxiv",
+      "source_id": "2606.30162v1",
+      "published_date": "2026-06-29",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Mechanism design increasingly faces heterogeneous environments containing both traditional utility maximizers and value maximizers, the latter of whom seek to maximize acquired value subject to Return-on-Spend constraints. Designing revenue-optimal mechanisms for such multi-dimensional settings i...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "Dynamic Evolution of Corporate Emissions Determinants",
+      "authors": [
+        "George Kapetanios",
+        "Steven Ongena",
+        "Alexia Ventouri",
+        "Huiyan Xiao"
+      ],
+      "abstract": "This paper examines how firm-level determinants of industrial emissions evolve over time as firms adapt to environmental regulation, economic conditions, and organisational constraints. Using a panel of 204 U.S. industrial facilities observed from 1992 to 2023, we link facility-level emissions from the Toxics Release Inventory to firm financial characteristics, managerial attributes, local labour-market conditions, and aggregate macroeconomic indicators. We employ a time-varying mean-group estimator that allows average relationships to change smoothly over time while accommodating persistent heterogeneity across facilities. We find several covariates display episodic associations with emissions growth. The results reveal pronounced stage-like dynamics in emissions determinants, with firm-level characteristics and aggregate conditions dominating in different periods. From an innovation-policy perspective, the findings highlight that firms' responses to environmental regulation are time-dependent and shaped by their adaptive capacity.",
+      "url": "https://arxiv.org/abs/2605.22994v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22994v1",
+      "source": "arxiv",
+      "source_id": "2605.22994v1",
+      "published_date": "2026-05-21",
+      "categories": [
+        "econ.EM",
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "The Transition of Built Assets \u2014 Strategic White Paper on the Evolution of the Construction Industry and Built Asset Economy: How the decarbonization of construction materials establishes a new economy for the construction industry, drives a new generation of materials, products, and services for the maintenance, retrofit, and modernization of real estate assets, and strengthens a low-carbon built infrastructure throughout the entire life cycle of buildings",
+      "authors": [
+        "Jos\u00e9 Cola\u00e7o de Freitas Anderson"
+      ],
+      "abstract": "This White Paper presents a technical-strategic analysis of the evolution of the global construction industry and the built environment. It examines how the decarbonization of structural materials \u2014 cement, steel, and concrete \u2014 acts as a triggering mechanism for a broader economic reorganization, giving rise to a new paradigm defined as the Built Asset Economy. The document argues that the incorporation of verifiable environmental attributes into structural materials extends far beyond industrial process innovation. It reconfigures the relationships between the materials industry, construction, the real estate market, the financial sector, insurers, infrastructure operators, and public authorities, establishing permanent cycles of maintenance, retrofit, modernization, and expansion throughout the entire life cycle of buildings and infrastructure. Structured in 15 chapters, the analysis covers: The third great transformation of the construction industry; The multiplier effect of decarbonization on the entire supply chain; The emergence of Low Carbon Intensity Real Estate Assets as a new economic category; The new strategic role of the cement and steel industries; The evolution of real estate valuation, sustainable financing, and insurance; Risk management, operational continuity, and asset traceability; Public infrastructure, territorial planning, and climate resilience; The formalization of the Built Asset Economy as a permanent economic paradigm. The analysis is grounded in a review of international regulatory frameworks (EU Taxonomy, CBAM, SFDR, Inflation Reduction Act, IFRS S1/S2), ISO and CEN technical standards, and publications by the World Green Building Council, WBCSD, IEA, IPCC, and World Economic Forum. The document is intended for policymakers, industry leaders, financial institutions, insurers, regulators, infrastructure operators, and applied research organizations.",
+      "url": "https://doi.org/10.5281/zenodo.21346997",
+      "pdf_url": "https://doi.org/10.5281/zenodo.21346997",
+      "source": "openalex",
+      "source_id": "W7168146039",
+      "published_date": "2026-07-14",
+      "categories": [
+        "Journal: Zenodo (CERN European Organization for Nuclear Research)",
+        "Real estate",
+        "Asset (computer security)",
+        "Business",
+        "Asset management",
+        "Sustainability"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    }
+  ]
+}

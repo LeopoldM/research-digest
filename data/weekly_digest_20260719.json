@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-19T08:10:47.099597",
+  "period": "weekly",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "Competitive effects of transmission constraints in the German electricity market",
+      "authors": [
+        "Alice Lixuan Xu",
+        "Clemens Stiewe"
+      ],
+      "abstract": "This paper estimates the effect of cross-border transmission constraints on suspected market power abuse in the German wholesale electricity market. Using a 2SRI instrumental variables approach, we study suspected strategic behavior by German gas- and coal-fired power plants in 2022-2024. Cross-border transmission constraints are measured using the maximum and minimum bounds of zonal net position, while suspected market power abuse is measured as the upward or downward deviation of observed dispatch from a modeled competitive benchmark. We find that transmission constraints significantly elevate the likelihood of suspected market power abuse. When headroom for further imports is already scarce, reducing import headroom by one Gigawatt (GW) increases the odds of suspected capacity withholding by 15%. Similarly, reducing export headroom by one GW when it is scarce increases the odds of suspected capacity push-in, a strategy to depress prices, by 16%. These results provide empirical support for interconnection expansion as an instrument to mitigate market power.",
+      "url": "https://arxiv.org/abs/2607.00977v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.00977v1",
+      "source": "arxiv",
+      "source_id": "2607.00977v1",
+      "published_date": "2026-07-01",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 17.77777777777778,
+      "summary": "This paper estimates the effect of cross-border transmission constraints on suspected market power abuse in the German wholesale electricity market. Using a 2SRI instrumental variables approach, we study suspected strategic behavior by German gas- and coal-fired power plants in 2022-2024."
+    }
+  ]
+}

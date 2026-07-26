@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-26T08:21:49.032248",
+  "period": "weekly",
+  "paper_count": 2,
+  "papers": [
+    {
+      "title": "Competitive effects of transmission constraints in the German electricity market",
+      "authors": [
+        "Alice Lixuan Xu",
+        "Clemens Stiewe"
+      ],
+      "abstract": "This paper estimates the effect of cross-border transmission constraints on suspected market power abuse in the German wholesale electricity market. Using a 2SRI instrumental variables approach, we study suspected strategic behavior by German gas- and coal-fired power plants in 2022-2024. Cross-border transmission constraints are measured using the maximum and minimum bounds of zonal net position, while suspected market power abuse is measured as the upward or downward deviation of observed dispatch from a modeled competitive benchmark. We find that transmission constraints significantly elevate the likelihood of suspected market power abuse. When headroom for further imports is already scarce, reducing import headroom by one Gigawatt (GW) increases the odds of suspected capacity withholding by 15%. Similarly, reducing export headroom by one GW when it is scarce increases the odds of suspected capacity push-in, a strategy to depress prices, by 16%. These results provide empirical support for interconnection expansion as an instrument to mitigate market power.",
+      "url": "https://arxiv.org/abs/2607.00977v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.00977v1",
+      "source": "arxiv",
+      "source_id": "2607.00977v1",
+      "published_date": "2026-07-01",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 17.77777777777778,
+      "summary": "This paper estimates the effect of cross-border transmission constraints on suspected market power abuse in the German wholesale electricity market. Using a 2SRI instrumental variables approach, we study suspected strategic behavior by German gas- and coal-fired power plants in 2022-2024."
+    },
+    {
+      "title": "Exorbitant Privilege of the Periodic Table? Geoeconomics, Endogenous Centrality and Strategic Minerals for the Green Transition -- by Josh Kirk, Evgenia Passari, H\u00e9l\u00e8ne Rey",
+      "authors": [],
+      "abstract": "Trade networks underpinning the energy transition are endogenous economic objects, and their structure is a source of market power. Using bilateral trade data for thirteen electrification metals over 1995\u20132023, we show that trade in these materials has reorganised into a hub-and-spoke system centred on China, in sharp contrast to the diffuse, multilateral structure of fossil fuels. This centrality did not follow from resource endowments: China holds few of the underlying reserves. It was built through processing investment, industrial policy, and commodity-targeted development finance\u2014an equilibrium outcome rather than a geographical accident. We formalise this in a stylised model in which a country chooses how central to become, and show that centrality maps into pricing power: the world price response to a strategic supply cut is stronger when the network is more concentrated and downstream demand and fringe supply are more inelastic. Constructing text-based, commodity-specific supply shocks and estimating local projections, we find that supply contractions in critical metals raise US and EU consumer prices by roughly twice as much as comparable fossil-fuel shocks, and more persistently. Centrality is therefore not merely descriptive: it creates leverage over global prices. The green transition reduces strategic dependence on hydrocarbon exporters but reconstitutes it around mineral supply chains.",
+      "url": "https://www.nber.org/papers/w35497#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35497#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35497",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Trade networks underpinning the energy transition are endogenous economic objects, and their structure is a source of market power. Using bilateral trade data for thirteen electrification metals over 1995\u20132023, we show that trade in these materials has reorganised into a hub-and-spoke system cent...."
+    }
+  ]
+}

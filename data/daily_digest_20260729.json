@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-29T06:38:41.387329",
+  "period": "daily",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "A Demand-Side Alternative to Renewable Curtailment: Natural Field Experimental Evidence from Two Countries -- by Daniel Lopez Garcia, Robert D. Metcalfe, Andrew R. Schein, Yixin Sun",
+      "authors": [],
+      "abstract": "As renewable generation plays a growing role in the energy system, periods of negative wholesale electricity prices are becoming increasingly common and are expected to grow dramatically over the next ten years. Traditionally, system operators respond by paying generators, especially renewables, to curtail production, or mandating that they do so without compensation. In this study, we propose and test a novel alternative: exposing consumers to free and negative prices to stimulate demand when supply is abundant. We implemented large-scale nationwide natural field experiments simultaneously in Great Britain and Spain, with roughly 60,000 residential customers in each country randomized to receive varying financial incentives to \u201cturn up\u201d their electricity. We found that demand increased substantially as prices fell to zero, but paying customers to consume beyond zero price yielded little additional response. Households with electric vehicles and rooftop solar had a larger elasticity than households without such technologies, suggesting demand turn-up becomes more effective as households adopt low-carbon technologies. In Great Britain, consumption was largely shifted from adjacent hours, while in Spain the increase appeared to represent net new demand. We develop a welfare framework showing conditions under which demand turn-up improves on curtailment; we find that by inducing additional consumption in periods and locations where the marginal cost of supply is low, demand turn-up generates welfare gains that curtailment leaves uncaptured.",
+      "url": "https://www.nber.org/papers/w35530#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35530#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35530",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "As renewable generation plays a growing role in the energy system, periods of negative wholesale electricity prices are becoming increasingly common and are expected to grow dramatically over the next ten years. Traditionally, system operators respond by paying generators, especially renewables, ...."
+    }
+  ]
+}

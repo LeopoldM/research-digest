@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-09T06:50:14.871996",
+  "period": "weekly",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "Beyond Byzantine: An Organizational Consensus Algorithm for Self-Interested Agents Under Information Asymmetry",
+      "authors": [
+        "Jiawei Zhang",
+        "Jianbo Liu"
+      ],
+      "abstract": "Traditional distributed consensus protocols classify nodes as either honest-but-faulty or actively malicious (Byzantine). However, in organizational structures, departmental agents rarely fit this binary. Instead, they exhibit bounded rationality and self-interested preferences while operating under asymmetric information. This paper presents the Organizational Consensus Algorithm (OCA), a mechanism design framework tailored for internal negotiation and decision coordination. OCA models inter-departmental conflict as an incomplete information dynamic game, integrating internal token staking, an exception-triggered challenge mechanism, and confidence-weighted consensus rules. Rather than enforcing instantaneous total ordering, OCA leverages a retrospective penalty system driven by delayed verifiable outcomes to deter structural bias and reduce exhaustive coordination overhead. A Python simulation prototype was developed to evaluate OCA. Across independent trials with varying organizational scales, OCA reports lower coordination overhead, higher informative reporting rates, and bounded welfare loss in noisy environments. Crucially, these results remain conditional on the stated simulation model and do not by themselves establish a general truthful equilibrium.",
+      "url": "https://arxiv.org/abs/2607.28957v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28957v1",
+      "source": "arxiv",
+      "source_id": "2607.28957v1",
+      "published_date": "2026-07-31",
+      "categories": [
+        "cs.GT",
+        "cs.DC",
+        "cs.MA"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Traditional distributed consensus protocols classify nodes as either honest-but-faulty or actively malicious (Byzantine). However, in organizational structures, departmental agents rarely fit this binary."
+    }
+  ]
+}

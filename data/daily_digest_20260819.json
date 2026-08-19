@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-08-19T04:43:22.376412",
+  "period": "daily",
+  "paper_count": 15,
+  "papers": [
+    {
+      "title": "Technology interactions reshape the economics of China's coal power decarbonization",
+      "authors": [
+        "Yun-Long Zhang",
+        "Jia-Ning Kang",
+        "Xiaoming Kan",
+        "Lan-Cui Liu",
+        "Zhimin Huang",
+        "Song Peng",
+        "Biying Yu",
+        "Yi-Ming Wei"
+      ],
+      "abstract": "Decarbonizing existing coal-fired power plants can contribute to near-term climate mitigation, but identifying cost-effective retrofit strategies is complicated by interactions among mitigation technologies. Here we develop an interaction-aware optimization framework that jointly evaluates energy conservation, biomass co-firing, and carbon capture across 1,885 coal-fired power plants in China while accounting for plant heterogeneity and shared biomass and CO2 storage resources. We find that technology interactions alter both mitigation costs and the emission reductions attributable to individual measures, thereby changing cost-optimal technology portfolios and marginal abatement cost curve at the fleet level. Approximately 1.2 Gt CO2 yr-1 can be mitigated at negative marginal cost, while reaching carbon neutrality requires a marginal abatement cost of US$56 t CO2-1. Progressively deeper mitigation shifts the cost-optimal portfolio from energy conservation toward biomass co-firing and ultimately carbon capture, with biomass combined with carbon capture enabling net-negative emissions. Explicitly accounting for interactions among mitigation technologies therefore provides a more consistent basis for evaluating coal-power decarbonization and coordinating retrofit investment, infrastructure development, and climate policy.",
+      "url": "https://arxiv.org/abs/2608.11404v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11404v1",
+      "source": "arxiv",
+      "source_id": "2608.11404v1",
+      "published_date": "2026-08-11",
+      "categories": [
+        "physics.soc-ph",
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "Decarbonizing existing coal-fired power plants can contribute to near-term climate mitigation, but identifying cost-effective retrofit strategies is complicated by interactions among mitigation technologies. Here we develop an interaction-aware optimization framework that jointly evaluates energy...."
+    },
+    {
+      "title": "Schedule equilibria",
+      "authors": [
+        "Harry Kleyer"
+      ],
+      "abstract": "This paper studies general equilibrium when households and firms choose price-contingent schedules. Market clearing determines the price, so a unilateral schedule change changes both the agent's allocation and the price at which it is evaluated. We call the resulting outcome a schedule equilibrium. We derive the household and firm conditions, prove existence, and give a trembling-hand refinement. Competitive, Cournot, and supply-function models arise as special cases. Applications are given to monopoly, vertical market power, entry, ownership, firm creation, and technological change. In each case the strategic term is the response of the clearing price to the agent's own schedule.",
+      "url": "https://arxiv.org/abs/2608.12818v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.12818v2",
+      "source": "arxiv",
+      "source_id": "2608.12818v2",
+      "published_date": "2026-08-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper studies general equilibrium when households and firms choose price-contingent schedules. Market clearing determines the price, so a unilateral schedule change changes both the agent's allocation and the price at which it is evaluated."
+    },
+    {
+      "title": "Optimal Liability Design for Medical AI",
+      "authors": [
+        "Rui Mao",
+        "Tingliang Huang",
+        "Houcai Shen"
+      ],
+      "abstract": "Artificial intelligence (AI) is increasingly integrated into medical decision-making, yet its liability implications remain complex, particularly when physicians differ in diagnostic skills and their quality is unobservable. This paper develops a principal-agent model in which a social planner designs medical liability to regulate a physician with private quality information who chooses between a standard treatment, a personalized judgment-based treatment, or following an imperfect AI recommendation. Our analysis yields several novel insights. First, we show that the optimal mechanism under asymmetric information is surprisingly simple: a uniform, one-size-fits-all liability level for all physician types who deviate from the standard of care. Despite physician heterogeneity, this simple policy often achieves the full-information first-best outcome, particularly when standard care is reliable or AI is highly accurate. Second, the relationship between AI accuracy and optimal liability is non-monotonic. Contrary to common intuition, better AI does not always imply more relaxed liability. As AI accuracy increases, the optimal liability either decreases monotonically or follows an inverted-U pattern, depending on the uncertainty of the standard treatment. Third, asymmetric information does not universally reduce social welfare. Welfare loss arises only when standard care is unreliable and AI accuracy is too low; even then, its magnitude follows an inverted U-shape, initially increasing as AI complicates the regulatory problem, but declining as more accurate AI helps mitigate it. Finally, we find that information asymmetry is a double-edged sword in the presence of AI, and greater transparency does not benefit all stakeholders equally.",
+      "url": "https://arxiv.org/abs/2608.03114v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03114v1",
+      "source": "arxiv",
+      "source_id": "2608.03114v1",
+      "published_date": "2026-08-04",
+      "categories": [
+        "econ.TH",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "Artificial intelligence (AI) is increasingly integrated into medical decision-making, yet its liability implications remain complex, particularly when physicians differ in diagnostic skills and their quality is unobservable. This paper develops a principal-agent model in which a social planner de...."
+    },
+    {
+      "title": "Learning to Price with Persuasion",
+      "authors": [
+        "Maria-Florina Balcan",
+        "Tejas Pagare",
+        "Karan Singh"
+      ],
+      "abstract": "Motivated by modern marketplaces, where the platform or the seller routinely gathers detailed user profiles, we study a novel learning theoretic model that simultaneously involves information and mechanism design. Specifically, we consider the economic setting recently introduced by Bergemann et al. (2022), where in addition to the menu of quality-price pairs, the seller offers information on the value of the match between product quality and buyer's taste via a signaling scheme. We relax the assumption that the seller knows the buyers' belief about the distribution of tastes and study the sample requirements of designing a revenue maximizing scheme. We consider both the batch setting where we have access to data from a set of i.i.d. buyers and an online demand query model where we observe the buyers' behaviors to seller's schemes. Despite the apparent non-convexity of the problem, we also give the first FPTAS to compute a scheme that maximizes the revenue within an arbitrarily small additive loss, which was left open by Bergemann et al. (2022). Overall, this brings a new learning perspective in asymmetric economic settings where buyers and sellers know different types of information.",
+      "url": "https://arxiv.org/abs/2608.16699v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16699v1",
+      "source": "arxiv",
+      "source_id": "2608.16699v1",
+      "published_date": "2026-08-17",
+      "categories": [
+        "cs.GT",
+        "cs.LG",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Motivated by modern marketplaces, where the platform or the seller routinely gathers detailed user profiles, we study a novel learning theoretic model that simultaneously involves information and mechanism design. Specifically, we consider the economic setting recently introduced by Bergemann et al."
+    },
+    {
+      "title": "Competitive mediator games and urban CAV routing markets",
+      "authors": [
+        "Grzegorz Jamr\u00f3z"
+      ],
+      "abstract": "Inspired by possible future markets of autonomous routing and driving (ARAD), we introduce competitive mediator games and their equilibria which generalize the (coarse) correlated equilibria, which have become a popular research area recently as they not only can be more socially efficient than Nash equilibria but also are limits of algorithmic no-regret multi-agent learning dynamics. We discuss the basic properties of competitive mediator games and prove that in the generic setting of anonymous congestion(routing) games with market-share maximizing mediators all competitive mediator equilibria are monopolies whenever one of the mediators is weakly preferred to other mediators by all users. We apply and interpret these results in the context of new markets of competing ARAD service providers. We also provide a comprehensive overview of these markets and discuss the future mechanism design thereof.",
+      "url": "https://arxiv.org/abs/2608.09894v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09894v1",
+      "source": "arxiv",
+      "source_id": "2608.09894v1",
+      "published_date": "2026-08-10",
+      "categories": [
+        "cs.GT",
+        "cs.MA",
+        "econ.TH",
+        "math.OC"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Inspired by possible future markets of autonomous routing and driving (ARAD), we introduce competitive mediator games and their equilibria which generalize the (coarse) correlated equilibria, which have become a popular research area recently as they not only can be more socially efficient than N...."
+    },
+    {
+      "title": "Oil price shocks reveal unequal capacities for mobility adaptation",
+      "authors": [
+        "Zihao Zhang",
+        "Yuanbo Zhang",
+        "Xiaolei Ma",
+        "Yuan Liao"
+      ],
+      "abstract": "Urban decarbonization often raises the cost of travel, yet which neighbourhoods can adapt remains largely invisible under normal conditions. We leverage the 2026 US-Iran oil shock as a natural experiment, applying a hierarchical panel regression discontinuity design to 1.7 trillion point-of-interest visits across 122,000 neighbourhoods in China and the United States. Mobility range declined in nearly three-quarters of neighbourhoods, but responses varied systematically with pre-shock urban conditions. Exposure to energy-intensive travel explained the largest share of modelled heterogeneity in both countries, while adaptive capacity and activity composition further shaped how travel was reorganized. Longer baseline travel intensified contraction, whereas greater car dependence constrained adjustment. Crucially, similar mobility outcomes arose from different processes: some neighbourhoods maintained travel by absorbing higher costs, whereas others appeared structurally locked into travel they could not reorganize. Fuel-price shocks, therefore, act as urban stress tests, revealing otherwise hidden inequalities in mobility adaptation.",
+      "url": "https://arxiv.org/abs/2608.12281v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12281v1",
+      "source": "arxiv",
+      "source_id": "2608.12281v1",
+      "published_date": "2026-08-12",
+      "categories": [
+        "stat.AP",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Urban decarbonization often raises the cost of travel, yet which neighbourhoods can adapt remains largely invisible under normal conditions. We leverage the 2026 US-Iran oil shock as a natural experiment, applying a hierarchical panel regression discontinuity design to 1.7 trillion point-of-inter...."
+    },
+    {
+      "title": "Forging Self-Funded Marketplaces among Strategic Agents",
+      "authors": [
+        "Yuan Deng",
+        "Vasilis Gkatzelis",
+        "Xizhi Tan",
+        "Grigoris Velegkas",
+        "Song Zuo"
+      ],
+      "abstract": "We introduce the problem of designing mechanisms that incentivize strategic agents to form self-funded marketplaces. In our model, if agent $i$ exerts effort $x_i\\in [0,1]$, they incur a cost of $x_i\\cdot c_i$ (where $c_i$ is unknown to the mechanism designer) and they generate revenue $x_i\\cdot r_i$; crucially, $c_i$ can be greater or smaller than $r_i$. Each effort profile $\\mathbf{x}$ yields value $v(\\mathbf{x})$ and the objective is to choose an effort vector that maximizes the value while ensuring that every agent $i$ receives a payment $p_i\\geq x_i\\cdot c_i$ and that $\\mathbf{x}$ is budget-balanced, i.e., $\\sum_{i} p_i \\leq \\sum_{i} x_i\\cdot r_i$. This problem generalizes the well-studied budget-feasible mechanism design problem, where the requirement is that $\\sum_{i} p_i \\leq B$ for some predetermined budget $B$.   To evaluate the performance of such mechanisms, we first consider the first-best benchmark (the optimal value achievable in the absence of any private information) and show that no truthful auction can achieve a bounded approximation of this benchmark. Also, even in restricted settings, no auction can achieve better than a logarithmic approximation. We complement these results by proposing a class of sequential auctions whose subgame perfect equilibria guarantee a logarithmic approximation of this benchmark. We then introduce an alternative benchmark, the maximin share (MMS), that better captures the thickness of the market and we provide an auction whose subgame perfect equilibria achieve a constant approximation of this benchmark.",
+      "url": "https://arxiv.org/abs/2608.14548v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14548v1",
+      "source": "arxiv",
+      "source_id": "2608.14548v1",
+      "published_date": "2026-08-14",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We introduce the problem of designing mechanisms that incentivize strategic agents to form self-funded marketplaces. In our model, if agent $i$ exerts effort $x_i\\in [0,1]$, they incur a cost of $x_i\\cdot c_i$ (where $c_i$ is unknown to the mechanism designer) and they generate revenue $x_i\\cdot ...."
+    },
+    {
+      "title": "Ex-ante versus Ex-post: Egalitarian Facility Location Mechanism Design",
+      "authors": [
+        "Zohar Barak",
+        "Inbal Talgam-Cohen"
+      ],
+      "abstract": "We study the facility location mechanism design problem where $n$ strategic agents report locations in Euclidean space and the mechanism outputs a single facility location. Each agent's cost is its distance from the facility, and our objective is to minimize the egalitarian cost, i.e., the maximum agent cost, in a strategyproof way.   The optimal deterministic approximation ratio is $2$, achieved by any dictator mechanism. We study the power of randomized strategyproof-in-expectation mechanisms. Prior work has focused on ex-post evaluation, defined as the expected maximum agent cost. We instead study ex-ante evaluation, defined as the maximum expected agent cost, which is naturally aligned with strategyproofness in expectation.   We establish the following results:   (1) Low dimensions: Strict ex-ante vs. ex-post separation. In $\\mathbb{R}$, we give a simple strategyproof mechanism achieving the optimal ex-ante approximation ratio of $1$. In $\\mathbb{R}^2$, we design the \"Random Rotated Corner\" mechanism, with ex-ante approximation ratio at most $1.598$, breaking the deterministic barrier. For the ex-post objective, we prove a lower bound of $1.605$, yielding a strict separation in $\\mathbb{R}^2$.   (2) High dimensions: Impossibility. In $\\mathbb{R}^d$ for $d \\gg 1$, we show that no strategyproof-in-expectation mechanism improves on the deterministic dictator mechanism beyond $o_d(1)$. Thus neither ex-post nor ex-ante evaluation yields improved fairness guarantees in high dimensions. An implication is that the \"Random Rotation Coordinate-Wise Median\" (RRCWM), currently the best known mechanism for the utilitarian objective, is also best possible for the egalitarian objective in high dimension: we show it achieves an approximation ratio of $2$ for both ex-post and ex-ante objectives in $\\mathbb{R}^d$ for every $d \\ge 1$.",
+      "url": "https://arxiv.org/abs/2608.14499v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14499v1",
+      "source": "arxiv",
+      "source_id": "2608.14499v1",
+      "published_date": "2026-08-14",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study the facility location mechanism design problem where $n$ strategic agents report locations in Euclidean space and the mechanism outputs a single facility location. Each agent's cost is its distance from the facility, and our objective is to minimize the egalitarian cost, i.e., the maximu...."
+    },
+    {
+      "title": "Breaking the 4-Approximation Barrier in Strategyproof Two-Facility Location",
+      "authors": [
+        "Mengfan Ma",
+        "Bo Peng"
+      ],
+      "abstract": "We study strategyproof mechanism design without transfers for the two-facility location problem in metric spaces. A mechanism selects two facility locations based on agents' reported locations; each agent incurs her distance to the nearer facility, and the objective is to minimize the expected social cost. A mechanism is strategyproof if no agent ever benefits from misreporting her location. The best approximation ratio achieved by a randomized strategyproof mechanism has been $4$, attained by the Proportional mechanism of Lu, Sun, Wang, and Zhu (EC 2010), and the best lower bound has been $1.045$, due to Lu, Wang, and Zhou (WINE 2009). Neither bound has moved since then, even on the line $\\mathbb{R}$.   We improve both bounds. Our main result is a randomized strategyproof mechanism with approximation ratio $11/3 \\approx 3.667$ on every Ptolemaic metric space, a rich class containing all Euclidean spaces. The mechanism randomizes between the Proportional mechanism and a new mechanism that we call Global Pair. Global Pair draws an unordered pair of agents with probability proportional to their distance and opens facilities at their reported locations. Although Global Pair and Proportional each have approximation ratio $4$, the two mechanisms attain their worst-case approximation ratios on complementary instances. Randomizing between them balances these complementary weaknesses and breaks the $4$-approximation barrier. On the lower-bound side, we construct a new two-profile instance that yields a lower bound of $(1+\\sqrt{2})/2 \\approx 1.207$, improving upon the previous lower bound of $1.045$.",
+      "url": "https://arxiv.org/abs/2608.09061v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09061v1",
+      "source": "arxiv",
+      "source_id": "2608.09061v1",
+      "published_date": "2026-08-10",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study strategyproof mechanism design without transfers for the two-facility location problem in metric spaces. A mechanism selects two facility locations based on agents' reported locations; each agent incurs her distance to the nearer facility, and the objective is to minimize the expected so...."
+    },
+    {
+      "title": "Indirect Geoeconomic Influence: A Switching Dynamical Systems Framework for Mechanism Design",
+      "authors": [
+        "Nikolos Gurney",
+        "Boxi Fu",
+        "Soham Hans",
+        "Volkan Ustun"
+      ],
+      "abstract": "We develop a formal framework for analyzing indirect geoeconomic influence. The influencing state (sender) does not attempt to change a target nation's policy directly. Instead, the sender restructures the target's internal political economy so that its own citizens, firms, and institutions generate the compliance pressure. The framework rests on a switching dynamical system (SDS) in which a target's political economy evolves under mode-dependent rules. We analyze two modes: a permissive mode, in which a mechanism transmits pressure toward the sender's preferred policy, and a contested mode, entered naturally once the target detects and attributes the mechanism. Crucially, the sender's mechanism design shapes the transition into the contested mode rather than paying a static toll for legibility. This inverts the usual regime-switching problem: rather than estimating a latent transition kernel from data, the designer engineers the kernel to steer regime occupancy over a planning horizon. A structured switch vector decomposes any mechanism along discrete design dimensions, and a combinatorial optimizer searches this space for high-performing archetypes scored on compliance, time-to-threshold, and a durability ratio. We characterize mode-conditional equilibria and derive comparative statics on credibility and legibility, showing that the legibility penalty is scaled by the salience of the government channel and therefore interacts with the mechanism's cost incidence. We illustrate the framework with two stylized mechanisms, report a proof-of-concept simulation over a reduced switch space, and report a small blind-audit study of the pipeline's optional language-model generation stage.",
+      "url": "https://arxiv.org/abs/2608.07940v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.07940v1",
+      "source": "arxiv",
+      "source_id": "2608.07940v1",
+      "published_date": "2026-08-08",
+      "categories": [
+        "cs.GT",
+        "cs.CY",
+        "cs.MA"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We develop a formal framework for analyzing indirect geoeconomic influence. The influencing state (sender) does not attempt to change a target nation's policy directly."
+    },
+    {
+      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+      "authors": [
+        "Praphul Chandra",
+        "Sujit Gujar",
+        "Ganesh Ghalme"
+      ],
+      "abstract": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our work as a compliance or commons overlay on a deployer. One governance period is an extensive form game in which verified human stakeholders arrive sequentially and contribute, on a provision or a rejection market, in a governance currency that is deliberately distinct from the agents compute. A funding aggregator turns raw contributions into breadth weighted effective supports - a two threshold gate with hysteresis converts net support into a binary authorization that, through a coupling map bounded by an exogenously certified safety ceiling, releases a metered compute budget - realized in hardware as a signed compute license so that the decision is self-enforcing. We characterize the class of agents the mechanism can govern and isolate manipulation of the governing electorate by the governed agent as the central open problem. We also introduce several challenges addressing manipulation of governing electorate by the governed agents.",
+      "url": "https://arxiv.org/abs/2608.06353v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06353v1",
+      "source": "arxiv",
+      "source_id": "2608.06353v1",
+      "published_date": "2026-08-06",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets."
+    },
+    {
+      "title": "AI-Farol: Co-Evolutionary Dynamics in a Multi-Agent Two-Sided Learning Framework",
+      "authors": [
+        "Iosif Polenakis",
+        "Kalliopi Kastampolidou",
+        "Theodore Andronikos"
+      ],
+      "abstract": "The El Farol Bar game is a classical model of coordination under uncertainty that traditionally treats the venue as a passive constraint. In this work, we reconceptualize the problem by modeling the bar as a strategic player endowed with AI-driven learning capabilities. We extend the original framework in two principal directions: first, by introducing partial observability, whereby agents observe only subsets of past attendees; and second, by transforming the bar from a passive capacity threshold into an active mechanism designer that adjusts pricing policies to balance revenue, utilization, and sustainability constraints. Agents employ AI-based learning to form beliefs and adapt attendance strategies under incomplete information, while the bar applies policy learning to optimize dynamic pricing. The resulting two-sided learning system frames coordination as a co-evolutionary process between boundedly rational agents and an adaptive institution, offering insights into congestion management, resource allocation, and mechanism design in complex adaptive systems.",
+      "url": "https://arxiv.org/abs/2608.05479v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05479v1",
+      "source": "arxiv",
+      "source_id": "2608.05479v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The El Farol Bar game is a classical model of coordination under uncertainty that traditionally treats the venue as a passive constraint. In this work, we reconceptualize the problem by modeling the bar as a strategic player endowed with AI-driven learning capabilities."
+    },
+    {
+      "title": "Open Information: A Defining Perspective on Web Datasets for Carbon Pricing",
+      "authors": [
+        "Sidharth Mallik",
+        "Anastasios Megaritis",
+        "Waymond Rodgers"
+      ],
+      "abstract": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of public and private information. We demonstrate their existence and justify material significance for pricing. In this respect, we present statistical hypotheses to test for a web dataset, GDELT, integrated for carbon pricing, that is represented by EU Allowance spot prices. Tests are designed with VAR and GARCH-X formulations, and return forecasting. The outcomes cannot rule out the material existence of open information. The result is significant for providing a conceptual basis to integrate a vast number of web datasets as alternative data in investment decisions.",
+      "url": "https://arxiv.org/abs/2608.04929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04929v1",
+      "source": "arxiv",
+      "source_id": "2608.04929v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of publi...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements ar...."
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing s...."
+    }
+  ]
+}

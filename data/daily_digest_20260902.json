@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-09-02T08:41:21.215780",
+  "period": "daily",
+  "paper_count": 13,
+  "papers": [
+    {
+      "title": "Technology interactions reshape the economics of China's coal power decarbonization",
+      "authors": [
+        "Yun-Long Zhang",
+        "Jia-Ning Kang",
+        "Xiaoming Kan",
+        "Lan-Cui Liu",
+        "Zhimin Huang",
+        "Song Peng",
+        "Biying Yu",
+        "Yi-Ming Wei"
+      ],
+      "abstract": "Decarbonizing existing coal-fired power plants can contribute to near-term climate mitigation, but identifying cost-effective retrofit strategies is complicated by interactions among mitigation technologies. Here we develop an interaction-aware optimization framework that jointly evaluates energy conservation, biomass co-firing, and carbon capture across 1,885 coal-fired power plants in China while accounting for plant heterogeneity and shared biomass and CO2 storage resources. We find that technology interactions alter both mitigation costs and the emission reductions attributable to individual measures, thereby changing cost-optimal technology portfolios and marginal abatement cost curve at the fleet level. Approximately 1.2 Gt CO2 yr-1 can be mitigated at negative marginal cost, while reaching carbon neutrality requires a marginal abatement cost of US$56 t CO2-1. Progressively deeper mitigation shifts the cost-optimal portfolio from energy conservation toward biomass co-firing and ultimately carbon capture, with biomass combined with carbon capture enabling net-negative emissions. Explicitly accounting for interactions among mitigation technologies therefore provides a more consistent basis for evaluating coal-power decarbonization and coordinating retrofit investment, infrastructure development, and climate policy.",
+      "url": "https://arxiv.org/abs/2608.11404v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11404v1",
+      "source": "arxiv",
+      "source_id": "2608.11404v1",
+      "published_date": "2026-08-11",
+      "categories": [
+        "physics.soc-ph",
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "Decarbonizing existing coal-fired power plants can contribute to near-term climate mitigation, but identifying cost-effective retrofit strategies is complicated by interactions among mitigation technologies. Here we develop an interaction-aware optimization framework that jointly evaluates energy...."
+    },
+    {
+      "title": "Pollution Pricing in Equilibrium: Production, Reallocation, and Aggregate Impacts -- by R. Andrew Butters, Jackson Dorsey, Ivan Rudik",
+      "authors": [],
+      "abstract": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adjustment margins: short-run input substitution, reallocation of output from dirty to cleaner firms, and long-run clean technology adoption. Applying it to the first 17 years of the European Union Emissions Trading System (EU-ETS), we find input substitution is rigid: firms cannot cut emissions in the short run without cutting output. Reallocation instead drives nearly all of the short-run aggregate emissions response, concentrated in sectors with heterogeneous emissions intensities, like power and cement, or with elastic demand, like refining. Clean technology adoption also responds causally to permit price shocks, reducing firms\u2019 emissions intensity over the five years that follow. Doubling the permit price cuts aggregate emissions 23% in the short run and 31% in the longer run after induced clean technology adoption. In the short run, output falls by 4%, primarily because carbon costs pass from upstream polluting industries like electricity to downstream producers. In the long run, output falls just 2.5%, as clean technology adoption dampens these supply-chain impacts. Carbon pricing thus delivers substantial emissions reductions with moderate output effects, and much of the economic burden falls on downstream firms through higher upstream input costs.",
+      "url": "https://www.nber.org/papers/w35682#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35682#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35682",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adju...."
+    },
+    {
+      "title": "Schedule equilibria",
+      "authors": [
+        "Harry Kleyer"
+      ],
+      "abstract": "This paper studies general equilibrium when households and firms choose price-contingent schedules and market clearing determines prices. A unilateral schedule change therefore changes both an agent's realized allocation and the price at which it is evaluated. We call the resulting outcome a schedule equilibrium. The central object is the response of the clearing price to an agent's own schedule. This residual price response enters the household and firm first-order conditions, provides the strategic component of markups, and links conduct to observable equilibrium variation. We give conditions for existence, derive a trembling-hand refinement, and show how competitive, Cournot, and supply-function models arise as special cases. Applications to monopoly and vertical market power show how general-equilibrium feedback can alter familiar partial-equilibrium conclusions. We then allow firm mass, ownership, and technology to be endogenous. Free entry need not be efficient because entrants do not internalize their effect on the rest of the economy. Households choose capitalization and thereby ownership and firm creation, while investment moves active firms through production-function space. The same price-response mechanism therefore links market power, entry, ownership, and technological change within a common general-equilibrium framework.",
+      "url": "https://arxiv.org/abs/2608.12818v3",
+      "pdf_url": "https://arxiv.org/pdf/2608.12818v3",
+      "source": "arxiv",
+      "source_id": "2608.12818v3",
+      "published_date": "2026-08-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper studies general equilibrium when households and firms choose price-contingent schedules and market clearing determines prices. A unilateral schedule change therefore changes both an agent's realized allocation and the price at which it is evaluated."
+    },
+    {
+      "title": "Mechanism Design for Alignment and Control",
+      "authors": [
+        "Dirk Bergemann",
+        "Andrew Koh",
+        "Stephen Morris"
+      ],
+      "abstract": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-sided imitation structure---capabilities can be concealed but not counterfeited---yields a revelation principle, a characterization of implementable policies via nested cyclical monotonicity, and conditions under which eliciting higher-order beliefs can discipline multiple agents. We apply our framework to stylized examples of (i) sandbagging in which a more capable agent pretends to be less capable; (ii) an alignment--interpretability trade-off, where the two are substitutes in the instrument but complements in value; (iii) discipline via peer scoring; (iv) coupling rewards to induce competition among multiple agents; and (v) scalable oversight and reward shaping.",
+      "url": "https://arxiv.org/abs/2609.01595v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01595v1",
+      "source": "arxiv",
+      "source_id": "2609.01595v1",
+      "published_date": "2026-09-01",
+      "categories": [
+        "econ.TH",
+        "cs.AI",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience."
+    },
+    {
+      "title": "Learning to Price with Persuasion",
+      "authors": [
+        "Maria-Florina Balcan",
+        "Tejas Pagare",
+        "Karan Singh"
+      ],
+      "abstract": "Motivated by modern marketplaces, where the platform or the seller routinely gathers detailed user profiles, we study a novel learning theoretic model that simultaneously involves information and mechanism design. Specifically, we consider the economic setting recently introduced by Bergemann et al. (2022), where in addition to the menu of quality-price pairs, the seller offers information on the value of the match between product quality and buyer's taste via a signaling scheme. We relax the assumption that the seller knows the buyers' belief about the distribution of tastes and study the sample requirements of designing a revenue maximizing scheme. We consider both the batch setting where we have access to data from a set of i.i.d. buyers and an online demand query model where we observe the buyers' behaviors to seller's schemes. Despite the apparent non-convexity of the problem, we also give the first FPTAS to compute a scheme that maximizes the revenue within an arbitrarily small additive loss, which was left open by Bergemann et al. (2022). Overall, this brings a new learning perspective in asymmetric economic settings where buyers and sellers know different types of information.",
+      "url": "https://arxiv.org/abs/2608.16699v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16699v1",
+      "source": "arxiv",
+      "source_id": "2608.16699v1",
+      "published_date": "2026-08-17",
+      "categories": [
+        "cs.GT",
+        "cs.LG",
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Motivated by modern marketplaces, where the platform or the seller routinely gathers detailed user profiles, we study a novel learning theoretic model that simultaneously involves information and mechanism design. Specifically, we consider the economic setting recently introduced by Bergemann et al."
+    },
+    {
+      "title": "Competitive mediator games and urban CAV routing markets",
+      "authors": [
+        "Grzegorz Jamr\u00f3z"
+      ],
+      "abstract": "Inspired by possible future markets of autonomous routing and driving (ARAD), we introduce competitive mediator games and their equilibria which generalize the (coarse) correlated equilibria, which have become a popular research area recently as they not only can be more socially efficient than Nash equilibria but also are limits of algorithmic no-regret multi-agent learning dynamics. We discuss the basic properties of competitive mediator games and prove that in the generic setting of anonymous congestion(routing) games with market-share maximizing mediators all competitive mediator equilibria are monopolies whenever one of the mediators is weakly preferred to other mediators by all users. We apply and interpret these results in the context of new markets of competing ARAD service providers. We also provide a comprehensive overview of these markets and discuss the future mechanism design thereof.",
+      "url": "https://arxiv.org/abs/2608.09894v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09894v1",
+      "source": "arxiv",
+      "source_id": "2608.09894v1",
+      "published_date": "2026-08-10",
+      "categories": [
+        "cs.GT",
+        "cs.MA",
+        "econ.TH",
+        "math.OC"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Inspired by possible future markets of autonomous routing and driving (ARAD), we introduce competitive mediator games and their equilibria which generalize the (coarse) correlated equilibria, which have become a popular research area recently as they not only can be more socially efficient than N...."
+    },
+    {
+      "title": "AI worsens climate change, integrated assessment shows",
+      "authors": [
+        "Huiying Ye",
+        "Richard S. J. Tol",
+        "Fangzhi Wang"
+      ],
+      "abstract": "Artificial intelligence (AI) interacts with climate in various ways, while a unified analytical framework of this intricate interplay is lacking. To align AI investment with climate policy, we propose such a framework integrating AI's impact on emissions, output, and climate damages into the DICE model. We distinguish between ICT-like and Industrial Revolution (IR)-like AI prospects. Calibrated to the best available evidence, we find that AI development is net polluting. Under current low abatement, ICT-like AI adds 0.1 degree C to 2100 warming, while IR-like AI adds 0.8 degree C. The associated climate costs offset roughly one-fifth and one-quarter of AI's economic gains, respectively. Meeting the 2 degree C target saves the optimal ICT(IR)-like AI investment rate by 2100 from 3.3% (5.1%) under the low-abatement scenario to 3.7% (12.7%), indicating that mitigation is complementary to AI development. We further show that the investment trade-off between AI and abatement is driven primarily by AI's economic prospects, not by its emissions footprint.",
+      "url": "https://arxiv.org/abs/2608.24670v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.24670v1",
+      "source": "arxiv",
+      "source_id": "2608.24670v1",
+      "published_date": "2026-08-25",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Artificial intelligence (AI) interacts with climate in various ways, while a unified analytical framework of this intricate interplay is lacking. To align AI investment with climate policy, we propose such a framework integrating AI's impact on emissions, output, and climate damages into the DICE...."
+    },
+    {
+      "title": "Mechanism Design for Facility Location Games Under a Prelocated Facility",
+      "authors": [
+        "Genjie Qin",
+        "Qizhi Fang",
+        "Wenjing Liu"
+      ],
+      "abstract": "We study the problem of locating a new homogeneous facility under a prelocated facility. Here, a set of $n$ agents is located on a real line or a circle, each of whom has her location as private information, and her cost is the (expected) distance from her location to the nearest facility. Our goal is to design mechanisms which can approximately minimize the maximum cost or the social cost while eliciting agents' private information truthfully (i.e., strategy-proof).   Based on real-life scenarios, we consider the problem in two settings: the general setting where each agent can be located at both sides of the prelocated facility, and the special setting where all the agents are located at the same side of the prelocated facility. For agents on a line, in the general setting, we design the best possible deterministic strategy-proof mechanism with $2$-approximation and provide a lower bound of $1.5-\u03b5\\textbf{ }(\u03b5>0)$ for any randomized strategy-proof mechanism under the maximum cost objective. For the social cost, we obtain an upper bound of $n$ for deterministic strategy-proof mechanisms and lower bounds of $1.5$ and $1.0425$ for any deterministic strategy-proof mechanism and any randomized strategy-proof mechanism, respectively. In the special setting, we further provide a randomized strategy-proof $5/3$-approximation mechanism for the maximum cost and a deterministic strategy-proof $(n-1)$-approximation mechanism for the social cost. For agents on a circle, we provide a deterministic strategy-proof 2-approximation mechanism under the maximum cost objective.",
+      "url": "https://arxiv.org/abs/2608.30292v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.30292v1",
+      "source": "arxiv",
+      "source_id": "2608.30292v1",
+      "published_date": "2026-08-31",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study the problem of locating a new homogeneous facility under a prelocated facility. Here, a set of $n$ agents is located on a real line or a circle, each of whom has her location as private information, and her cost is the (expected) distance from her location to the nearest facility."
+    },
+    {
+      "title": "AI agents in Algorithmic Electricity Markets: On the Emergence of Tacit Collusion",
+      "authors": [
+        "Jakub Seredy\u0144ski",
+        "Georgios Tsaousoglou"
+      ],
+      "abstract": "As electricity market participants increasingly adopt learning-based agents for their bidding strategies, electricity markets are becoming algorithmic. Evidence from algorithmic markets in other domains shows that tacit collusion can arise purely through independent learning. Moreover, electricity markets are typically oligopolistic and feature repeated interaction among a small number of participants, making them structurally susceptible to non-competitive behavior. In the face of these observations, this paper investigates the hypothesis that tacit collusion may emerge in electricity markets where participants' actions are controlled by autonomous learning-based algorithms. We model strategic bidding as a repeated game with imperfect public monitoring, and model the participants' emergent behavior using multi-agent reinforcement learning. We propose a multi-dimensional set of criteria (going beyond profit comparisons against Nash equilibria) to assess whether the resulting behavior constitutes tacit collusion. Our experimental results showcase that such a danger is realistic for electricity markets: there are cases where agents do learn to sustain supra-competitive outcomes that are supportive of tacit collusion indicators, even though the agents were never instructed to collude.",
+      "url": "https://arxiv.org/abs/2608.26896v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26896v1",
+      "source": "arxiv",
+      "source_id": "2608.26896v1",
+      "published_date": "2026-08-27",
+      "categories": [
+        "cs.AI",
+        "cs.GT",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "As electricity market participants increasingly adopt learning-based agents for their bidding strategies, electricity markets are becoming algorithmic. Evidence from algorithmic markets in other domains shows that tacit collusion can arise purely through independent learning."
+    },
+    {
+      "title": "STAR-GS: Truthful and Visibility-Aware Resource Scheduling for Ground Station as a Service",
+      "authors": [
+        "Zhiying Wang",
+        "Xiaojian Wang",
+        "Huayue Gu",
+        "Zhishan Guo",
+        "Ruozhou Yu"
+      ],
+      "abstract": "The rapid growth of Low Earth Orbit satellite constellations has created increasing demand for efficient and scalable downlink services. Ground Station as a Service (GSaaS) provides an on-demand access model for satellite operators, but commercial GSaaS providers must schedule limited ground-station bandwidth among multiple satellites with heterogeneous data demands, overlapping visibility windows, strict deadlines, and strategic bidding behaviors. This paper studies GSaaS resource scheduling from a ground-station-centric perspective, where the provider jointly determines task admission, ground-station assignment, bandwidth allocation, and payments. Under satellite orbital dynamics, bandwidth constraints, and downlink task deadlines, maximizing the provider's revenue is NP-hard. To address this challenge, we propose STAR-GS, a truthful and feasibility-aware scheduling mechanism that combines bid-aware admission control, best-fit ground-station assignment, Earliest Deadline First (EDF)-based bandwidth scheduling, and critical-payment pricing. By integrating auction theory with schedulability analysis, STAR-GS incentivizes task owners to truthfully report their private valuations while ensuring that admitted tasks can be feasibly completed before their deadlines. Simulations using Ansys Systems Tool Kit (STK) show that STAR-GS consistently achieves higher revenue than heuristic baselines, obtains near-MILP performance with substantially lower runtime, and scales smoothly to workloads containing up to 900 tasks.",
+      "url": "https://arxiv.org/abs/2608.22222v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.22222v1",
+      "source": "arxiv",
+      "source_id": "2608.22222v1",
+      "published_date": "2026-08-23",
+      "categories": [
+        "cs.NI",
+        "cs.ET",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The rapid growth of Low Earth Orbit satellite constellations has created increasing demand for efficient and scalable downlink services. Ground Station as a Service (GSaaS) provides an on-demand access model for satellite operators, but commercial GSaaS providers must schedule limited ground-stat...."
+    },
+    {
+      "title": "Open Information: A Defining Perspective on Web Datasets for Carbon Pricing",
+      "authors": [
+        "Sidharth Mallik",
+        "Anastasios Megaritis",
+        "Waymond Rodgers"
+      ],
+      "abstract": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of public and private information. We demonstrate their existence and justify material significance for pricing. In this respect, we present statistical hypotheses to test for a web dataset, GDELT, integrated for carbon pricing, that is represented by EU Allowance spot prices. Tests are designed with VAR and GARCH-X formulations, and return forecasting. The outcomes cannot rule out the material existence of open information. The result is significant for providing a conceptual basis to integrate a vast number of web datasets as alternative data in investment decisions.",
+      "url": "https://arxiv.org/abs/2608.04929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04929v1",
+      "source": "arxiv",
+      "source_id": "2608.04929v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of publi...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements ar...."
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing s...."
+    }
+  ]
+}

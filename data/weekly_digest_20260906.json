@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-09-06T10:12:59.193431",
+  "period": "weekly",
+  "paper_count": 3,
+  "papers": [
+    {
+      "title": "Technology interactions reshape the economics of China's coal power decarbonization",
+      "authors": [
+        "Yun-Long Zhang",
+        "Jia-Ning Kang",
+        "Xiaoming Kan",
+        "Lan-Cui Liu",
+        "Zhimin Huang",
+        "Song Peng",
+        "Biying Yu",
+        "Yi-Ming Wei"
+      ],
+      "abstract": "Decarbonizing existing coal-fired power plants can contribute to near-term climate mitigation, but identifying cost-effective retrofit strategies is complicated by interactions among mitigation technologies. Here we develop an interaction-aware optimization framework that jointly evaluates energy conservation, biomass co-firing, and carbon capture across 1,885 coal-fired power plants in China while accounting for plant heterogeneity and shared biomass and CO2 storage resources. We find that technology interactions alter both mitigation costs and the emission reductions attributable to individual measures, thereby changing cost-optimal technology portfolios and marginal abatement cost curve at the fleet level. Approximately 1.2 Gt CO2 yr-1 can be mitigated at negative marginal cost, while reaching carbon neutrality requires a marginal abatement cost of US$56 t CO2-1. Progressively deeper mitigation shifts the cost-optimal portfolio from energy conservation toward biomass co-firing and ultimately carbon capture, with biomass combined with carbon capture enabling net-negative emissions. Explicitly accounting for interactions among mitigation technologies therefore provides a more consistent basis for evaluating coal-power decarbonization and coordinating retrofit investment, infrastructure development, and climate policy.",
+      "url": "https://arxiv.org/abs/2608.11404v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11404v1",
+      "source": "arxiv",
+      "source_id": "2608.11404v1",
+      "published_date": "2026-08-11",
+      "categories": [
+        "physics.soc-ph",
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "Decarbonizing existing coal-fired power plants can contribute to near-term climate mitigation, but identifying cost-effective retrofit strategies is complicated by interactions among mitigation technologies. Here we develop an interaction-aware optimization framework that jointly evaluates energy...."
+    },
+    {
+      "title": "Pollution Pricing in Equilibrium: Production, Reallocation, and Aggregate Impacts -- by R. Andrew Butters, Jackson Dorsey, Ivan Rudik",
+      "authors": [],
+      "abstract": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adjustment margins: short-run input substitution, reallocation of output from dirty to cleaner firms, and long-run clean technology adoption. Applying it to the first 17 years of the European Union Emissions Trading System (EU-ETS), we find input substitution is rigid: firms cannot cut emissions in the short run without cutting output. Reallocation instead drives nearly all of the short-run aggregate emissions response, concentrated in sectors with heterogeneous emissions intensities, like power and cement, or with elastic demand, like refining. Clean technology adoption also responds causally to permit price shocks, reducing firms\u2019 emissions intensity over the five years that follow. Doubling the permit price cuts aggregate emissions 23% in the short run and 31% in the longer run after induced clean technology adoption. In the short run, output falls by 4%, primarily because carbon costs pass from upstream polluting industries like electricity to downstream producers. In the long run, output falls just 2.5%, as clean technology adoption dampens these supply-chain impacts. Carbon pricing thus delivers substantial emissions reductions with moderate output effects, and much of the economic burden falls on downstream firms through higher upstream input costs.",
+      "url": "https://www.nber.org/papers/w35682#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35682#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35682",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adju...."
+    },
+    {
+      "title": "Schedule equilibria",
+      "authors": [
+        "Harry Kleyer"
+      ],
+      "abstract": "This paper studies general equilibrium when households and firms choose price-contingent schedules and market clearing determines prices. A unilateral schedule change therefore changes both an agent's realized allocation and the price at which it is evaluated. We call the resulting outcome a schedule equilibrium. The central object is the response of the clearing price to an agent's own schedule. This residual price response enters the household and firm first-order conditions, provides the strategic component of markups, and links conduct to observable equilibrium variation. We give conditions for existence, derive a trembling-hand refinement, and show how competitive, Cournot, and supply-function models arise as special cases. Applications to monopoly and vertical market power show how general-equilibrium feedback can alter familiar partial-equilibrium conclusions. We then allow firm mass, ownership, and technology to be endogenous. Free entry need not be efficient because entrants do not internalize their effect on the rest of the economy. Households choose capitalization and thereby ownership and firm creation, while investment moves active firms through production-function space. The same price-response mechanism therefore links market power, entry, ownership, and technological change within a common general-equilibrium framework.",
+      "url": "https://arxiv.org/abs/2608.12818v3",
+      "pdf_url": "https://arxiv.org/pdf/2608.12818v3",
+      "source": "arxiv",
+      "source_id": "2608.12818v3",
+      "published_date": "2026-08-13",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "This paper studies general equilibrium when households and firms choose price-contingent schedules and market clearing determines prices. A unilateral schedule change therefore changes both an agent's realized allocation and the price at which it is evaluated."
+    }
+  ]
+}

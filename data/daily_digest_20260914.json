@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-14T09:45:40.197133",
+  "period": "daily",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "Effect of Imbalance Settlement Design on Risk-Averse Aggregator Scheduling: A CVaR-Based Parametric Study",
+      "authors": [
+        "Pande Popovski",
+        "Goran Veljanovski",
+        "Metodija Atanasovski",
+        "Sofija Nikolova Poceva",
+        "Anton Chaushevski"
+      ],
+      "abstract": "Electricity market settlement rules shape the financial exposure that energy aggregators face when generation deviates from contracted positions, yet their interaction with Conditional-Value-at-Risk-based risk-aversion strategies in aggregator scheduling remains unexplored. This paper studies how the design of imbalance penalty rules influences optimal risk-aversion in a stochastic unit commitment framework for a network-constrained aggregator operating a diversified portfolio of generation resources. Four settlement regimes are defined: a regime with halved deviation penalty rates, a baseline regime matching empirical market data, a strict regime with doubled penalty rates, and a self-balancing regime that prohibits contracted day-ahead exchange. A parametric sweep of the risk aversion weight \u03bb at a fixed confidence level \u03b1 is conducted on a modified IEEE 9-bus test system using 50 stochastic scenarios. To resolve the transition between the discrete regimes, a finer penalty sweep is also performed. Results show that stricter settlement designs increase tail-risk exposure at the risk-neutral baseline, while the benefit of risk weighting is largest under the strict and self-balancing regimes. Battery energy storage throughput responds to \u03bb under market-participatory regimes but becomes invariant under self-balancing constraints. The findings provide quantitative guidance on how settlement regime should inform aggregator risk management strategy.",
+      "url": "https://doi.org/10.20944/preprints202609.0982.v1",
+      "pdf_url": "https://doi.org/10.20944/preprints202609.0982.v1",
+      "source": "openalex",
+      "source_id": "W7212422830",
+      "published_date": "2026-09-14",
+      "categories": [
+        "Journal: Preprints.org",
+        "News aggregator",
+        "Econometrics",
+        "Portfolio",
+        "Economics",
+        "Parametric statistics"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Electricity market settlement rules shape the financial exposure that energy aggregators face when generation deviates from contracted positions, yet their interaction with Conditional-Value-at-Risk-based risk-aversion strategies in aggregator scheduling remains unexplored. This paper studies how...."
+    }
+  ]
+}

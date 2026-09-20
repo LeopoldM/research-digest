@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-09-20T10:33:36.300369",
+  "period": "weekly",
+  "paper_count": 2,
+  "papers": [
+    {
+      "title": "Mechanism Design for Ad-Supported Platforms",
+      "authors": [
+        "Shota Ichihashi",
+        "Doh-Shin Jeon",
+        "Byung-Cheol Kim"
+      ],
+      "abstract": "Many digital platforms earn revenue by selling content access and displaying ads. We study monopoly screening by a platform allocating heterogeneous content and ads to heterogeneous consumers. Advertising generates revenue and affects information rents through nuisance, which alters the platform's incentives to allocate content. The optimal mechanism balances a trade-off between advertising and rent extraction: Expanding content access increases advertising revenue but reduces sales revenue by raising information rents. The mechanism features novel distortions in content access and ad exposure, rationalizes contracts across ad-supported platforms, and explains why greater ad profitability may weaken incentives to invest in content quality.",
+      "url": "https://arxiv.org/abs/2609.12870v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.12870v1",
+      "source": "arxiv",
+      "source_id": "2609.12870v1",
+      "published_date": "2026-09-11",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "Many digital platforms earn revenue by selling content access and displaying ads. We study monopoly screening by a platform allocating heterogeneous content and ads to heterogeneous consumers."
+    },
+    {
+      "title": "Credible Discourse on Climate Policy: Beyond Dueling Certitudes",
+      "authors": [
+        "Charles F. Manski"
+      ],
+      "abstract": "Whatever the policy question under consideration, reasoned and realistic evaluation requires credible policy analysis under uncertainty. This holds particularly to the study of climate policy in the United States, where science and ideology have become increasingly entangled. Welfare economics provides a transparent formal framework to describe and evaluate the subtle tradeoffs that must be addressed when comparing alternative climate policies. The largely qualitative discussions of climate policy in public-facing reports suffer from failure to use welfare economics to assess tradeoffs. I use 2025 reports by the National Academies and by the US Department of Energy as case studies.",
+      "url": "https://arxiv.org/abs/2609.09337v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09337v1",
+      "source": "arxiv",
+      "source_id": "2609.09337v1",
+      "published_date": "2026-09-08",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Whatever the policy question under consideration, reasoned and realistic evaluation requires credible policy analysis under uncertainty. This holds particularly to the study of climate policy in the United States, where science and ideology have become increasingly entangled."
+    }
+  ]
+}

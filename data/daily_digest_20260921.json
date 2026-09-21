@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-09-21T09:49:28.542994",
+  "period": "daily",
+  "paper_count": 10,
+  "papers": [
+    {
+      "title": "Mechanism Design for Ad-Supported Platforms",
+      "authors": [
+        "Shota Ichihashi",
+        "Doh-Shin Jeon",
+        "Byung-Cheol Kim"
+      ],
+      "abstract": "Many digital platforms earn revenue by selling content access and displaying ads. We study monopoly screening by a platform allocating heterogeneous content and ads to heterogeneous consumers. Advertising generates revenue and affects information rents through nuisance, which alters the platform's incentives to allocate content. The optimal mechanism balances a trade-off between advertising and rent extraction: Expanding content access increases advertising revenue but reduces sales revenue by raising information rents. The mechanism features novel distortions in content access and ad exposure, rationalizes contracts across ad-supported platforms, and explains why greater ad profitability may weaken incentives to invest in content quality.",
+      "url": "https://arxiv.org/abs/2609.12870v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.12870v1",
+      "source": "arxiv",
+      "source_id": "2609.12870v1",
+      "published_date": "2026-09-11",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "Many digital platforms earn revenue by selling content access and displaying ads. We study monopoly screening by a platform allocating heterogeneous content and ads to heterogeneous consumers."
+    },
+    {
+      "title": "Credible Discourse on Climate Policy: Beyond Dueling Certitudes",
+      "authors": [
+        "Charles F. Manski"
+      ],
+      "abstract": "Whatever the policy question under consideration, reasoned and realistic evaluation requires credible policy analysis under uncertainty. This holds particularly to the study of climate policy in the United States, where science and ideology have become increasingly entangled. Welfare economics provides a transparent formal framework to describe and evaluate the subtle tradeoffs that must be addressed when comparing alternative climate policies. The largely qualitative discussions of climate policy in public-facing reports suffer from failure to use welfare economics to assess tradeoffs. I use 2025 reports by the National Academies and by the US Department of Energy as case studies.",
+      "url": "https://arxiv.org/abs/2609.09337v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09337v1",
+      "source": "arxiv",
+      "source_id": "2609.09337v1",
+      "published_date": "2026-09-08",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 11.11111111111111,
+      "summary": "Whatever the policy question under consideration, reasoned and realistic evaluation requires credible policy analysis under uncertainty. This holds particularly to the study of climate policy in the United States, where science and ideology have become increasingly entangled."
+    },
+    {
+      "title": "Mechanism Design for Alignment and Control",
+      "authors": [
+        "Dirk Bergemann",
+        "Andrew Koh",
+        "Stephen Morris"
+      ],
+      "abstract": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-sided imitation structure---capabilities can be concealed but not counterfeited---yields a revelation principle, a characterization of implementable policies via nested cyclical monotonicity, and conditions under which eliciting higher-order beliefs can discipline multiple agents. We apply our framework to stylized examples of (i) sandbagging in which a more capable agent pretends to be less capable; (ii) an alignment--interpretability trade-off, where the two are substitutes in the instrument but complements in value; (iii) discipline via peer scoring; (iv) coupling rewards to induce competition among multiple agents; and (v) scalable oversight and reward shaping.",
+      "url": "https://arxiv.org/abs/2609.01595v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01595v1",
+      "source": "arxiv",
+      "source_id": "2609.01595v1",
+      "published_date": "2026-09-01",
+      "categories": [
+        "econ.TH",
+        "cs.AI",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience."
+    },
+    {
+      "title": "Extended Version: Storage-Based Strategic Manipulation of Constraint-Binding Patterns in Power Networks",
+      "authors": [
+        "Mehdi Davoudi",
+        "Minghao Mou",
+        "Junjie Qin"
+      ],
+      "abstract": "This paper studies the strategic market participation of a monopolistic energy   storage aggregator (ESA) in a day-ahead electricity market. The ESA coordinates   geographically distributed storage units, submits a coordinated bid for its   portfolio, and may hold financial transmission rights (FTRs). The system   operator clears the market through a network-constrained, multi-period economic   dispatch, determining generation and load schedules, nodal prices,   energy-market payments, and FTR payoffs. We formulate the ESA--system-operator   interaction as a Stackelberg game and characterize its equilibrium through a   constraint-binding-pattern decomposition of the market-clearing problem.   Beyond enabling equilibrium computation, the framework reveals how the ESA can   increase its profit by strategically inducing or avoiding particular   constraint-binding patterns. It also establishes a novel welfare result: although strategic storage without   FTRs is known to weakly improve social welfare relative to the no-storage case,   certain FTR positions can overturn this guarantee by strengthening the ESA's   incentive to induce particular patterns, causing social welfare to fall below   the no-storage level. Motivated   by these findings, we develop two system-operator mechanisms for limiting   undesirable ESA behavior and its adverse effects on market outcomes and social   welfare. Finally, a three-bus study illustrates the theoretical findings, while IEEE test systems   demonstrate the scalability of the proposed method.",
+      "url": "https://arxiv.org/abs/2609.15755v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.15755v2",
+      "source": "arxiv",
+      "source_id": "2609.15755v2",
+      "published_date": "2026-09-14",
+      "categories": [
+        "eess.SY",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper studies the strategic market participation of a monopolistic energy   storage aggregator (ESA) in a day-ahead electricity market. The ESA coordinates   geographically distributed storage units, submits a coordinated bid for its   portfolio, and may hold financial transmission rights (F...."
+    },
+    {
+      "title": "AI worsens climate change, integrated assessment shows",
+      "authors": [
+        "Huiying Ye",
+        "Richard S. J. Tol",
+        "Fangzhi Wang"
+      ],
+      "abstract": "Artificial intelligence (AI) interacts with climate in various ways, while a unified analytical framework of this intricate interplay is lacking. To align AI investment with climate policy, we propose such a framework integrating AI's impact on emissions, output, and climate damages into the DICE model. We distinguish between ICT-like and Industrial Revolution (IR)-like AI prospects. Calibrated to the best available evidence, we find that AI development is net polluting. Under current low abatement, ICT-like AI adds 0.1 degree C to 2100 warming, while IR-like AI adds 0.8 degree C. The associated climate costs offset roughly one-fifth and one-quarter of AI's economic gains, respectively. Meeting the 2 degree C target saves the optimal ICT(IR)-like AI investment rate by 2100 from 3.3% (5.1%) under the low-abatement scenario to 3.7% (12.7%), indicating that mitigation is complementary to AI development. We further show that the investment trade-off between AI and abatement is driven primarily by AI's economic prospects, not by its emissions footprint.",
+      "url": "https://arxiv.org/abs/2608.24670v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.24670v1",
+      "source": "arxiv",
+      "source_id": "2608.24670v1",
+      "published_date": "2026-08-25",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Artificial intelligence (AI) interacts with climate in various ways, while a unified analytical framework of this intricate interplay is lacking. To align AI investment with climate policy, we propose such a framework integrating AI's impact on emissions, output, and climate damages into the DICE...."
+    },
+    {
+      "title": "Learning Principal-Agent Contracts for Equitable Smallholder Carbon Farming under Moral Hazard and Adverse Selection",
+      "authors": [
+        "Rishi Bharadwaj",
+        "Yadati Narahari"
+      ],
+      "abstract": "Agricultural soils are a major untapped carbon sink. Carbon farming is emerging as a promising practice for tapping this potential. Smallholder farmers, who dominate agriculture across South Asia and sub-Saharan Africa, are key to scaling climate mitigation via carbon farming. It is ironic that real-world carbon programs largely fail to reach them. We study this important gap through the lens of contract design. An aggregator offers a single pooled contract to a heterogeneous population of smallholder farmers who have private adoption costs (adverse selection) and exert unobserved effort (moral hazard), with agronomic outcomes evolving over multiple seasons. We formulate this evolving contracting problem as a POMDP and use reinforcement learning to learn a dynamic profit-maximising contract. We analyse the performance of the aggregator under various conditions. We find that a profit-maximising aggregator does not merely inherit the exclusion of smallholders, it amplifies it. On large farms the aggregator realises 87.7% of achievable adoption, against only 8.2% on smallholdings. Per-hectare Measurement, Reporting and Verification (MRV) costs fall as farm size rises, and the aggregator's pooling contract compounds this gradient rather than offsetting it. A counterfactual that makes MRV costs purely area-proportional eliminates this disparity. Our results and simulation can guide contract and policy design that opens carbon income to smallholders while enabling agricultural soils to contribute to climate mitigation at scale.",
+      "url": "https://arxiv.org/abs/2609.20404v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20404v1",
+      "source": "arxiv",
+      "source_id": "2609.20404v1",
+      "published_date": "2026-09-17",
+      "categories": [
+        "cs.LG",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Agricultural soils are a major untapped carbon sink. Carbon farming is emerging as a promising practice for tapping this potential."
+    },
+    {
+      "title": "Learning-Augmented Strategyproof Facility Location in $\\mathbb{R}^d$ with $\\ell_p$ Distances",
+      "authors": [
+        "Hau Chan",
+        "Jianan Lin",
+        "Chenhao Wang"
+      ],
+      "abstract": "We study learning-augmented mechanism design for locating a single facility in $\\mathbb{R}^d$ to minimize the sum of the agents' $\\ell_p$ distances to the facility. We analyze the coordinate-wise median with predictions (CMP) mechanism, which adds $cn$ virtual agents at a predicted optimal facility location to the $n$ reported locations and returns their coordinate-wise median. The parameter $c\\in[0,1)$ represents confidence in the prediction; CMP is known to be strategyproof when both are fixed independently of the reports. We determine its approximation guarantees under correct predictions (consistency) and arbitrary predictions (robustness) in two settings. First, for $d=2$, we establish exact guarantees for every $p\\in[1,+\\infty]$. For $1<p<+\\infty$, the consistency and robustness are respectively $\\Bigl(1+\\bigl(\\frac{1-c}{1+c}\\bigr)^{\\frac{p}{p-1}}\\Bigr)^{\\frac{p-1}{p}}$ and $\\Bigl(1+\\bigl(\\frac{1+c}{1-c}\\bigr)^{\\frac{p}{p-1}}\\Bigr)^{\\frac{p-1}{p}}$. We use the median condition in each coordinate to compare the mechanism's cost with the optimal cost, and establish tightness using instances with agents at only three distinct locations.   Second, for $1<p<+\\infty$, we obtain dimension-independent consistency and robustness upper bounds valid for every $d\\ge1$. For each fixed $p$ and $c$, we construct families of instances whose ratios approach the respective upper bounds as $d\\to\\infty$, proving asymptotic tightness. We also establish exact guarantees for $p=1$ in every dimension and asymptotically tight bounds for $p=+\\infty$. Our high-dimensional results recover the prediction-free bounds of Gravin and Jia (STOC 2025) when $c=0$ and their learning-augmented bounds in arbitrary-dimensional Euclidean spaces when $p=2$.",
+      "url": "https://arxiv.org/abs/2609.12829v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.12829v1",
+      "source": "arxiv",
+      "source_id": "2609.12829v1",
+      "published_date": "2026-09-11",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study learning-augmented mechanism design for locating a single facility in $\\mathbb{R}^d$ to minimize the sum of the agents' $\\ell_p$ distances to the facility. We analyze the coordinate-wise median with predictions (CMP) mechanism, which adds $cn$ virtual agents at a predicted optimal facili...."
+    },
+    {
+      "title": "Open Information: A Defining Perspective on Web Datasets for Carbon Pricing",
+      "authors": [
+        "Sidharth Mallik",
+        "Anastasios Megaritis",
+        "Waymond Rodgers"
+      ],
+      "abstract": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of public and private information. We demonstrate their existence and justify material significance for pricing. In this respect, we present statistical hypotheses to test for a web dataset, GDELT, integrated for carbon pricing, that is represented by EU Allowance spot prices. Tests are designed with VAR and GARCH-X formulations, and return forecasting. The outcomes cannot rule out the material existence of open information. The result is significant for providing a conceptual basis to integrate a vast number of web datasets as alternative data in investment decisions.",
+      "url": "https://arxiv.org/abs/2608.04929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04929v1",
+      "source": "arxiv",
+      "source_id": "2608.04929v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of publi...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements ar...."
+    },
+    {
+      "title": "Deepening the Secondary Market: Integrating Trade Credit into Market Clearing with the Cycles Protocol",
+      "authors": [
+        "Toma\u017e Fleischman",
+        "Ethan Buchman"
+      ],
+      "abstract": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing services on novation, which imposes institutional overhead that restricts accessibility and limits the range of obligations that can be brought into settlement.   This paper introduces the Cycles Protocol: a distributed, multilateral clearing mechanism based on double-entry accounting and atomic cycle execution that maximizes balance sheet compression. Unlike novation-based clearing, Cycles does not redistribute counterparty risk; it can thus be applied generally to existing financial networks, without any change in counterparty relations, allowing it to complement existing clearing systems and Central Counterparties (CCPs).   By representing commitments as edges on a unified directed graph, Cycles surfaces liquidity hiding within existing network structure. We focus here on two applications of Cycles to deepening secondary market liquidity: first, as a compression layer between existing clearing participants and CCPs; and second, as a means to incorporate the liquidity of the trade credit network into formal settlement, extending market clearing beyond financial obligations and into real-economy financing.",
+      "url": "https://arxiv.org/abs/2605.02436v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.02436v1",
+      "source": "arxiv",
+      "source_id": "2605.02436v1",
+      "published_date": "2026-05-04",
+      "categories": [
+        "q-fin.GN",
+        "q-fin.RM",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Current post-trade clearing systems rely almost exclusively on cash or cash-like collateral, leaving vast reserves of short-term liquidity embedded in trade credit outside formal settlement infrastructures. A key barrier to integrating this liquidity is the near-universal dependence of clearing s...."
+    }
+  ]
+}

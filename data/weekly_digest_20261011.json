@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-10-11T12:02:41.037158",
+  "period": "weekly",
+  "paper_count": 4,
+  "papers": [
+    {
+      "title": "Pricing Time, Not Just Tokens: Latency-Aware Mechanism Design for LLM Inference",
+      "authors": [
+        "Ian McDougall",
+        "Karthikeyan Sankaralingam"
+      ],
+      "abstract": "The economic theory of LLM pricing treats tokens as a homogeneous commodity considering aggregate token count as the main features buyers and sellers consider. We model inference as a service market where buyers have three-dimensional private information - willingness-to-pay, task volume, and time preference - and utility depends on latency slack alongside token quantities.   Our main result is a separation theorem: discrete hardware tiers induce endogenous self-selection on time preferences, reducing three-dimensional screening to standard one-dimensional screening within each tier. We derive the cost structure from GPU inference physics - compute-bound prefill and bandwidth-bound decode - and characterize optimal tiered mechanisms via virtual-value techniques. Optimal per-task prices are volume-independent, providing theoretical grounding for flat per-token API pricing.   We verify the mechanism empirically by calibrating to 8-GPU clusters of H100 and B200 hardware. The separation theorem holds in 83% of 105 tested configurations overall, rising to 96% at economically relevant WTP scales. A seller adopting two-tier pricing under the optimal mechanism captures 26-66% higher profit than the best single-tier alternative, with gains driven by efficient cross-tier allocation in regimes where hardware costs are a significant fraction of per-request value.",
+      "url": "https://arxiv.org/abs/2609.40098v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.40098v2",
+      "source": "arxiv",
+      "source_id": "2609.40098v2",
+      "published_date": "2026-09-30",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 17.77777777777778,
+      "summary": "The economic theory of LLM pricing treats tokens as a homogeneous commodity considering aggregate token count as the main features buyers and sellers consider. We model inference as a service market where buyers have three-dimensional private information - willingness-to-pay, task volume, and tim...."
+    },
+    {
+      "title": "Labour reallocation and production-network recomposition in the green transition",
+      "authors": [
+        "Marco Due\u00f1as",
+        "Antoine Mandel"
+      ],
+      "abstract": "A growing number of countries are adopting policies to reduce greenhouse-gas emissions, a process expected to reshape production systems and labour markets by altering relative prices and changing production and demand patterns across sectors. We develop an agent-based monetary input--output network model to analyse the medium-term effects of climate policies on production networks and sectoral labour allocation. The model features heterogeneous industries and households, incorporates greenhouse-gas emissions accounting, and is calibrated to a multi-regional input--output database covering the world economy. We simulate two alternative climate-policy scenarios over 2026--2035: one based on countries' nationally determined contributions and another targeting larger reductions in global emissions. The results reveal significant economy-wide reallocation: fossil-energy sectors contract, low-carbon energy sectors expand, and their positions within production networks change asymmetrically. Fossil energy loses relevance as a direct supplier and exerts less forward influence, while its remaining production becomes more dependent on intermediate inputs and upstream suppliers; low-carbon energy primarily strengthens its role as a supplier. Carbon pricing also generates sectoral labour gaps that, under mobility frictions, imply greater potential transitional unemployment. Because the model allows only limited technological change and adjustment within existing production links, the simulations provide a counterfactual assessment of how existing production structures respond to a relatively rapid climate transition, revealing the adjustment pressures that emerge when policy ambitions advance faster than the productive system's capacity to adapt.",
+      "url": "https://arxiv.org/abs/2610.04018v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.04018v1",
+      "source": "arxiv",
+      "source_id": "2610.04018v1",
+      "published_date": "2026-10-02",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "A growing number of countries are adopting policies to reduce greenhouse-gas emissions, a process expected to reshape production systems and labour markets by altering relative prices and changing production and demand patterns across sectors. We develop an agent-based monetary input--output netw...."
+    },
+    {
+      "title": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
+      "authors": [
+        "Yang Cai",
+        "Vineet Gupta",
+        "Yanchen Jiang",
+        "Christopher Liaw",
+        "Aranyak Mehta",
+        "Grigoris Velegkas",
+        "Di Wang"
+      ],
+      "abstract": "We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conjectures, overcoming subtle technical obstructions, and retaining intermediate progress over a long horizon. Cogentic addresses these challenges through an iterative prove-verify loop in which an orchestrator allocates a population of independent provers across distinct proof directions, subjects their output to adversarial verification by several specialized components, and promotes confirmed intermediate results into a persistent verified ledger that later rounds build on. The harness is designed to be able to solve research-level math and theoretical computer science problems. Using either Gemini 3.1 Pro or an early version of Gemini 4 Argon as the base model, Cogentic produced novel results on open problems across online learning, auction theory, and mechanism design. Each result was independently verified by domain experts and is developed in full in companion papers. We list these results, and new ones as they are verified, at https://sites.google.com/view/cogentic .",
+      "url": "https://arxiv.org/abs/2609.40324v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.40324v2",
+      "source": "arxiv",
+      "source_id": "2609.40324v2",
+      "published_date": "2026-09-30",
+      "categories": [
+        "cs.AI",
+        "cs.GT"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conj...."
+    },
+    {
+      "title": "A Framework for Integrating Climate Goals into Trade Agreements -- by Farid Farrokhi, Ahmad Lashkaripour, Homa Taheri",
+      "authors": [],
+      "abstract": "A critical tension in global governance is that trade agreements have evolved largely in isolation from climate policy. This paper shows that the two domains generate systematic cross-externalities: larger gains from trade are associated with greater climate externalities imposed on partners, while linking carbon taxes to trade agreements produces distributive externalities that undermine the balance of trade concessions. To address this tension, we present a framework to integrate harmonized carbon pricing into the WTO subject to institutional and political-feasibility constraints. We explore two linkage designs. The first is a centralized Climate Fund, where all members apply a common demand-side carbon tax and contribute a portion of the revenues to the fund, capped by fiscal constraints. The Fund then reallocates these contributions to balance the tax burden across countries, subject to informational constraints. Quantitative analysis shows that even a simple fund allocation rule can sustain a carbon price of $138 per ton of CO2, reducing global emissions by 54%. The main binding constraint is informational: knowing the precise incidence of the carbon tax across countries ex ante would raise the feasible price to $265. The second is a decentralized design without transfers. Each member meets a carbon tax revenue floor but retains full discretion over its mix of demand-side and supply-side taxes. Energy exporters choose supply-side taxes while energy importers opt for demand-side taxes. These choices organically balance the tax burden and yield a 47% reduction in global emissions, almost rivaling the centralized Climate Fund.",
+      "url": "https://www.nber.org/papers/w35834#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35834#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35834",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "A critical tension in global governance is that trade agreements have evolved largely in isolation from climate policy. This paper shows that the two domains generate systematic cross-externalities: larger gains from trade are associated with greater climate externalities imposed on partners, whi...."
+    }
+  ]
+}

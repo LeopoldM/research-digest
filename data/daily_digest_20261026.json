@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-10-26T09:58:23.910718",
+  "period": "daily",
+  "paper_count": 16,
+  "papers": [
+    {
+      "title": "Labour reallocation and production-network recomposition in the green transition",
+      "authors": [
+        "Marco Due\u00f1as",
+        "Antoine Mandel"
+      ],
+      "abstract": "A growing number of countries are adopting policies to reduce greenhouse-gas emissions, a process expected to reshape production systems and labour markets by altering relative prices and changing production and demand patterns across sectors. We develop an agent-based monetary input--output network model to analyse the medium-term effects of climate policies on production networks and sectoral labour allocation. The model features heterogeneous industries and households, incorporates greenhouse-gas emissions accounting, and is calibrated to a multi-regional input--output database covering the world economy. We simulate two alternative climate-policy scenarios over 2026--2035: one based on countries' nationally determined contributions and another targeting larger reductions in global emissions. The results reveal significant economy-wide reallocation: fossil-energy sectors contract, low-carbon energy sectors expand, and their positions within production networks change asymmetrically. Fossil energy loses relevance as a direct supplier and exerts less forward influence, while its remaining production becomes more dependent on intermediate inputs and upstream suppliers; low-carbon energy primarily strengthens its role as a supplier. Carbon pricing also generates sectoral labour gaps that, under mobility frictions, imply greater potential transitional unemployment. Because the model allows only limited technological change and adjustment within existing production links, the simulations provide a counterfactual assessment of how existing production structures respond to a relatively rapid climate transition, revealing the adjustment pressures that emerge when policy ambitions advance faster than the productive system's capacity to adapt.",
+      "url": "https://arxiv.org/abs/2610.04018v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.04018v1",
+      "source": "arxiv",
+      "source_id": "2610.04018v1",
+      "published_date": "2026-10-02",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "A growing number of countries are adopting policies to reduce greenhouse-gas emissions, a process expected to reshape production systems and labour markets by altering relative prices and changing production and demand patterns across sectors. We develop an agent-based monetary input--output netw...."
+    },
+    {
+      "title": "Matching Tasks to Agents: Mechanism Design for Multi-Agent Contracts",
+      "authors": [
+        "Matteo Bollini",
+        "Matteo Castiglioni",
+        "Alberto Marchesi"
+      ],
+      "abstract": "We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs. Based on the agents' reported types, the principal selects an agent to perform the task and offers a success-contingent payment. Although optimal Bayesian contract design is generally computationally intractable and Myerson's characterization does not directly extend to settings with hidden actions and multidimensional private information, we show that the single-task problem admits a simple Myerson-style characterization. Our key insight is that incentive constraints depend only on the ratio between effort cost and success probability. We characterize an optimal mechanism and show that it can be computed in polynomial time. We also establish a tight $\u0398(1/(NK))$ worst-case bound on the ratio between the optimal profit and the full-information benchmark, where $N$ is the number of agents and $K$ is the number of types per agent. We then extend our analysis to multiple tasks, showing that an optimal mechanism may not exist. Nevertheless, for a constant number of agents, we provide a polynomial-time approximation scheme for the supremum profit.",
+      "url": "https://arxiv.org/abs/2610.31002v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31002v1",
+      "source": "arxiv",
+      "source_id": "2610.31002v1",
+      "published_date": "2026-10-22",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs."
+    },
+    {
+      "title": "Climate Cooperation and Spatial Industrial Relocation: Stability, Emissions, and Regional Policy Incentives",
+      "authors": [
+        "Angela Martiradonna"
+      ],
+      "abstract": "Climate policy changes production costs and can reshape the geography of production. We study this spatial channel in a focused model where mobile industrial activity responds to local attractiveness, agglomeration strengthens attractiveness, and carbon policy lowers the profitability of emissions-intensive locations. The model yields an explicit carbon-policy threshold separating spatial instability from stability. When emissions intensity rises with local industrial density, spatial concentration raises aggregate emissions even with unchanged total industrial activity. Embedding these dynamics in a two-jurisdiction policy game creates a wedge between regional and collective incentives: each government values the industrial activity located within its own territory, while aggregate welfare internalizes the effect of policy on economy-wide concentration. With transferable utility, cooperation can select a policy on the stable side of the threshold while the non-cooperative policy lies on the unstable side. A numerical exercise illustrates this regime change. European regional evidence, based on industrial emissions and gross value added at NUTS2 level, documents a positive emissions-activity association and identifies the empirical quantities needed to measure relocation and concentration effects. The analysis links climate cooperation to the spatial organization of production and establishes a benchmark for policy-induced industrial relocation.",
+      "url": "https://arxiv.org/abs/2610.10939v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10939v1",
+      "source": "arxiv",
+      "source_id": "2610.10939v1",
+      "published_date": "2026-10-07",
+      "categories": [
+        "econ.TH",
+        "math.AP"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Climate policy changes production costs and can reshape the geography of production. We study this spatial channel in a focused model where mobile industrial activity responds to local attractiveness, agglomeration strengthens attractiveness, and carbon policy lowers the profitability of emission...."
+    },
+    {
+      "title": "Robustness in Mechanism Design",
+      "authors": [
+        "Jason Hartline"
+      ],
+      "abstract": "The article reviews the robust design and analysis of auctions, focusing on the predominant paradigm in the computer science literature, which quantifies robustness by the worst-case, over environments, ratio between the robust auction's performance and that of an optimal auction for the environment. Applications include robust analysis of canonical auctions such as the first-price auction for the welfare objective, prior-robust auction design for the revenue objective, and prior-robust design of exchange mechanisms for the gains-from-trade objective. Finally, the revelation principle is not without loss in robust mechanism design. The potential loss can be quantified by the revelation gap, the fraction of the optimal robust guarantee that is lost when restricting from all mechanisms to revelation mechanisms.",
+      "url": "https://arxiv.org/abs/2610.01805v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.01805v2",
+      "source": "arxiv",
+      "source_id": "2610.01805v2",
+      "published_date": "2026-10-01",
+      "categories": [
+        "econ.TH",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The article reviews the robust design and analysis of auctions, focusing on the predominant paradigm in the computer science literature, which quantifies robustness by the worst-case, over environments, ratio between the robust auction's performance and that of an optimal auction for the environm...."
+    },
+    {
+      "title": "Climate-Driven Supply-Demand Matching Reshapes Global SolarEV Decarbonization Potential",
+      "authors": [
+        "Yuchen Liu",
+        "Stefan Pfenninger-Lee",
+        "Tosiyuki Nakaegawa",
+        "Takuro Kobashi"
+      ],
+      "abstract": "Rooftop photovoltaics (PV) can support rapid urban decarbonization, but their contribution is constrained by the imbalance between PV generation and demand, both shaped by local climate. Growing urban electric-vehicle (EV) deployment creates distributed storage near rooftop PV, shifting PV electricity across time. Here we simulate rooftop PV integrated with EVs as batteries across 5,000 grid cells globally, using hourly meteorology and climate-induced demand. We find that PV-EV systems can supply up to 84% of annual building and mobility electricity demand. Self-sufficiency is highest where daytime demand aligns with generation and seasonal variability remains limited. Using PV capacity factor alone to screen PV-EV potential undervalues 21.9% of the world's 1,000 most populous cities because generation-side metrics overlook the temporal coupling of PV generation, electricity demand and EV storage. Substantial PV-EV potential is concentrated in many low-latitude cities, offering a pathway to cleaner urban energy systems while accelerating progress towards carbon neutrality.",
+      "url": "https://arxiv.org/abs/2610.29344v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29344v1",
+      "source": "arxiv",
+      "source_id": "2610.29344v1",
+      "published_date": "2026-10-21",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Rooftop photovoltaics (PV) can support rapid urban decarbonization, but their contribution is constrained by the imbalance between PV generation and demand, both shaped by local climate. Growing urban electric-vehicle (EV) deployment creates distributed storage near rooftop PV, shifting PV electr...."
+    },
+    {
+      "title": "The missing price feedback: Why studies overstate local grid peaks from synchronized home batteries under real-time pricing",
+      "authors": [
+        "Lion Hirth"
+      ],
+      "abstract": "Existing studies consistently find that home batteries optimized against real-time electricity prices create new load peaks in local distribution grids. This is because all assets respond to the same price signal in sync. However, most of these studies treat wholesale prices as exogenous, i.e., unaffected by that very response. This paper argues that treating prices as non-responsive biases the result: in reality, charging in low-price hours raises the wholesale price, which dampens the incentive to charge. In equilibrium, charging is spread out across hours. I test this by simulating households with rooftop solar and home batteries under a spot-based retail tariff, using a model of equilibrium wholesale prices calibrated to German data for 2025. With exogenous prices, my results confirm the finding from the previous literature: synchronous charging pushes the coincident import peak of the local grid to 83% above its no-battery level. With endogenous prices, the same fleet leaves the peak 6% below the no-battery benchmark. In other words, treating prices as endogenous reduces the coincident peak at high battery penetration nearly by half. This finding is robust across alternative price functions and exogenous price paths, different measures of the coincident peak, 20 scenario variations, and three historical years. I conclude that while new local peaks remain possible, particularly in grids where battery deployment runs ahead of the national average, the risk and magnitude are considerably smaller than the existing literature suggests.",
+      "url": "https://arxiv.org/abs/2609.35111v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.35111v2",
+      "source": "arxiv",
+      "source_id": "2609.35111v2",
+      "published_date": "2026-09-28",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Existing studies consistently find that home batteries optimized against real-time electricity prices create new load peaks in local distribution grids. This is because all assets respond to the same price signal in sync."
+    },
+    {
+      "title": "Uniform-Price Mechanism Design for Automated Market Makers",
+      "authors": [
+        "Zhike Peng"
+      ],
+      "abstract": "Automated market makers (AMMs) are central to decentralized exchanges, but their reserve curves make mechanism design different from classical double auctions. We study a batch double auction with buyers, sellers, and a liquidity-nondecreasing AMM: post-trade reserves must have weakly larger product than the initial reserves. Each user has two-dimensional private information: a unit value and a demand or supply quantity. User trades clear at one uniform price subject to AMM feasibility. The objective is user-side trading volume, benchmarked against the optimal feasible individually rational (IR) uniform-price allocation. We give a randomized uniform-price mechanism based on binary quantity buckets. It randomly chooses one of three clearing modes: peer-to-peer matching, AMM sales to buyers, and seller sales to the AMM. Every deterministic realization of the mechanism is ex-post feasible and satisfies IR and weak quantity incentive compatibility: conditional on any quantity report, truthful unit-value reporting is dominant whenever it gives a non-negative utility, no unit-value deviation gives a positive utility if the truthful one doesn't, and users cannot benefit by under-reporting the quantity together with their truthful unit value. Let $V^\\ast$ be the optimal feasible IR uniform-price volume without incentive constraints, and let $\u03b3=\\bar q/\\underline q$, where $\\bar q$ and $\\underline q$ are the quantity-domain bounds. For $\u03b3\\ge1$, the mechanism achieves an expected trading volume of $ \u03a9(1/(1+\\log\u03b3)^2)V^\\ast - O(\\bar q). $ We also show that full incentive compatibility over the two-dimensional type space forces a worst-case approximation ratio of $O(1/\u03b3)$ at every prescribed initial reserve ratio, even when both AMM reserves are scaled by an arbitrarily large common factor and the optimal volume $V^\\ast$ is arbitrarily large relative to $\\bar q$.",
+      "url": "https://arxiv.org/abs/2610.23547v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23547v1",
+      "source": "arxiv",
+      "source_id": "2610.23547v1",
+      "published_date": "2026-10-16",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Automated market makers (AMMs) are central to decentralized exchanges, but their reserve curves make mechanism design different from classical double auctions. We study a batch double auction with buyers, sellers, and a liquidity-nondecreasing AMM: post-trade reserves must have weakly larger prod...."
+    },
+    {
+      "title": "Bayesian Learning of Parametric Mean Field Games with Common Noise",
+      "authors": [
+        "Gr\u00e9goire Lambrecht",
+        "Mathieu Lauri\u00e8re"
+      ],
+      "abstract": "We study the inverse problem of recovering unknown parameters governing the dynamics and rewards of Mean Field Games (MFGs) from partial observations of population trajectories, made stochastic by common noise. The observer seeks to recover a consistent parameter $\u03b8$ via Bayesian inference, facing the challenge that evaluating the likelihood requires solving a new Nash equilibrium (NE) for each candidate $\u03b8$. Due to common noise, the mean-field evolution is stochastic and equilibrium policies are population dependent, which makes solving for each parameter computationally expensive. To overcome this, we introduce the Bayesian-Extended Mean Field Game (BE-MFG), whose single NE simultaneously encodes equilibrium policies for all parameters, enabling efficient learning of the conditional density of mean-field trajectories. We formalize parameter consistency and identifiability in MFGs with common noise and investigate conditions under which consistent parameter recovery is guaranteed. On three synthetic environments of various complexity, we recover the ground-truth parameter accurately from a small number of partial, stochastic observations, outperforming an adaptation of inverse reinforcement learning for MFGs. A fourth experiment, on public electricity market data, suggests that the approach can also be applied to real-world data.",
+      "url": "https://arxiv.org/abs/2610.23387v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23387v1",
+      "source": "arxiv",
+      "source_id": "2610.23387v1",
+      "published_date": "2026-10-16",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study the inverse problem of recovering unknown parameters governing the dynamics and rewards of Mean Field Games (MFGs) from partial observations of population trajectories, made stochastic by common noise. The observer seeks to recover a consistent parameter $\u03b8$ via Bayesian inference, facin...."
+    },
+    {
+      "title": "Optimally Curating an Event",
+      "authors": [
+        "MohammadTaghi Hajiaghayi",
+        "Sebastien Lahaie",
+        "Mohammad Mahdavi",
+        "Suho Shin"
+      ],
+      "abstract": "We study the optimal design of a self-financing event, a problem that requires balancing the recruitment of costly, positive-value participants with revenue-generating agents who may impose negative values on the event. We introduce a novel two-sided mechanism design framework with plus agents equipped with private costs and positive impact, and minus agents with private values and negative impact upon inclusion in the event, to maximize the overall quality of the event under a budget-balanced (BB) constraint so that the designer does not run a deficit.   We conduct a comprehensive study on the theory of optimal event curation on various utility functions. For additive utility, we fully characterize the optimal incentive-compatible Bayesian mechanism under both the ex-ante and ex-post BB constraints. For submodular utility, we propose an ex-ante BB mechanism that achieves a constant-factor approximation to the optimal Bayesian mechanism.",
+      "url": "https://arxiv.org/abs/2610.22798v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22798v1",
+      "source": "arxiv",
+      "source_id": "2610.22798v1",
+      "published_date": "2026-10-16",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study the optimal design of a self-financing event, a problem that requires balancing the recruitment of costly, positive-value participants with revenue-generating agents who may impose negative values on the event. We introduce a novel two-sided mechanism design framework with plus agents eq...."
+    },
+    {
+      "title": "Truthful and Expected-Payment-Optimal Model Routing in Graph-Based Agentic Workflows",
+      "authors": [
+        "Jiayuan Liu",
+        "Mingyu Guo",
+        "Jiarui Gan",
+        "Vincent Conitzer"
+      ],
+      "abstract": "Assigning routine tasks to cheaper large language model (LLM) providers can reduce generation cost, but switching providers may require processing accumulated context again. Keeping dependent tasks with the same provider can instead reuse eligible context. Graph-based workflows therefore couple routing decisions across tasks. Independent providers may also privately know their real-time unit costs and strategically misreport them. We formulate this routing problem as a single-parameter procurement auction and propose STAR (Strategy-proof Topology-aware Agent Routing), which minimizes virtual-cost-weighted graph workloads. Its allocation rule and payments, computed by integrating workload over possible cost reports, make truthful reporting utility-maximizing regardless of other providers' reports and cover each truthful provider's execution cost. With independent cost distributions and non-decreasing virtual costs, STAR additionally minimizes the user's expected total payment to providers. Controlled synthetic experiments separate the execution-cost benefit of topology awareness from the payment benefit of virtual-cost optimization: the former grows with fan-out and transferred payload, while the latter increases gradually along the tested prior-shape heterogeneity path. A paired sensitivity study quantifies how payment savings vary with prior misspecification while strategy-proofness is preserved.",
+      "url": "https://arxiv.org/abs/2610.19316v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19316v1",
+      "source": "arxiv",
+      "source_id": "2610.19316v1",
+      "published_date": "2026-10-13",
+      "categories": [
+        "cs.GT",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Assigning routine tasks to cheaper large language model (LLM) providers can reduce generation cost, but switching providers may require processing accumulated context again. Keeping dependent tasks with the same provider can instead reuse eligible context."
+    },
+    {
+      "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
+      "authors": [
+        "Walter Kurz",
+        "Wojtek Stricker"
+      ],
+      "abstract": "European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported trading that is aligned with market-coupling mechanics, cross-zonal transfer constraints, and compliance obligations under REMIT, MiFID II, MiFIR, and EMIR. The contribution is a formal system specification composed of a decision-state vector, residual-exposure accounting, constrained optimization objective, executable-action permission gate, and fail-closed AI control logic with auditable records. The analysis maps major Nominated Electricity Market Operator (NEMO) venues and related exchange operators into an operational venue topology and identifies where cross-border coordination fails in practice: interface-level timing, permission heterogeneity, and balancing-layer coupling. The resulting framework proposes how AI can be deployed as a bounded decision component inside regulated market operation with explicit governance, rather than as an unconstrained prediction layer.",
+      "url": "https://arxiv.org/abs/2609.29108v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.29108v2",
+      "source": "arxiv",
+      "source_id": "2609.29108v2",
+      "published_date": "2026-09-24",
+      "categories": [
+        "cs.AI",
+        "eess.SY",
+        "q-fin.GN",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported ...."
+    },
+    {
+      "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
+      "authors": [
+        "Walter Kurz"
+      ],
+      "abstract": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation under uncertainty, Nash equilibrium to model strategic interactions between decision agents, and Principal-Agent theory to address incentive alignment under information asymmetry. The insurer is modelled as a constrained optimisation entity operating under solvency, legal, ESG, and operational boundaries, with specific focus on the regulatory contexts of Austria and Germany. The architecture decomposes the firm into multiple specialised agents, each representing distinct functional domains such as capital management, underwriting, claims processing, compliance, fraud detection, and client interaction. Human-in-the-loop agents are integrated through a tiered access control system, ensuring differentiated data visibility and decision influence based on user roles. An orchestrator agent supervises inter-agent coordination, enforcing regulatory admissibility and institutional coherence under frameworks such as Solvency II, the AI Act, and the Insurance Distribution Directive. Protocol integration is based on asynchronous execution and dual-layer communication infrastructures, specifically the Model Context Protocol (MCP) and Agent-to-Agent (A2A) messaging. This structure enables the systematic design of compliant, auditable multi-agent systems aligned with the institutional logic of financial firms in Austria and Germany.",
+      "url": "https://arxiv.org/abs/2609.27636v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.27636v2",
+      "source": "arxiv",
+      "source_id": "2609.27636v2",
+      "published_date": "2026-09-23",
+      "categories": [
+        "q-fin.GN",
+        "cs.MA",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation und...."
+    },
+    {
+      "title": "Open Information: A Defining Perspective on Web Datasets for Carbon Pricing",
+      "authors": [
+        "Sidharth Mallik",
+        "Anastasios Megaritis",
+        "Waymond Rodgers"
+      ],
+      "abstract": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of public and private information. We demonstrate their existence and justify material significance for pricing. In this respect, we present statistical hypotheses to test for a web dataset, GDELT, integrated for carbon pricing, that is represented by EU Allowance spot prices. Tests are designed with VAR and GARCH-X formulations, and return forecasting. The outcomes cannot rule out the material existence of open information. The result is significant for providing a conceptual basis to integrate a vast number of web datasets as alternative data in investment decisions.",
+      "url": "https://arxiv.org/abs/2608.04929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04929v1",
+      "source": "arxiv",
+      "source_id": "2608.04929v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of publi...."
+    },
+    {
+      "title": "Trading Frictions in Dynamic Cap-and-Trade Markets",
+      "authors": [
+        "Nicola Borri",
+        "Yukun Liu",
+        "Aleh Tsyvinski",
+        "Xi Wu"
+      ],
+      "abstract": "Using 2.8 million EU ETS transactions and compliance records, 2005-2022, we document three facts about the world's largest carbon market: each year, 37% of regulated operators do not trade, and non-trading is persistent. Purchases concentrate in the April surrender month, when returns are systematically high. Operator order flow predicts returns, concentrated among frequent traders. A model with costly market access, limited intermediation, and heterogeneous information rationalizes all three. Because access is endogenous, the frictions interact non-additively, shaping how efficiently the market corrects the externality. Staggering deadlines across four groups lowers the surrender-month premium by 58% without changing the cap.",
+      "url": "https://arxiv.org/abs/2606.03767v3",
+      "pdf_url": "https://arxiv.org/pdf/2606.03767v3",
+      "source": "arxiv",
+      "source_id": "2606.03767v3",
+      "published_date": "2026-06-02",
+      "categories": [
+        "econ.TH",
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Using 2.8 million EU ETS transactions and compliance records, 2005-2022, we document three facts about the world's largest carbon market: each year, 37% of regulated operators do not trade, and non-trading is persistent. Purchases concentrate in the April surrender month, when returns are systema...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements ar...."
+    },
+    {
+      "title": "Homework in Climate Economics: Household Production, Environmental Preferences, and Climate Policy -- by Stephie Fried, David Lagakos, Hannah Rhodenhiser",
+      "authors": [],
+      "abstract": "Household energy use accounts for approximately one third of U.S. emissions. Guided by a new survey, we develop a quantitative model in which households differ in income and their desire to reduce their emissions. Our analysis of cost-minimizing subsidies for clean equipment, such as electric vehicles and heat pumps, and residential solar yields three insights. First, solar receives the highest subsidy rate and accounts for over one third of abatement, reflecting its complementarities with clean equipment. Second, restricting subsidy eligibility to lower-income households generates only small cost savings. Third, without environmental preferences, household emissions would be over 15 percent higher.",
+      "url": "https://www.nber.org/papers/w35945#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35945#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35945",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    }
+  ]
+}

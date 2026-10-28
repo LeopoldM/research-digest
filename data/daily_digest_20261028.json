@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-10-28T10:28:54.606306",
+  "period": "daily",
+  "paper_count": 14,
+  "papers": [
+    {
+      "title": "Labour reallocation and production-network recomposition in the green transition",
+      "authors": [
+        "Marco Due\u00f1as",
+        "Antoine Mandel"
+      ],
+      "abstract": "A growing number of countries are adopting policies to reduce greenhouse-gas emissions, a process expected to reshape production systems and labour markets by altering relative prices and changing production and demand patterns across sectors. We develop an agent-based monetary input--output network model to analyse the medium-term effects of climate policies on production networks and sectoral labour allocation. The model features heterogeneous industries and households, incorporates greenhouse-gas emissions accounting, and is calibrated to a multi-regional input--output database covering the world economy. We simulate two alternative climate-policy scenarios over 2026--2035: one based on countries' nationally determined contributions and another targeting larger reductions in global emissions. The results reveal significant economy-wide reallocation: fossil-energy sectors contract, low-carbon energy sectors expand, and their positions within production networks change asymmetrically. Fossil energy loses relevance as a direct supplier and exerts less forward influence, while its remaining production becomes more dependent on intermediate inputs and upstream suppliers; low-carbon energy primarily strengthens its role as a supplier. Carbon pricing also generates sectoral labour gaps that, under mobility frictions, imply greater potential transitional unemployment. Because the model allows only limited technological change and adjustment within existing production links, the simulations provide a counterfactual assessment of how existing production structures respond to a relatively rapid climate transition, revealing the adjustment pressures that emerge when policy ambitions advance faster than the productive system's capacity to adapt.",
+      "url": "https://arxiv.org/abs/2610.04018v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.04018v1",
+      "source": "arxiv",
+      "source_id": "2610.04018v1",
+      "published_date": "2026-10-02",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "A growing number of countries are adopting policies to reduce greenhouse-gas emissions, a process expected to reshape production systems and labour markets by altering relative prices and changing production and demand patterns across sectors. We develop an agent-based monetary input--output netw...."
+    },
+    {
+      "title": "Matching Tasks to Agents: Mechanism Design for Multi-Agent Contracts",
+      "authors": [
+        "Matteo Bollini",
+        "Matteo Castiglioni",
+        "Alberto Marchesi"
+      ],
+      "abstract": "We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs. Based on the agents' reported types, the principal selects an agent to perform the task and offers a success-contingent payment. Although optimal Bayesian contract design is generally computationally intractable and Myerson's characterization does not directly extend to settings with hidden actions and multidimensional private information, we show that the single-task problem admits a simple Myerson-style characterization. Our key insight is that incentive constraints depend only on the ratio between effort cost and success probability. We characterize an optimal mechanism and show that it can be computed in polynomial time. We also establish a tight $\u0398(1/(NK))$ worst-case bound on the ratio between the optimal profit and the full-information benchmark, where $N$ is the number of agents and $K$ is the number of types per agent. We then extend our analysis to multiple tasks, showing that an optimal mechanism may not exist. Nevertheless, for a constant number of agents, we provide a polynomial-time approximation scheme for the supremum profit.",
+      "url": "https://arxiv.org/abs/2610.31002v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31002v1",
+      "source": "arxiv",
+      "source_id": "2610.31002v1",
+      "published_date": "2026-10-22",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs."
+    },
+    {
+      "title": "The fiscal limits of efficient trade",
+      "authors": [
+        "Toan Le",
+        "Saara H\u00e4m\u00e4l\u00e4inen",
+        "C\u00e9sar Barilla"
+      ],
+      "abstract": "Sustaining efficient trade under private information requires external subsidies. Although a designer cannot avoid deficits on average, they can control exposure. We characterize efficient and truthful mechanisms that minimize the worst-case deficit in markets with many buyers and sellers, under interim participation. This problem is dual to maximizing expected trade surplus under correlation ambiguity, with constraints on submarkets with one agent removed. In bilateral trade, the best deficit ceiling is the competitive surplus in a benchmark continuum market, achieved by a \"competitive pivot mechanism\". In larger markets, optimal mechanisms are characterized in terms of worst-case residual welfare contributions, but solutions exhibit a complex combinatorial structure. We obtain explicit guarantees under natural participation charge restrictions and establish how the best deficit excess decays as market thickens. Our duality characterization is general and extends to many mechanism design environments (public goods, partnership dissolution), and alternative participation constraints.",
+      "url": "https://arxiv.org/abs/2610.34460v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.34460v1",
+      "source": "arxiv",
+      "source_id": "2610.34460v1",
+      "published_date": "2026-10-25",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Sustaining efficient trade under private information requires external subsidies. Although a designer cannot avoid deficits on average, they can control exposure."
+    },
+    {
+      "title": "A Stationary Mean-Field Model for Carbon Market Stability Reserve",
+      "authors": [
+        "Ren\u00e9 A\u00efd",
+        "Federico Cannerozzi",
+        "Giorgio Ferrari"
+      ],
+      "abstract": "We formulate the design of a market stability reserve as a stationary mean-field singular control problem. The allowance balance follows a regime-switching diffusion, while the regulator injects or withdraws allowances through bounded-variation controls. The objective trades off the average allowance balance, its stationary dispersion, deviations from a long-run target, and intervention costs. The optimal policy is a regime-dependent band rule characterized by four reflecting thresholds. Its computation reduces to a scalar fixed-point problem combining a coupled variational inequality with the invariant distribution of the reflected process. A calibration to the EU ETS yields thresholds of the same order of magnitude as the existing Market Stability Reserve rule. Comparative statics show that volatility is the main determinant of the intervention band, whereas the frequency and duration of crisis regimes have limited effects. A simpler two-threshold policy based on average regime dynamics closely reproduces the optimal regime-dependent policy in terms of liquidity and intervention volumes.",
+      "url": "https://arxiv.org/abs/2610.33132v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.33132v1",
+      "source": "arxiv",
+      "source_id": "2610.33132v1",
+      "published_date": "2026-10-23",
+      "categories": [
+        "econ.TH",
+        "econ.GN",
+        "math.OC",
+        "q-fin.MF"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We formulate the design of a market stability reserve as a stationary mean-field singular control problem. The allowance balance follows a regime-switching diffusion, while the regulator injects or withdraws allowances through bounded-variation controls."
+    },
+    {
+      "title": "Climate Cooperation and Spatial Industrial Relocation: Stability, Emissions, and Regional Policy Incentives",
+      "authors": [
+        "Angela Martiradonna"
+      ],
+      "abstract": "Climate policy changes production costs and can reshape the geography of production. We study this spatial channel in a focused model where mobile industrial activity responds to local attractiveness, agglomeration strengthens attractiveness, and carbon policy lowers the profitability of emissions-intensive locations. The model yields an explicit carbon-policy threshold separating spatial instability from stability. When emissions intensity rises with local industrial density, spatial concentration raises aggregate emissions even with unchanged total industrial activity. Embedding these dynamics in a two-jurisdiction policy game creates a wedge between regional and collective incentives: each government values the industrial activity located within its own territory, while aggregate welfare internalizes the effect of policy on economy-wide concentration. With transferable utility, cooperation can select a policy on the stable side of the threshold while the non-cooperative policy lies on the unstable side. A numerical exercise illustrates this regime change. European regional evidence, based on industrial emissions and gross value added at NUTS2 level, documents a positive emissions-activity association and identifies the empirical quantities needed to measure relocation and concentration effects. The analysis links climate cooperation to the spatial organization of production and establishes a benchmark for policy-induced industrial relocation.",
+      "url": "https://arxiv.org/abs/2610.10939v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10939v1",
+      "source": "arxiv",
+      "source_id": "2610.10939v1",
+      "published_date": "2026-10-07",
+      "categories": [
+        "econ.TH",
+        "math.AP"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Climate policy changes production costs and can reshape the geography of production. We study this spatial channel in a focused model where mobile industrial activity responds to local attractiveness, agglomeration strengthens attractiveness, and carbon policy lowers the profitability of emission...."
+    },
+    {
+      "title": "Hosting is not capturing: an exposure-capability framework and Hungary's electric-vehicle battery bet",
+      "authors": [
+        "Zoltan Bartha"
+      ],
+      "abstract": "How should a dependent economy respond when a polycrisis turns economic integration from a source of efficiency into a surface of vulnerability? This paper develops the exposure-capability framework, which maps a country's strategic options along two dimensions - the concentration of its external dependence and the depth of its productive capability - and yields four ideal strategies. It applies the framework to Hungary's large-scale bet on electric-vehicle battery manufacturing, asking what the concentrated exposure purchased: movement toward a higher position in the battery value chain, as a catch-up gamble, or the reproduction of the country's existing position under a new product, as dependent entrenchment. Using a firm-level panel of Hungary's largest companies for 2010-2024, it tests four hypotheses and examines the conditions attached to the support that financed the investments. The sector has expanded enormously, but its value capture neither rises beyond the recovery from construction losses nor shifts up the chain: production remains concentrated in the lowest-value stage, matures only to the level of comparably young foreign-owned firms, and does not cover its own costs. The support that financed it required investment volume, revenue and employment retention; capability-relevant criteria entered the decree as considerations rather than conditions, and a capability-contingent instrument within the same scheme went unused. On the evidence to 2024 the bet is a lateral substitution at constant quality, in which battery-cell fabrication replaces automotive assembly at the same dependent position. Hosting the green transition's supply chain, the case shows, is not the same as capturing its value.",
+      "url": "https://arxiv.org/abs/2610.37445v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37445v1",
+      "source": "arxiv",
+      "source_id": "2610.37445v1",
+      "published_date": "2026-10-27",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "How should a dependent economy respond when a polycrisis turns economic integration from a source of efficiency into a surface of vulnerability? This paper develops the exposure-capability framework, which maps a country's strategic options along two dimensions - the concentration of its external...."
+    },
+    {
+      "title": "Climate-Driven Supply-Demand Matching Reshapes Global SolarEV Decarbonization Potential",
+      "authors": [
+        "Yuchen Liu",
+        "Stefan Pfenninger-Lee",
+        "Tosiyuki Nakaegawa",
+        "Takuro Kobashi"
+      ],
+      "abstract": "Rooftop photovoltaics (PV) can support rapid urban decarbonization, but their contribution is constrained by the imbalance between PV generation and demand, both shaped by local climate. Growing urban electric-vehicle (EV) deployment creates distributed storage near rooftop PV, shifting PV electricity across time. Here we simulate rooftop PV integrated with EVs as batteries across 5,000 grid cells globally, using hourly meteorology and climate-induced demand. We find that PV-EV systems can supply up to 84% of annual building and mobility electricity demand. Self-sufficiency is highest where daytime demand aligns with generation and seasonal variability remains limited. Using PV capacity factor alone to screen PV-EV potential undervalues 21.9% of the world's 1,000 most populous cities because generation-side metrics overlook the temporal coupling of PV generation, electricity demand and EV storage. Substantial PV-EV potential is concentrated in many low-latitude cities, offering a pathway to cleaner urban energy systems while accelerating progress towards carbon neutrality.",
+      "url": "https://arxiv.org/abs/2610.29344v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29344v1",
+      "source": "arxiv",
+      "source_id": "2610.29344v1",
+      "published_date": "2026-10-21",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Rooftop photovoltaics (PV) can support rapid urban decarbonization, but their contribution is constrained by the imbalance between PV generation and demand, both shaped by local climate. Growing urban electric-vehicle (EV) deployment creates distributed storage near rooftop PV, shifting PV electr...."
+    },
+    {
+      "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
+      "authors": [
+        "Walter Kurz",
+        "Wojtek Stricker"
+      ],
+      "abstract": "European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported trading that is aligned with market-coupling mechanics, cross-zonal transfer constraints, and compliance obligations under REMIT, MiFID II, MiFIR, and EMIR. The contribution is a formal system specification composed of a decision-state vector, residual-exposure accounting, constrained optimization objective, executable-action permission gate, and fail-closed AI control logic with auditable records. The analysis maps major Nominated Electricity Market Operator (NEMO) venues and related exchange operators into an operational venue topology and identifies where cross-border coordination fails in practice: interface-level timing, permission heterogeneity, and balancing-layer coupling. The resulting framework proposes how AI can be deployed as a bounded decision component inside regulated market operation with explicit governance, rather than as an unconstrained prediction layer.",
+      "url": "https://arxiv.org/abs/2609.29108v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.29108v2",
+      "source": "arxiv",
+      "source_id": "2609.29108v2",
+      "published_date": "2026-09-24",
+      "categories": [
+        "cs.AI",
+        "eess.SY",
+        "q-fin.GN",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported ...."
+    },
+    {
+      "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
+      "authors": [
+        "Walter Kurz"
+      ],
+      "abstract": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation under uncertainty, Nash equilibrium to model strategic interactions between decision agents, and Principal-Agent theory to address incentive alignment under information asymmetry. The insurer is modelled as a constrained optimisation entity operating under solvency, legal, ESG, and operational boundaries, with specific focus on the regulatory contexts of Austria and Germany. The architecture decomposes the firm into multiple specialised agents, each representing distinct functional domains such as capital management, underwriting, claims processing, compliance, fraud detection, and client interaction. Human-in-the-loop agents are integrated through a tiered access control system, ensuring differentiated data visibility and decision influence based on user roles. An orchestrator agent supervises inter-agent coordination, enforcing regulatory admissibility and institutional coherence under frameworks such as Solvency II, the AI Act, and the Insurance Distribution Directive. Protocol integration is based on asynchronous execution and dual-layer communication infrastructures, specifically the Model Context Protocol (MCP) and Agent-to-Agent (A2A) messaging. This structure enables the systematic design of compliant, auditable multi-agent systems aligned with the institutional logic of financial firms in Austria and Germany.",
+      "url": "https://arxiv.org/abs/2609.27636v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.27636v2",
+      "source": "arxiv",
+      "source_id": "2609.27636v2",
+      "published_date": "2026-09-23",
+      "categories": [
+        "q-fin.GN",
+        "cs.MA",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation und...."
+    },
+    {
+      "title": "Open Information: A Defining Perspective on Web Datasets for Carbon Pricing",
+      "authors": [
+        "Sidharth Mallik",
+        "Anastasios Megaritis",
+        "Waymond Rodgers"
+      ],
+      "abstract": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of public and private information. We demonstrate their existence and justify material significance for pricing. In this respect, we present statistical hypotheses to test for a web dataset, GDELT, integrated for carbon pricing, that is represented by EU Allowance spot prices. Tests are designed with VAR and GARCH-X formulations, and return forecasting. The outcomes cannot rule out the material existence of open information. The result is significant for providing a conceptual basis to integrate a vast number of web datasets as alternative data in investment decisions.",
+      "url": "https://arxiv.org/abs/2608.04929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04929v1",
+      "source": "arxiv",
+      "source_id": "2608.04929v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of publi...."
+    },
+    {
+      "title": "Trading Frictions in Dynamic Cap-and-Trade Markets",
+      "authors": [
+        "Nicola Borri",
+        "Yukun Liu",
+        "Aleh Tsyvinski",
+        "Xi Wu"
+      ],
+      "abstract": "Using 2.8 million EU ETS transactions and compliance records, 2005-2022, we document three facts about the world's largest carbon market: each year, 37% of regulated operators do not trade, and non-trading is persistent. Purchases concentrate in the April surrender month, when returns are systematically high. Operator order flow predicts returns, concentrated among frequent traders. A model with costly market access, limited intermediation, and heterogeneous information rationalizes all three. Because access is endogenous, the frictions interact non-additively, shaping how efficiently the market corrects the externality. Staggering deadlines across four groups lowers the surrender-month premium by 58% without changing the cap.",
+      "url": "https://arxiv.org/abs/2606.03767v3",
+      "pdf_url": "https://arxiv.org/pdf/2606.03767v3",
+      "source": "arxiv",
+      "source_id": "2606.03767v3",
+      "published_date": "2026-06-02",
+      "categories": [
+        "econ.TH",
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Using 2.8 million EU ETS transactions and compliance records, 2005-2022, we document three facts about the world's largest carbon market: each year, 37% of regulated operators do not trade, and non-trading is persistent. Purchases concentrate in the April surrender month, when returns are systema...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements ar...."
+    },
+    {
+      "title": "Governing Just Transitions through policy coherence: Challenges and opportunities on the path towards climate-neutral, sustainable futures",
+      "authors": [
+        "Alexia Faus Onbargi",
+        "Global Sustainability Governance",
+        "Faculteit Geowetenschappen",
+        "Frank Biermann",
+        "Ines Dombrowsky",
+        "Marjanneke Vijge",
+        "Sander Chan"
+      ],
+      "abstract": "Just Transitions have emerged as a central pillar of global climate policy, particularly following their formal inclusion in the Paris Agreement in 2015. Their rapid adoption at both national and international levels is notable given persistent shortcomings in global climate and sustainable development governance. However, Just Transition initiatives remain fragmented, conceptually contested, and predominantly focused on energy, and their governance has received comparatively little academic attention. At the same time, policy coherence, a governance principle concerned with maximising synergies and minimising trade-offs and extensively studied in the context of the 2030 Agenda, is widely invoked in policy discourse as essential for Just Transitions, yet its role in Just Transition governance has received little systematic attention in the literature. This dissertation therefore asks: to what extent can policy coherence enable the governance of Just Transitions, and under which conditions? Just Transitions here are understood as transitions that advance climate-neutral, sustainable futures in ways that are substantively just, with substantive justice defined as the expansion of opportunity freedoms, the reduction of inequalities across all dimensions, and the fulfilment of the 2030 Agenda\u2019s promise to \u2018leave no one behind.\u2019 Part I (Chapters 2\u20133) examines the relationships between policy coherence, Just Transition, goal attainment, and inequality reduction. Drawing on survey data from 131 COP28 delegates (Chapter 2) and empirical analysis of 40 sustainable development policy processes across multiple countries (Chapter 3), the findings indicate that policy coherence is widely perceived as integral to Just Transitions and is strongly associated with multidimensional, cross-sectoral approaches that extend beyond energy. Empirical analysis further shows that higher coherence is linked to greater policy effectiveness in achieving multiple objectives. However, coherence a",
+      "url": "https://openalex.org/W7221730873",
+      "pdf_url": null,
+      "source": "openalex",
+      "source_id": "W7221730873",
+      "published_date": "2026-10-27",
+      "categories": [
+        "Journal: Utrecht University Repository (Utrecht University)",
+        "Corporate governance",
+        "Context (archaeology)",
+        "Futures contract",
+        "Political science",
+        "Sustainable development"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Just Transitions have emerged as a central pillar of global climate policy, particularly following their formal inclusion in the Paris Agreement in 2015. Their rapid adoption at both national and international levels is notable given persistent shortcomings in global climate and sustainable devel...."
+    },
+    {
+      "title": "Homework in Climate Economics: Household Production, Environmental Preferences, and Climate Policy -- by Stephie Fried, David Lagakos, Hannah Rhodenhiser",
+      "authors": [],
+      "abstract": "Household energy use accounts for approximately one third of U.S. emissions. Guided by a new survey, we develop a quantitative model in which households differ in income and their desire to reduce their emissions. Our analysis of cost-minimizing subsidies for clean equipment, such as electric vehicles and heat pumps, and residential solar yields three insights. First, solar receives the highest subsidy rate and accounts for over one third of abatement, reflecting its complementarities with clean equipment. Second, restricting subsidy eligibility to lower-income households generates only small cost savings. Third, without environmental preferences, household emissions would be over 15 percent higher.",
+      "url": "https://www.nber.org/papers/w35945#fromrss",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35945#fromrss.pdf",
+      "source": "nber",
+      "source_id": "w35945",
+      "published_date": "",
+      "categories": [
+        "NBER Working Paper"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Household energy use accounts for approximately one third of U.S. emissions."
+    }
+  ]
+}

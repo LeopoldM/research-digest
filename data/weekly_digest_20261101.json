@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-11-01T12:37:39.911814",
+  "period": "weekly",
+  "paper_count": 1,
+  "papers": [
+    {
+      "title": "Matching Tasks to Agents: Mechanism Design for Multi-Agent Contracts",
+      "authors": [
+        "Matteo Bollini",
+        "Matteo Castiglioni",
+        "Alberto Marchesi"
+      ],
+      "abstract": "We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs. Based on the agents' reported types, the principal selects an agent to perform the task and offers a success-contingent payment. Although optimal Bayesian contract design is generally computationally intractable and Myerson's characterization does not directly extend to settings with hidden actions and multidimensional private information, we show that the single-task problem admits a simple Myerson-style characterization. Our key insight is that incentive constraints depend only on the ratio between effort cost and success probability. We characterize an optimal mechanism and show that it can be computed in polynomial time. We also establish a tight $\u0398(1/(NK))$ worst-case bound on the ratio between the optimal profit and the full-information benchmark, where $N$ is the number of agents and $K$ is the number of types per agent. We then extend our analysis to multiple tasks, showing that an optimal mechanism may not exist. Nevertheless, for a constant number of agents, we provide a polynomial-time approximation scheme for the supremum profit.",
+      "url": "https://arxiv.org/abs/2610.31002v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31002v1",
+      "source": "arxiv",
+      "source_id": "2610.31002v1",
+      "published_date": "2026-10-22",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs."
+    }
+  ]
+}

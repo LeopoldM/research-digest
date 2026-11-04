@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-11-04T11:58:52.290956",
+  "period": "daily",
+  "paper_count": 16,
+  "papers": [
+    {
+      "title": "Optimal climate policy in incomplete electricity markets",
+      "authors": [
+        "Emil Dimanchev",
+        "Steven A. Gabriel",
+        "Stein-Erik Fleten",
+        "Filippo Pecci",
+        "Magnus Korpas"
+      ],
+      "abstract": "Incomplete long-term contracting in electricity markets can expose investors and consumers to inefficient levels of risk. This paper investigates how incompleteness impacts the optimal choice of climate policy. We develop a game-theoretic model of optimal policy-making in anticipation of how electricity market agents react to a given policy when gas prices and demand are uncertain and contracting is incomplete. In illustrative experiments, we observe that renewable subsidies and carbon prices induce an insurance co-benefit when markets are incomplete. This is because, relative to a complete market benchmark, incompleteness shifts investment from renewables toward gas and exposes consumers to uninsured risk from inter-annual volatility in electricity prices. By incentivizing investment in renewables, subsidies and carbon prices indirectly counteract these distortions. Consequently, incompleteness increases the optimal subsidy and carbon price levels in our experiments. Renewable subsidies exhibit a stronger insurance effect than carbon pricing, as the latter leads to more investment in gas with carbon capture and storage and more volatile electricity prices. While carbon pricing is more economically efficient than subsidies in complete markets, incompleteness shrinks its efficiency advantage and even leads to cases where subsidies are more economically efficient.",
+      "url": "https://arxiv.org/abs/2610.41103v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41103v1",
+      "source": "arxiv",
+      "source_id": "2610.41103v1",
+      "published_date": "2026-10-30",
+      "categories": [
+        "eess.SY",
+        "econ.GN"
+      ],
+      "relevance_score": 20.0,
+      "summary": "Incomplete long-term contracting in electricity markets can expose investors and consumers to inefficient levels of risk. This paper investigates how incompleteness impacts the optimal choice of climate policy."
+    },
+    {
+      "title": "Optimal Information Disclosure in Classic Auctions Revisited: Endogenous Information Acquisition and Costly Verification",
+      "authors": [
+        "Guoqiang Tian"
+      ],
+      "abstract": "We revisit the influential distribution-independent optimal disclosure result of Bergemann, Heumann, Morris, Sorokin, and Winter (2022), whose optimal disclosure policy reveals low bidder values and pools high values at a critical quantile depending only on the number of bidders, and show that this policy is no longer generally revenue-maximizing even for the familiar uniform and binary valuation distributions, once bidders can endogenously acquire private information through costly verification. The underlying reason reflects a fundamental principle of incentive-based mechanism design, rooted in Hurwicz's analysis of structural invariance and echoed in the Lucas critique: economic agents respond strategically to changes in the information and incentives they face. This is the essence of \\emph{trust, but verify}. A change in disclosure policy may leave the underlying economic primitives unchanged while altering bidders' verification decisions and the resulting equilibrium information structure. We establish existence and uniqueness of the symmetric Bayesian Nash verification equilibrium, characterize equilibrium-implementable disclosure policies, and derive an exact revenue decomposition and a general characterization of global optimality. We further develop optimality conditions and structural results that provide a systematic foundation for analyzing optimal disclosure with endogenous information acquisition.",
+      "url": "https://arxiv.org/abs/2610.38263v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.38263v1",
+      "source": "arxiv",
+      "source_id": "2610.38263v1",
+      "published_date": "2026-10-28",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We revisit the influential distribution-independent optimal disclosure result of Bergemann, Heumann, Morris, Sorokin, and Winter (2022), whose optimal disclosure policy reveals low bidder values and pools high values at a critical quantile depending only on the number of bidders, and show that th...."
+    },
+    {
+      "title": "The fiscal limits of efficient trade",
+      "authors": [
+        "Toan Le",
+        "Saara H\u00e4m\u00e4l\u00e4inen",
+        "C\u00e9sar Barilla"
+      ],
+      "abstract": "Sustaining efficient trade under private information requires external subsidies. Although a designer cannot avoid deficits on average, they can control exposure. We characterize efficient and truthful mechanisms that minimize the worst-case deficit in markets with many buyers and sellers, under interim participation. This problem is dual to maximizing expected trade surplus under correlation ambiguity, with constraints on submarkets with one agent removed. In bilateral trade, the best deficit ceiling is the competitive surplus in a benchmark continuum market, achieved by a \"competitive pivot mechanism\". In larger markets, optimal mechanisms are characterized in terms of worst-case residual welfare contributions, but solutions exhibit a complex combinatorial structure. We obtain explicit guarantees under natural participation charge restrictions and establish how the best deficit excess decays as market thickens. Our duality characterization is general and extends to many mechanism design environments (public goods, partnership dissolution), and alternative participation constraints.",
+      "url": "https://arxiv.org/abs/2610.34460v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.34460v2",
+      "source": "arxiv",
+      "source_id": "2610.34460v2",
+      "published_date": "2026-10-25",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Sustaining efficient trade under private information requires external subsidies. Although a designer cannot avoid deficits on average, they can control exposure."
+    },
+    {
+      "title": "A Stationary Mean-Field Model for Carbon Market Stability Reserve",
+      "authors": [
+        "Ren\u00e9 A\u00efd",
+        "Federico Cannerozzi",
+        "Giorgio Ferrari"
+      ],
+      "abstract": "We formulate the design of a market stability reserve as a stationary mean-field singular control problem. The allowance balance follows a regime-switching diffusion, while the regulator injects or withdraws allowances through bounded-variation controls. The objective trades off the average allowance balance, its stationary dispersion, deviations from a long-run target, and intervention costs. The optimal policy is a regime-dependent band rule characterized by four reflecting thresholds. Its computation reduces to a scalar fixed-point problem combining a coupled variational inequality with the invariant distribution of the reflected process. A calibration to the EU ETS yields thresholds of the same order of magnitude as the existing Market Stability Reserve rule. Comparative statics show that volatility is the main determinant of the intervention band, whereas the frequency and duration of crisis regimes have limited effects. A simpler two-threshold policy based on average regime dynamics closely reproduces the optimal regime-dependent policy in terms of liquidity and intervention volumes.",
+      "url": "https://arxiv.org/abs/2610.33132v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.33132v1",
+      "source": "arxiv",
+      "source_id": "2610.33132v1",
+      "published_date": "2026-10-23",
+      "categories": [
+        "econ.TH",
+        "econ.GN",
+        "math.OC",
+        "q-fin.MF"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We formulate the design of a market stability reserve as a stationary mean-field singular control problem. The allowance balance follows a regime-switching diffusion, while the regulator injects or withdraws allowances through bounded-variation controls."
+    },
+    {
+      "title": "How Green Is Your Manifesto? Scoring Environmental Positions in the 2024 EU Elections with an LLM Panel",
+      "authors": [
+        "Franco Corti",
+        "Sajid Siraj"
+      ],
+      "abstract": "Locating political parties on environmental and climate policy is central to the study of party competition, yet the established instruments, expert surveys and the hand coding of manifestos, are costly, periodic, and slow to extend to new documents. We ask whether a panel of large language models can serve as a cheaper and reproducible alternative. Treating each manifesto as a set of sentences, three models from independent providers score every sentence on two dimensions, environmental protection and climate change, separating a party's position on an issue from the salience it gives it, and the judgments are averaged to the manifesto level. Agreement across the models is retained as a built-in reliability signal. We apply the panel to 41 manifestos from the 2024 European Parliament election, covering Austria, France, Germany, Italy, Spain, and the European party families, and validate it against the 2024 Chapel Hill Expert Survey for the 25 parties with a like-for-like expert benchmark, using the other manifestos as diagnostic cases. The panel recovers the expert ordering of parties with strong rank agreement on both dimensions, while reading them as systematically greener than experts do, a gap we interpret as the distance between manifesto promise and governing record. Inter-model disagreement modestly flags where the instrument errs, and position and salience prove related for environmental protection but independent for climate change. The result is a transparent, low-cost, and multilingual instrument that complements rather than replaces expert and hand-coded approaches; the prompt, code, and manifesto-level results are released openly.",
+      "url": "https://arxiv.org/abs/2611.02033v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02033v1",
+      "source": "arxiv",
+      "source_id": "2611.02033v1",
+      "published_date": "2026-11-01",
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Locating political parties on environmental and climate policy is central to the study of party competition, yet the established instruments, expert surveys and the hand coding of manifestos, are costly, periodic, and slow to extend to new documents. We ask whether a panel of large language model...."
+    },
+    {
+      "title": "Siting and Curtailment Depth Limit the Grid Headroom Available to New Large Loads",
+      "authors": [
+        "Nils Johnson",
+        "Geoff Blanford",
+        "John E. T. Bistline"
+      ],
+      "abstract": "Data center demand is increasing faster than generation can be built, encouraging proposals to interconnect large loads on condition that they reduce consumption during high-stress periods. Estimates of how much load can be added via flexibility rest on simplified accounting and report only annual curtailed electricity. Here we use a national energy systems model that co-optimizes hourly generation and load curtailment across 16 U.S. regions to characterize the flexibility and power system impacts of enabling headroom. While 50 GW can be served while curtailing less than 0.1% of its annual energy, small annual curtailment conceals potentially severe operating requirements. Most regions require curtailment deeper than 90% in at least one hour, so the load must disconnect or have sufficient on-site resources to provide full back up. Furthermore, announced data center locations are not aligned with modeled headroom and relying on existing generation fleets raises CO2 emissions and wholesale electricity prices.",
+      "url": "https://arxiv.org/abs/2611.00462v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.00462v1",
+      "source": "arxiv",
+      "source_id": "2611.00462v1",
+      "published_date": "2026-10-30",
+      "categories": [
+        "physics.soc-ph",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Data center demand is increasing faster than generation can be built, encouraging proposals to interconnect large loads on condition that they reduce consumption during high-stress periods. Estimates of how much load can be added via flexibility rest on simplified accounting and report only annua...."
+    },
+    {
+      "title": "Hosting is not capturing: an exposure-capability framework and Hungary's electric-vehicle battery bet",
+      "authors": [
+        "Zoltan Bartha"
+      ],
+      "abstract": "How should a dependent economy respond when a polycrisis turns economic integration from a source of efficiency into a surface of vulnerability? This paper develops the exposure-capability framework, which maps a country's strategic options along two dimensions - the concentration of its external dependence and the depth of its productive capability - and yields four ideal strategies. It applies the framework to Hungary's large-scale bet on electric-vehicle battery manufacturing, asking what the concentrated exposure purchased: movement toward a higher position in the battery value chain, as a catch-up gamble, or the reproduction of the country's existing position under a new product, as dependent entrenchment. Using a firm-level panel of Hungary's largest companies for 2010-2024, it tests four hypotheses and examines the conditions attached to the support that financed the investments. The sector has expanded enormously, but its value capture neither rises beyond the recovery from construction losses nor shifts up the chain: production remains concentrated in the lowest-value stage, matures only to the level of comparably young foreign-owned firms, and does not cover its own costs. The support that financed it required investment volume, revenue and employment retention; capability-relevant criteria entered the decree as considerations rather than conditions, and a capability-contingent instrument within the same scheme went unused. On the evidence to 2024 the bet is a lateral substitution at constant quality, in which battery-cell fabrication replaces automotive assembly at the same dependent position. Hosting the green transition's supply chain, the case shows, is not the same as capturing its value.",
+      "url": "https://arxiv.org/abs/2610.37445v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37445v1",
+      "source": "arxiv",
+      "source_id": "2610.37445v1",
+      "published_date": "2026-10-27",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "How should a dependent economy respond when a polycrisis turns economic integration from a source of efficiency into a surface of vulnerability? This paper develops the exposure-capability framework, which maps a country's strategic options along two dimensions - the concentration of its external...."
+    },
+    {
+      "title": "Climate-Driven Supply-Demand Matching Reshapes Global SolarEV Decarbonization Potential",
+      "authors": [
+        "Yuchen Liu",
+        "Stefan Pfenninger-Lee",
+        "Tosiyuki Nakaegawa",
+        "Takuro Kobashi"
+      ],
+      "abstract": "Rooftop photovoltaics (PV) can support rapid urban decarbonization, but their contribution is constrained by the imbalance between PV generation and demand, both shaped by local climate. Growing urban electric-vehicle (EV) deployment creates distributed storage near rooftop PV, shifting PV electricity across time. Here we simulate rooftop PV integrated with EVs as batteries across 5,000 grid cells globally, using hourly meteorology and climate-induced demand. We find that PV-EV systems can supply up to 84% of annual building and mobility electricity demand. Self-sufficiency is highest where daytime demand aligns with generation and seasonal variability remains limited. Using PV capacity factor alone to screen PV-EV potential undervalues 21.9% of the world's 1,000 most populous cities because generation-side metrics overlook the temporal coupling of PV generation, electricity demand and EV storage. Substantial PV-EV potential is concentrated in many low-latitude cities, offering a pathway to cleaner urban energy systems while accelerating progress towards carbon neutrality.",
+      "url": "https://arxiv.org/abs/2610.29344v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29344v1",
+      "source": "arxiv",
+      "source_id": "2610.29344v1",
+      "published_date": "2026-10-21",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Rooftop photovoltaics (PV) can support rapid urban decarbonization, but their contribution is constrained by the imbalance between PV generation and demand, both shaped by local climate. Growing urban electric-vehicle (EV) deployment creates distributed storage near rooftop PV, shifting PV electr...."
+    },
+    {
+      "title": "At What Cost? (In)efficiency in First-Price Procurement Auctions",
+      "authors": [
+        "Simone Palazzotto",
+        "Andr\u00e9s Cristi"
+      ],
+      "abstract": "We study the efficiency of Bayes-Nash equilibria in first-price procurement auctions. We measure efficiency by the Price of Anarchy (PoA): the ratio between the expected social cost in equilibrium and the minimum expected social cost resulting from a socially optimal allocation. We first show that the standard first-price procurement auction has no bounded PoA guarantee. We construct equilibria in which every bidder is indifferent between all bids in a common interval, so that bids can be arbitrarily large, and the PoA is unbounded. If costs lie in an interval $[\\underline c,\\bar c]$ but bids are not restricted, the PoA equals the trivial ratio $\\bar c/\\underline c$. We hence study ways to restore a finite guarantee, first by characterizing the PoA when bids lie in $[\\underline c,\\bar c]$, which leads to the tight bound $1 + \\frac1{e^2}(\\frac{\\bar c}{\\underline c}-1)$. Alternatively, we introduce the notion of a phantom bidder: the auctioneer accepts the lowest bid only if it does not exceed a phantom bid, drawn independently of the costs, and otherwise buys from an outside option at cost $\\bar c$. We show that a simple fixed phantom bid, i.e., a deterministic cap, gives PoA $=\\frac1e\\sqrt {\\frac{\\bar c}{\\underline c}}+O(1)$. We further show that no phantom mechanism whose construction depends only on the cost interval, under a mild regularity condition, whatever distribution it uses and whatever it reveals about the phantom bid before bidding, can improve on the $\\sqrt{\\frac{\\bar c}{\\underline c}}$ dependence.",
+      "url": "https://arxiv.org/abs/2611.03386v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03386v1",
+      "source": "arxiv",
+      "source_id": "2611.03386v1",
+      "published_date": "2026-11-02",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study the efficiency of Bayes-Nash equilibria in first-price procurement auctions. We measure efficiency by the Price of Anarchy (PoA): the ratio between the expected social cost in equilibrium and the minimum expected social cost resulting from a socially optimal allocation."
+    },
+    {
+      "title": "First-Order Bilevel Optimization for Non-truthful Auction Design",
+      "authors": [
+        "Shing-Hei Ho",
+        "April Niu",
+        "Ellen Vitercik",
+        "Kai Wang"
+      ],
+      "abstract": "Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks. However, designing non-truthful auctions remains challenging because bidders' equilibrium strategies depend on the auction mechanism and thus evolve as the mechanism is optimized.   In this work, we formulate auction design as a Stackelberg game with multiple strategic followers and develop a fully first-order algorithm for revenue optimization in non-truthful auctions.   We establish non-asymptotic guarantees for hypergradient approximation and show that, under standard smoothness and strong-monotonicity assumptions, our method reaches an $O(\u03b5)$-stationary point using $\\tilde{\\mathcal{O}}(\u03b5^{-2})$ first-order oracle calls.   Experiments on symmetric and asymmetric single-item auctions, as well as multi-item auctions, show that our method converges faster than second- and zeroth-order baselines and scales better as the number of bidders increases. Our method also discovers auctions that achieve revenue close to truthful baselines. These results provide a scalable framework for automated mechanism design beyond truthful auctions.",
+      "url": "https://arxiv.org/abs/2610.40403v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40403v1",
+      "source": "arxiv",
+      "source_id": "2610.40403v1",
+      "published_date": "2026-10-29",
+      "categories": [
+        "cs.GT",
+        "math.OC"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks. However, designing non-truthful auctions remains challenging because bidders' equilibrium strategies depend on the auction mechanism and thus evolve as the mechanism is optimized."
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning for Global Climate Policy Cooperation",
+      "authors": [
+        "Anne Moll-Elsborg",
+        "Oskar Bohn Lassen",
+        "Francisco Camara Pereira"
+      ],
+      "abstract": "International climate policy requires coordination among countries whose mitigation decisions impose local costs but generate global benefits. Classical game-theoretic and integrated assessment approaches can study these incentives, but typically rely on prescribed behavioural assumptions or equilibrium concepts. Recent work has therefore explored Multi-Agent Reinforcement Learning as a way to model climate-policy cooperation as an emergent outcome of repeated strategic interaction. We extend an existing MARL climate framework with a multi-stage negotiation mechanism in which agents propose agreements, accept or reject commitments, and face penalties for non-compliance. This allows us to study how agreement design affects learned mitigation behaviour, compliance, and climate outcomes. In an idealized setting with four homogeneous agents, we find that non-binding agreements do little to overcome free-riding, while moderate non-compliance penalties improve cooperation and reduce warming. However, excessively strong penalties discourage ambitious commitments, revealing a trade-off between enforcement and participation. We position the framework as a methodological contribution for testing agreement design rather than a predictive model of real negotiations.",
+      "url": "https://arxiv.org/abs/2610.37870v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37870v1",
+      "source": "arxiv",
+      "source_id": "2610.37870v1",
+      "published_date": "2026-10-27",
+      "categories": [
+        "cs.MA",
+        "cs.GT",
+        "cs.LG"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "International climate policy requires coordination among countries whose mitigation decisions impose local costs but generate global benefits. Classical game-theoretic and integrated assessment approaches can study these incentives, but typically rely on prescribed behavioural assumptions or equi...."
+    },
+    {
+      "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
+      "authors": [
+        "Walter Kurz"
+      ],
+      "abstract": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation under uncertainty, Nash equilibrium to model strategic interactions between decision agents, and Principal-Agent theory to address incentive alignment under information asymmetry. The insurer is modelled as a constrained optimisation entity operating under solvency, legal, ESG, and operational boundaries, with specific focus on the regulatory contexts of Austria and Germany. The architecture decomposes the firm into multiple specialised agents, each representing distinct functional domains such as capital management, underwriting, claims processing, compliance, fraud detection, and client interaction. Human-in-the-loop agents are integrated through a tiered access control system, ensuring differentiated data visibility and decision influence based on user roles. An orchestrator agent supervises inter-agent coordination, enforcing regulatory admissibility and institutional coherence under frameworks such as Solvency II, the AI Act, and the Insurance Distribution Directive. Protocol integration is based on asynchronous execution and dual-layer communication infrastructures, specifically the Model Context Protocol (MCP) and Agent-to-Agent (A2A) messaging. This structure enables the systematic design of compliant, auditable multi-agent systems aligned with the institutional logic of financial firms in Austria and Germany.",
+      "url": "https://arxiv.org/abs/2609.27636v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.27636v2",
+      "source": "arxiv",
+      "source_id": "2609.27636v2",
+      "published_date": "2026-09-23",
+      "categories": [
+        "q-fin.GN",
+        "cs.MA",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation und...."
+    },
+    {
+      "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
+      "authors": [
+        "Walter Kurz",
+        "Wojtek Stricker"
+      ],
+      "abstract": "European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported trading that is aligned with market-coupling mechanics, cross-zonal transfer constraints, and compliance obligations under REMIT, MiFID II, MiFIR, and EMIR. The contribution is a formal system specification composed of a decision-state vector, residual-exposure accounting, constrained optimization objective, executable-action permission gate, and fail-closed AI control logic with auditable records. The analysis maps major Nominated Electricity Market Operator (NEMO) venues and related exchange operators into an operational venue topology and identifies where cross-border coordination fails in practice: interface-level timing, permission heterogeneity, and balancing-layer coupling. The resulting framework proposes how AI can be deployed as a bounded decision component inside regulated market operation with explicit governance, rather than as an unconstrained prediction layer.",
+      "url": "https://arxiv.org/abs/2609.29108v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.29108v2",
+      "source": "arxiv",
+      "source_id": "2609.29108v2",
+      "published_date": "2026-09-24",
+      "categories": [
+        "cs.AI",
+        "eess.SY",
+        "q-fin.GN",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported ...."
+    },
+    {
+      "title": "Open Information: A Defining Perspective on Web Datasets for Carbon Pricing",
+      "authors": [
+        "Sidharth Mallik",
+        "Anastasios Megaritis",
+        "Waymond Rodgers"
+      ],
+      "abstract": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of public and private information. We demonstrate their existence and justify material significance for pricing. In this respect, we present statistical hypotheses to test for a web dataset, GDELT, integrated for carbon pricing, that is represented by EU Allowance spot prices. Tests are designed with VAR and GARCH-X formulations, and return forecasting. The outcomes cannot rule out the material existence of open information. The result is significant for providing a conceptual basis to integrate a vast number of web datasets as alternative data in investment decisions.",
+      "url": "https://arxiv.org/abs/2608.04929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04929v1",
+      "source": "arxiv",
+      "source_id": "2608.04929v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of publi...."
+    },
+    {
+      "title": "Trading Frictions in Dynamic Cap-and-Trade Markets",
+      "authors": [
+        "Nicola Borri",
+        "Yukun Liu",
+        "Aleh Tsyvinski",
+        "Xi Wu"
+      ],
+      "abstract": "Using 2.8 million EU ETS transactions and compliance records, 2005-2022, we document three facts about the world's largest carbon market: each year, 37% of regulated operators do not trade, and non-trading is persistent. Purchases concentrate in the April surrender month, when returns are systematically high. Operator order flow predicts returns, concentrated among frequent traders. A model with costly market access, limited intermediation, and heterogeneous information rationalizes all three. Because access is endogenous, the frictions interact non-additively, shaping how efficiently the market corrects the externality. Staggering deadlines across four groups lowers the surrender-month premium by 58% without changing the cap.",
+      "url": "https://arxiv.org/abs/2606.03767v3",
+      "pdf_url": "https://arxiv.org/pdf/2606.03767v3",
+      "source": "arxiv",
+      "source_id": "2606.03767v3",
+      "published_date": "2026-06-02",
+      "categories": [
+        "econ.TH",
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Using 2.8 million EU ETS transactions and compliance records, 2005-2022, we document three facts about the world's largest carbon market: each year, 37% of regulated operators do not trade, and non-trading is persistent. Purchases concentrate in the April surrender month, when returns are systema...."
+    },
+    {
+      "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+      "authors": [
+        "Lasse Dierich",
+        "Orestis Schinas"
+      ],
+      "abstract": "Ship finance is a data-intensive and document-heavy segment of asset-based lending, requiring the integration of financial, technical, contractual, and regulatory information from heterogeneous and largely unstructured sources. Increasing environmental regulation and ESG reporting requirements are adding further complexity to underwriting and loan-origination processes. Recent advances in artificial intelligence (AI), particularly large language models (LLMs), create new opportunities for processing and analysing such information. This paper reviews potential applications of AI in ship finance, with a particular focus on LLM-based systems for document comprehension, information extraction, and workflow automation. We present ShipFinance.ai, a modular agentic architecture to support loan application workflows in ship finance. The proposed system combines an LLM-based extraction module, financial analysis components, external maritime data services, and a controlled document-generation module with a chatbot interface to support the preparation of standardized financing applications. The paper discusses the key challenges for using such models in production. We argue that AI-assisted systems can support maritime finance professionals in managing increasingly complex information and reporting requirements.",
+      "url": "https://arxiv.org/abs/2606.11238v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.11238v2",
+      "source": "arxiv",
+      "source_id": "2606.11238v2",
+      "published_date": "2026-05-29",
+      "categories": [
+        "q-fin.GN",
+        "cs.AI"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    }
+  ]
+}

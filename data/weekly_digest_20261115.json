@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-11-15T13:23:40.097607",
+  "period": "weekly",
+  "paper_count": 3,
+  "papers": [
+    {
+      "title": "Optimal climate policy in incomplete electricity markets",
+      "authors": [
+        "Emil Dimanchev",
+        "Steven A. Gabriel",
+        "Stein-Erik Fleten",
+        "Filippo Pecci",
+        "Magnus Korpas"
+      ],
+      "abstract": "Incomplete long-term contracting in electricity markets can expose investors and consumers to inefficient levels of risk. This paper investigates how incompleteness impacts the optimal choice of climate policy. We develop a game-theoretic model of optimal policy-making in anticipation of how electricity market agents react to a given policy when gas prices and demand are uncertain and contracting is incomplete. In illustrative experiments, we observe that renewable subsidies and carbon prices induce an insurance co-benefit when markets are incomplete. This is because, relative to a complete market benchmark, incompleteness shifts investment from renewables toward gas and exposes consumers to uninsured risk from inter-annual volatility in electricity prices. By incentivizing investment in renewables, subsidies and carbon prices indirectly counteract these distortions. Consequently, incompleteness increases the optimal subsidy and carbon price levels in our experiments. Renewable subsidies exhibit a stronger insurance effect than carbon pricing, as the latter leads to more investment in gas with carbon capture and storage and more volatile electricity prices. While carbon pricing is more economically efficient than subsidies in complete markets, incompleteness shrinks its efficiency advantage and even leads to cases where subsidies are more economically efficient.",
+      "url": "https://arxiv.org/abs/2610.41103v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41103v1",
+      "source": "arxiv",
+      "source_id": "2610.41103v1",
+      "published_date": "2026-10-30",
+      "categories": [
+        "eess.SY",
+        "econ.GN"
+      ],
+      "relevance_score": 20.0,
+      "summary": "Incomplete long-term contracting in electricity markets can expose investors and consumers to inefficient levels of risk. This paper investigates how incompleteness impacts the optimal choice of climate policy."
+    },
+    {
+      "title": "Economic Benefits of Cross-Border Electricity Trade and Domestic Electricity Production in Switzerland",
+      "authors": [
+        "Benjamin Lietti",
+        "Ambra Van Liedekerke",
+        "Marino Bucher",
+        "Michael Beer",
+        "Nicolas Eschenbaum",
+        "Reto Foellmi",
+        "Blazhe Gjorgiev",
+        "Fabian Gottschlich",
+        "Giovanni Sansavini",
+        "Christian Sch\u00fctz",
+        "Urs Trinkner"
+      ],
+      "abstract": "This paper assesses the economic benefits of cross-border electricity trade in the context of rising energy prices and geopolitical uncertainty. Switzerland provides a particularly compelling case because of its geographical location and limited integration into the EU electricity market. We first use the Nexus-e framework to simulate the generation capacity and transmission grid expansion required under autarky and free-trade scenarios. Based on these capacity configurations, a fundamental power market model simulates wholesale market outcomes under projected demand and generation conditions for 2040. By jointly accounting for consumer and producer surplus, as well as investments in generation capacity and grid infrastructure, we provide a comprehensive assessment of the welfare effects of cross-border electricity trade, leading to an estimated EUR 1.5 billion gain. More specifically, open access to cross-border electricity trade implies a EUR 1.8 billion transfer from largely publicly owned producers to consumers. Finally, we provide an illustrative, non-causal mapping of broader macroeconomic effects. Under a price-convergence assumption, the implied demand adjustment corresponds to a GDP-equivalent effect of approximately EUR 7 billion.",
+      "url": "https://arxiv.org/abs/2611.13866v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.13866v1",
+      "source": "arxiv",
+      "source_id": "2611.13866v1",
+      "published_date": "2026-11-10",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper assesses the economic benefits of cross-border electricity trade in the context of rising energy prices and geopolitical uncertainty. Switzerland provides a particularly compelling case because of its geographical location and limited integration into the EU electricity market."
+    },
+    {
+      "title": "Optimal power expansion planning under uncertainty in sub-Saharan Africa: A stochastic dual dynamic programming approach",
+      "authors": [
+        "Arega Getaneh Abate",
+        "Xiao-Bing Zhang",
+        "Xiufeng Liu",
+        "Ruyu Liu",
+        "Per Sieverts Nielsen"
+      ],
+      "abstract": "Universal electricity access and decarbonization are interlinked challenges for sub-Saharan Africa. Generation expansion planning methods used in the region rarely represent sequential and irreversible investment under demand and hydrological uncertainty. This paper develops a multistage stochastic generation expansion model solved with stochastic dual dynamic programming (SDDP) to address the problem. The model represents demand and country-specific Markov hydrological uncertainty, accounts for technology-specific construction lead times, and endogenous reliability. The model is applied to the Ethiopia and Zimbabwe power systems over 2025--2050. The results show that for Ethiopia, the least-cost pathway is hydropower, with wind and solar sources providing increasing diversification. The model reduces cumulative expected unserved energy by about 78 TWh relative to a lower-cost deterministic expected value investment plan. For Zimbabwe, the least-cost pathway expands solar, hydropower, and gas while retaining residual coal as inherited coal capacity retires. Additionally, carbon pricing reduces emissions and increases resource costs by about 3\\% to 5\\%, creating a gradual cost-emissions trade-off. Combining a carbon tax policy with concessional solar financing renders the lowest average annual emissions while keeping resource costs below the baseline, which solves the model without emission constraint. At approximately matched expected emissions, emission caps have higher net resource costs than the corresponding carbon tax scenarios. The overall results imply that adaptive investment model can reduce power shortage exposure, while carbon policy design and lower clean investment costs shape the cost of decarbonization in developing power systems.",
+      "url": "https://arxiv.org/abs/2611.11490v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11490v1",
+      "source": "arxiv",
+      "source_id": "2611.11490v1",
+      "published_date": "2026-11-08",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "Universal electricity access and decarbonization are interlinked challenges for sub-Saharan Africa. Generation expansion planning methods used in the region rarely represent sequential and irreversible investment under demand and hydrological uncertainty."
+    }
+  ]
+}

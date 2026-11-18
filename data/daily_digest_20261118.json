@@ -1,0 +1,409 @@
+{
+  "generated_at": "2026-11-18T12:53:47.028585",
+  "period": "daily",
+  "paper_count": 20,
+  "papers": [
+    {
+      "title": "Optimal climate policy in incomplete electricity markets",
+      "authors": [
+        "Emil Dimanchev",
+        "Steven A. Gabriel",
+        "Stein-Erik Fleten",
+        "Filippo Pecci",
+        "Magnus Korpas"
+      ],
+      "abstract": "Incomplete long-term contracting in electricity markets can expose investors and consumers to inefficient levels of risk. This paper investigates how incompleteness impacts the optimal choice of climate policy. We develop a game-theoretic model of optimal policy-making in anticipation of how electricity market agents react to a given policy when gas prices and demand are uncertain and contracting is incomplete. In illustrative experiments, we observe that renewable subsidies and carbon prices induce an insurance co-benefit when markets are incomplete. This is because, relative to a complete market benchmark, incompleteness shifts investment from renewables toward gas and exposes consumers to uninsured risk from inter-annual volatility in electricity prices. By incentivizing investment in renewables, subsidies and carbon prices indirectly counteract these distortions. Consequently, incompleteness increases the optimal subsidy and carbon price levels in our experiments. Renewable subsidies exhibit a stronger insurance effect than carbon pricing, as the latter leads to more investment in gas with carbon capture and storage and more volatile electricity prices. While carbon pricing is more economically efficient than subsidies in complete markets, incompleteness shrinks its efficiency advantage and even leads to cases where subsidies are more economically efficient.",
+      "url": "https://arxiv.org/abs/2610.41103v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41103v1",
+      "source": "arxiv",
+      "source_id": "2610.41103v1",
+      "published_date": "2026-10-30",
+      "categories": [
+        "eess.SY",
+        "econ.GN"
+      ],
+      "relevance_score": 20.0,
+      "summary": "Incomplete long-term contracting in electricity markets can expose investors and consumers to inefficient levels of risk. This paper investigates how incompleteness impacts the optimal choice of climate policy."
+    },
+    {
+      "title": "Economic Benefits of Cross-Border Electricity Trade and Domestic Electricity Production in Switzerland",
+      "authors": [
+        "Benjamin Lietti",
+        "Ambra Van Liedekerke",
+        "Marino Bucher",
+        "Michael Beer",
+        "Nicolas Eschenbaum",
+        "Reto Foellmi",
+        "Blazhe Gjorgiev",
+        "Fabian Gottschlich",
+        "Giovanni Sansavini",
+        "Christian Sch\u00fctz",
+        "Urs Trinkner"
+      ],
+      "abstract": "This paper assesses the economic benefits of cross-border electricity trade in the context of rising energy prices and geopolitical uncertainty. Switzerland provides a particularly compelling case because of its geographical location and limited integration into the EU electricity market. We first use the Nexus-e framework to simulate the generation capacity and transmission grid expansion required under autarky and free-trade scenarios. Based on these capacity configurations, a fundamental power market model simulates wholesale market outcomes under projected demand and generation conditions for 2040. By jointly accounting for consumer and producer surplus, as well as investments in generation capacity and grid infrastructure, we provide a comprehensive assessment of the welfare effects of cross-border electricity trade, leading to an estimated EUR 1.5 billion gain. More specifically, open access to cross-border electricity trade implies a EUR 1.8 billion transfer from largely publicly owned producers to consumers. Finally, we provide an illustrative, non-causal mapping of broader macroeconomic effects. Under a price-convergence assumption, the implied demand adjustment corresponds to a GDP-equivalent effect of approximately EUR 7 billion.",
+      "url": "https://arxiv.org/abs/2611.13866v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.13866v1",
+      "source": "arxiv",
+      "source_id": "2611.13866v1",
+      "published_date": "2026-11-10",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "This paper assesses the economic benefits of cross-border electricity trade in the context of rising energy prices and geopolitical uncertainty. Switzerland provides a particularly compelling case because of its geographical location and limited integration into the EU electricity market."
+    },
+    {
+      "title": "Optimal power expansion planning under uncertainty in sub-Saharan Africa: A stochastic dual dynamic programming approach",
+      "authors": [
+        "Arega Getaneh Abate",
+        "Xiao-Bing Zhang",
+        "Xiufeng Liu",
+        "Ruyu Liu",
+        "Per Sieverts Nielsen"
+      ],
+      "abstract": "Universal electricity access and decarbonization are interlinked challenges for sub-Saharan Africa. Generation expansion planning methods used in the region rarely represent sequential and irreversible investment under demand and hydrological uncertainty. This paper develops a multistage stochastic generation expansion model solved with stochastic dual dynamic programming (SDDP) to address the problem. The model represents demand and country-specific Markov hydrological uncertainty, accounts for technology-specific construction lead times, and endogenous reliability. The model is applied to the Ethiopia and Zimbabwe power systems over 2025--2050. The results show that for Ethiopia, the least-cost pathway is hydropower, with wind and solar sources providing increasing diversification. The model reduces cumulative expected unserved energy by about 78 TWh relative to a lower-cost deterministic expected value investment plan. For Zimbabwe, the least-cost pathway expands solar, hydropower, and gas while retaining residual coal as inherited coal capacity retires. Additionally, carbon pricing reduces emissions and increases resource costs by about 3\\% to 5\\%, creating a gradual cost-emissions trade-off. Combining a carbon tax policy with concessional solar financing renders the lowest average annual emissions while keeping resource costs below the baseline, which solves the model without emission constraint. At approximately matched expected emissions, emission caps have higher net resource costs than the corresponding carbon tax scenarios. The overall results imply that adaptive investment model can reduce power shortage exposure, while carbon policy design and lower clean investment costs shape the cost of decarbonization in developing power systems.",
+      "url": "https://arxiv.org/abs/2611.11490v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11490v1",
+      "source": "arxiv",
+      "source_id": "2611.11490v1",
+      "published_date": "2026-11-08",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "Universal electricity access and decarbonization are interlinked challenges for sub-Saharan Africa. Generation expansion planning methods used in the region rarely represent sequential and irreversible investment under demand and hydrological uncertainty."
+    },
+    {
+      "title": "Mechanism Design and Active Systems Theory: 60 Years of Parallel Development",
+      "authors": [
+        "Dmitry A. Novikov"
+      ],
+      "abstract": "The survey compares two research traditions within the mathematical theory of designing the rules of interaction (mechanisms) for purposeful participants: mechanism design, together with contract theory and implementation theory, and the theory of active systems created by V.N. Burkov and developed into the theory of control in organizations (TCO) by D.A. Novikov's school; the main results of Yu.B. Germeier's school and of the domestic schools adjacent to active systems theory (AST) are covered as well. The problem statements and principal results of 2006-2026 are presented: for mechanism design (MD) - robust and dynamic mechanism design, multidimensional screening, information design, simplicity of mechanisms and credibility of the designer, market design, algorithmic and learning-based design, mechanisms for AI agents, and robust, relational, dynamic and algorithmic contracts; for AST and TCO - a general typology of control, strategy-proof and incentive-compatible planning mechanisms, decomposition of the agents' game, systems with distributed control and coalitional interaction, reflexive games and informational control, control of staff and structure, dynamic active systems, and project management. A correspondence between the classical results is established (the fair play principle and the revelation principle, the serial resource allocation mechanism and the uniform rule, active expertise mechanisms and generalized median schemes, quasi-compensatory incentive schemes and contracts under observable actions), and priorities are delineated by uniform rules; the areas where the two traditions diverge are identified, as are the dimensions of the problem (staff, structure, institutions, awareness, agents' beliefs) covered only by TCO.",
+      "url": "https://arxiv.org/abs/2611.21803v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21803v1",
+      "source": "arxiv",
+      "source_id": "2611.21803v1",
+      "published_date": "2026-11-16",
+      "categories": [
+        "eess.SY",
+        "cs.GT"
+      ],
+      "relevance_score": 13.333333333333334,
+      "summary": "The survey compares two research traditions within the mathematical theory of designing the rules of interaction (mechanisms) for purposeful participants: mechanism design, together with contract theory and implementation theory, and the theory of active systems created by V.N. Burkov and develop...."
+    },
+    {
+      "title": "The Price of Anarchy in Markets for Lemons",
+      "authors": [
+        "Naveen Durvasula",
+        "Tim Roughgarden"
+      ],
+      "abstract": "We study the worst-case equilibrium gains from trade in simple bilateral trade mechanisms with interdependent valuations. Equilibria in such settings are typically complex, as proposed prices can convey private information held by the proposer. Such equilibria suffer lost gains from trade both due to the inefficiency introduced by screening (as in independent private value settings) and due to adverse selection. We identify broad conditions under which, nevertheless, sequential equilibria are guaranteed to achieve a constant fraction of the first-best gains from trade. Our bounds quantify the central role of rare pessimistic seller signals and rare optimistic buyer signals. The results apply to seller-proposer, buyer-proposer, and random-proposer mechanisms. The key idea in our analysis is to relate equilibrium gains from trade to proposer profits in an auxiliary market with independent private values.",
+      "url": "https://arxiv.org/abs/2611.14858v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14858v1",
+      "source": "arxiv",
+      "source_id": "2611.14858v1",
+      "published_date": "2026-11-11",
+      "categories": [
+        "cs.GT",
+        "cs.DS",
+        "econ.TH"
+      ],
+      "relevance_score": 8.88888888888889,
+      "summary": "We study the worst-case equilibrium gains from trade in simple bilateral trade mechanisms with interdependent valuations. Equilibria in such settings are typically complex, as proposed prices can convey private information held by the proposer."
+    },
+    {
+      "title": "Moral Consumers and the Environment",
+      "authors": [
+        "Mogens Fosgerau",
+        "J\u00f6rgen Weibull"
+      ],
+      "abstract": "We study the taxation of environmentally harmful goods when consumers have a Kantian desire to ``do the right thing''. A consumer evaluates her buying strategy, a rule that specifies whether to buy, by the material payoff she would obtain if others followed the same rule with a probability given by her degree of morality. Equilibrium exists and is unique in finite populations with heterogeneous morality. The optimal tax depends crucially on whether consumers are aware that tax revenue is returned to them. If they are, the Pigovian tax is optimal under homogeneous morality, whatever consumers know about environmental costs, and we give conditions under which it remains the unique optimum under heterogeneous morality. If they are not, the optimal tax is lower, and more so the more moral consumers are. Under a quota system such as the EU Emissions Trading System, any cap at least as stringent as the Pigovian quota admits an equilibrium in which morality has no effect on consumers who are aware of the system.",
+      "url": "https://arxiv.org/abs/2611.09515v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.09515v1",
+      "source": "arxiv",
+      "source_id": "2611.09515v1",
+      "published_date": "2026-11-06",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study the taxation of environmentally harmful goods when consumers have a Kantian desire to ``do the right thing''. A consumer evaluates her buying strategy, a rule that specifies whether to buy, by the material payoff she would obtain if others followed the same rule with a probability given ...."
+    },
+    {
+      "title": "A General Theory of Dynamic Mechanism Design: Joint Optimization of Contracting, Information-Production Technology, and Disclosure",
+      "authors": [
+        "Guoqiang Tian"
+      ],
+      "abstract": "We develop a general theory of dynamic mechanism design that jointly optimizes contracting, information-production technology, and disclosure across a broad class of economic environments with general allocation constraints. Hidden actions, endogenous information acquisition, learning, and disclosure interact through dynamic incentives. We accommodate correlated private information, interdependent preferences, and potentially infinite-dimensional allocations. We introduce joint perfect Bayesian equilibrium, establish the Dynamic Revelation Principle, and recursively characterize incentive compatibility. Under private values with informational interdependence, we characterize joint incentives through choice obedience, reporting-envelope first-order conditions, and global integral monotonicity. We derive an exact dynamic information-rent identity, dynamic revenue equivalence, and dynamic virtual surplus. Comparing first-best, two second-best, and third-best contracts distinguishes information rents, hidden-action implementation costs, and direct information-production expenditures, revealing nonadditive interactions of either sign and branched outcomes. Applications show Milgrom-Weber revenue-ranking reversal with endogenous acquisition, no efficient first-price equilibrium under Gaussian signals, and absent, interior, or full financial-contract disclosure.",
+      "url": "https://arxiv.org/abs/2611.05692v4",
+      "pdf_url": "https://arxiv.org/pdf/2611.05692v4",
+      "source": "arxiv",
+      "source_id": "2611.05692v4",
+      "published_date": "2026-11-03",
+      "categories": [
+        "econ.TH"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We develop a general theory of dynamic mechanism design that jointly optimizes contracting, information-production technology, and disclosure across a broad class of economic environments with general allocation constraints. Hidden actions, endogenous information acquisition, learning, and disclo...."
+    },
+    {
+      "title": "Data-center growth impacts household electricity costs more through wholesale prices than through grid reinforcement",
+      "authors": [
+        "Lingdong Zhou",
+        "Wenjia Xia",
+        "Jiyu Wang",
+        "Fei Ding",
+        "Xiangqi Zhu"
+      ],
+      "abstract": "Rapid data-center expansion is raising concerns about electricity affordability, yet how the costs of serving these large new loads reach residential customers remains poorly understood. Here, we quantify the potential impact of 371 announced Texas data-center projects, totaling 38.9 GW by 2030, on residential electricity costs by linking power system expansion, wholesale electricity markets, transmission reinforcement, and retail cost allocation. We find that accommodating this demand increases modeled residential electricity costs in one representative case by 1.64 cents/kWh, with 68% arising from higher wholesale electricity prices and 32% from regulated transmission charges. Allowing new gas generation near data centers reduces the 2023 residential cost increase to 0.92 cents/kWh, whereas excluding data centers from the transmission cost-sharing base raises it to 1.87 cents/kWh. These findings reveal that the residential cost burden of data-center growth is driven primarily by wholesale electricity price increases, rather than direct transmission investment costs, and depends critically on generation siting, infrastructure planning, and cost allocation.",
+      "url": "https://arxiv.org/abs/2611.16095v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16095v1",
+      "source": "arxiv",
+      "source_id": "2611.16095v1",
+      "published_date": "2026-11-11",
+      "categories": [
+        "eess.SY",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Rapid data-center expansion is raising concerns about electricity affordability, yet how the costs of serving these large new loads reach residential customers remains poorly understood. Here, we quantify the potential impact of 371 announced Texas data-center projects, totaling 38.9 GW by 2030, ...."
+    },
+    {
+      "title": "The Effect of the U.S. Federal Production Tax Credit on Negative Energy Prices",
+      "authors": [
+        "Erik P. Johnson",
+        "Daniel H. Karney"
+      ],
+      "abstract": "Negative prices frequently arise in electricity markets and production subsidies are commonly cited as a leading cause. Using data from the U.S. Eastern Interconnection wholesale electricity markets for the period 2000-2023, we document that at least 18 percent of the total hours with negative energy prices cannot solely be attributed to the federal production tax credit (PTC), a large, persistent production subsidy during the period of study. Next, we provide the first causal evidence that the PTC leads to negative energy prices. On average, increasing PTC-eligible wind generation by 1 percent increases the probability of a negative energy price by 3.4 percentage points. However, significant heterogeneity exists across electricity markets, and some markets show an effect that is an order of magnitude larger. Furthermore, the PTC explains only 10 percent of the observed negative prices that could potentially be attributable to it. Finally, we use the causal estimate to calculate a plausible value for the environmental benefits accrued from the PTC subsidy when energy prices are negative.",
+      "url": "https://arxiv.org/abs/2611.11112v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11112v1",
+      "source": "arxiv",
+      "source_id": "2611.11112v1",
+      "published_date": "2026-11-08",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Negative prices frequently arise in electricity markets and production subsidies are commonly cited as a leading cause. Using data from the U.S."
+    },
+    {
+      "title": "How Green Is Your Manifesto? Scoring Environmental Positions in the 2024 EU Elections with an LLM Panel",
+      "authors": [
+        "Franco Corti",
+        "Sajid Siraj"
+      ],
+      "abstract": "Locating political parties on environmental and climate policy is central to the study of party competition, yet the established instruments, expert surveys and the hand coding of manifestos, are costly, periodic, and slow to extend to new documents. We ask whether a panel of large language models can serve as a cheaper and reproducible alternative. Treating each manifesto as a set of sentences, three models from independent providers score every sentence on two dimensions, environmental protection and climate change, separating a party's position on an issue from the salience it gives it, and the judgments are averaged to the manifesto level. Agreement across the models is retained as a built-in reliability signal. We apply the panel to 41 manifestos from the 2024 European Parliament election, covering Austria, France, Germany, Italy, Spain, and the European party families, and validate it against the 2024 Chapel Hill Expert Survey for the 25 parties with a like-for-like expert benchmark, using the other manifestos as diagnostic cases. The panel recovers the expert ordering of parties with strong rank agreement on both dimensions, while reading them as systematically greener than experts do, a gap we interpret as the distance between manifesto promise and governing record. Inter-model disagreement modestly flags where the instrument errs, and position and salience prove related for environmental protection but independent for climate change. The result is a transparent, low-cost, and multilingual instrument that complements rather than replaces expert and hand-coded approaches; the prompt, code, and manifesto-level results are released openly.",
+      "url": "https://arxiv.org/abs/2611.02033v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02033v1",
+      "source": "arxiv",
+      "source_id": "2611.02033v1",
+      "published_date": "2026-11-01",
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Locating political parties on environmental and climate policy is central to the study of party competition, yet the established instruments, expert surveys and the hand coding of manifestos, are costly, periodic, and slow to extend to new documents. We ask whether a panel of large language model...."
+    },
+    {
+      "title": "Siting and Curtailment Depth Limit the Grid Headroom Available to New Large Loads",
+      "authors": [
+        "Nils Johnson",
+        "Geoff Blanford",
+        "John E. T. Bistline"
+      ],
+      "abstract": "Data center demand is increasing faster than generation can be built, encouraging proposals to interconnect large loads on condition that they reduce consumption during high-stress periods. Estimates of how much load can be added via flexibility rest on simplified accounting and report only annual curtailed electricity. Here we use a national energy systems model that co-optimizes hourly generation and load curtailment across 16 U.S. regions to characterize the flexibility and power system impacts of enabling headroom. While 50 GW can be served while curtailing less than 0.1% of its annual energy, small annual curtailment conceals potentially severe operating requirements. Most regions require curtailment deeper than 90% in at least one hour, so the load must disconnect or have sufficient on-site resources to provide full back up. Furthermore, announced data center locations are not aligned with modeled headroom and relying on existing generation fleets raises CO2 emissions and wholesale electricity prices.",
+      "url": "https://arxiv.org/abs/2611.00462v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.00462v1",
+      "source": "arxiv",
+      "source_id": "2611.00462v1",
+      "published_date": "2026-10-30",
+      "categories": [
+        "physics.soc-ph",
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Data center demand is increasing faster than generation can be built, encouraging proposals to interconnect large loads on condition that they reduce consumption during high-stress periods. Estimates of how much load can be added via flexibility rest on simplified accounting and report only annua...."
+    },
+    {
+      "title": "Hosting is not capturing: an exposure-capability framework and Hungary's electric-vehicle battery bet",
+      "authors": [
+        "Zoltan Bartha"
+      ],
+      "abstract": "How should a dependent economy respond when a polycrisis turns economic integration from a source of efficiency into a surface of vulnerability? This paper develops the exposure-capability framework, which maps a country's strategic options along two dimensions - the concentration of its external dependence and the depth of its productive capability - and yields four ideal strategies. It applies the framework to Hungary's large-scale bet on electric-vehicle battery manufacturing, asking what the concentrated exposure purchased: movement toward a higher position in the battery value chain, as a catch-up gamble, or the reproduction of the country's existing position under a new product, as dependent entrenchment. Using a firm-level panel of Hungary's largest companies for 2010-2024, it tests four hypotheses and examines the conditions attached to the support that financed the investments. The sector has expanded enormously, but its value capture neither rises beyond the recovery from construction losses nor shifts up the chain: production remains concentrated in the lowest-value stage, matures only to the level of comparably young foreign-owned firms, and does not cover its own costs. The support that financed it required investment volume, revenue and employment retention; capability-relevant criteria entered the decree as considerations rather than conditions, and a capability-contingent instrument within the same scheme went unused. On the evidence to 2024 the bet is a lateral substitution at constant quality, in which battery-cell fabrication replaces automotive assembly at the same dependent position. Hosting the green transition's supply chain, the case shows, is not the same as capturing its value.",
+      "url": "https://arxiv.org/abs/2610.37445v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37445v1",
+      "source": "arxiv",
+      "source_id": "2610.37445v1",
+      "published_date": "2026-10-27",
+      "categories": [
+        "econ.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "How should a dependent economy respond when a polycrisis turns economic integration from a source of efficiency into a surface of vulnerability? This paper develops the exposure-capability framework, which maps a country's strategic options along two dimensions - the concentration of its external...."
+    },
+    {
+      "title": "The Complexity of Computing a Competitive Equilibrium in Fisher Markets with Chores",
+      "authors": [
+        "Christian Kroer",
+        "Ruta Mehta",
+        "Tianlong Nan"
+      ],
+      "abstract": "We study the complexity of computing competitive equilibria in Fisher markets with divisible chores and positive rational disutility coefficients and earning requirements. For linear disutilities, we prove that exact equilibrium computation is CLS-complete. In particular, the problem remains CLS-hard even when the earning requirements are binary in $1$ and $2^k$, where $k$ is an integer. We prove hardness by encoding the first-order conditions of a box-constrained quadratic program in equilibrium prices and earning flows, using a compact minimum-cost flow construction. For convex constant-elasticity-of-substitution (CES) disutilities, exact equilibrium prices may be irrational. We formulate the problem of finite-precision equilibrium price computation, in which we seek rational prices with a certified market clearing error at most a given rational tolerance encoded in binary. We prove that this problem is CLS-complete for every fixed rational exponent $\u03c1>1$. To prove this hardness, we encode a quartic polynomial through the fourth-order expansion of the CES price potential function corresponding to the Eisenberg-Gale (EG) dual program, and show that every sufficiently accurate approximate equilibrium of the constructed market lies near uniform prices. Additionally, we also identify a tractable special case of chores Fisher markets. In particular, we provide a strongly polynomial algorithm for exact equilibrium computation in linear markets whose disutility matrix has rank at most two and earning requirements are arbitrary positive rationals. For $n$ agents and $m$ chores, the algorithm uses $O(nm(n+m))$ rational arithmetic operations and comparisons, with polynomial intermediate encoding length.",
+      "url": "https://arxiv.org/abs/2611.11556v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11556v1",
+      "source": "arxiv",
+      "source_id": "2611.11556v1",
+      "published_date": "2026-11-08",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We study the complexity of computing competitive equilibria in Fisher markets with divisible chores and positive rational disutility coefficients and earning requirements. For linear disutilities, we prove that exact equilibrium computation is CLS-complete."
+    },
+    {
+      "title": "FirstSwap: Pre-Consensus Trade Approvals for Decentralized Market Design",
+      "authors": [
+        "William Diamond",
+        "Fatima Elsheimy",
+        "Dahlia Malkhi",
+        "Geoff Ramseyer",
+        "Srivatsan Sridhar"
+      ],
+      "abstract": "Decentralized exchanges typically give traders no execution guarantee until a block is finalized. In the meantime, external prices move, traders strategically delay submission, and block producers can influence inclusion and ordering. We introduce FirstSwap, a DEX built on a constant-function market maker pricing curve that gives traders an early pre-approval before consensus, guaranteeing inclusion and execution within their submitted price limit, with final ordering determined by limit prices rather than by a block producer.   We demonstrate the benefits of trade pre-approvals in an economic model combining auction theory with CEX-DEX arbitrage. When the CEX price changes gradually, FirstSwap rewards earlier traders with better prices, discouraging strategic delay and yielding higher social welfare and gains to AMM liquidity providers than a batch auction. When the CEX price jumps abruptly, FirstSwap yields higher welfare and smaller AMM losses than fair ordering.   The central challenge is delivering fast trade pre-approvals without consensus. We introduce a decentralized, scaled admissibility protocol under which each validator reserves only a fraction of the available liquidity at every price. A trader obtains approval in a single round of messages with a quorum of validators. Somewhat surprisingly, despite Byzantine validators who may approve trades arbitrarily, we show that all quorum-certified trades are jointly admissible and execute within their limits. Our protocol extends naturally to a setting where buy and sell orders can be pre-approved against each other before a block is finalized.",
+      "url": "https://arxiv.org/abs/2611.10254v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.10254v1",
+      "source": "arxiv",
+      "source_id": "2611.10254v1",
+      "published_date": "2026-11-06",
+      "categories": [
+        "cs.DC",
+        "cs.CR",
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "Decentralized exchanges typically give traders no execution guarantee until a block is finalized. In the meantime, external prices move, traders strategically delay submission, and block producers can influence inclusion and ordering."
+    },
+    {
+      "title": "Tight bounds for fractional and randomized truthful scheduling",
+      "authors": [
+        "Georgios Anastasiadis",
+        "George Christodoulou",
+        "Elias Koutsoupias",
+        "Annamaria Kovacs",
+        "Conrad Schecker"
+      ],
+      "abstract": "We resolve one of the longest-standing open problems in algorithmic mechanism design by showing that randomization cannot yield a sublinear approximation for truthful scheduling on unrelated machines, even when truthfulness is required only in expectation. Our main technical result concerns fractional scheduling, where tasks may be split among machines. We prove that every deterministic truthful fractional mechanism on $n$ unrelated machines has worst-case approximation ratio at least $(n+1)/2$, even against the optimal integral makespan. This matches the known upper bound exactly and settles the optimal approximation ratio of truthful fractional scheduling. Since the expected allocations and payments of a truthful-in-expectation mechanism define a truthful fractional mechanism, the same lower bound applies to all truthful-in-expectation mechanisms and, in particular, to all universally truthful mechanisms. On the positive side, we give a universally truthful mechanism with approximation ratio $n/2+o(n)$. Together, these results establish the optimal leading constant $1/2$ for randomized truthful scheduling. Thus, randomization improves on the optimal deterministic approximation ratio by an asymptotic factor of two, and no more.",
+      "url": "https://arxiv.org/abs/2611.06642v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06642v1",
+      "source": "arxiv",
+      "source_id": "2611.06642v1",
+      "published_date": "2026-11-04",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": "We resolve one of the longest-standing open problems in algorithmic mechanism design by showing that randomization cannot yield a sublinear approximation for truthful scheduling on unrelated machines, even when truthfulness is required only in expectation. Our main technical result concerns fract...."
+    },
+    {
+      "title": "Mapping NGFS Climate Pathways to GICS Sectors: Application to Portfolio Decarbonization",
+      "authors": [
+        "Maxime Jourand",
+        "Adel Medjabri"
+      ],
+      "abstract": "Portfolio climate alignment is limited by the mismatch between asset managers' sector classifications and those of climate scenarios. This article proposes an NGFS-GICS mapping based on the materiality of Scope 1 and 2 GHG emissions rather than on semantic similarity. The mapping feeds a Sectoral Decarbonization Approach that down-scales NGFS trajectories into GICS sector pathways at portfolio level, adjusted for regional exposure. Applied to two illustrative ETF indices, it shows how sectoral composition and regional trajectories shape a portfolio's financed emissions pathway. The framework is transparent, asset-class agnostic and usable for internal exercises such as climate stress tests.",
+      "url": "https://arxiv.org/abs/2611.17942v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17942v1",
+      "source": "arxiv",
+      "source_id": "2611.17942v1",
+      "published_date": "2026-11-13",
+      "categories": [
+        "q-fin.GN"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "On Competing Sellers with Substitutable Goods",
+      "authors": [
+        "Moshe Babaioff",
+        "Yuval Grofman",
+        "Brendan Lucier",
+        "Raghuvansh R. Saxena"
+      ],
+      "abstract": "We study mechanism design by an incumbent seller facing competition from an entrant seller of a substitute good. The incumbent commits to a potentially randomized mechanism before her competitor responds. A unit-demand buyer with fixed, publicly known values for the two goods observes both mechanisms and may interact with them in either order. How should a revenue-maximizing incumbent design her mechanism when her product is superior or inferior to her competitor's? We determine the incumbent's exact optimal revenue and characterize all mechanisms that obtain it. Commitment and randomization allow her to earn strictly positive revenue even against an arbitrarily superior product, despite earning nothing under posted-price (i.e., Bertrand) competition. Optimal mechanisms can require a continuum of lottery options, even though the buyer selects only one in equilibrium: unselected options shape the competitor's incentives rather than screen private buyer information. We also show that the buyer's ability to choose the interaction order can be strictly beneficial to the incumbent, even though the incumbent is always visited first at equilibrium. Finally, we show that without commitment, every pure Nash equilibrium yields Bertrand revenues even with randomized mechanisms.",
+      "url": "https://arxiv.org/abs/2611.06595v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06595v1",
+      "source": "arxiv",
+      "source_id": "2611.06595v1",
+      "published_date": "2026-11-04",
+      "categories": [
+        "cs.GT"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
+      "authors": [
+        "Walter Kurz"
+      ],
+      "abstract": "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation under uncertainty, Nash equilibrium to model strategic interactions between decision agents, and Principal-Agent theory to address incentive alignment under information asymmetry. The insurer is modelled as a constrained optimisation entity operating under solvency, legal, ESG, and operational boundaries, with specific focus on the regulatory contexts of Austria and Germany. The architecture decomposes the firm into multiple specialised agents, each representing distinct functional domains such as capital management, underwriting, claims processing, compliance, fraud detection, and client interaction. Human-in-the-loop agents are integrated through a tiered access control system, ensuring differentiated data visibility and decision influence based on user roles. An orchestrator agent supervises inter-agent coordination, enforcing regulatory admissibility and institutional coherence under frameworks such as Solvency II, the AI Act, and the Insurance Distribution Directive. Protocol integration is based on asynchronous execution and dual-layer communication infrastructures, specifically the Model Context Protocol (MCP) and Agent-to-Agent (A2A) messaging. This structure enables the systematic design of compliant, auditable multi-agent systems aligned with the institutional logic of financial firms in Austria and Germany.",
+      "url": "https://arxiv.org/abs/2609.27636v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.27636v2",
+      "source": "arxiv",
+      "source_id": "2609.27636v2",
+      "published_date": "2026-09-23",
+      "categories": [
+        "q-fin.GN",
+        "cs.MA",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
+      "authors": [
+        "Walter Kurz",
+        "Wojtek Stricker"
+      ],
+      "abstract": "European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported trading that is aligned with market-coupling mechanics, cross-zonal transfer constraints, and compliance obligations under REMIT, MiFID II, MiFIR, and EMIR. The contribution is a formal system specification composed of a decision-state vector, residual-exposure accounting, constrained optimization objective, executable-action permission gate, and fail-closed AI control logic with auditable records. The analysis maps major Nominated Electricity Market Operator (NEMO) venues and related exchange operators into an operational venue topology and identifies where cross-border coordination fails in practice: interface-level timing, permission heterogeneity, and balancing-layer coupling. The resulting framework proposes how AI can be deployed as a bounded decision component inside regulated market operation with explicit governance, rather than as an unconstrained prediction layer.",
+      "url": "https://arxiv.org/abs/2609.29108v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.29108v2",
+      "source": "arxiv",
+      "source_id": "2609.29108v2",
+      "published_date": "2026-09-24",
+      "categories": [
+        "cs.AI",
+        "eess.SY",
+        "q-fin.GN",
+        "q-fin.TR"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    },
+    {
+      "title": "Open Information: A Defining Perspective on Web Datasets for Carbon Pricing",
+      "authors": [
+        "Sidharth Mallik",
+        "Anastasios Megaritis",
+        "Waymond Rodgers"
+      ],
+      "abstract": "The impact of web datasets on market prices has suggested the development of new sources of information, such as social media and web portals, indicating the possibility of an emergent phenomenon. We propose a defining perspective, termed open information, that adds to the existing types of public and private information. We demonstrate their existence and justify material significance for pricing. In this respect, we present statistical hypotheses to test for a web dataset, GDELT, integrated for carbon pricing, that is represented by EU Allowance spot prices. Tests are designed with VAR and GARCH-X formulations, and return forecasting. The outcomes cannot rule out the material existence of open information. The result is significant for providing a conceptual basis to integrate a vast number of web datasets as alternative data in investment decisions.",
+      "url": "https://arxiv.org/abs/2608.04929v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04929v1",
+      "source": "arxiv",
+      "source_id": "2608.04929v1",
+      "published_date": "2026-08-05",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.GN",
+        "q-fin.RM"
+      ],
+      "relevance_score": 6.666666666666667,
+      "summary": ""
+    }
+  ]
+}
